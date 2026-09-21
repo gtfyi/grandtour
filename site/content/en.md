@@ -11,7 +11,7 @@ meta:
 # the frame shows the app with no trip to drive.
 demo_track: going-to-the-sun-road-audio-tour
 strings:
-  nav.app: Fullscreen
+  nav.app: Open App
   nav.source: Source
   footer.copyright: © 2026 GrandTour
 ---

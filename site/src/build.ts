@@ -157,7 +157,7 @@ function renderPage(loc: LocaleContent, all: LocaleContent[], demo: IndexTrack |
     }</select></label>`
     : "";
   // The phone frame is the app itself; with a demo track it drives that track's route as a simulated trip.
-  // The same address is the page's Fullscreen link, and `{{frame}}` in the copy.
+  // The same address is the page's Open App link, and `{{frame}}` in the copy.
   const frameSrc = `/app/${demo ? `?simulate=${encodeURIComponent(demo.slug)}` : ""}`;
   const frame = `<iframe title="${esc(demo?.name ?? t("meta.title"))}" src="${frameSrc}" allow="autoplay; geolocation"></iframe>`;
   const main = SECTION_ORDER.filter((id) => sections[id]).map((id) => `<section id="${id}">${sections[id]}</section>`).join("\n")
