@@ -30,3 +30,8 @@ Deployment uses the repository's GitHub Actions secrets
 in CI. Pull requests only build and test. To redeploy `main` manually, run
 the **Deploy site** workflow from GitHub's Actions tab. Deployments run one
 at a time so an older upload cannot finish after a newer one.
+
+CI uploads a Worker version and activates it for 100% of traffic using a
+unique tag for that workflow run. It preserves the existing custom domains,
+so the token only needs Worker deployment access. Changes to domain routes
+require a separate `bun run site:deploy` with zone-route permissions.

@@ -63,4 +63,8 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           workingDirectory: site
           packageManager: bun
-          command: deploy
+          # Publish through the existing domains without needing zone-route permissions.
+          # A unique tag ensures this run activates the version it just uploaded.
+          command: |
+            versions upload --tag ci-${{ github.run_id }}-${{ github.run_attempt }}
+            versions deploy --version-tag ci-${{ github.run_id }}-${{ github.run_attempt }}@100% --yes
