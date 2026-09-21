@@ -1,0 +1,693 @@
+{
+  "_notes": "Sir Francis Drake corridor through San Anselmo (Fairfax line to Ross line) for the Fairfax to Berkeley track — town history/railroads, architecture and institutions, nature/creeks/floods, food and businesses, famous residents and lore. Researched 2026-08-31 by five category web-search subagents; deduped against the track's existing San Anselmo spots (The Hub, Imagination Park, Castles on the Hill) and across categories. Narration is side-free and written for TTS (numbers spelled out).",
+  "track": {
+    "slug": "fairfax-to-berkeley",
+    "name": "Fairfax to Berkeley",
+    "description": "The drive from the Ross Valley over the Richmond–San Rafael Bridge to North Shattuck: mountain-bike legends, prison ballads, bay islands, wartime shipyards, and the birthplace of California cuisine.",
+    "kind": "tour",
+    "icon": "car.fill",
+    "color": "#2f6f4f",
+    "official": false
+  },
+  "spots": [
+    {
+      "slug": "ross-valley-rain-funnel",
+      "title": "The Rain Funnel",
+      "subtitle": "Why this pretty valley is one of the Bay Area's great flood machines",
+      "trigger": {
+        "center": {
+          "lat": 37.9877,
+          "lng": -122.5878
+        },
+        "radiusM": 130
+      },
+      "locating": {
+        "mode": "auto",
+        "anchor": "the straight run of Sir Francis Drake Boulevard entering San Anselmo at the Fairfax town line, with the wooded valley ridges rising on both flanks"
+      },
+      "narration": "The moment the boulevard slips out of Fairfax, you enter one of the rainiest funnels in the Bay Area. The ridges gathered around this valley, White Hill, Loma Alta, the high shoulders toward Mount Tamalpais, wring roughly fifty inches of rain out of Pacific storms in an average year, about double what falls on San Francisco. And every drop that lands on those slopes has exactly one exit: San Anselmo Creek, the stream threading this valley beside the road, which supplies an estimated ninety percent of the water in Corte Madera Creek downstream. The creek lives a double life. In the drought of nineteen seventy-seven it dried up completely, a bed of bare cobbles. But in the first week of January nineteen eighty-two, the gauge downstream at Ross clocked six thousand cubic feet per second, a mid-sized river tearing through backyards. Between nineteen fourteen and nineteen sixty, the valley averaged a damaging flood roughly every four years. Nearly everything you will hear along this stretch of road, the buried creeks, the ballot-box battles, the bridges bought just to be torn down, flows from one stubborn fact: the Ross Valley is a funnel, and the towns were built at the bottom of it.",
+      "sources": [
+        "https://friendsofcortemaderacreek.org/the-watershed/rainfall-streamflow-and-flooding/",
+        "https://www.nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=94525",
+        "https://sananselmohistory.org/articles/flooding/"
+      ],
+      "modes": []
+    },
+    {
+      "slug": "snow-in-san-anselmo",
+      "title": "Snow in San Anselmo",
+      "subtitle": "Van Morrison turns a freak Marin snowfall into a symphony",
+      "trigger": {
+        "center": {
+          "lat": 37.9873,
+          "lng": -122.5882
+        },
+        "radiusM": 120
+      },
+      "locating": {
+        "mode": "auto",
+        "anchor": "the tree-lined western stretch of the boulevard where San Anselmo begins"
+      },
+      "narration": "One winter night in the early nineteen seventies, a man with an Irish accent was driving this valley when something impossible started falling from the sky. Snow. In San Anselmo. The first snow anyone here had seen in more than thirty years. The driver was Van Morrison, then living in the hills of Marin, and he later told Mojo magazine exactly what he saw: the snow coming down, a deer crossing in front of the car, and a drunk staggering around like a madman looking for a fight. Most of us would have just told that story at a party. Van Morrison went home and wrote a hymn. Snow in San Anselmo opens his nineteen seventy-three album Hard Nose the Highway with the Oakland Symphony Chamber Chorus hovering over the band like the weather itself, while Van murmurs about the pancake house being crowded and the whole town lying awake at three in the morning, watching. It is the strangest weather report in rock and roll, and it is about these streets. If you ever pass through here on a cold silver morning, put it on. The town has been waiting fifty years for an encore.",
+      "sources": [
+        "https://www.songfacts.com/facts/van-morrison/snow-in-anselmo",
+        "https://en.wikipedia.org/wiki/Hard_Nose_the_Highway",
+        "https://www.allmusic.com/song/snow-in-san-anselmo-mt0008596156"
+      ],
+      "modes": []
+    },
+    {
+      "slug": "bald-hill-baldy",
+      "title": "Baldy",
+      "subtitle": "The grassy dome the whole valley navigates by — and fought thirty-five years to keep bare",
+      "trigger": {
+        "center": {
+          "lat": 37.9851,
+          "lng": -122.579
+        },
+        "radiusM": 120
+      },
+      "locating": {
+        "mode": "auto",
+        "anchor": "the long residential straightaway of Sir Francis Drake Boulevard through western San Anselmo, where a bare grassy summit shows over the rooftops down the valley"
+      },
+      "narration": "Somewhere over the rooftops down this valley you may catch a bare, grassy dome keeping watch: Bald Hill, eleven hundred and thirty-two feet, the summit locals simply call Baldy. It is visible from nearly every corner of the Ross Valley, which is why people here treat it like a compass point. It wears the two faces of Marin on a single hill: open grassland on the sunny slope, gone gold by June, and a dark coat of forest on the shaded flank. And it stayed bald only because people insisted. When the San Anselmo Open Space Committee formed in nineteen eighty-one, its founding priority was protecting Bald Hill, no roads, no rooftops on that crown. The campaign outlasted careers. It took some thirty-five years of patient work before the Marin Open Space Trust finally acquired the sixty acres at the very summit, and in twenty twenty-three those acres were handed over to Marin County Parks, public land for good. Hikers who climb the fire road to the top can see clear to San Francisco on a good day. As you drive the next few miles, check the skyline now and then. Baldy will keep reappearing, like a lighthouse for a valley of creeks.",
+      "sources": [
+        "https://www.parks.marincounty.gov/parkspreserves/preserves/bald-hill-preserve",
+        "https://www.sananselmoopenspace.org/bald-hill-preserve",
+        "https://marinopenspacetrust.org/bald-hill-ross-and-san-anselmo/",
+        "https://www.summitpost.org/bald-hill-marin-county/826625"
+      ],
+      "modes": []
+    },
+    {
+      "slug": "red-hill-road-to-drake-boulevard",
+      "title": "A Road of Many Names",
+      "subtitle": "How a dusty wagon track became Sir Francis Drake Boulevard",
+      "trigger": {
+        "center": {
+          "lat": 37.98684,
+          "lng": -122.57804
+        },
+        "radiusM": 120
+      },
+      "locating": {
+        "mode": "auto",
+        "anchor": "the Butterfield Road junction, where the Sleepy Hollow valley opens off the boulevard"
+      },
+      "narration": "Every road you drive has a birth certificate, and this one has several. Before the pavement, this was Red Hill Road, a dusty county wagon track scraped through the valley in the eighteen sixties, following paths the Coast Miwok had walked for centuries. It stayed dirt for sixty years. Then in nineteen twenty-five, Marin voters approved a two and a half million dollar road bond to drag their county into the twentieth century, and by nineteen twenty-nine the new concrete highway to Point Reyes was ready for a christening. A boosters' club called Marvelous Marin threw the party and picked the name: Sir Francis Drake Highway, after the English sea captain who careened his leaking galleon on the Marin coast in fifteen seventy-nine. Drake never saw this valley. The name was tourist bait, plain and simple, chosen to wrap the county's scenery in Elizabethan romance. San Anselmo formally adopted Sir Francis Drake Boulevard in nineteen thirty-one, the county supervisors followed in nineteen thirty-three, and when a brass plate supposedly proving Drake's landing turned up in Greenbrae in nineteen thirty-six, the legend only grew. The plate was a hoax. The boulevard kept the name anyway, for ninety years and counting.",
+      "sources": [
+        "https://cdm17213.contentdm.oclc.org/digital/api/collection/general/id/25/download",
+        "https://marinlibrary.org/sir-francis-drake-boulevard/",
+        "https://en.wikipedia.org/wiki/Sir_Francis_Drake_Boulevard"
+      ],
+      "modes": []
+    },
+    {
+      "slug": "medway-before-the-money",
+      "title": "The Little House on Medway Road",
+      "subtitle": "George Lucas was broke here — then American Graffiti opened",
+      "trigger": {
+        "center": {
+          "lat": 37.9868,
+          "lng": -122.5779
+        },
+        "radiusM": 100
+      },
+      "locating": {
+        "mode": "auto",
+        "anchor": "the modest grid of small streets and cottages tucked between the boulevard and the hills"
+      },
+      "narration": "In the small streets off this stretch of the boulevard, a struggling young filmmaker named George Lucas was living with his wife Marcia in a modest house on Medway Road. His first feature, a bleak science fiction picture called THX eleven thirty-eight, had flopped, and the studios considered him a talented weirdo who could not make money. Then, in August of nineteen seventy-three, the movie he had made about cruising his hometown of Modesto — American Graffiti — opened in theaters. It had cost less than a million dollars. It went on to earn well over a hundred million, and almost overnight the broke experimental filmmaker on Medway Road became one of the richest young directors in Hollywood. He did not move to Beverly Hills. He drove a few blocks, bought a big old Victorian on a hill above downtown San Anselmo, and got back to work on a strange little space project. Keep that in mind as you roll east: the entire Star Wars empire, the ranches and the studios and the billions, traces back to a guy in a rented-scale house in this neighborhood, waiting to find out if anyone would watch a movie about teenagers driving around at night.",
+      "sources": [
+        "https://sfstandard.com/2023/05/04/star-wars-50th-anniversary-san-anselmo-imagination-park/",
+        "https://en.wikipedia.org/wiki/American_Graffiti",
+        "https://www.bisnow.com/national/news/commercial-real-estate/the-fabulous-real-estate-of-george-lucas-63033"
+      ],
+      "modes": []
+    },
+    {
+      "slug": "the-church-that-rocked",
+      "title": "The Church That Rocked",
+      "subtitle": "A neighborhood chapel where Van Morrison and the Dead made records",
+      "trigger": {
+        "center": {
+          "lat": 37.9859,
+          "lng": -122.5752
+        },
+        "radiusM": 90
+      },
+      "locating": {
+        "mode": "auto",
+        "anchor": "the quiet residential blocks between the boulevard and San Anselmo Avenue"
+      },
+      "narration": "A few blocks into this neighborhood stands a building the neighbors just call the Church. It was built as a Presbyterian church, but in nineteen sixty-six it was reborn as a recording studio with twenty-two foot ceilings — and for two decades it quietly became one of the holiest rooms in rock and roll. Van Morrison cut tracks from Saint Dominic's Preview under those rafters. The Grateful Dead recorded here. So did Boz Scaggs, Maria Muldaur, and Clover, the local bar band that later morphed into Huey Lewis and the News. Marty Balin of Jefferson Airplane owned the place for a while, and the band practically camped in it. Local legend even says the Beatles' equipment was stored here before their final concert at Candlestick Park in nineteen sixty-six. When recent owners renovated, they found old concert posters and band stickers sealed inside the walls, like relics in a reliquary. And the detached cottage out back housed two roadies named Gary Fisher and Charlie Kelly — who went on to help invent something called the mountain bike. Today it is simply someone's spectacular home. But somewhere under that peaked roof, the tape is still rolling in spirit.",
+      "sources": [
+        "https://rockandrollroadmap.com/places/studios-and-labels/san-francisco-area-studios-and-labels/the-church-studio/",
+        "https://sfstandard.com/2026/05/21/historic-studio-church-san-anselmo/",
+        "https://robbreport.com/shelter/celebrity-homes/church-house-marin-county-san-anselmo-1238201585/"
+      ],
+      "modes": []
+    },
+    {
+      "slug": "drake-becomes-archie",
+      "title": "The Teacher Who Outran the Admiral",
+      "subtitle": "An Olympic champion, a slave-trading explorer, and a town argument",
+      "trigger": {
+        "center": {
+          "lat": 37.98461,
+          "lng": -122.57282
+        },
+        "radiusM": 110
+      },
+      "locating": {
+        "mode": "auto",
+        "anchor": "the high school campus with its playing fields spread along the boulevard"
+      },
+      "narration": "This campus opened as Sir Francis Drake High School, named, like the boulevard itself, for the Elizabethan sea captain who supposedly landed on the Marin coast in fifteen seventy-nine. But Drake was also a slave trader, and in twenty twenty-one, after a nationwide reckoning, the school chose a new hero — one who had walked its own halls. Archie Williams was an Oakland kid who ran the four hundred meters at the nineteen thirty-six Berlin Olympics, under swastika flags, in front of Adolf Hitler, and won gold. He later said of the Nazis' master race theory: they didn't prove it to us. Back home, a gold medal and a Berkeley engineering degree still could not get a Black man an engineering job, so Williams dug ditches. Then he helped train the legendary Tuskegee Airmen during World War Two. And for more than twenty years he taught math and computer science and coached track at this very school, beloved by generations of students who had no idea what he had survived. The boulevard fared differently: Fairfax voted to drop Drake's name, Ross and Larkspur voted to keep it, and the county settled on compromise. But the school made its choice. Welcome to Archie Williams High.",
+      "sources": [
+        "https://www.kqed.org/news/11905768/archie-williams-the-black-bay-area-gold-medalist-pilot-teacher-who-fought-racism-abroad-and-at-home",
+        "https://www.cbsnews.com/sanfrancisco/news/marin-school-board-votes-to-rename-drake-high-after-beloved-former-teacher-archie-williams/",
+        "https://www.marincounty.gov/news-releases/board-supports-co-naming-drake-boulevard",
+        "https://en.wikipedia.org/wiki/Archie_Williams_High_School"
+      ],
+      "modes": []
+    },
+    {
+      "slug": "steelhead-behind-the-school",
+      "title": "The Fish Behind the School",
+      "subtitle": "Ocean-going trout still spawn in the creek that wraps Archie Williams High",
+      "trigger": {
+        "center": {
+          "lat": 37.9833,
+          "lng": -122.5731
+        },
+        "radiusM": 110
+      },
+      "locating": {
+        "mode": "auto",
+        "anchor": "the Archie Williams High School campus fronting Sir Francis Drake Boulevard, with San Anselmo Creek curving behind the school buildings"
+      },
+      "narration": "San Anselmo Creek makes a lazy curve behind Archie Williams High School, and near Saunders Avenue it swallows a tributary running down out of Sleepy Hollow. In August it is a shaded trickle you could step across. But in winter, this is a steelhead stream. Steelhead are rainbow trout with wanderlust. Born in gravel like this, they ride high water down to San Francisco Bay and out to the ocean, grow big and silver on a saltwater diet, then fight their way home, under the Golden Gate, up Corte Madera Creek, and into this channel behind a public high school. Between January and April a female picks the top of a riffle, turns on her side, and beats a nest into the gravel, called a redd, where she lays her eggs. The finest spawning gravels in the whole watershed lie in the upper reaches of San Anselmo, Sleepy Hollow, and Ross creeks. These fish are survivors of a vanishing tribe, one of only a handful of small steelhead populations still hanging on in San Francisco Bay tributaries. Every culvert and concrete drop between here and the bay is a hurdle; in two thousand five, biologists walked these creeks cataloguing every single barrier, crossing by crossing, trying to keep the way home open.",
+      "sources": [
+        "https://www.streetstocreeks.org/ross-valley-watershed/",
+        "https://friendsofcortemaderacreek.org/projects/fish-passage/",
+        "https://baynature.org/2009/01/30/science-nature/wildlife/steelhead-spawning/",
+        "https://www.nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=94525"
+      ],
+      "modes": []
+    },
+    {
+      "slug": "yolanda-and-lansdale-stations",
+      "title": "Ghost Stations of the Interurban",
+      "subtitle": "Yolanda, Lansdale, and the trains that built these blocks",
+      "trigger": {
+        "center": {
+          "lat": 37.98264,
+          "lng": -122.56945
+        },
+        "radiusM": 100
+      },
+      "locating": {
+        "mode": "auto",
+        "anchor": "the Saunders Avenue crossing, where the side street dips toward Center Boulevard and the creek"
+      },
+      "narration": "Where Saunders Avenue dips toward the creek, two blocks down along today's Center Boulevard, electric trains once hissed to a stop at a little covered shelter called Yolanda Station. It opened in nineteen oh five, when this neighborhood was summer country, tents and cottages, with a grocery on the corner where Peter Autzen scooped ice cream for city families. One stop toward Fairfax stood Lansdale Station, built in nineteen oh eight and named for real estate man Philip Lansdale, because that is what these stations really were: real estate machines. The rails came first, and the neighborhoods crystallized around them. During the commute rush, trains ran every half hour, and a nineteen thirteen timetable promised San Francisco in fifty-eight minutes flat, thirty-two-minute ferry ride included. Center Boulevard's oddly wide sidewalks are the ghosts of the old loading platforms. It all ended on a wet and windy night, February twenty-eighth, nineteen forty-one, when the last interurban rolled through and was serenaded by grieving train lovers at every station. The tracks were torn up within months. Today a small concrete marker beside Center Boulevard is all that says Yolanda Station was ever here.",
+      "sources": [
+        "https://sananselmohistory.org/articles/then-now/yolanda-station/",
+        "https://www.marinhistory.org/blog/lansdale/",
+        "https://sananselmohistory.org/articles/trains-in-san-anselmo/"
+      ],
+      "modes": []
+    },
+    {
+      "slug": "dubois-folly",
+      "title": "DuBois's Folly",
+      "subtitle": "The zigzag road up Red Hill that no horse could climb",
+      "trigger": {
+        "center": {
+          "lat": 37.9824,
+          "lng": -122.5686
+        },
+        "radiusM": 130
+      },
+      "locating": {
+        "mode": "auto",
+        "anchor": "the red-rock western slope of Red Hill rising above the road"
+      },
+      "narration": "Red Hill is the reason this road bends. Early maps called it Sugar Loaf, and its bones are pillow basalt, lava that once erupted on the ocean floor. When that dark rock weathers it rusts, and the crumbling red soil gave the hill, and half the town's addresses, their name. Near the summit, four hundred sixty-four feet up, you can still trace a faint zigzag scored into the western slope. That is DuBois's Folly. Around eighteen ninety-three, Doctor Henry DuBois, a pioneer San Rafael physician, hired Chinese laborers to carve a road over the hill so mourners could reach the Mount Tamalpais Cemetery he had opened years earlier. The grade defeated every horse and buggy that tried it, and the town gave the scheme its mocking nickname. In nineteen sixteen, two San Anselmo men attempted the climb in a Ford motorcar. It took them an hour and a quarter to cover three quarters of a mile, hacking at the switchback turns with a mattock as they went. The cemetery found other roads. The folly is still there, a scar slowly greening over.",
+      "sources": [
+        "https://sananselmohistory.org/articles/then-now/dubois-folly/",
+        "https://sananselmohistory.org/articles/red-hill-photo-essay/"
+      ],
+      "modes": []
+    },
+    {
+      "slug": "memorial-park-basin-battle",
+      "title": "The Park They Refused to Sink",
+      "subtitle": "Engineers wanted to flood Memorial Park on purpose; the town said no at the ballot box",
+      "trigger": {
+        "center": {
+          "lat": 37.9823,
+          "lng": -122.5673
+        },
+        "radiusM": 90
+      },
+      "locating": {
+        "mode": "auto",
+        "anchor": "Memorial Park's ballfields and skatepark beside Sir Francis Drake Boulevard, just before the Red Hill Shopping Center"
+      },
+      "narration": "Those ballfields are Memorial Park, and for a few years they were the most fought-over patch of grass in Marin. After the great flood of two thousand five, engineers unrolled a plan: excavate the playing field about ten feet down, berm the edges, and during the worst storms let it deliberately fill, a seventeen-point-four-million-dollar detention basin swallowing more than twenty million gallons of creek water, then draining to host soccer games the rest of the year. San Anselmo revolted. Neighbors organized under the banner Save Memorial Park, and in November of twenty fifteen their initiative, Measure D, won with fifty-nine percent of the vote, writing into law that this park is for recreation and nothing else. The engineers went looking elsewhere for room to put a flood. Yet water is hiding here all the same. Sorich Creek, born on the old dairy ridge above town, ducks into a pipe and runs invisibly beneath the shopping center and beneath the boulevard itself, surfacing again along Nokomis Avenue. The dairy it is named for belonged to Nick and Genevieve Sorich, who in nineteen fifty renamed it the So-Rich Dairy, boasting milk so rich it deserved the pun. Cows grazed those hills until the town bought the land in nineteen sixty-five.",
+      "sources": [
+        "https://ballotpedia.org/Town_of_San_Anselmo_Memorial_Park_Initiative,_Measure_D_(November_2015)",
+        "https://patch.com/california/sananselmofairfax/images-memorial-park-flood-detention-basin-options",
+        "https://www.streetstocreeks.org/ross-valley-watershed/",
+        "https://www.sananselmo.gov/1982/Sorich-Park"
+      ],
+      "modes": []
+    },
+    {
+      "slug": "memorial-park-log-cabin",
+      "title": "The Log Cabin and the Dinosaur",
+      "subtitle": "Two barn-raisings, sixty-seven years apart, in the same town park",
+      "trigger": {
+        "center": {
+          "lat": 37.9829,
+          "lng": -122.5667
+        },
+        "radiusM": 230
+      },
+      "locating": {
+        "mode": "auto",
+        "anchor": "the tree-shaded park behind the shopping center, with a log cabin and wooden playground towers"
+      },
+      "narration": "Behind the shopping center, up a short lane called Veterans Place, a genuine log cabin stands in Memorial Park. San Anselmo's veterans of the First World War started it themselves in April of nineteen thirty-three, in the depths of the Depression. They hauled redwood logs to the site and raised the walls by hand, helped by the Legion's ladies auxiliary and the local Boy Scout troops. The story goes that the massive stone fireplace inside was laid up by a stonemason who had first come to America as a German prisoner of war and stayed on to become a citizen. When the cabin was dedicated in May of nineteen thirty-four, its basement bar, the Dugout, poured under one of the first liquor licenses issued after Prohibition ended. Across the lawn stands a newer act of barn-raising: the Millennium Playground, built in May of two thousand by some fifteen hundred volunteers in a single week, to plans drawn from the imaginations of the town's children. Its wooden towers are San Anselmo in miniature, a train depot, a seminary castle, a town hall, patrolled by a beloved dinosaur. Two generations, same instinct: if the town needs it, build it yourselves.",
+      "sources": [
+        "https://www.hmdb.org/m.asp?m=102721",
+        "https://www.sananselmo.gov/1977/Memorial-Park",
+        "https://www.marinmommies.com/marin-playgrounds-millennium-playground-san-anselmo-memorial-park",
+        "https://www.city-data.com/articles/American-Legion-Log-Cabin.html"
+      ],
+      "modes": []
+    },
+    {
+      "slug": "orphans-farm-red-hill",
+      "title": "The Orphans' Farm",
+      "subtitle": "A shipping magnate's gift put one hundred orphans on this ground in nineteen hundred",
+      "trigger": {
+        "center": {
+          "lat": 37.981,
+          "lng": -122.5657
+        },
+        "radiusM": 120
+      },
+      "locating": {
+        "mode": "auto",
+        "anchor": "the western stretch of the Red Hill Shopping Center lot at the foot of Red Hill"
+      },
+      "narration": "In eighteen ninety-five, a young San Francisco widow died, leaving three small children with nowhere to go. The orphanage founded in their wake began in a rented house in San Rafael, but Captain Robert Dollar, the shipping and lumber magnate, soon paid for twenty acres of farmland here at the foot of Red Hill. On January eighth, nineteen hundred, the San Francisco Presbyterian Orphanage opened its doors on the ground where this shopping center now spreads, a grand main building filled with just over one hundred boys and girls, ages three to sixteen. In nineteen twenty, Dollar added forty-two more acres of pasture, and for the next four decades this was a working farm, the children raised among barns and animals and open fields. By the nineteen thirties everyone simply called the place Sunny Hills, after the bright slopes above. And here is the remarkable part: the institution never left. It moved up the hillside, built cottages for teenagers in the nineteen sixties, and today, renamed Side by Side, it still serves nearly two thousand young people a year. A charity begun for three orphaned children is still keeping watch over the valley, more than one hundred thirty years on.",
+      "sources": [
+        "https://www.sidebysideyouth.org/about/history/",
+        "https://sananselmohistory.org/articles/red-hill-photo-essay/",
+        "https://sananselmohistory.org/red-hill-trail-sign-3/"
+      ],
+      "modes": []
+    },
+    {
+      "slug": "red-hill-shopping-center",
+      "title": "Splitting the Town",
+      "subtitle": "The nineteen sixty-seven shopping center San Anselmo fought over — and needed",
+      "trigger": {
+        "center": {
+          "lat": 37.9807,
+          "lng": -122.5641
+        },
+        "radiusM": 140
+      },
+      "locating": {
+        "mode": "auto",
+        "anchor": "the Safeway storefront anchoring Red Hill Shopping Center"
+      },
+      "narration": "When Sunny Hills finally closed its farm in nineteen sixty-three, the pasture at the foot of Red Hill became the most argued-over ground in town. Developers wanted a shopping center. Plenty of residents wanted no such thing. People said it would split the town in half, a slab of parking and storefronts dropped into the middle of a place that thought of itself as one long main street. But San Anselmo was a town of homes with almost no sales tax base, and in the end the arithmetic won. Red Hill Shopping Center opened in nineteen sixty-seven, anchored by a Safeway and a Longs drug store, while road crews spent that same decade rebuilding Sir Francis Drake and the Hub crossing to carry all the new traffic. The quarrel faded slowly into habit, and the center has been debated, replanned, and remodeled ever since. Still, the town got the tax receipts it badly needed, and the valley got its daily errands, groceries and prescriptions and hardware, sold from shelves standing on ground that was farm pasture within living memory, at the foot of the orphans' sunny hill.",
+      "sources": [
+        "https://sananselmohistory.org/collection/oral-histories/talk-of-the-town/",
+        "https://sananselmohistory.org/timeline/timeline-1941-1970/",
+        "https://www.sananselmo.gov/Archive.aspx?ADID=2939"
+      ],
+      "modes": []
+    },
+    {
+      "slug": "lions-share-wake",
+      "title": "Drinks on Pearl at the Lion's Share",
+      "subtitle": "The tiny club where the Dead played Janis Joplin's farewell party",
+      "trigger": {
+        "center": {
+          "lat": 37.9766,
+          "lng": -122.5607
+        },
+        "radiusM": 110
+      },
+      "locating": {
+        "mode": "auto",
+        "anchor": "the low storefronts along Red Hill Avenue just past the five-way junction, San Anselmo's old Miracle Mile"
+      },
+      "narration": "Along the old Miracle Mile here stood a squat green building that started life as a hardware store — and became one of the great secret rooms of rock history. The Lion's Share opened in July nineteen sixty-nine, after its Sausalito namesake mysteriously burned down, and it held maybe two hundred people under beam ceilings and Tiffany lamps. In that little room, Jerry Garcia played dozens of loose, late nights with Merl Saunders and with his bluegrass outfit Old and In the Way. Van Morrison, living in the county, treated it like his living room, playing more than twenty shows. Randy Newman gave his very first concert here. And in October of nineteen seventy, a few weeks after Janis Joplin died in Hollywood, her friends gathered in this club for the party her will had paid for — she left money specifically so her people could celebrate her the right way. The Grateful Dead played. It was a wake with dancing. The club faded away by the mid seventies, and the building has since been an auto shop's neighbor, a health food store, an optical shop — an anonymous little box that once held half the Fillmore's royalty on a Tuesday night.",
+      "sources": [
+        "http://jerrygarciasbrokendownpalaces.blogspot.com/2012/06/lions-share-60-red-hill-avenue-san.html",
+        "http://rockprosopography101.blogspot.com/2021/06/the-lions-share-60-red-hill-avenue-san.html",
+        "https://rockandrollroadmap.com/places/where-they-played/san-francisco-area-venues/the-lions-share-janis-joplins-wake-was-held-here/",
+        "http://www.deaddisc.com/GDFD_Lions_Share_SA.htm"
+      ],
+      "modes": []
+    },
+    {
+      "slug": "junction-depot",
+      "title": "The Town Called Junction",
+      "subtitle": "Where the depot stood for sixty-seven years",
+      "trigger": {
+        "center": {
+          "lat": 37.9757,
+          "lng": -122.5615
+        },
+        "radiusM": 100
+      },
+      "locating": {
+        "mode": "auto",
+        "anchor": "the block across from Bank Street, near the creek at the edge of downtown San Anselmo"
+      },
+      "narration": "For sixty-seven years, this block was the beating heart of the Ross Valley. In eighteen seventy-four the North Pacific Coast Railroad pushed narrow-gauge track through a valley of dairy ranches, and on July twenty-fifth opened a spur line to San Rafael. Where the lines split, a depot went up, and the settlement around it had so little identity of its own that railroad maps simply labeled it Junction. Not until eighteen eighty-three did the name San Anselmo, borrowed from the old land grant, win out. Steam locomotives took on water and fuel here while passengers changed trains for Tomales, Cazadero, or the city boats at Sausalito. In nineteen oh three, new owners John Martin and Eugene de Sabla, the men behind California's electric power empire, retracked the line and launched fast electric interurban trains, and a handsome mission-style depot with full passenger facilities followed in the nineteen tens. The last electric train pulled out in the early morning hours of March first, nineteen forty-one. Greyhound buses used the old depot for another two decades, until the railroad property was condemned and the building razed in nineteen sixty-three. The town the railroad built simply paved over its own birthplace.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/San_Anselmo_station",
+        "https://sananselmohistory.org/articles/trains-in-san-anselmo/",
+        "https://sananselmohistory.org/brief-history/"
+      ],
+      "modes": []
+    },
+    {
+      "slug": "creek-that-took-downtown",
+      "title": "The Creek That Took Downtown",
+      "subtitle": "Nineteen twenty-five, nineteen eighty-two, and the New Year's Eve the town went under",
+      "trigger": {
+        "center": {
+          "lat": 37.9757,
+          "lng": -122.5624
+        },
+        "radiusM": 100
+      },
+      "locating": {
+        "mode": "auto",
+        "anchor": "Creek Park and the fenced creekside plaza at the edge of downtown San Anselmo, where San Anselmo Creek passes close to the boulevard"
+      },
+      "narration": "San Anselmo Creek slides quietly past little Creek Park here, and it has drowned this downtown over and over. February, nineteen twenty-five: the heaviest rain the county had ever recorded, more than seven inches falling on the Ross Valley, put over three feet of water at Town Hall and sent rescuers with ladders to pull people from the upper floors of the Cheda Building. January, nineteen eighty-two: seven inches of rain one day and six and a half the next left the heart of town under nearly six feet of water; the library took five feet of water and mud, and a thousand ruined books were shipped to San Francisco to be freeze-dried. Then came the early morning darkness of New Year's Eve, two thousand five, when the creek rose again and sent a muddy river four feet deep tearing down the main street, wrecking one hundred forty businesses and two hundred ninety homes. Now notice the fenced concrete platform at the edge of this park. For decades, buildings stood directly on top of the creek here, on a deck that squeezed the channel like a thumb over a garden hose. The county bought the whole thing in twenty eighteen just to tear it out, and two decades after the flood, that demolition fight still is not finished.",
+      "sources": [
+        "https://sananselmohistory.org/articles/flooding/",
+        "https://medium.com/anne-t-kent-california-room-community-newsletter/the-great-flood-disaster-of-1982-621b8193494e",
+        "https://flooddistrict.marincounty.gov/building-bridge-2-removal/",
+        "https://marinpost.org/blog/2017/5/19/was-one-building-responsible-for-50-of-the-2005-san-anselmo-flood"
+      ],
+      "modes": []
+    },
+    {
+      "slug": "carnegie-library",
+      "title": "The Library the Ladies Built",
+      "subtitle": "How a town of fifteen hundred talked Andrew Carnegie into a library that never closed",
+      "trigger": {
+        "center": {
+          "lat": 37.9745,
+          "lng": -122.5628
+        },
+        "radiusM": 110
+      },
+      "locating": {
+        "mode": "auto",
+        "anchor": "the red-tile-roofed Carnegie library and town hall pair just off the boulevard at Tunstead Avenue"
+      },
+      "narration": "In nineteen twelve, the ladies of the San Anselmo Women's Improvement Club decided their young town needed a proper library, and they did not wait for permission. The obstacle was arithmetic. Andrew Carnegie's foundation funded libraries by formula, and San Anselmo's census count of one thousand five hundred thirty-one souls looked far too small to qualify. Rescue came from Judge Morrow, a federal judge living locally who happened to sit as a Carnegie trustee. He steered a grant of ten thousand dollars to the town in nineteen fourteen, one of only one hundred forty-two such grants in all of California. Carnegie's exacting secretary quibbled with the plans, so the architect simply raised the whole site four feet. On the evening of February twelfth, nineteen fifteen, the town dedicated its new library: red tile roof, arched windows, decorative Spanish tile, and in time a wisteria-covered arbor joining it to the town hall next door. Here is the rare part. It never stopped. More than a century on, this is still San Anselmo's public library, one of the dwindling company of Carnegie buildings anywhere that still do exactly the job Andrew Carnegie paid for.",
+      "sources": [
+        "https://www.carnegie-libraries.org/california/sananselmo.html",
+        "https://sananselmohistory.org/articles/library-history/",
+        "https://www.sananselmo.gov/135/History"
+      ],
+      "modes": []
+    },
+    {
+      "slug": "marinitas-two-eighteen",
+      "title": "Marinitas",
+      "subtitle": "The Insalata's crew walks up the block and builds a rancho",
+      "trigger": {
+        "center": {
+          "lat": 37.9744,
+          "lng": -122.56175
+        },
+        "radiusM": 90
+      },
+      "locating": {
+        "mode": "auto",
+        "anchor": "a broad hacienda-style restaurant front at two eighteen Sir Francis Drake, near the Tunstead Avenue corner"
+      },
+      "narration": "In two thousand nine, the most celebrated kitchen crew in San Anselmo decided one restaurant was not enough. Heidi Krahling, whose Insalata's had been drawing pilgrims to the far end of this boulevard for over a decade, walked her team up the street to two eighteen Sir Francis Drake and opened Marinitas. Where Insalata's whispered Mediterranean, Marinitas shouted Latin America. Designer Michael Brennan built her an expansive rancho of a room, all warm wood and big tables, and chef Frank Villa filled it with Mexican regional cooking and pan-Latin plates, ceviches, slow-cooked meats, handmade tortillas, alongside a full bar that took its margaritas as seriously as its mole. Patrick Coll ran the front of the house as managing partner. The San Francisco Chronicle came to look almost immediately, and for years afterward this was where the Ross Valley came for birthdays, margarita pitchers, and the particular joy of a chile relleno done right. Restaurants on this boulevard tend to pass between generations rather than disappear, and Marinitas has carried on serving the neighborhood even as the names on the paperwork have changed. The room is still expansive, the bar is still busy, and the rancho the Insalata's crew raised is still standing.",
+      "sources": [
+        "https://www.sfgate.com/food/article/Opening-Marinitas-in-San-Anselmo-3170554.php",
+        "https://marinmagazine.com/food-drink/where-to-eat/where-to-eat-ross-and-san-anselmo/",
+        "https://www.yelp.com/biz/marinitas-san-anselmo",
+        "https://www.gayot.com/restaurants/marinitas-san-anselmo-ca-94960_3sf091207.html"
+      ],
+      "modes": []
+    },
+    {
+      "slug": "antiques-capital-block",
+      "title": "Antiques Capital of the North",
+      "subtitle": "When one hundred thirty dealers packed half a square mile of this town",
+      "trigger": {
+        "center": {
+          "lat": 37.9742,
+          "lng": -122.56175
+        },
+        "radiusM": 90
+      },
+      "locating": {
+        "mode": "auto",
+        "anchor": "a cluster of storefronts around two oh four Sir Francis Drake, including a longtime antiques shop"
+      },
+      "narration": "It is hard to believe from a car window, but this ordinary-looking stretch of town once proclaimed itself the antiques capital of Northern California, and had the inventory to prove it. At the peak, more than one hundred thirty dealers were packed into half a square mile, rows of shops running along San Anselmo Avenue, Greenfield Avenue, Red Hill Avenue, and this boulevard itself. It started, the dealers said, when a single shop called Collective Antiques opened decades earlier, and, in one dealer's words, it just kind of spread. Sanford's sold Victorian and arts-and-crafts furniture from a tiny sliver of Tunstead Avenue squeezed between San Anselmo Avenue and the boulevard. Weekend treasure hunters came from all over the Bay Area to work the storefronts one by one, hunting oak dressers, estate silver, and stained glass. Here at two oh four Sir Francis Drake, Antiques Legacy set up shop in nineteen eighty and became one of the keepers of the flame. Then the internet auction arrived, and the trade thinned. One dealer summed up the ending best: it got much harder to find merchandise, because people started keeping their treasures and passing them down to their children. A few survivors, this shop among them, still hold the line.",
+      "sources": [
+        "https://www.sfgate.com/bayarea/article/what-s-in-store-in-san-anselmo-antiques-galore-2929665.php",
+        "https://www.sfgate.com/bayarea/article/RECREATION-Downtown-San-Anselmo-Stores-Antique-2929555.php",
+        "https://antiques-legacy-of-san-anselmo.hub.biz/",
+        "https://www.yelp.com/biz/antiques-legacy-san-anselmo"
+      ],
+      "modes": []
+    },
+    {
+      "slug": "madcap-ron-siegel",
+      "title": "Madcap",
+      "subtitle": "The man who beat an Iron Chef cooks on this block",
+      "trigger": {
+        "center": {
+          "lat": 37.974,
+          "lng": -122.56175
+        },
+        "radiusM": 90
+      },
+      "locating": {
+        "mode": "auto",
+        "anchor": "a discreet forty-five-seat fine-dining storefront at one ninety-eight Sir Francis Drake"
+      },
+      "narration": "In nineteen ninety-eight, a young California cook named Ron Siegel flew to Tokyo, walked into Kitchen Stadium, and did something no American had ever done. On the wildly popular Japanese television show Iron Chef, he faced the great Hiroyuki Sakai on his home turf and beat him, the first American victor in the program's history. Siegel's resume was already gilded. He had been the inaugural sous chef at Thomas Keller's French Laundry and cooked for Daniel Boulud and Michael Mina, and he went on to run some of San Francisco's grandest kitchens. Then, in two thousand seventeen, he did the unexpected thing: he left the city and opened his own place in a small storefront at one ninety-eight Sir Francis Drake, a space that had lately been a neighborhood wine bar. He called it Madcap. Just forty-five seats, a tasting menu, French technique with a Japanese soul, charred octopus, rabbit tortelloni, tuna tartare with sesame and ginger. Within months the Chronicle's critic Michael Bauer called it the best cooking in Marin, and the Michelin Guide pinned a star on it. The man who conquered Kitchen Stadium now plates dinner for a town of twelve thousand.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Madcap_(restaurant)",
+        "https://www.7x7.com/a-kitchen-of-his-own-2497366739.html",
+        "https://www.tablehopper.com/chatterbox/chef-ron-siegel-opens-madcap-san-anselmo-lets-out-a-cheer/",
+        "https://www.foodgal.com/2017/12/mad-for-madcap/"
+      ],
+      "modes": []
+    },
+    {
+      "slug": "tower-where-star-wars-was-written",
+      "title": "The Tower Above the Town",
+      "subtitle": "Star Wars was written in a Victorian on this hillside",
+      "trigger": {
+        "center": {
+          "lat": 37.9735,
+          "lng": -122.5619
+        },
+        "radiusM": 100
+      },
+      "locating": {
+        "mode": "auto",
+        "anchor": "the oak-covered hill rising above downtown San Anselmo's rooftops"
+      },
+      "narration": "Look up at the wooded hill above downtown. Somewhere in those trees stands a grand Victorian from eighteen sixty-nine that George Lucas bought with his American Graffiti money and named Parkhouse. He restored its original two-story tower, and then he climbed up into it and essentially disappeared. For roughly two years in the mid nineteen seventies he sat in that tower, staring out at Mount Tamalpais, filling yellow legal pads with drafts of something he called The Star Wars — wookiees, droids, a farm boy, a dark father. When a rough cut was finally ready, Lucas screened it for friends. Director Brian De Palma thought it was a mess and teased him mercilessly. Steven Spielberg, sitting in the same room, predicted it would be enormous. Spielberg was off by several billion dollars — on the low side. And here is the part locals love: a film-obsessed kid named David Fincher was growing up on the same street, with Lucas as his actual neighbor. That kid got a job at Industrial Light and Magic and grew up to direct Seven and Fight Club. One quiet hillside, two of American cinema's defining directors. The galaxy far, far away has a Marin County zip code.",
+      "sources": [
+        "https://sfstandard.com/2023/05/04/star-wars-50th-anniversary-san-anselmo-imagination-park/",
+        "https://skytalkers.com/2021/12/19/george-lucas-san-anselmo-california/",
+        "https://www.sbs.com.au/whats-on/article/everything-you-need-to-know-about-david-fincher/00bxnecrm",
+        "https://www.bisnow.com/national/news/commercial-real-estate/the-fabulous-real-estate-of-george-lucas-63033"
+      ],
+      "modes": []
+    },
+    {
+      "slug": "sunnyside-nursery",
+      "title": "Seventy-Five Years of Sunnyside",
+      "subtitle": "The Perry family grew things on this corner for three generations",
+      "trigger": {
+        "center": {
+          "lat": 37.9735,
+          "lng": -122.5616
+        },
+        "radiusM": 90
+      },
+      "locating": {
+        "mode": "auto",
+        "anchor": "the old nursery parcel at one thirty Sir Francis Drake, two low buildings beside Insalata's restaurant"
+      },
+      "narration": "On August eighth, nineteen hundred, a newlywed named Annie Perry bought this piece of land from William Barber, and for the next century and more her family never let it go. Her people were old Ross Valley stock. Her grandparents, George and Annie Worn, had built one of the first houses in the valley back in eighteen sixty-six, on an estate they called Sunnyside, in a valley named for Annie's own father, the trader James Ross, the same Ross whose name is on the town just ahead. So when Donald Perry opened a plant nursery here in nineteen forty, the name chose itself: Sunnyside. For seventy-five years, three generations of Perrys, ending with the brothers Tom and Ross Perry, sold tomato starts, fruit trees, and good advice from this corner, growing much of their stock on eight acres of family ground a couple of miles back up this same boulevard. On January thirty-first, twenty fifteen, Sunnyside finally closed, and the property went on the market for the first time in three quarters of a century. There is a coda: those growing grounds up the road were bought for flood control, and in twenty twenty-three they became a storage basin that now protects this valley from its creek.",
+      "sources": [
+        "https://www.sunnysideofmarin.com/about-sunnyside/",
+        "https://sananselmohistory.org/articles/barber-tract/lot-9/",
+        "https://www.loopnet.com/listing/130-sir-francis-drake-blvd-san-anselmo-ca/9126150/",
+        "https://flooddistrict.marincounty.gov/sunnyside-nursery-flood-diversion-storage-basin/"
+      ],
+      "modes": []
+    },
+    {
+      "slug": "insalatas",
+      "title": "Insalata's",
+      "subtitle": "Heidi Krahling's thirty-year love letter to her father",
+      "trigger": {
+        "center": {
+          "lat": 37.9729,
+          "lng": -122.5616
+        },
+        "radiusM": 100
+      },
+      "locating": {
+        "mode": "auto",
+        "anchor": "the landmark restaurant building with its own parking lot at one twenty Sir Francis Drake, near Barber Avenue"
+      },
+      "narration": "The name on the building at one twenty Sir Francis Drake looks like a menu word, insalata, Italian for salad. It is actually a father's name. When Heidi Krahling opened this restaurant with her husband Mark in December of nineteen ninety-six, she named it for her late father, Italo Insalata, and his name has glowed over this corner of the boulevard ever since. Krahling came up through California cooking's golden age, working the line at Joyce Goldstein's iconic Square One in San Francisco, then earning acclaim as chef at Butler's in Mill Valley, before betting everything on a big sunny room in her own home county. The bet paid off for three decades. Her Mediterranean cooking, tagines and mezze and slow-roasted things, fresh from local farms, made Insalata's one of the most celebrated restaurants in Marin, and the Michelin Guide has handed it a Bib Gourmand award for eighteen years running. Just as telling is what leaves through the back door: the kitchen partners with a food-recovery charity to turn surplus into healthy soups for hungry kids and seniors around the county. Ask a local where to take someone you love, and odds are they will just say the name: Insalata's.",
+      "sources": [
+        "https://insalatas.com/about",
+        "https://bookpassage.com/event/heidi-krahling-insalatas-and-marinitas",
+        "https://www.celebratejacques.org/chef/heidi-krahling/",
+        "https://camarin.org/blog/general/new-community-partnership-makes-healthy-soups-accessible-to-kids-seniors/"
+      ],
+      "modes": []
+    },
+    {
+      "slug": "mclarens-livery-vote",
+      "title": "Born in a Livery Stable",
+      "subtitle": "The quake, the refugees, and an eighty-three to seventy-nine vote",
+      "trigger": {
+        "center": {
+          "lat": 37.97251,
+          "lng": -122.56192
+        },
+        "radiusM": 100
+      },
+      "locating": {
+        "mode": "auto",
+        "anchor": "the corner of Ross Avenue and San Anselmo Avenue, at the quiet south end of downtown"
+      },
+      "narration": "On this corner stood McLaren's Livery Stable, and on Saturday, March thirtieth, nineteen oh seven, the men of San Anselmo walked in past the hay and harness to vote a town into existence. The earthquake did it. When San Francisco burned in April nineteen oh six, refugees streamed across the bay. Campgrounds filled, summer cottages got stoves and shingles, and the population exploded from one hundred sixty-one people in nineteen hundred to nearly a thousand by January nineteen oh seven. Suddenly this railroad crossroads had to decide what it was. San Rafael was hungry to annex it, saloon keepers were eyeing it, and taxes worried everyone. Incorporation squeaked through by four votes, eighty-three to seventy-nine, and only men cast them, for California women would not win the ballot for another five years. Twelve days later, five trustees held their first meeting: a lawyer, two drayage men, a paper merchant, and a building engineer, the eldest fifty-one, the youngest just twenty-five. Their first ordinances tell you everything about a brand-new commuter suburb carved out of ranchland: garbage disposal, no liquor sales, and fines for stray livestock wandering the streets.",
+      "sources": [
+        "https://sananselmohistory.org/articles/incorporation-facts-trivia/",
+        "https://sananselmohistory.org/brief-history/",
+        "https://www.sananselmo.gov/DocumentCenter/View/333/A-Short-History"
+      ],
+      "modes": []
+    },
+    {
+      "slug": "sunnyside-villa-sites",
+      "title": "Villa Sites, Twenty-Five Cents a Ride",
+      "subtitle": "The railroad invents the Marin commuter dream at Sunnyside",
+      "trigger": {
+        "center": {
+          "lat": 37.96954,
+          "lng": -122.56067
+        },
+        "radiusM": 120
+      },
+      "locating": {
+        "mode": "auto",
+        "anchor": "the Bolinas Avenue corner below the seminary hill, the last blocks of San Anselmo before Ross"
+      },
+      "narration": "These are the blocks of Sunnyside, a modest name for San Anselmo's oldest subdivision, first mapped in eighteen eighty-one when nearly everything around you was hayfield. The railroad had land along its line and seats to fill, so it turned salesman. Advertisements for these homesites hung in its stations and in the cabins of the ferryboats, and the company ran twenty-five cent round-trip excursions from San Francisco, rolling prospective buyers right past the lots. San Francisco auctioneers Easton, Eldridge and Company cried the bidding, moving about fifty so-called villa sites between eighteen eighty-seven and eighteen ninety. Sales crawled at first; the commuter dream needed better trains. But once the electric interurbans began racing to the ferry slips every half hour, the villa sites filled in with year-round houses, and the trains stopped at Bolinas Avenue here, the last San Anselmo station before Ross. Stand back and squint, and you can see what was invented on this ground: buy a cottage in the country, keep your job in the city, and let the railroad, and later the boulevard you are driving, carry you between your two lives. Half of Marin still lives by that bargain.",
+      "sources": [
+        "https://sananselmohistory.org/articles/trains-in-san-anselmo/",
+        "https://sananselmohistory.org/block-13-sunnyside-tract/",
+        "https://sananselmohistory.org/railroad/"
+      ],
+      "modes": []
+    },
+    {
+      "slug": "montgomery-chapel-wedding",
+      "title": "A Wedding Amid the Ashes",
+      "subtitle": "A benefactor buried beneath his own chapel — and a bride who kept her date three days after the earthquake",
+      "trigger": {
+        "center": {
+          "lat": 37.9688,
+          "lng": -122.564
+        },
+        "radiusM": 330
+      },
+      "locating": {
+        "mode": "auto",
+        "anchor": "the round stone chapel at the foot of Seminary Hill"
+      },
+      "narration": "At the foot of Seminary Hill stands a round-shouldered stone chapel, Richardsonian Romanesque like the castles on the ridge above, with a circular sanctuary at its heart. Alexander Montgomery, the San Francisco merchant whose quarter million dollars built those hilltop halls, pledged fifty thousand more in October of eighteen ninety-three: forty thousand for a memorial chapel, ten thousand to keep it in repair forever. Within a month he was dead. The cornerstone was laid in eighteen ninety-four, and shortly before the dedication in eighteen ninety-seven, Montgomery was laid to rest in the crypt below the sanctuary, a benefactor already at home beneath his own chapel when its doors first opened. Nine years later, the chapel witnessed something stranger and sweeter. Three days after the nineteen-oh-six earthquake, more than sixty Chinese women and girls, rescued from servitude and led out of burning San Francisco by the missionary Donaldina Cameron, were camped in a barn on the seminary grounds, sharing scanty bedding and a single tin dipper. On April twenty-first, one of them, a young woman named Yuen Kum, married Henry Lai of Cleveland, Ohio, in the ivy-covered chapel, beneath armfuls of California roses. The city had burned. The wedding kept its date.",
+      "sources": [
+        "https://www.calexplornia.com/castles-on-the-hill-the-san-francisco-theological-seminarys-montgomery-and-scott-halls/",
+        "https://juliaflynnsiler.com/article/seeking-refuge-after-the-1906-earthquake-a-group-of-more-than-60-chinese-women-and-girls-fled-to-san-anselmo/",
+        "https://sfmuseum.org/1906/ew15.html",
+        "https://www.hmdb.org/m.asp?m=213737"
+      ],
+      "modes": []
+    },
+    {
+      "slug": "winship-creek-gate",
+      "title": "The Hundred-Year Bridge",
+      "subtitle": "A nineteen twenty-five bridge the creek outgrew, at the gateway to Ross",
+      "trigger": {
+        "center": {
+          "lat": 37.9691,
+          "lng": -122.5591
+        },
+        "radiusM": 110
+      },
+      "locating": {
+        "mode": "auto",
+        "anchor": "the Winship Avenue corner near the Ross town line, where San Anselmo Creek runs close beside Sir Francis Drake Boulevard under old trees"
+      },
+      "narration": "Near the Winship Avenue corner, the creek that has haunted this whole drive comes right up alongside the boulevard on its way into Ross, and it slips under a little concrete bridge that has been standing since nineteen twenty-five, the very year the valley logged its worst rainfall on record. The bridge has been living on borrowed time. A pier stands in the middle of the channel, snagging debris and backing water upstream, and engineers have rated the crossing functionally obsolete since at least two thousand seven, scoring it barely fifty points out of a hundred. In plain terms, it cannot pass the hundred-year flood, the benchmark storm this valley has met more than once in living memory. After a century of service, its replacement is finally coming: a single clear span with no pier in the water, a deck raised four feet above today's roadway, about four point three million dollars, with construction slated to begin in twenty twenty-seven. Beneath it, on winter nights when the water runs high and cold, steelhead still slip upstream toward their spawning gravel. A short way downstream, San Anselmo Creek meets Ross Creek and takes a new name, Corte Madera Creek. And here, under these old trees, you cross the town line into Ross.",
+      "sources": [
+        "https://www.townofrossca.gov/publicworks/page/winship-bridge-replacement-project",
+        "https://www.townofrossca.gov/sites/default/files/fileattachments/public_works/page/2981/ross_winship_ave_ceqa_ismnd_122719_.pdf",
+        "https://friendsofcortemaderacreek.org/projects/fish-passage/"
+      ],
+      "modes": []
+    },
+    {
+      "slug": "tragedy-on-bald-hill",
+      "title": "Tragedy on Bald Hill",
+      "subtitle": "Five weeks before Pearl Harbor, two warplanes flew into that hill",
+      "trigger": {
+        "center": {
+          "lat": 37.967,
+          "lng": -122.55918
+        },
+        "radiusM": 120
+      },
+      "locating": {
+        "mode": "auto",
+        "anchor": "the grassy dome of Bald Hill standing over the Ross Valley near the San Anselmo–Ross line"
+      },
+      "narration": "That bare, grassy summit standing over the valley is Bald Hill, and it holds one of Marin's most haunting war stories — from before America was even at war. On the afternoon of November second, nineteen forty-one, three Army P-forty fighter planes were lost over the valley in heavy fog and rain, critically low on fuel, hunting desperately for Hamilton Field. They had no idea the runway was only a few miles away. A San Anselmo fireman named Bill Wessell heard them circling and stood in the street, jumping up and down, waving his arms, screaming at the sky: get up higher. He watched one plane whip out of the mist and vanish. Then he heard the explosion. Two pilots, Lieutenants Russell Speckman and Thomas Truax, flew into Bald Hill and were killed. The third, Walter Radovich, bailed out near San Rafael, survived, and went on to earn the Distinguished Flying Cross twice. Five weeks later, Pearl Harbor was attacked. Truax's hometown of Madison, Wisconsin named its airfield in his honor — and today, when a flight lands at Madison's airport, it touches down at Truax Field, named for a young man who died in the clouds above this quiet green hill.",
+      "sources": [
+        "https://sananselmohistory.org/articles/tragedy-on-bald-hill/",
+        "https://en.wikipedia.org/wiki/San_Anselmo,_California"
+      ],
+      "modes": []
+    }
+  ]
+}

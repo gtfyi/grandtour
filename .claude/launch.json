@@ -1,0 +1,62 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "server",
+      "runtimeExecutable": "bun",
+      "runtimeArgs": [
+        "run",
+        "dev:server"
+      ],
+      "port": 8787
+    },
+    {
+      "name": "admin",
+      "runtimeExecutable": "bun",
+      "runtimeArgs": [
+        "run",
+        "dev:admin"
+      ],
+      "port": 5180
+    },
+    {
+      "name": "tour-viewer",
+      "runtimeExecutable": "bun",
+      "runtimeArgs": [
+        "run",
+        "dev:viewer"
+      ],
+      "port": 5190
+    },
+    {
+      "name": "release-console",
+      "runtimeExecutable": "bun",
+      "runtimeArgs": [
+        "run",
+        "release:console"
+      ],
+      "port": 8791
+    },
+    {
+      "name": "site",
+      "runtimeExecutable": "bun",
+      "runtimeArgs": [
+        "run",
+        "dev:site"
+      ],
+      "port": 5181
+    },
+    {
+      "name": "site-preview",
+      "runtimeExecutable": "bun",
+      "runtimeArgs": [
+        "run",
+        "site/src/build.ts",
+        "--serve",
+        "--no-viewer"
+      ],
+      "port": 5182,
+      "autoPort": true
+    }
+  ]
+}

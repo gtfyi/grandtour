@@ -1,0 +1,4127 @@
+{
+  "track": "geography",
+  "trackName": "Geography",
+  "category": "Geography",
+  "source": {
+    "title": "Wikidata (fetched 2026-08-30)",
+    "url": "https://query.wikidata.org/"
+  },
+  "quizzes": [
+    {
+      "question": "What is the capital of Afghanistan?",
+      "answers": [
+        "Kabul"
+      ]
+    },
+    {
+      "question": "Kabul is the capital of which country?",
+      "answers": [
+        "Afghanistan"
+      ]
+    },
+    {
+      "question": "What is the capital of Albania?",
+      "answers": [
+        "Tirana"
+      ]
+    },
+    {
+      "question": "Tirana is the capital of which country?",
+      "answers": [
+        "Albania"
+      ]
+    },
+    {
+      "question": "What is the capital of Algeria?",
+      "answers": [
+        "Algiers"
+      ]
+    },
+    {
+      "question": "Algiers is the capital of which country?",
+      "answers": [
+        "Algeria"
+      ]
+    },
+    {
+      "question": "What is the capital of Andorra?",
+      "answers": [
+        "Andorra la Vella"
+      ]
+    },
+    {
+      "question": "Andorra la Vella is the capital of which country?",
+      "answers": [
+        "Andorra"
+      ]
+    },
+    {
+      "question": "What is the capital of Angola?",
+      "answers": [
+        "Luanda"
+      ]
+    },
+    {
+      "question": "Luanda is the capital of which country?",
+      "answers": [
+        "Angola"
+      ]
+    },
+    {
+      "question": "What is the capital of Argentina?",
+      "answers": [
+        "Buenos Aires"
+      ]
+    },
+    {
+      "question": "Buenos Aires is the capital of which country?",
+      "answers": [
+        "Argentina"
+      ]
+    },
+    {
+      "question": "What is the capital of Armenia?",
+      "answers": [
+        "Yerevan"
+      ]
+    },
+    {
+      "question": "Yerevan is the capital of which country?",
+      "answers": [
+        "Armenia"
+      ]
+    },
+    {
+      "question": "What is the capital of Australia?",
+      "answers": [
+        "Canberra"
+      ]
+    },
+    {
+      "question": "Canberra is the capital of which country?",
+      "answers": [
+        "Australia"
+      ]
+    },
+    {
+      "question": "What is the capital of Austria?",
+      "answers": [
+        "Vienna"
+      ]
+    },
+    {
+      "question": "Vienna is the capital of which country?",
+      "answers": [
+        "Austria"
+      ]
+    },
+    {
+      "question": "What is the capital of Azerbaijan?",
+      "answers": [
+        "Baku"
+      ]
+    },
+    {
+      "question": "Baku is the capital of which country?",
+      "answers": [
+        "Azerbaijan"
+      ]
+    },
+    {
+      "question": "What is the capital of Bahrain?",
+      "answers": [
+        "Manama"
+      ]
+    },
+    {
+      "question": "Manama is the capital of which country?",
+      "answers": [
+        "Bahrain"
+      ]
+    },
+    {
+      "question": "What is the capital of Bangladesh?",
+      "answers": [
+        "Dhaka"
+      ]
+    },
+    {
+      "question": "Dhaka is the capital of which country?",
+      "answers": [
+        "Bangladesh"
+      ]
+    },
+    {
+      "question": "What is the capital of Barbados?",
+      "answers": [
+        "Bridgetown"
+      ]
+    },
+    {
+      "question": "Bridgetown is the capital of which country?",
+      "answers": [
+        "Barbados"
+      ]
+    },
+    {
+      "question": "What is the capital of Belarus?",
+      "answers": [
+        "Minsk"
+      ]
+    },
+    {
+      "question": "Minsk is the capital of which country?",
+      "answers": [
+        "Belarus"
+      ]
+    },
+    {
+      "question": "What is the capital of Belgium?",
+      "answers": [
+        "Brussels"
+      ]
+    },
+    {
+      "question": "Brussels is the capital of which country?",
+      "answers": [
+        "Belgium"
+      ]
+    },
+    {
+      "question": "What is the capital of Belize?",
+      "answers": [
+        "Belmopan"
+      ]
+    },
+    {
+      "question": "Belmopan is the capital of which country?",
+      "answers": [
+        "Belize"
+      ]
+    },
+    {
+      "question": "What is the capital of Benin?",
+      "answers": [
+        "Porto-Novo"
+      ]
+    },
+    {
+      "question": "Porto-Novo is the capital of which country?",
+      "answers": [
+        "Benin"
+      ]
+    },
+    {
+      "question": "What is the capital of Bhutan?",
+      "answers": [
+        "Thimphu"
+      ]
+    },
+    {
+      "question": "Thimphu is the capital of which country?",
+      "answers": [
+        "Bhutan"
+      ]
+    },
+    {
+      "question": "What is the capital of Bolivia?",
+      "answers": [
+        "La Paz",
+        "Sucre"
+      ],
+      "note": "Yes — Bolivia has two capitals."
+    },
+    {
+      "question": "What is the capital of Bosnia and Herzegovina?",
+      "answers": [
+        "Sarajevo"
+      ]
+    },
+    {
+      "question": "Sarajevo is the capital of which country?",
+      "answers": [
+        "Bosnia and Herzegovina"
+      ]
+    },
+    {
+      "question": "What is the capital of Botswana?",
+      "answers": [
+        "Gaborone"
+      ]
+    },
+    {
+      "question": "Gaborone is the capital of which country?",
+      "answers": [
+        "Botswana"
+      ]
+    },
+    {
+      "question": "What is the capital of Brazil?",
+      "answers": [
+        "Brasília"
+      ]
+    },
+    {
+      "question": "Brasília is the capital of which country?",
+      "answers": [
+        "Brazil"
+      ]
+    },
+    {
+      "question": "What is the capital of Brunei?",
+      "answers": [
+        "Bandar Seri Begawan"
+      ]
+    },
+    {
+      "question": "Bandar Seri Begawan is the capital of which country?",
+      "answers": [
+        "Brunei"
+      ]
+    },
+    {
+      "question": "What is the capital of Bulgaria?",
+      "answers": [
+        "Sofia"
+      ]
+    },
+    {
+      "question": "Sofia is the capital of which country?",
+      "answers": [
+        "Bulgaria"
+      ]
+    },
+    {
+      "question": "What is the capital of Burkina Faso?",
+      "answers": [
+        "Ouagadougou"
+      ]
+    },
+    {
+      "question": "Ouagadougou is the capital of which country?",
+      "answers": [
+        "Burkina Faso"
+      ]
+    },
+    {
+      "question": "What is the capital of Burundi?",
+      "answers": [
+        "Gitega"
+      ]
+    },
+    {
+      "question": "Gitega is the capital of which country?",
+      "answers": [
+        "Burundi"
+      ]
+    },
+    {
+      "question": "What is the capital of Cambodia?",
+      "answers": [
+        "Phnom Penh"
+      ]
+    },
+    {
+      "question": "Phnom Penh is the capital of which country?",
+      "answers": [
+        "Cambodia"
+      ]
+    },
+    {
+      "question": "What is the capital of Cameroon?",
+      "answers": [
+        "Yaoundé"
+      ]
+    },
+    {
+      "question": "Yaoundé is the capital of which country?",
+      "answers": [
+        "Cameroon"
+      ]
+    },
+    {
+      "question": "What is the capital of Canada?",
+      "answers": [
+        "Ottawa"
+      ]
+    },
+    {
+      "question": "Ottawa is the capital of which country?",
+      "answers": [
+        "Canada"
+      ]
+    },
+    {
+      "question": "What is the capital of Cape Verde?",
+      "answers": [
+        "Praia"
+      ]
+    },
+    {
+      "question": "Praia is the capital of which country?",
+      "answers": [
+        "Cape Verde"
+      ]
+    },
+    {
+      "question": "What is the capital of the Central African Republic?",
+      "answers": [
+        "Bangui"
+      ]
+    },
+    {
+      "question": "Bangui is the capital of which country?",
+      "answers": [
+        "Central African Republic"
+      ]
+    },
+    {
+      "question": "What is the capital of Chad?",
+      "answers": [
+        "N'Djamena"
+      ]
+    },
+    {
+      "question": "N'Djamena is the capital of which country?",
+      "answers": [
+        "Chad"
+      ]
+    },
+    {
+      "question": "What is the capital of Chile?",
+      "answers": [
+        "Santiago"
+      ]
+    },
+    {
+      "question": "Santiago is the capital of which country?",
+      "answers": [
+        "Chile"
+      ]
+    },
+    {
+      "question": "What is the capital of China?",
+      "answers": [
+        "Beijing"
+      ]
+    },
+    {
+      "question": "Beijing is the capital of which country?",
+      "answers": [
+        "China"
+      ]
+    },
+    {
+      "question": "What is the capital of Colombia?",
+      "answers": [
+        "Bogotá"
+      ]
+    },
+    {
+      "question": "Bogotá is the capital of which country?",
+      "answers": [
+        "Colombia"
+      ]
+    },
+    {
+      "question": "What is the capital of the Comoros?",
+      "answers": [
+        "Moroni"
+      ]
+    },
+    {
+      "question": "Moroni is the capital of which country?",
+      "answers": [
+        "Comoros"
+      ]
+    },
+    {
+      "question": "What is the capital of Costa Rica?",
+      "answers": [
+        "San José"
+      ]
+    },
+    {
+      "question": "San José is the capital of which country?",
+      "answers": [
+        "Costa Rica"
+      ]
+    },
+    {
+      "question": "What is the capital of Croatia?",
+      "answers": [
+        "Zagreb"
+      ]
+    },
+    {
+      "question": "Zagreb is the capital of which country?",
+      "answers": [
+        "Croatia"
+      ]
+    },
+    {
+      "question": "What is the capital of Cuba?",
+      "answers": [
+        "Havana"
+      ]
+    },
+    {
+      "question": "Havana is the capital of which country?",
+      "answers": [
+        "Cuba"
+      ]
+    },
+    {
+      "question": "What is the capital of Cyprus?",
+      "answers": [
+        "Nicosia"
+      ]
+    },
+    {
+      "question": "Nicosia is the capital of which country?",
+      "answers": [
+        "Cyprus"
+      ]
+    },
+    {
+      "question": "What is the capital of the Czech Republic?",
+      "answers": [
+        "Prague"
+      ]
+    },
+    {
+      "question": "Prague is the capital of which country?",
+      "answers": [
+        "Czech Republic"
+      ]
+    },
+    {
+      "question": "What is the capital of the Democratic Republic of the Congo?",
+      "answers": [
+        "Kinshasa"
+      ]
+    },
+    {
+      "question": "Kinshasa is the capital of which country?",
+      "answers": [
+        "Democratic Republic of the Congo"
+      ]
+    },
+    {
+      "question": "What is the capital of Denmark?",
+      "answers": [
+        "Copenhagen"
+      ]
+    },
+    {
+      "question": "Copenhagen is the capital of which country?",
+      "answers": [
+        "Denmark"
+      ]
+    },
+    {
+      "question": "What is the capital of Djibouti?",
+      "answers": [
+        "Djibouti"
+      ]
+    },
+    {
+      "question": "Djibouti is the capital of which country?",
+      "answers": [
+        "Djibouti"
+      ]
+    },
+    {
+      "question": "What is the capital of Dominica?",
+      "answers": [
+        "Roseau"
+      ]
+    },
+    {
+      "question": "Roseau is the capital of which country?",
+      "answers": [
+        "Dominica"
+      ]
+    },
+    {
+      "question": "What is the capital of the Dominican Republic?",
+      "answers": [
+        "Santo Domingo"
+      ]
+    },
+    {
+      "question": "Santo Domingo is the capital of which country?",
+      "answers": [
+        "Dominican Republic"
+      ]
+    },
+    {
+      "question": "What is the capital of Ecuador?",
+      "answers": [
+        "Quito"
+      ]
+    },
+    {
+      "question": "Quito is the capital of which country?",
+      "answers": [
+        "Ecuador"
+      ]
+    },
+    {
+      "question": "What is the capital of Egypt?",
+      "answers": [
+        "Cairo"
+      ]
+    },
+    {
+      "question": "Cairo is the capital of which country?",
+      "answers": [
+        "Egypt"
+      ]
+    },
+    {
+      "question": "What is the capital of El Salvador?",
+      "answers": [
+        "San Salvador"
+      ]
+    },
+    {
+      "question": "San Salvador is the capital of which country?",
+      "answers": [
+        "El Salvador"
+      ]
+    },
+    {
+      "question": "What is the capital of Equatorial Guinea?",
+      "answers": [
+        "Ciudad de la Paz"
+      ]
+    },
+    {
+      "question": "Ciudad de la Paz is the capital of which country?",
+      "answers": [
+        "Equatorial Guinea"
+      ]
+    },
+    {
+      "question": "What is the capital of Eritrea?",
+      "answers": [
+        "Asmara"
+      ]
+    },
+    {
+      "question": "Asmara is the capital of which country?",
+      "answers": [
+        "Eritrea"
+      ]
+    },
+    {
+      "question": "What is the capital of Estonia?",
+      "answers": [
+        "Tallinn"
+      ]
+    },
+    {
+      "question": "Tallinn is the capital of which country?",
+      "answers": [
+        "Estonia"
+      ]
+    },
+    {
+      "question": "What is the capital of Eswatini?",
+      "answers": [
+        "Mbabane",
+        "Lobamba"
+      ],
+      "note": "Yes — Eswatini has two capitals."
+    },
+    {
+      "question": "What is the capital of Ethiopia?",
+      "answers": [
+        "Addis Ababa"
+      ]
+    },
+    {
+      "question": "Addis Ababa is the capital of which country?",
+      "answers": [
+        "Ethiopia"
+      ]
+    },
+    {
+      "question": "What is the capital of the Federated States of Micronesia?",
+      "answers": [
+        "Palikir"
+      ]
+    },
+    {
+      "question": "Palikir is the capital of which country?",
+      "answers": [
+        "Federated States of Micronesia"
+      ]
+    },
+    {
+      "question": "What is the capital of Fiji?",
+      "answers": [
+        "Suva"
+      ]
+    },
+    {
+      "question": "Suva is the capital of which country?",
+      "answers": [
+        "Fiji"
+      ]
+    },
+    {
+      "question": "What is the capital of Finland?",
+      "answers": [
+        "Helsinki"
+      ]
+    },
+    {
+      "question": "Helsinki is the capital of which country?",
+      "answers": [
+        "Finland"
+      ]
+    },
+    {
+      "question": "What is the capital of France?",
+      "answers": [
+        "Paris"
+      ]
+    },
+    {
+      "question": "Paris is the capital of which country?",
+      "answers": [
+        "France"
+      ]
+    },
+    {
+      "question": "What is the capital of Gabon?",
+      "answers": [
+        "Libreville"
+      ]
+    },
+    {
+      "question": "Libreville is the capital of which country?",
+      "answers": [
+        "Gabon"
+      ]
+    },
+    {
+      "question": "What is the capital of Georgia?",
+      "answers": [
+        "Tbilisi"
+      ]
+    },
+    {
+      "question": "Tbilisi is the capital of which country?",
+      "answers": [
+        "Georgia"
+      ]
+    },
+    {
+      "question": "What is the capital of Germany?",
+      "answers": [
+        "Berlin"
+      ]
+    },
+    {
+      "question": "Berlin is the capital of which country?",
+      "answers": [
+        "Germany"
+      ]
+    },
+    {
+      "question": "What is the capital of Ghana?",
+      "answers": [
+        "Accra"
+      ]
+    },
+    {
+      "question": "Accra is the capital of which country?",
+      "answers": [
+        "Ghana"
+      ]
+    },
+    {
+      "question": "What is the capital of Greece?",
+      "answers": [
+        "Athens"
+      ]
+    },
+    {
+      "question": "Athens is the capital of which country?",
+      "answers": [
+        "Greece"
+      ]
+    },
+    {
+      "question": "What is the capital of Grenada?",
+      "answers": [
+        "St. George's"
+      ]
+    },
+    {
+      "question": "St. George's is the capital of which country?",
+      "answers": [
+        "Grenada"
+      ]
+    },
+    {
+      "question": "What is the capital of Guatemala?",
+      "answers": [
+        "Guatemala City"
+      ]
+    },
+    {
+      "question": "Guatemala City is the capital of which country?",
+      "answers": [
+        "Guatemala"
+      ]
+    },
+    {
+      "question": "What is the capital of Guinea?",
+      "answers": [
+        "Conakry"
+      ]
+    },
+    {
+      "question": "Conakry is the capital of which country?",
+      "answers": [
+        "Guinea"
+      ]
+    },
+    {
+      "question": "What is the capital of Guinea-Bissau?",
+      "answers": [
+        "Bissau"
+      ]
+    },
+    {
+      "question": "Bissau is the capital of which country?",
+      "answers": [
+        "Guinea-Bissau"
+      ]
+    },
+    {
+      "question": "What is the capital of Guyana?",
+      "answers": [
+        "Georgetown"
+      ]
+    },
+    {
+      "question": "Georgetown is the capital of which country?",
+      "answers": [
+        "Guyana"
+      ]
+    },
+    {
+      "question": "What is the capital of Haiti?",
+      "answers": [
+        "Port-au-Prince"
+      ]
+    },
+    {
+      "question": "Port-au-Prince is the capital of which country?",
+      "answers": [
+        "Haiti"
+      ]
+    },
+    {
+      "question": "What is the capital of Honduras?",
+      "answers": [
+        "Tegucigalpa"
+      ]
+    },
+    {
+      "question": "Tegucigalpa is the capital of which country?",
+      "answers": [
+        "Honduras"
+      ]
+    },
+    {
+      "question": "What is the capital of Hungary?",
+      "answers": [
+        "Budapest"
+      ]
+    },
+    {
+      "question": "Budapest is the capital of which country?",
+      "answers": [
+        "Hungary"
+      ]
+    },
+    {
+      "question": "What is the capital of Iceland?",
+      "answers": [
+        "Reykjavík"
+      ]
+    },
+    {
+      "question": "Reykjavík is the capital of which country?",
+      "answers": [
+        "Iceland"
+      ]
+    },
+    {
+      "question": "What is the capital of India?",
+      "answers": [
+        "New Delhi"
+      ]
+    },
+    {
+      "question": "New Delhi is the capital of which country?",
+      "answers": [
+        "India"
+      ]
+    },
+    {
+      "question": "What is the capital of Indonesia?",
+      "answers": [
+        "Jakarta"
+      ]
+    },
+    {
+      "question": "Jakarta is the capital of which country?",
+      "answers": [
+        "Indonesia"
+      ]
+    },
+    {
+      "question": "What is the capital of Iran?",
+      "answers": [
+        "Tehran"
+      ]
+    },
+    {
+      "question": "Tehran is the capital of which country?",
+      "answers": [
+        "Iran"
+      ]
+    },
+    {
+      "question": "What is the capital of Iraq?",
+      "answers": [
+        "Baghdad"
+      ]
+    },
+    {
+      "question": "Baghdad is the capital of which country?",
+      "answers": [
+        "Iraq"
+      ]
+    },
+    {
+      "question": "What is the capital of Ireland?",
+      "answers": [
+        "Dublin"
+      ]
+    },
+    {
+      "question": "Dublin is the capital of which country?",
+      "answers": [
+        "Ireland"
+      ]
+    },
+    {
+      "question": "What is the capital of Israel?",
+      "answers": [
+        "Jerusalem"
+      ]
+    },
+    {
+      "question": "Jerusalem is the capital of which country?",
+      "answers": [
+        "Israel"
+      ]
+    },
+    {
+      "question": "What is the capital of Italy?",
+      "answers": [
+        "Rome"
+      ]
+    },
+    {
+      "question": "Rome is the capital of which country?",
+      "answers": [
+        "Italy"
+      ]
+    },
+    {
+      "question": "What is the capital of Ivory Coast?",
+      "answers": [
+        "Yamoussoukro"
+      ]
+    },
+    {
+      "question": "Yamoussoukro is the capital of which country?",
+      "answers": [
+        "Ivory Coast"
+      ]
+    },
+    {
+      "question": "What is the capital of Jamaica?",
+      "answers": [
+        "Kingston"
+      ]
+    },
+    {
+      "question": "Kingston is the capital of which country?",
+      "answers": [
+        "Jamaica"
+      ]
+    },
+    {
+      "question": "What is the capital of Japan?",
+      "answers": [
+        "Tokyo"
+      ]
+    },
+    {
+      "question": "Tokyo is the capital of which country?",
+      "answers": [
+        "Japan"
+      ]
+    },
+    {
+      "question": "What is the capital of Jordan?",
+      "answers": [
+        "Amman"
+      ]
+    },
+    {
+      "question": "Amman is the capital of which country?",
+      "answers": [
+        "Jordan"
+      ]
+    },
+    {
+      "question": "What is the capital of Kazakhstan?",
+      "answers": [
+        "Astana"
+      ]
+    },
+    {
+      "question": "Astana is the capital of which country?",
+      "answers": [
+        "Kazakhstan"
+      ]
+    },
+    {
+      "question": "What is the capital of Kenya?",
+      "answers": [
+        "Nairobi"
+      ]
+    },
+    {
+      "question": "Nairobi is the capital of which country?",
+      "answers": [
+        "Kenya"
+      ]
+    },
+    {
+      "question": "What is the capital of Kiribati?",
+      "answers": [
+        "South Tarawa"
+      ]
+    },
+    {
+      "question": "South Tarawa is the capital of which country?",
+      "answers": [
+        "Kiribati"
+      ]
+    },
+    {
+      "question": "What is the capital of Kosovo?",
+      "answers": [
+        "Pristina"
+      ]
+    },
+    {
+      "question": "Pristina is the capital of which country?",
+      "answers": [
+        "Kosovo"
+      ]
+    },
+    {
+      "question": "What is the capital of Kuwait?",
+      "answers": [
+        "Kuwait City"
+      ]
+    },
+    {
+      "question": "Kuwait City is the capital of which country?",
+      "answers": [
+        "Kuwait"
+      ]
+    },
+    {
+      "question": "What is the capital of Kyrgyzstan?",
+      "answers": [
+        "Bishkek"
+      ]
+    },
+    {
+      "question": "Bishkek is the capital of which country?",
+      "answers": [
+        "Kyrgyzstan"
+      ]
+    },
+    {
+      "question": "What is the capital of Laos?",
+      "answers": [
+        "Vientiane"
+      ]
+    },
+    {
+      "question": "Vientiane is the capital of which country?",
+      "answers": [
+        "Laos"
+      ]
+    },
+    {
+      "question": "What is the capital of Latvia?",
+      "answers": [
+        "Riga"
+      ]
+    },
+    {
+      "question": "Riga is the capital of which country?",
+      "answers": [
+        "Latvia"
+      ]
+    },
+    {
+      "question": "What is the capital of Lebanon?",
+      "answers": [
+        "Beirut"
+      ]
+    },
+    {
+      "question": "Beirut is the capital of which country?",
+      "answers": [
+        "Lebanon"
+      ]
+    },
+    {
+      "question": "What is the capital of Lesotho?",
+      "answers": [
+        "Maseru"
+      ]
+    },
+    {
+      "question": "Maseru is the capital of which country?",
+      "answers": [
+        "Lesotho"
+      ]
+    },
+    {
+      "question": "What is the capital of Liberia?",
+      "answers": [
+        "Monrovia"
+      ]
+    },
+    {
+      "question": "Monrovia is the capital of which country?",
+      "answers": [
+        "Liberia"
+      ]
+    },
+    {
+      "question": "What is the capital of Libya?",
+      "answers": [
+        "Tripoli"
+      ]
+    },
+    {
+      "question": "Tripoli is the capital of which country?",
+      "answers": [
+        "Libya"
+      ]
+    },
+    {
+      "question": "What is the capital of Liechtenstein?",
+      "answers": [
+        "Vaduz"
+      ]
+    },
+    {
+      "question": "Vaduz is the capital of which country?",
+      "answers": [
+        "Liechtenstein"
+      ]
+    },
+    {
+      "question": "What is the capital of Lithuania?",
+      "answers": [
+        "Vilnius"
+      ]
+    },
+    {
+      "question": "Vilnius is the capital of which country?",
+      "answers": [
+        "Lithuania"
+      ]
+    },
+    {
+      "question": "What is the capital of Luxembourg?",
+      "answers": [
+        "Luxembourg"
+      ]
+    },
+    {
+      "question": "Luxembourg is the capital of which country?",
+      "answers": [
+        "Luxembourg"
+      ]
+    },
+    {
+      "question": "What is the capital of Madagascar?",
+      "answers": [
+        "Antananarivo"
+      ]
+    },
+    {
+      "question": "Antananarivo is the capital of which country?",
+      "answers": [
+        "Madagascar"
+      ]
+    },
+    {
+      "question": "What is the capital of Malawi?",
+      "answers": [
+        "Lilongwe"
+      ]
+    },
+    {
+      "question": "Lilongwe is the capital of which country?",
+      "answers": [
+        "Malawi"
+      ]
+    },
+    {
+      "question": "What is the capital of Malaysia?",
+      "answers": [
+        "Kuala Lumpur"
+      ]
+    },
+    {
+      "question": "Kuala Lumpur is the capital of which country?",
+      "answers": [
+        "Malaysia"
+      ]
+    },
+    {
+      "question": "What is the capital of the Maldives?",
+      "answers": [
+        "Malé"
+      ]
+    },
+    {
+      "question": "Malé is the capital of which country?",
+      "answers": [
+        "Maldives"
+      ]
+    },
+    {
+      "question": "What is the capital of Mali?",
+      "answers": [
+        "Bamako"
+      ]
+    },
+    {
+      "question": "Bamako is the capital of which country?",
+      "answers": [
+        "Mali"
+      ]
+    },
+    {
+      "question": "What is the capital of Malta?",
+      "answers": [
+        "Valletta"
+      ]
+    },
+    {
+      "question": "Valletta is the capital of which country?",
+      "answers": [
+        "Malta"
+      ]
+    },
+    {
+      "question": "What is the capital of the Marshall Islands?",
+      "answers": [
+        "Majuro"
+      ]
+    },
+    {
+      "question": "Majuro is the capital of which country?",
+      "answers": [
+        "Marshall Islands"
+      ]
+    },
+    {
+      "question": "What is the capital of Mauritania?",
+      "answers": [
+        "Nouakchott"
+      ]
+    },
+    {
+      "question": "Nouakchott is the capital of which country?",
+      "answers": [
+        "Mauritania"
+      ]
+    },
+    {
+      "question": "What is the capital of Mauritius?",
+      "answers": [
+        "Port Louis"
+      ]
+    },
+    {
+      "question": "Port Louis is the capital of which country?",
+      "answers": [
+        "Mauritius"
+      ]
+    },
+    {
+      "question": "What is the capital of Mexico?",
+      "answers": [
+        "Mexico City"
+      ]
+    },
+    {
+      "question": "Mexico City is the capital of which country?",
+      "answers": [
+        "Mexico"
+      ]
+    },
+    {
+      "question": "What is the capital of Moldova?",
+      "answers": [
+        "Chișinău"
+      ]
+    },
+    {
+      "question": "Chișinău is the capital of which country?",
+      "answers": [
+        "Moldova"
+      ]
+    },
+    {
+      "question": "What is the capital of Monaco?",
+      "answers": [
+        "Monaco"
+      ]
+    },
+    {
+      "question": "Monaco is the capital of which country?",
+      "answers": [
+        "Monaco"
+      ]
+    },
+    {
+      "question": "What is the capital of Mongolia?",
+      "answers": [
+        "Ulaanbaatar"
+      ]
+    },
+    {
+      "question": "Ulaanbaatar is the capital of which country?",
+      "answers": [
+        "Mongolia"
+      ]
+    },
+    {
+      "question": "What is the capital of Montenegro?",
+      "answers": [
+        "Podgorica"
+      ]
+    },
+    {
+      "question": "Podgorica is the capital of which country?",
+      "answers": [
+        "Montenegro"
+      ]
+    },
+    {
+      "question": "What is the capital of Morocco?",
+      "answers": [
+        "Rabat"
+      ]
+    },
+    {
+      "question": "Rabat is the capital of which country?",
+      "answers": [
+        "Morocco"
+      ]
+    },
+    {
+      "question": "What is the capital of Mozambique?",
+      "answers": [
+        "Maputo"
+      ]
+    },
+    {
+      "question": "Maputo is the capital of which country?",
+      "answers": [
+        "Mozambique"
+      ]
+    },
+    {
+      "question": "What is the capital of Myanmar?",
+      "answers": [
+        "Naypyidaw"
+      ]
+    },
+    {
+      "question": "Naypyidaw is the capital of which country?",
+      "answers": [
+        "Myanmar"
+      ]
+    },
+    {
+      "question": "What is the capital of Namibia?",
+      "answers": [
+        "Windhoek"
+      ]
+    },
+    {
+      "question": "Windhoek is the capital of which country?",
+      "answers": [
+        "Namibia"
+      ]
+    },
+    {
+      "question": "What is the capital of Nauru?",
+      "answers": [
+        "Yaren District"
+      ]
+    },
+    {
+      "question": "Yaren District is the capital of which country?",
+      "answers": [
+        "Nauru"
+      ]
+    },
+    {
+      "question": "What is the capital of Nepal?",
+      "answers": [
+        "Kathmandu"
+      ]
+    },
+    {
+      "question": "Kathmandu is the capital of which country?",
+      "answers": [
+        "Nepal"
+      ]
+    },
+    {
+      "question": "What is the capital of the Netherlands?",
+      "answers": [
+        "Amsterdam"
+      ]
+    },
+    {
+      "question": "Amsterdam is the capital of which country?",
+      "answers": [
+        "Netherlands"
+      ]
+    },
+    {
+      "question": "What is the capital of New Zealand?",
+      "answers": [
+        "Wellington"
+      ]
+    },
+    {
+      "question": "Wellington is the capital of which country?",
+      "answers": [
+        "New Zealand"
+      ]
+    },
+    {
+      "question": "What is the capital of Nicaragua?",
+      "answers": [
+        "Managua"
+      ]
+    },
+    {
+      "question": "Managua is the capital of which country?",
+      "answers": [
+        "Nicaragua"
+      ]
+    },
+    {
+      "question": "What is the capital of Niger?",
+      "answers": [
+        "Niamey"
+      ]
+    },
+    {
+      "question": "Niamey is the capital of which country?",
+      "answers": [
+        "Niger"
+      ]
+    },
+    {
+      "question": "What is the capital of Nigeria?",
+      "answers": [
+        "Abuja"
+      ]
+    },
+    {
+      "question": "Abuja is the capital of which country?",
+      "answers": [
+        "Nigeria"
+      ]
+    },
+    {
+      "question": "What is the capital of North Korea?",
+      "answers": [
+        "Pyongyang"
+      ]
+    },
+    {
+      "question": "Pyongyang is the capital of which country?",
+      "answers": [
+        "North Korea"
+      ]
+    },
+    {
+      "question": "What is the capital of North Macedonia?",
+      "answers": [
+        "Skopje"
+      ]
+    },
+    {
+      "question": "Skopje is the capital of which country?",
+      "answers": [
+        "North Macedonia"
+      ]
+    },
+    {
+      "question": "What is the capital of Norway?",
+      "answers": [
+        "Oslo"
+      ]
+    },
+    {
+      "question": "Oslo is the capital of which country?",
+      "answers": [
+        "Norway"
+      ]
+    },
+    {
+      "question": "What is the capital of Oman?",
+      "answers": [
+        "Muscat"
+      ]
+    },
+    {
+      "question": "Muscat is the capital of which country?",
+      "answers": [
+        "Oman"
+      ]
+    },
+    {
+      "question": "What is the capital of Pakistan?",
+      "answers": [
+        "Islamabad"
+      ]
+    },
+    {
+      "question": "Islamabad is the capital of which country?",
+      "answers": [
+        "Pakistan"
+      ]
+    },
+    {
+      "question": "What is the capital of Palau?",
+      "answers": [
+        "Ngerulmud"
+      ]
+    },
+    {
+      "question": "Ngerulmud is the capital of which country?",
+      "answers": [
+        "Palau"
+      ]
+    },
+    {
+      "question": "What is the capital of Palestine?",
+      "answers": [
+        "Ramallah",
+        "East Jerusalem"
+      ],
+      "note": "Yes — Palestine has two capitals."
+    },
+    {
+      "question": "What is the capital of Panama?",
+      "answers": [
+        "Panama City"
+      ]
+    },
+    {
+      "question": "Panama City is the capital of which country?",
+      "answers": [
+        "Panama"
+      ]
+    },
+    {
+      "question": "What is the capital of Papua New Guinea?",
+      "answers": [
+        "Port Moresby"
+      ]
+    },
+    {
+      "question": "Port Moresby is the capital of which country?",
+      "answers": [
+        "Papua New Guinea"
+      ]
+    },
+    {
+      "question": "What is the capital of Paraguay?",
+      "answers": [
+        "Asunción"
+      ]
+    },
+    {
+      "question": "Asunción is the capital of which country?",
+      "answers": [
+        "Paraguay"
+      ]
+    },
+    {
+      "question": "What is the capital of Peru?",
+      "answers": [
+        "Lima"
+      ]
+    },
+    {
+      "question": "Lima is the capital of which country?",
+      "answers": [
+        "Peru"
+      ]
+    },
+    {
+      "question": "What is the capital of the Philippines?",
+      "answers": [
+        "Manila"
+      ]
+    },
+    {
+      "question": "Manila is the capital of which country?",
+      "answers": [
+        "Philippines"
+      ]
+    },
+    {
+      "question": "What is the capital of Poland?",
+      "answers": [
+        "Warsaw"
+      ]
+    },
+    {
+      "question": "Warsaw is the capital of which country?",
+      "answers": [
+        "Poland"
+      ]
+    },
+    {
+      "question": "What is the capital of Portugal?",
+      "answers": [
+        "Lisbon"
+      ]
+    },
+    {
+      "question": "Lisbon is the capital of which country?",
+      "answers": [
+        "Portugal"
+      ]
+    },
+    {
+      "question": "What is the capital of Qatar?",
+      "answers": [
+        "Doha"
+      ]
+    },
+    {
+      "question": "Doha is the capital of which country?",
+      "answers": [
+        "Qatar"
+      ]
+    },
+    {
+      "question": "What is the capital of the Republic of the Congo?",
+      "answers": [
+        "Brazzaville"
+      ]
+    },
+    {
+      "question": "Brazzaville is the capital of which country?",
+      "answers": [
+        "Republic of the Congo"
+      ]
+    },
+    {
+      "question": "What is the capital of Romania?",
+      "answers": [
+        "Bucharest"
+      ]
+    },
+    {
+      "question": "Bucharest is the capital of which country?",
+      "answers": [
+        "Romania"
+      ]
+    },
+    {
+      "question": "What is the capital of Russia?",
+      "answers": [
+        "Moscow"
+      ]
+    },
+    {
+      "question": "Moscow is the capital of which country?",
+      "answers": [
+        "Russia"
+      ]
+    },
+    {
+      "question": "What is the capital of Rwanda?",
+      "answers": [
+        "Kigali"
+      ]
+    },
+    {
+      "question": "Kigali is the capital of which country?",
+      "answers": [
+        "Rwanda"
+      ]
+    },
+    {
+      "question": "What is the capital of Saint Kitts and Nevis?",
+      "answers": [
+        "Basseterre"
+      ]
+    },
+    {
+      "question": "Basseterre is the capital of which country?",
+      "answers": [
+        "Saint Kitts and Nevis"
+      ]
+    },
+    {
+      "question": "What is the capital of Saint Lucia?",
+      "answers": [
+        "Castries"
+      ]
+    },
+    {
+      "question": "Castries is the capital of which country?",
+      "answers": [
+        "Saint Lucia"
+      ]
+    },
+    {
+      "question": "What is the capital of Saint Vincent and the Grenadines?",
+      "answers": [
+        "Kingstown"
+      ]
+    },
+    {
+      "question": "Kingstown is the capital of which country?",
+      "answers": [
+        "Saint Vincent and the Grenadines"
+      ]
+    },
+    {
+      "question": "What is the capital of Samoa?",
+      "answers": [
+        "Apia"
+      ]
+    },
+    {
+      "question": "Apia is the capital of which country?",
+      "answers": [
+        "Samoa"
+      ]
+    },
+    {
+      "question": "What is the capital of San Marino?",
+      "answers": [
+        "San Marino"
+      ]
+    },
+    {
+      "question": "San Marino is the capital of which country?",
+      "answers": [
+        "San Marino"
+      ]
+    },
+    {
+      "question": "What is the capital of São Tomé and Príncipe?",
+      "answers": [
+        "São Tomé"
+      ]
+    },
+    {
+      "question": "São Tomé is the capital of which country?",
+      "answers": [
+        "São Tomé and Príncipe"
+      ]
+    },
+    {
+      "question": "What is the capital of Saudi Arabia?",
+      "answers": [
+        "Riyadh"
+      ]
+    },
+    {
+      "question": "Riyadh is the capital of which country?",
+      "answers": [
+        "Saudi Arabia"
+      ]
+    },
+    {
+      "question": "What is the capital of Senegal?",
+      "answers": [
+        "Dakar"
+      ]
+    },
+    {
+      "question": "Dakar is the capital of which country?",
+      "answers": [
+        "Senegal"
+      ]
+    },
+    {
+      "question": "What is the capital of Serbia?",
+      "answers": [
+        "Belgrade"
+      ]
+    },
+    {
+      "question": "Belgrade is the capital of which country?",
+      "answers": [
+        "Serbia"
+      ]
+    },
+    {
+      "question": "What is the capital of the Seychelles?",
+      "answers": [
+        "Victoria"
+      ]
+    },
+    {
+      "question": "Victoria is the capital of which country?",
+      "answers": [
+        "Seychelles"
+      ]
+    },
+    {
+      "question": "What is the capital of Sierra Leone?",
+      "answers": [
+        "Freetown"
+      ]
+    },
+    {
+      "question": "Freetown is the capital of which country?",
+      "answers": [
+        "Sierra Leone"
+      ]
+    },
+    {
+      "question": "What is the capital of Singapore?",
+      "answers": [
+        "Singapore"
+      ]
+    },
+    {
+      "question": "Singapore is the capital of which country?",
+      "answers": [
+        "Singapore"
+      ]
+    },
+    {
+      "question": "What is the capital of Slovakia?",
+      "answers": [
+        "Bratislava"
+      ]
+    },
+    {
+      "question": "Bratislava is the capital of which country?",
+      "answers": [
+        "Slovakia"
+      ]
+    },
+    {
+      "question": "What is the capital of Slovenia?",
+      "answers": [
+        "Ljubljana"
+      ]
+    },
+    {
+      "question": "Ljubljana is the capital of which country?",
+      "answers": [
+        "Slovenia"
+      ]
+    },
+    {
+      "question": "What is the capital of the Solomon Islands?",
+      "answers": [
+        "Honiara"
+      ]
+    },
+    {
+      "question": "Honiara is the capital of which country?",
+      "answers": [
+        "Solomon Islands"
+      ]
+    },
+    {
+      "question": "What is the capital of Somalia?",
+      "answers": [
+        "Mogadishu"
+      ]
+    },
+    {
+      "question": "Mogadishu is the capital of which country?",
+      "answers": [
+        "Somalia"
+      ]
+    },
+    {
+      "question": "What is the capital of South Africa?",
+      "answers": [
+        "Pretoria",
+        "Cape Town",
+        "Bloemfontein"
+      ],
+      "note": "Yes — South Africa has three capitals."
+    },
+    {
+      "question": "What is the capital of South Korea?",
+      "answers": [
+        "Seoul"
+      ]
+    },
+    {
+      "question": "Seoul is the capital of which country?",
+      "answers": [
+        "South Korea"
+      ]
+    },
+    {
+      "question": "What is the capital of South Sudan?",
+      "answers": [
+        "Juba"
+      ]
+    },
+    {
+      "question": "Juba is the capital of which country?",
+      "answers": [
+        "South Sudan"
+      ]
+    },
+    {
+      "question": "What is the capital of Spain?",
+      "answers": [
+        "Madrid"
+      ]
+    },
+    {
+      "question": "Madrid is the capital of which country?",
+      "answers": [
+        "Spain"
+      ]
+    },
+    {
+      "question": "What is the capital of Sri Lanka?",
+      "answers": [
+        "Colombo",
+        "Sri Jayawardenepura Kotte"
+      ],
+      "note": "Yes — Sri Lanka has two capitals."
+    },
+    {
+      "question": "What is the capital of Sudan?",
+      "answers": [
+        "Khartoum"
+      ]
+    },
+    {
+      "question": "Khartoum is the capital of which country?",
+      "answers": [
+        "Sudan"
+      ]
+    },
+    {
+      "question": "What is the capital of Suriname?",
+      "answers": [
+        "Paramaribo"
+      ]
+    },
+    {
+      "question": "Paramaribo is the capital of which country?",
+      "answers": [
+        "Suriname"
+      ]
+    },
+    {
+      "question": "What is the capital of Sweden?",
+      "answers": [
+        "Stockholm"
+      ]
+    },
+    {
+      "question": "Stockholm is the capital of which country?",
+      "answers": [
+        "Sweden"
+      ]
+    },
+    {
+      "question": "What is the capital of Switzerland?",
+      "answers": [
+        "Bern"
+      ]
+    },
+    {
+      "question": "Bern is the capital of which country?",
+      "answers": [
+        "Switzerland"
+      ]
+    },
+    {
+      "question": "What is the capital of Syria?",
+      "answers": [
+        "Damascus"
+      ]
+    },
+    {
+      "question": "Damascus is the capital of which country?",
+      "answers": [
+        "Syria"
+      ]
+    },
+    {
+      "question": "What is the capital of Taiwan?",
+      "answers": [
+        "Taipei"
+      ]
+    },
+    {
+      "question": "Taipei is the capital of which country?",
+      "answers": [
+        "Taiwan"
+      ]
+    },
+    {
+      "question": "What is the capital of Tajikistan?",
+      "answers": [
+        "Dushanbe"
+      ]
+    },
+    {
+      "question": "Dushanbe is the capital of which country?",
+      "answers": [
+        "Tajikistan"
+      ]
+    },
+    {
+      "question": "What is the capital of Tanzania?",
+      "answers": [
+        "Dodoma"
+      ]
+    },
+    {
+      "question": "Dodoma is the capital of which country?",
+      "answers": [
+        "Tanzania"
+      ]
+    },
+    {
+      "question": "What is the capital of Thailand?",
+      "answers": [
+        "Bangkok"
+      ]
+    },
+    {
+      "question": "Bangkok is the capital of which country?",
+      "answers": [
+        "Thailand"
+      ]
+    },
+    {
+      "question": "What is the capital of The Bahamas?",
+      "answers": [
+        "Nassau"
+      ]
+    },
+    {
+      "question": "Nassau is the capital of which country?",
+      "answers": [
+        "The Bahamas"
+      ]
+    },
+    {
+      "question": "What is the capital of The Gambia?",
+      "answers": [
+        "Banjul"
+      ]
+    },
+    {
+      "question": "Banjul is the capital of which country?",
+      "answers": [
+        "The Gambia"
+      ]
+    },
+    {
+      "question": "What is the capital of Timor-Leste?",
+      "answers": [
+        "Dili"
+      ]
+    },
+    {
+      "question": "Dili is the capital of which country?",
+      "answers": [
+        "Timor-Leste"
+      ]
+    },
+    {
+      "question": "What is the capital of Togo?",
+      "answers": [
+        "Lomé"
+      ]
+    },
+    {
+      "question": "Lomé is the capital of which country?",
+      "answers": [
+        "Togo"
+      ]
+    },
+    {
+      "question": "What is the capital of Tonga?",
+      "answers": [
+        "Nukuʻalofa"
+      ]
+    },
+    {
+      "question": "Nukuʻalofa is the capital of which country?",
+      "answers": [
+        "Tonga"
+      ]
+    },
+    {
+      "question": "What is the capital of Trinidad and Tobago?",
+      "answers": [
+        "Port of Spain"
+      ]
+    },
+    {
+      "question": "Port of Spain is the capital of which country?",
+      "answers": [
+        "Trinidad and Tobago"
+      ]
+    },
+    {
+      "question": "What is the capital of Tunisia?",
+      "answers": [
+        "Tunis"
+      ]
+    },
+    {
+      "question": "Tunis is the capital of which country?",
+      "answers": [
+        "Tunisia"
+      ]
+    },
+    {
+      "question": "What is the capital of Turkey?",
+      "answers": [
+        "Ankara"
+      ]
+    },
+    {
+      "question": "Ankara is the capital of which country?",
+      "answers": [
+        "Turkey"
+      ]
+    },
+    {
+      "question": "What is the capital of Turkmenistan?",
+      "answers": [
+        "Ashgabat"
+      ]
+    },
+    {
+      "question": "Ashgabat is the capital of which country?",
+      "answers": [
+        "Turkmenistan"
+      ]
+    },
+    {
+      "question": "What is the capital of Tuvalu?",
+      "answers": [
+        "Funafuti"
+      ]
+    },
+    {
+      "question": "Funafuti is the capital of which country?",
+      "answers": [
+        "Tuvalu"
+      ]
+    },
+    {
+      "question": "What is the capital of Uganda?",
+      "answers": [
+        "Kampala"
+      ]
+    },
+    {
+      "question": "Kampala is the capital of which country?",
+      "answers": [
+        "Uganda"
+      ]
+    },
+    {
+      "question": "What is the capital of Ukraine?",
+      "answers": [
+        "Kyiv"
+      ]
+    },
+    {
+      "question": "Kyiv is the capital of which country?",
+      "answers": [
+        "Ukraine"
+      ]
+    },
+    {
+      "question": "What is the capital of the United Arab Emirates?",
+      "answers": [
+        "Abu Dhabi"
+      ]
+    },
+    {
+      "question": "Abu Dhabi is the capital of which country?",
+      "answers": [
+        "United Arab Emirates"
+      ]
+    },
+    {
+      "question": "What is the capital of the United Kingdom?",
+      "answers": [
+        "London"
+      ]
+    },
+    {
+      "question": "London is the capital of which country?",
+      "answers": [
+        "United Kingdom"
+      ]
+    },
+    {
+      "question": "What is the capital of the United States?",
+      "answers": [
+        "Washington, D.C."
+      ]
+    },
+    {
+      "question": "Washington, D.C. is the capital of which country?",
+      "answers": [
+        "United States"
+      ]
+    },
+    {
+      "question": "What is the capital of Uruguay?",
+      "answers": [
+        "Montevideo"
+      ]
+    },
+    {
+      "question": "Montevideo is the capital of which country?",
+      "answers": [
+        "Uruguay"
+      ]
+    },
+    {
+      "question": "What is the capital of Uzbekistan?",
+      "answers": [
+        "Tashkent"
+      ]
+    },
+    {
+      "question": "Tashkent is the capital of which country?",
+      "answers": [
+        "Uzbekistan"
+      ]
+    },
+    {
+      "question": "What is the capital of Vanuatu?",
+      "answers": [
+        "Port Vila"
+      ]
+    },
+    {
+      "question": "Port Vila is the capital of which country?",
+      "answers": [
+        "Vanuatu"
+      ]
+    },
+    {
+      "question": "What is the capital of Vatican City?",
+      "answers": [
+        "Vatican City"
+      ]
+    },
+    {
+      "question": "Vatican City is the capital of which country?",
+      "answers": [
+        "Vatican City"
+      ]
+    },
+    {
+      "question": "What is the capital of Venezuela?",
+      "answers": [
+        "Caracas"
+      ]
+    },
+    {
+      "question": "Caracas is the capital of which country?",
+      "answers": [
+        "Venezuela"
+      ]
+    },
+    {
+      "question": "What is the capital of Vietnam?",
+      "answers": [
+        "Hanoi"
+      ]
+    },
+    {
+      "question": "Hanoi is the capital of which country?",
+      "answers": [
+        "Vietnam"
+      ]
+    },
+    {
+      "question": "What is the capital of Yemen?",
+      "answers": [
+        "Sanaa",
+        "Aden"
+      ],
+      "note": "Yes — Yemen has two capitals."
+    },
+    {
+      "question": "What is the capital of Zambia?",
+      "answers": [
+        "Lusaka"
+      ]
+    },
+    {
+      "question": "Lusaka is the capital of which country?",
+      "answers": [
+        "Zambia"
+      ]
+    },
+    {
+      "question": "What is the capital of Zimbabwe?",
+      "answers": [
+        "Harare"
+      ]
+    },
+    {
+      "question": "Harare is the capital of which country?",
+      "answers": [
+        "Zimbabwe"
+      ]
+    },
+    {
+      "question": "On which continent is Albania?",
+      "answers": [
+        "Europe"
+      ]
+    },
+    {
+      "question": "On which continent is Andorra?",
+      "answers": [
+        "Europe"
+      ]
+    },
+    {
+      "question": "On which continent is Antigua and Barbuda?",
+      "answers": [
+        "North America"
+      ]
+    },
+    {
+      "question": "On which continent is Armenia?",
+      "answers": [
+        "Asia"
+      ]
+    },
+    {
+      "question": "On which continent is Austria?",
+      "answers": [
+        "Europe"
+      ]
+    },
+    {
+      "question": "On which continent is Bahrain?",
+      "answers": [
+        "Asia"
+      ]
+    },
+    {
+      "question": "On which continent is Barbados?",
+      "answers": [
+        "North America"
+      ]
+    },
+    {
+      "question": "On which continent is Belarus?",
+      "answers": [
+        "Europe"
+      ]
+    },
+    {
+      "question": "On which continent is Belize?",
+      "answers": [
+        "North America"
+      ]
+    },
+    {
+      "question": "On which continent is Bhutan?",
+      "answers": [
+        "Asia"
+      ]
+    },
+    {
+      "question": "On which continent is Bosnia and Herzegovina?",
+      "answers": [
+        "Europe"
+      ]
+    },
+    {
+      "question": "On which continent is Botswana?",
+      "answers": [
+        "Africa"
+      ]
+    },
+    {
+      "question": "On which continent is Brunei?",
+      "answers": [
+        "Asia"
+      ]
+    },
+    {
+      "question": "On which continent is Bulgaria?",
+      "answers": [
+        "Europe"
+      ]
+    },
+    {
+      "question": "On which continent is Cape Verde?",
+      "answers": [
+        "Africa"
+      ]
+    },
+    {
+      "question": "On which continent is the Central African Republic?",
+      "answers": [
+        "Africa"
+      ]
+    },
+    {
+      "question": "On which continent is the Comoros?",
+      "answers": [
+        "Africa"
+      ]
+    },
+    {
+      "question": "On which continent is Costa Rica?",
+      "answers": [
+        "North America"
+      ]
+    },
+    {
+      "question": "On which continent is Croatia?",
+      "answers": [
+        "Europe"
+      ]
+    },
+    {
+      "question": "On which continent is Cyprus?",
+      "answers": [
+        "Europe"
+      ]
+    },
+    {
+      "question": "On which continent is Denmark?",
+      "answers": [
+        "Europe"
+      ]
+    },
+    {
+      "question": "On which continent is Djibouti?",
+      "answers": [
+        "Africa"
+      ]
+    },
+    {
+      "question": "On which continent is Dominica?",
+      "answers": [
+        "North America"
+      ]
+    },
+    {
+      "question": "On which continent is El Salvador?",
+      "answers": [
+        "North America"
+      ]
+    },
+    {
+      "question": "On which continent is Equatorial Guinea?",
+      "answers": [
+        "Africa"
+      ]
+    },
+    {
+      "question": "On which continent is Eritrea?",
+      "answers": [
+        "Africa"
+      ]
+    },
+    {
+      "question": "On which continent is Estonia?",
+      "answers": [
+        "Europe"
+      ]
+    },
+    {
+      "question": "On which continent is Eswatini?",
+      "answers": [
+        "Africa"
+      ]
+    },
+    {
+      "question": "On which continent is the Federated States of Micronesia?",
+      "answers": [
+        "Oceania"
+      ]
+    },
+    {
+      "question": "On which continent is Fiji?",
+      "answers": [
+        "Oceania"
+      ]
+    },
+    {
+      "question": "On which continent is Finland?",
+      "answers": [
+        "Europe"
+      ]
+    },
+    {
+      "question": "On which continent is Gabon?",
+      "answers": [
+        "Africa"
+      ]
+    },
+    {
+      "question": "On which continent is Georgia?",
+      "answers": [
+        "Europe"
+      ]
+    },
+    {
+      "question": "On which continent is Grenada?",
+      "answers": [
+        "North America"
+      ]
+    },
+    {
+      "question": "On which continent is Guinea-Bissau?",
+      "answers": [
+        "Africa"
+      ]
+    },
+    {
+      "question": "On which continent is Guyana?",
+      "answers": [
+        "South America"
+      ]
+    },
+    {
+      "question": "On which continent is Honduras?",
+      "answers": [
+        "North America"
+      ]
+    },
+    {
+      "question": "On which continent is Hungary?",
+      "answers": [
+        "Europe"
+      ]
+    },
+    {
+      "question": "On which continent is Iceland?",
+      "answers": [
+        "Europe"
+      ]
+    },
+    {
+      "question": "On which continent is Ireland?",
+      "answers": [
+        "Europe"
+      ]
+    },
+    {
+      "question": "On which continent is Israel?",
+      "answers": [
+        "Asia"
+      ]
+    },
+    {
+      "question": "On which continent is Jamaica?",
+      "answers": [
+        "North America"
+      ]
+    },
+    {
+      "question": "On which continent is Kiribati?",
+      "answers": [
+        "Oceania"
+      ]
+    },
+    {
+      "question": "On which continent is Kosovo?",
+      "answers": [
+        "Europe"
+      ]
+    },
+    {
+      "question": "On which continent is Kuwait?",
+      "answers": [
+        "Asia"
+      ]
+    },
+    {
+      "question": "On which continent is Kyrgyzstan?",
+      "answers": [
+        "Asia"
+      ]
+    },
+    {
+      "question": "On which continent is Laos?",
+      "answers": [
+        "Asia"
+      ]
+    },
+    {
+      "question": "On which continent is Latvia?",
+      "answers": [
+        "Europe"
+      ]
+    },
+    {
+      "question": "On which continent is Lebanon?",
+      "answers": [
+        "Asia"
+      ]
+    },
+    {
+      "question": "On which continent is Lesotho?",
+      "answers": [
+        "Africa"
+      ]
+    },
+    {
+      "question": "On which continent is Liberia?",
+      "answers": [
+        "Africa"
+      ]
+    },
+    {
+      "question": "On which continent is Libya?",
+      "answers": [
+        "Africa"
+      ]
+    },
+    {
+      "question": "On which continent is Liechtenstein?",
+      "answers": [
+        "Europe"
+      ]
+    },
+    {
+      "question": "On which continent is Lithuania?",
+      "answers": [
+        "Europe"
+      ]
+    },
+    {
+      "question": "On which continent is Luxembourg?",
+      "answers": [
+        "Europe"
+      ]
+    },
+    {
+      "question": "On which continent is the Maldives?",
+      "answers": [
+        "Asia"
+      ]
+    },
+    {
+      "question": "On which continent is Malta?",
+      "answers": [
+        "Europe"
+      ]
+    },
+    {
+      "question": "On which continent is the Marshall Islands?",
+      "answers": [
+        "Oceania"
+      ]
+    },
+    {
+      "question": "On which continent is Mauritania?",
+      "answers": [
+        "Africa"
+      ]
+    },
+    {
+      "question": "On which continent is Mauritius?",
+      "answers": [
+        "Africa"
+      ]
+    },
+    {
+      "question": "On which continent is Moldova?",
+      "answers": [
+        "Europe"
+      ]
+    },
+    {
+      "question": "On which continent is Monaco?",
+      "answers": [
+        "Europe"
+      ]
+    },
+    {
+      "question": "On which continent is Mongolia?",
+      "answers": [
+        "Asia"
+      ]
+    },
+    {
+      "question": "On which continent is Montenegro?",
+      "answers": [
+        "Europe"
+      ]
+    },
+    {
+      "question": "On which continent is Namibia?",
+      "answers": [
+        "Africa"
+      ]
+    },
+    {
+      "question": "On which continent is Nauru?",
+      "answers": [
+        "Oceania"
+      ]
+    },
+    {
+      "question": "On which continent is New Zealand?",
+      "answers": [
+        "Oceania"
+      ]
+    },
+    {
+      "question": "On which continent is Nicaragua?",
+      "answers": [
+        "North America"
+      ]
+    },
+    {
+      "question": "On which continent is North Macedonia?",
+      "answers": [
+        "Europe"
+      ]
+    },
+    {
+      "question": "On which continent is Norway?",
+      "answers": [
+        "Europe"
+      ]
+    },
+    {
+      "question": "On which continent is Oman?",
+      "answers": [
+        "Asia"
+      ]
+    },
+    {
+      "question": "On which continent is Palau?",
+      "answers": [
+        "Oceania"
+      ]
+    },
+    {
+      "question": "On which continent is Palestine?",
+      "answers": [
+        "Asia"
+      ]
+    },
+    {
+      "question": "On which continent is Panama?",
+      "answers": [
+        "North America"
+      ]
+    },
+    {
+      "question": "On which continent is Papua New Guinea?",
+      "answers": [
+        "Oceania"
+      ]
+    },
+    {
+      "question": "On which continent is Paraguay?",
+      "answers": [
+        "South America"
+      ]
+    },
+    {
+      "question": "On which continent is Qatar?",
+      "answers": [
+        "Asia"
+      ]
+    },
+    {
+      "question": "On which continent is the Republic of the Congo?",
+      "answers": [
+        "Africa"
+      ]
+    },
+    {
+      "question": "On which continent is Saint Kitts and Nevis?",
+      "answers": [
+        "North America"
+      ]
+    },
+    {
+      "question": "On which continent is Saint Lucia?",
+      "answers": [
+        "North America"
+      ]
+    },
+    {
+      "question": "On which continent is Saint Vincent and the Grenadines?",
+      "answers": [
+        "North America"
+      ]
+    },
+    {
+      "question": "On which continent is Samoa?",
+      "answers": [
+        "Oceania"
+      ]
+    },
+    {
+      "question": "On which continent is San Marino?",
+      "answers": [
+        "Europe"
+      ]
+    },
+    {
+      "question": "On which continent is São Tomé and Príncipe?",
+      "answers": [
+        "Africa"
+      ]
+    },
+    {
+      "question": "On which continent is Serbia?",
+      "answers": [
+        "Europe"
+      ]
+    },
+    {
+      "question": "On which continent is the Seychelles?",
+      "answers": [
+        "Africa"
+      ]
+    },
+    {
+      "question": "On which continent is Sierra Leone?",
+      "answers": [
+        "Africa"
+      ]
+    },
+    {
+      "question": "On which continent is Singapore?",
+      "answers": [
+        "Asia"
+      ]
+    },
+    {
+      "question": "On which continent is Slovakia?",
+      "answers": [
+        "Europe"
+      ]
+    },
+    {
+      "question": "On which continent is Slovenia?",
+      "answers": [
+        "Europe"
+      ]
+    },
+    {
+      "question": "On which continent is the Solomon Islands?",
+      "answers": [
+        "Oceania"
+      ]
+    },
+    {
+      "question": "On which continent is Suriname?",
+      "answers": [
+        "South America"
+      ]
+    },
+    {
+      "question": "On which continent is Switzerland?",
+      "answers": [
+        "Europe"
+      ]
+    },
+    {
+      "question": "On which continent is Tajikistan?",
+      "answers": [
+        "Asia"
+      ]
+    },
+    {
+      "question": "On which continent is The Bahamas?",
+      "answers": [
+        "North America"
+      ]
+    },
+    {
+      "question": "On which continent is The Gambia?",
+      "answers": [
+        "Africa"
+      ]
+    },
+    {
+      "question": "On which continent is Timor-Leste?",
+      "answers": [
+        "Asia"
+      ]
+    },
+    {
+      "question": "On which continent is Togo?",
+      "answers": [
+        "Africa"
+      ]
+    },
+    {
+      "question": "On which continent is Tonga?",
+      "answers": [
+        "Oceania"
+      ]
+    },
+    {
+      "question": "On which continent is Trinidad and Tobago?",
+      "answers": [
+        "North America"
+      ]
+    },
+    {
+      "question": "On which continent is Turkmenistan?",
+      "answers": [
+        "Asia"
+      ]
+    },
+    {
+      "question": "On which continent is Tuvalu?",
+      "answers": [
+        "Oceania"
+      ]
+    },
+    {
+      "question": "On which continent is the United Arab Emirates?",
+      "answers": [
+        "Asia"
+      ]
+    },
+    {
+      "question": "On which continent is Uruguay?",
+      "answers": [
+        "South America"
+      ]
+    },
+    {
+      "question": "On which continent is Vanuatu?",
+      "answers": [
+        "Oceania"
+      ]
+    },
+    {
+      "question": "On which continent is Vatican City?",
+      "answers": [
+        "Europe"
+      ]
+    },
+    {
+      "question": "Name the five most populous countries whose names begin with the letter A.",
+      "answers": [
+        "Argentina, about 47 million people",
+        "Algeria, about 46 million people",
+        "Afghanistan, about 41 million people",
+        "Angola, about 37 million people",
+        "Australia, about 28 million people"
+      ]
+    },
+    {
+      "question": "Name the five most populous countries whose names begin with the letter B.",
+      "answers": [
+        "Brazil, about 213 million people",
+        "Bangladesh, about 171 million people",
+        "Burkina Faso, about 23 million people",
+        "Benin, about 14 million people",
+        "Burundi, about 14 million people"
+      ]
+    },
+    {
+      "question": "Name the five most populous countries whose names begin with the letter C.",
+      "answers": [
+        "China, about 1.4 billion people",
+        "Colombia, about 52 million people",
+        "Canada, about 37 million people",
+        "Cameroon, about 28 million people",
+        "Chile, about 19 million people"
+      ]
+    },
+    {
+      "question": "Name the five most populous countries whose names begin with the letter D.",
+      "answers": [
+        "Democratic Republic of the Congo, about 106 million people",
+        "Dominican Republic, about 11 million people",
+        "Denmark, about 5.9 million people",
+        "Djibouti, about 1.2 million people",
+        "Dominica, about 75 thousand people"
+      ]
+    },
+    {
+      "question": "Name the five most populous countries whose names begin with the letter E.",
+      "answers": [
+        "Ethiopia, about 129 million people",
+        "Egypt, about 115 million people",
+        "Ecuador, about 17 million people",
+        "El Salvador, about 6.0 million people",
+        "Eritrea, about 3.5 million people"
+      ]
+    },
+    {
+      "question": "Name the four countries whose names begin with the letter F.",
+      "answers": [
+        "France",
+        "Finland",
+        "Fiji",
+        "Federated States of Micronesia"
+      ],
+      "note": "In order of population."
+    },
+    {
+      "question": "Name the five most populous countries whose names begin with the letter G.",
+      "answers": [
+        "Germany, about 84 million people",
+        "Ghana, about 33 million people",
+        "Guinea, about 18 million people",
+        "Guatemala, about 17 million people",
+        "Greece, about 10 million people"
+      ]
+    },
+    {
+      "question": "Name the three countries whose names begin with the letter H.",
+      "answers": [
+        "Haiti",
+        "Hungary",
+        "Honduras"
+      ],
+      "note": "In order of population."
+    },
+    {
+      "question": "Name the five most populous countries whose names begin with the letter I.",
+      "answers": [
+        "India, about 1.3 billion people",
+        "Indonesia, about 275 million people",
+        "Iran, about 92 million people",
+        "Italy, about 59 million people",
+        "Iraq, about 38 million people"
+      ]
+    },
+    {
+      "question": "Name the three countries whose names begin with the letter J.",
+      "answers": [
+        "Japan",
+        "Jordan",
+        "Jamaica"
+      ],
+      "note": "In order of population."
+    },
+    {
+      "question": "Name the five most populous countries whose names begin with the letter K.",
+      "answers": [
+        "Kenya, about 48 million people",
+        "Kazakhstan, about 20 million people",
+        "Kyrgyzstan, about 7.3 million people",
+        "Kuwait, about 4.5 million people",
+        "Kosovo, about 1.6 million people"
+      ]
+    },
+    {
+      "question": "Name the five most populous countries whose names begin with the letter L.",
+      "answers": [
+        "Libya, about 7.4 million people",
+        "Laos, about 6.9 million people",
+        "Lebanon, about 6.1 million people",
+        "Liberia, about 5.2 million people",
+        "Lithuania, about 2.9 million people"
+      ]
+    },
+    {
+      "question": "Name the five most populous countries whose names begin with the letter M.",
+      "answers": [
+        "Mexico, about 132 million people",
+        "Myanmar, about 53 million people",
+        "Morocco, about 37 million people",
+        "Malaysia, about 34 million people",
+        "Madagascar, about 32 million people"
+      ]
+    },
+    {
+      "question": "Name the five most populous countries whose names begin with the letter N.",
+      "answers": [
+        "Nigeria, about 211 million people",
+        "Nepal, about 29 million people",
+        "North Korea, about 26 million people",
+        "Niger, about 21 million people",
+        "Netherlands, about 17 million people"
+      ]
+    },
+    {
+      "question": "Name the only country whose name begins with the letter O.",
+      "answers": [
+        "Oman"
+      ]
+    },
+    {
+      "question": "Name the five most populous countries whose names begin with the letter P.",
+      "answers": [
+        "Pakistan, about 224 million people",
+        "Philippines, about 113 million people",
+        "Poland, about 38 million people",
+        "Peru, about 34 million people",
+        "Portugal, about 10 million people"
+      ]
+    },
+    {
+      "question": "Name the only country whose name begins with the letter Q.",
+      "answers": [
+        "Qatar"
+      ]
+    },
+    {
+      "question": "Name the four countries whose names begin with the letter R.",
+      "answers": [
+        "Russia",
+        "Romania",
+        "Rwanda",
+        "Republic of the Congo"
+      ],
+      "note": "In order of population."
+    },
+    {
+      "question": "Name the five most populous countries whose names begin with the letter S.",
+      "answers": [
+        "South Africa, about 62 million people",
+        "South Korea, about 51 million people",
+        "Spain, about 49 million people",
+        "Sudan, about 41 million people",
+        "Saudi Arabia, about 33 million people"
+      ]
+    },
+    {
+      "question": "Name the five most populous countries whose names begin with the letter T.",
+      "answers": [
+        "Turkey, about 85 million people",
+        "Thailand, about 66 million people",
+        "Tanzania, about 57 million people",
+        "Taiwan, about 23 million people",
+        "Tunisia, about 12 million people"
+      ]
+    },
+    {
+      "question": "Name the five most populous countries whose names begin with the letter U.",
+      "answers": [
+        "United States, about 340 million people",
+        "United Kingdom, about 67 million people",
+        "Uganda, about 47 million people",
+        "Ukraine, about 41 million people",
+        "Uzbekistan, about 35 million people"
+      ]
+    },
+    {
+      "question": "Name the four countries whose names begin with the letter V.",
+      "answers": [
+        "Vietnam",
+        "Venezuela",
+        "Vanuatu",
+        "Vatican City"
+      ],
+      "note": "In order of population."
+    },
+    {
+      "question": "Name the only country whose name begins with the letter Y.",
+      "answers": [
+        "Yemen"
+      ]
+    },
+    {
+      "question": "Name the two countries whose names begin with the letter Z.",
+      "answers": [
+        "Zambia",
+        "Zimbabwe"
+      ],
+      "note": "In order of population."
+    },
+    {
+      "question": "Name the five most populous countries in the world.",
+      "answers": [
+        "China, about 1.4 billion people",
+        "India, about 1.3 billion people",
+        "United States, about 340 million people",
+        "Indonesia, about 275 million people",
+        "Pakistan, about 224 million people"
+      ]
+    },
+    {
+      "question": "Name the ten most populous countries in the world.",
+      "answers": [
+        "China",
+        "India",
+        "United States",
+        "Indonesia",
+        "Pakistan",
+        "Brazil",
+        "Nigeria",
+        "Bangladesh",
+        "Russia",
+        "Mexico"
+      ]
+    },
+    {
+      "question": "Name the five largest countries in the world by area.",
+      "answers": [
+        "Russia, about 17.1 million square kilometers",
+        "Canada, about 10.0 million square kilometers",
+        "United States, about 9.8 million square kilometers",
+        "China, about 9.6 million square kilometers",
+        "Brazil, about 8.5 million square kilometers"
+      ]
+    },
+    {
+      "question": "Name the five smallest countries in the world by area.",
+      "answers": [
+        "Vatican City, about 1 square kilometers",
+        "Monaco, about 2 square kilometers",
+        "Nauru, about 21 square kilometers",
+        "Tuvalu, about 25 square kilometers",
+        "San Marino, about 61 square kilometers"
+      ]
+    },
+    {
+      "question": "Name the five most densely populated countries in the world.",
+      "answers": [
+        "Monaco, 18,681 people per square kilometer",
+        "Singapore, 8,158 people per square kilometer",
+        "Bahrain, 1,996 people per square kilometer",
+        "Vatican City, 1,800 people per square kilometer",
+        "Malta, 1,751 people per square kilometer"
+      ]
+    },
+    {
+      "question": "Name the five most sparsely populated countries in the world.",
+      "answers": [
+        "Mongolia, 2 people per square kilometer",
+        "Namibia, 3 people per square kilometer",
+        "Suriname, 3 people per square kilometer",
+        "Iceland, 4 people per square kilometer",
+        "Australia, 4 people per square kilometer"
+      ]
+    },
+    {
+      "question": "Name the three most populous countries in Africa.",
+      "answers": [
+        "Nigeria, about 211 million people",
+        "Ethiopia, about 129 million people",
+        "Egypt, about 115 million people"
+      ]
+    },
+    {
+      "question": "Name the three largest countries in Africa by area.",
+      "answers": [
+        "Algeria, about 2.4 million square kilometers",
+        "Democratic Republic of the Congo, about 2.3 million square kilometers",
+        "Sudan, about 1.8 million square kilometers"
+      ]
+    },
+    {
+      "question": "What is the most densely populated country in Africa?",
+      "answers": [
+        "Mauritius, 620 people per square kilometer"
+      ]
+    },
+    {
+      "question": "Name the three most populous countries in Asia.",
+      "answers": [
+        "China, about 1.4 billion people",
+        "India, about 1.3 billion people",
+        "Indonesia, about 275 million people"
+      ]
+    },
+    {
+      "question": "Name the three largest countries in Asia by area.",
+      "answers": [
+        "Russia, about 17.1 million square kilometers",
+        "China, about 9.6 million square kilometers",
+        "India, about 3.3 million square kilometers"
+      ]
+    },
+    {
+      "question": "What is the most densely populated country in Asia?",
+      "answers": [
+        "Singapore, 8,158 people per square kilometer"
+      ]
+    },
+    {
+      "question": "Name the three most populous countries in Europe.",
+      "answers": [
+        "Russia, about 146 million people",
+        "Turkey, about 85 million people",
+        "Germany, about 84 million people"
+      ]
+    },
+    {
+      "question": "Name the three largest countries in Europe by area.",
+      "answers": [
+        "Russia, about 17.1 million square kilometers",
+        "Kazakhstan, about 2.7 million square kilometers",
+        "Turkey, about 784 thousand square kilometers"
+      ]
+    },
+    {
+      "question": "What is the most densely populated country in Europe?",
+      "answers": [
+        "Monaco, 18,681 people per square kilometer"
+      ]
+    },
+    {
+      "question": "Name the three most populous countries in North America.",
+      "answers": [
+        "United States, about 340 million people",
+        "Mexico, about 132 million people",
+        "Canada, about 37 million people"
+      ]
+    },
+    {
+      "question": "Name the three largest countries in North America by area.",
+      "answers": [
+        "Canada, about 10.0 million square kilometers",
+        "United States, about 9.8 million square kilometers",
+        "Mexico, about 2.0 million square kilometers"
+      ]
+    },
+    {
+      "question": "What is the most densely populated country in North America?",
+      "answers": [
+        "Barbados, 691 people per square kilometer"
+      ]
+    },
+    {
+      "question": "Name the three most populous countries in Oceania.",
+      "answers": [
+        "Australia, about 28 million people",
+        "Papua New Guinea, about 8.9 million people",
+        "New Zealand, about 5.3 million people"
+      ]
+    },
+    {
+      "question": "Name the three largest countries in Oceania by area.",
+      "answers": [
+        "Australia, about 7.7 million square kilometers",
+        "Papua New Guinea, about 463 thousand square kilometers",
+        "New Zealand, about 268 thousand square kilometers"
+      ]
+    },
+    {
+      "question": "What is the most densely populated country in Oceania?",
+      "answers": [
+        "Nauru, 650 people per square kilometer"
+      ]
+    },
+    {
+      "question": "Name the three most populous countries in South America.",
+      "answers": [
+        "Brazil, about 213 million people",
+        "Colombia, about 52 million people",
+        "Argentina, about 47 million people"
+      ]
+    },
+    {
+      "question": "Name the three largest countries in South America by area.",
+      "answers": [
+        "Brazil, about 8.5 million square kilometers",
+        "Argentina, about 2.8 million square kilometers",
+        "Peru, about 1.3 million square kilometers"
+      ]
+    },
+    {
+      "question": "What is the most densely populated country in South America?",
+      "answers": [
+        "Ecuador, 66 people per square kilometer"
+      ]
+    },
+    {
+      "question": "What is the largest landlocked country in the world?",
+      "answers": [
+        "Kazakhstan, about 2.7 million square kilometers"
+      ],
+      "note": "Landlocked: a country with no coastline."
+    },
+    {
+      "question": "What is the most populous landlocked country in the world?",
+      "answers": [
+        "Ethiopia, about 129 million people"
+      ]
+    },
+    {
+      "question": "Which country has more people: the United States or Pakistan?",
+      "answers": [
+        "United States, about 340 million people"
+      ],
+      "note": "Pakistan has about 224 million people."
+    },
+    {
+      "question": "Which country has more people: Pakistan or Bangladesh?",
+      "answers": [
+        "Pakistan, about 224 million people"
+      ],
+      "note": "Bangladesh has about 171 million people."
+    },
+    {
+      "question": "Which country has more people: Nigeria or Russia?",
+      "answers": [
+        "Nigeria, about 211 million people"
+      ],
+      "note": "Russia has about 146 million people."
+    },
+    {
+      "question": "Which country has more people: Russia or Egypt?",
+      "answers": [
+        "Russia, about 146 million people"
+      ],
+      "note": "Egypt has about 115 million people."
+    },
+    {
+      "question": "Which country has more people: Ethiopia or Vietnam?",
+      "answers": [
+        "Ethiopia, about 129 million people"
+      ],
+      "note": "Vietnam has about 96 million people."
+    },
+    {
+      "question": "Which country has more people: Egypt or Turkey?",
+      "answers": [
+        "Egypt, about 115 million people"
+      ],
+      "note": "Turkey has about 85 million people."
+    },
+    {
+      "question": "Which country has more people: the Democratic Republic of the Congo or Germany?",
+      "answers": [
+        "Democratic Republic of the Congo, about 106 million people"
+      ],
+      "note": "Germany has about 84 million people."
+    },
+    {
+      "question": "Which country has more people: Iran or France?",
+      "answers": [
+        "Iran, about 92 million people"
+      ],
+      "note": "France has about 69 million people."
+    },
+    {
+      "question": "Which country has more people: Germany or Thailand?",
+      "answers": [
+        "Germany, about 84 million people"
+      ],
+      "note": "Thailand has about 66 million people."
+    },
+    {
+      "question": "Which country has more people: the United Kingdom or Myanmar?",
+      "answers": [
+        "United Kingdom, about 67 million people"
+      ],
+      "note": "Myanmar has about 53 million people."
+    },
+    {
+      "question": "Which country has more people: South Africa or Spain?",
+      "answers": [
+        "South Africa, about 62 million people"
+      ],
+      "note": "Spain has about 49 million people."
+    },
+    {
+      "question": "Which country has more people: Tanzania or Afghanistan?",
+      "answers": [
+        "Tanzania, about 57 million people"
+      ],
+      "note": "Afghanistan has about 41 million people."
+    },
+    {
+      "question": "Which country has more people: Colombia or Afghanistan?",
+      "answers": [
+        "Colombia, about 52 million people"
+      ],
+      "note": "Afghanistan has about 41 million people."
+    },
+    {
+      "question": "Which country has more people: Spain or Iraq?",
+      "answers": [
+        "Spain, about 49 million people"
+      ],
+      "note": "Iraq has about 38 million people."
+    },
+    {
+      "question": "Which country has more people: Argentina or Poland?",
+      "answers": [
+        "Argentina, about 47 million people"
+      ],
+      "note": "Poland has about 38 million people."
+    },
+    {
+      "question": "Which country has more people: Algeria or Morocco?",
+      "answers": [
+        "Algeria, about 46 million people"
+      ],
+      "note": "Morocco has about 37 million people."
+    },
+    {
+      "question": "Which country has more people: Ukraine or Ghana?",
+      "answers": [
+        "Ukraine, about 41 million people"
+      ],
+      "note": "Ghana has about 33 million people."
+    },
+    {
+      "question": "Which country has more people: Angola or Nepal?",
+      "answers": [
+        "Angola, about 37 million people"
+      ],
+      "note": "Nepal has about 29 million people."
+    },
+    {
+      "question": "Which country has more people: Saudi Arabia or Syria?",
+      "answers": [
+        "Saudi Arabia, about 33 million people"
+      ],
+      "note": "Syria has about 24 million people."
+    },
+    {
+      "question": "Which country has more people: Madagascar or Syria?",
+      "answers": [
+        "Madagascar, about 32 million people"
+      ],
+      "note": "Syria has about 24 million people."
+    },
+    {
+      "question": "Which country has more people: Ivory Coast or Syria?",
+      "answers": [
+        "Ivory Coast, about 31 million people"
+      ],
+      "note": "Syria has about 24 million people."
+    },
+    {
+      "question": "Which country has more people: Nepal or Taiwan?",
+      "answers": [
+        "Nepal, about 29 million people"
+      ],
+      "note": "Taiwan has about 23 million people."
+    },
+    {
+      "question": "Which country has more people: Yemen or Mali?",
+      "answers": [
+        "Yemen, about 28 million people"
+      ],
+      "note": "Mali has about 22 million people."
+    },
+    {
+      "question": "Which country has more people: North Korea or Kazakhstan?",
+      "answers": [
+        "North Korea, about 26 million people"
+      ],
+      "note": "Kazakhstan has about 20 million people."
+    },
+    {
+      "question": "Which country has more people: Taiwan or Malawi?",
+      "answers": [
+        "Taiwan, about 23 million people"
+      ],
+      "note": "Malawi has about 18 million people."
+    },
+    {
+      "question": "Which country has more people: Mali or Malawi?",
+      "answers": [
+        "Mali, about 22 million people"
+      ],
+      "note": "Malawi has about 18 million people."
+    },
+    {
+      "question": "Which country has more people: Sri Lanka or the Netherlands?",
+      "answers": [
+        "Sri Lanka, about 21 million people"
+      ],
+      "note": "the Netherlands has about 17 million people."
+    },
+    {
+      "question": "Which country has more people: Zambia or Zimbabwe?",
+      "answers": [
+        "Zambia, about 20 million people"
+      ],
+      "note": "Zimbabwe has about 15 million people."
+    },
+    {
+      "question": "Which country has more people: Chad or Zimbabwe?",
+      "answers": [
+        "Chad, about 19 million people"
+      ],
+      "note": "Zimbabwe has about 15 million people."
+    },
+    {
+      "question": "Which country has more people: Malawi or Burundi?",
+      "answers": [
+        "Malawi, about 18 million people"
+      ],
+      "note": "Burundi has about 14 million people."
+    },
+    {
+      "question": "Which country has more people: Cambodia or Burundi?",
+      "answers": [
+        "Cambodia, about 17 million people"
+      ],
+      "note": "Burundi has about 14 million people."
+    },
+    {
+      "question": "Which country has more people: the Netherlands or South Sudan?",
+      "answers": [
+        "Netherlands, about 17 million people"
+      ],
+      "note": "South Sudan has about 13 million people."
+    },
+    {
+      "question": "Which country has more people: Senegal or South Sudan?",
+      "answers": [
+        "Senegal, about 17 million people"
+      ],
+      "note": "South Sudan has about 13 million people."
+    },
+    {
+      "question": "Which country has more people: Rwanda or Tunisia?",
+      "answers": [
+        "Rwanda, about 15 million people"
+      ],
+      "note": "Tunisia has about 12 million people."
+    },
+    {
+      "question": "Which country has more people: Burundi or the Czech Republic?",
+      "answers": [
+        "Burundi, about 14 million people"
+      ],
+      "note": "the Czech Republic has about 11 million people."
+    },
+    {
+      "question": "Which country is larger by area: Russia or Canada?",
+      "answers": [
+        "Russia, about 17.1 million square kilometers"
+      ],
+      "note": "Canada covers about 10.0 million square kilometers."
+    },
+    {
+      "question": "Which country is larger by area: the United States or Australia?",
+      "answers": [
+        "United States, about 9.8 million square kilometers"
+      ],
+      "note": "Australia covers about 7.7 million square kilometers."
+    },
+    {
+      "question": "Which country is larger by area: Brazil or India?",
+      "answers": [
+        "Brazil, about 8.5 million square kilometers"
+      ],
+      "note": "India covers about 3.3 million square kilometers."
+    },
+    {
+      "question": "Which country is larger by area: India or Algeria?",
+      "answers": [
+        "India, about 3.3 million square kilometers"
+      ],
+      "note": "Algeria covers about 2.4 million square kilometers."
+    },
+    {
+      "question": "Which country is larger by area: Kazakhstan or Mexico?",
+      "answers": [
+        "Kazakhstan, about 2.7 million square kilometers"
+      ],
+      "note": "Mexico covers about 2.0 million square kilometers."
+    },
+    {
+      "question": "Which country is larger by area: the Democratic Republic of the Congo or Sudan?",
+      "answers": [
+        "Democratic Republic of the Congo, about 2.3 million square kilometers"
+      ],
+      "note": "Sudan covers about 1.8 million square kilometers."
+    },
+    {
+      "question": "Which country is larger by area: Mexico or Mongolia?",
+      "answers": [
+        "Mexico, about 2.0 million square kilometers"
+      ],
+      "note": "Mongolia covers about 1.6 million square kilometers."
+    },
+    {
+      "question": "Which country is larger by area: Sudan or Peru?",
+      "answers": [
+        "Sudan, about 1.8 million square kilometers"
+      ],
+      "note": "Peru covers about 1.3 million square kilometers."
+    },
+    {
+      "question": "Which country is larger by area: Iran or Peru?",
+      "answers": [
+        "Iran, about 1.6 million square kilometers"
+      ],
+      "note": "Peru covers about 1.3 million square kilometers."
+    },
+    {
+      "question": "Which country is larger by area: Peru or Egypt?",
+      "answers": [
+        "Peru, about 1.3 million square kilometers"
+      ],
+      "note": "Egypt covers about 1.0 million square kilometers."
+    },
+    {
+      "question": "Which country is larger by area: Niger or Egypt?",
+      "answers": [
+        "Niger, about 1.3 million square kilometers"
+      ],
+      "note": "Egypt covers about 1.0 million square kilometers."
+    },
+    {
+      "question": "Which country is larger by area: Mali or Tanzania?",
+      "answers": [
+        "Mali, about 1.2 million square kilometers"
+      ],
+      "note": "Tanzania covers about 947 thousand square kilometers."
+    },
+    {
+      "question": "Which country is larger by area: Colombia or Venezuela?",
+      "answers": [
+        "Colombia, about 1.1 million square kilometers"
+      ],
+      "note": "Venezuela covers about 912 thousand square kilometers."
+    },
+    {
+      "question": "Which country is larger by area: Bolivia or Namibia?",
+      "answers": [
+        "Bolivia, about 1.1 million square kilometers"
+      ],
+      "note": "Namibia covers about 826 thousand square kilometers."
+    },
+    {
+      "question": "Which country is larger by area: Egypt or Mozambique?",
+      "answers": [
+        "Egypt, about 1.0 million square kilometers"
+      ],
+      "note": "Mozambique covers about 802 thousand square kilometers."
+    },
+    {
+      "question": "Which country is larger by area: Nigeria or Myanmar?",
+      "answers": [
+        "Nigeria, about 924 thousand square kilometers"
+      ],
+      "note": "Myanmar covers about 677 thousand square kilometers."
+    },
+    {
+      "question": "Which country is larger by area: Pakistan or Myanmar?",
+      "answers": [
+        "Pakistan, about 882 thousand square kilometers"
+      ],
+      "note": "Myanmar covers about 677 thousand square kilometers."
+    },
+    {
+      "question": "Which country is larger by area: Mozambique or Somalia?",
+      "answers": [
+        "Mozambique, about 802 thousand square kilometers"
+      ],
+      "note": "Somalia covers about 638 thousand square kilometers."
+    },
+    {
+      "question": "Which country is larger by area: Chile or Ukraine?",
+      "answers": [
+        "Chile, about 756 thousand square kilometers"
+      ],
+      "note": "Ukraine covers about 604 thousand square kilometers."
+    },
+    {
+      "question": "Which country is larger by area: Myanmar or Thailand?",
+      "answers": [
+        "Myanmar, about 677 thousand square kilometers"
+      ],
+      "note": "Thailand covers about 513 thousand square kilometers."
+    },
+    {
+      "question": "Which country is larger by area: South Sudan or Thailand?",
+      "answers": [
+        "South Sudan, about 644 thousand square kilometers"
+      ],
+      "note": "Thailand covers about 513 thousand square kilometers."
+    },
+    {
+      "question": "Which country is larger by area: Somalia or Spain?",
+      "answers": [
+        "Somalia, about 638 thousand square kilometers"
+      ],
+      "note": "Spain covers about 506 thousand square kilometers."
+    },
+    {
+      "question": "Which country is larger by area: Ukraine or Cameroon?",
+      "answers": [
+        "Ukraine, about 604 thousand square kilometers"
+      ],
+      "note": "Cameroon covers about 475 thousand square kilometers."
+    },
+    {
+      "question": "Which country is larger by area: Botswana or Papua New Guinea?",
+      "answers": [
+        "Botswana, about 582 thousand square kilometers"
+      ],
+      "note": "Papua New Guinea covers about 463 thousand square kilometers."
+    },
+    {
+      "question": "Which country is larger by area: Thailand or Paraguay?",
+      "answers": [
+        "Thailand, about 513 thousand square kilometers"
+      ],
+      "note": "Paraguay covers about 407 thousand square kilometers."
+    },
+    {
+      "question": "Which country is larger by area: Turkmenistan or Zimbabwe?",
+      "answers": [
+        "Turkmenistan, about 491 thousand square kilometers"
+      ],
+      "note": "Zimbabwe covers about 391 thousand square kilometers."
+    },
+    {
+      "question": "Which country is larger by area: Papua New Guinea or Germany?",
+      "answers": [
+        "Papua New Guinea, about 463 thousand square kilometers"
+      ],
+      "note": "Germany covers about 358 thousand square kilometers."
+    },
+    {
+      "question": "Which country is larger by area: Uzbekistan or Germany?",
+      "answers": [
+        "Uzbekistan, about 449 thousand square kilometers"
+      ],
+      "note": "Germany covers about 358 thousand square kilometers."
+    },
+    {
+      "question": "Which country is larger by area: Morocco or the Philippines?",
+      "answers": [
+        "Morocco, about 447 thousand square kilometers"
+      ],
+      "note": "the Philippines covers about 343 thousand square kilometers."
+    },
+    {
+      "question": "Which country is larger by area: Paraguay or Ivory Coast?",
+      "answers": [
+        "Paraguay, about 407 thousand square kilometers"
+      ],
+      "note": "Ivory Coast covers about 322 thousand square kilometers."
+    },
+    {
+      "question": "Which country is larger by area: Norway or Italy?",
+      "answers": [
+        "Norway, about 385 thousand square kilometers"
+      ],
+      "note": "Italy covers about 302 thousand square kilometers."
+    },
+    {
+      "question": "Which country is larger by area: Germany or Burkina Faso?",
+      "answers": [
+        "Germany, about 358 thousand square kilometers"
+      ],
+      "note": "Burkina Faso covers about 274 thousand square kilometers."
+    },
+    {
+      "question": "Which country is larger by area: the Republic of the Congo or New Zealand?",
+      "answers": [
+        "Republic of the Congo, about 342 thousand square kilometers"
+      ],
+      "note": "New Zealand covers about 268 thousand square kilometers."
+    },
+    {
+      "question": "Which country is larger by area: Vietnam or Ecuador?",
+      "answers": [
+        "Vietnam, about 332 thousand square kilometers"
+      ],
+      "note": "Ecuador covers about 257 thousand square kilometers."
+    },
+    {
+      "question": "Which country is larger by area: Ivory Coast or Ecuador?",
+      "answers": [
+        "Ivory Coast, about 322 thousand square kilometers"
+      ],
+      "note": "Ecuador covers about 257 thousand square kilometers."
+    },
+    {
+      "question": "Which country is larger by area: Oman or Guinea?",
+      "answers": [
+        "Oman, about 310 thousand square kilometers"
+      ],
+      "note": "Guinea covers about 246 thousand square kilometers."
+    },
+    {
+      "question": "Which country is larger by area: Burkina Faso or Guyana?",
+      "answers": [
+        "Burkina Faso, about 274 thousand square kilometers"
+      ],
+      "note": "Guyana covers about 215 thousand square kilometers."
+    },
+    {
+      "question": "Which country is larger by area: Gabon or Belarus?",
+      "answers": [
+        "Gabon, about 268 thousand square kilometers"
+      ],
+      "note": "Belarus covers about 208 thousand square kilometers."
+    },
+    {
+      "question": "Which country is larger by area: Guinea or Syria?",
+      "answers": [
+        "Guinea, about 246 thousand square kilometers"
+      ],
+      "note": "Syria covers about 185 thousand square kilometers."
+    },
+    {
+      "question": "Which country is larger by area: Uganda or Syria?",
+      "answers": [
+        "Uganda, about 241 thousand square kilometers"
+      ],
+      "note": "Syria covers about 185 thousand square kilometers."
+    },
+    {
+      "question": "Name the three longest rivers in the world.",
+      "answers": [
+        "the Amazon, about 6,992 kilometers",
+        "the Nile, about 6,650 kilometers",
+        "the Yangtze River, about 6,300 kilometers"
+      ]
+    },
+    {
+      "question": "Name the five longest rivers in the world.",
+      "answers": [
+        "the Amazon",
+        "the Nile",
+        "the Yangtze River",
+        "the Yellow River",
+        "the Paraná River"
+      ],
+      "note": "Counting each river on its own, not combined river systems."
+    },
+    {
+      "question": "Which river is longer: the Amazon or the Nile?",
+      "answers": [
+        "the Amazon, about 6,992 kilometers"
+      ],
+      "note": "The Nile runs about 6,650 kilometers."
+    },
+    {
+      "question": "Which river is longer: the Yangtze River or the Yellow River?",
+      "answers": [
+        "the Yangtze River, about 6,300 kilometers"
+      ],
+      "note": "The Yellow River runs about 5,464 kilometers."
+    },
+    {
+      "question": "Which river is longer: the Paraná River or the River Congo?",
+      "answers": [
+        "the Paraná River, about 4,880 kilometers"
+      ],
+      "note": "The River Congo runs about 4,700 kilometers."
+    },
+    {
+      "question": "Which river is longer: the Ob or the Volga?",
+      "answers": [
+        "the Ob, about 3,650 kilometers"
+      ],
+      "note": "The Volga runs about 3,530 kilometers."
+    },
+    {
+      "question": "Which countries does the Amazon flow through?",
+      "answers": [
+        "Brazil",
+        "Colombia",
+        "Peru"
+      ]
+    },
+    {
+      "question": "The Yangtze River flows mainly through which country?",
+      "answers": [
+        "China"
+      ]
+    },
+    {
+      "question": "The Yellow River flows mainly through which country?",
+      "answers": [
+        "China"
+      ]
+    },
+    {
+      "question": "Which countries does the Paraná River flow through?",
+      "answers": [
+        "Argentina",
+        "Brazil",
+        "Paraguay"
+      ]
+    },
+    {
+      "question": "Which countries does the River Congo flow through?",
+      "answers": [
+        "Angola",
+        "Democratic Republic of the Congo",
+        "Republic of the Congo",
+        "Zambia"
+      ]
+    },
+    {
+      "question": "The Lena River flows mainly through which country?",
+      "answers": [
+        "Russia"
+      ]
+    },
+    {
+      "question": "Which countries does the Irtysh flow through?",
+      "answers": [
+        "China",
+        "Kazakhstan",
+        "Russia"
+      ]
+    },
+    {
+      "question": "The Mississippi River flows mainly through which country?",
+      "answers": [
+        "United States"
+      ]
+    },
+    {
+      "question": "The Missouri River flows mainly through which country?",
+      "answers": [
+        "United States"
+      ]
+    },
+    {
+      "question": "The Ob flows mainly through which country?",
+      "answers": [
+        "Russia"
+      ]
+    },
+    {
+      "question": "The Volga flows mainly through which country?",
+      "answers": [
+        "Russia"
+      ]
+    },
+    {
+      "question": "The Yenisey flows mainly through which country?",
+      "answers": [
+        "Russia"
+      ]
+    },
+    {
+      "question": "Which countries does the Yukon River flow through?",
+      "answers": [
+        "Canada",
+        "United States"
+      ]
+    },
+    {
+      "question": "Which countries does the Indus River flow through?",
+      "answers": [
+        "China",
+        "India",
+        "Pakistan"
+      ]
+    },
+    {
+      "question": "Which countries does the Juruá River flow through?",
+      "answers": [
+        "Brazil",
+        "Peru"
+      ]
+    },
+    {
+      "question": "Which countries does the St. Lawrence River flow through?",
+      "answers": [
+        "Canada",
+        "United States"
+      ]
+    },
+    {
+      "question": "Which countries does the Rio Grande flow through?",
+      "answers": [
+        "Mexico",
+        "United States"
+      ]
+    },
+    {
+      "question": "The Nizhnyaya Tunguska flows mainly through which country?",
+      "answers": [
+        "Russia"
+      ]
+    },
+    {
+      "question": "The Purus River flows mainly through which country?",
+      "answers": [
+        "Brazil"
+      ]
+    },
+    {
+      "question": "Which countries does the Brahmaputra River flow through?",
+      "answers": [
+        "Bangladesh",
+        "China",
+        "India",
+        "Nepal"
+      ]
+    },
+    {
+      "question": "Which countries does the Amur River flow through?",
+      "answers": [
+        "China",
+        "Russia"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2313 @@
+{
+  "_notes": "Drive slate: Fairfax (Manor) over White's Hill, through the San Geronimo Valley and Samuel P. Taylor to Olema, then Highway 1 south past Bolinas Lagoon to Stinson Beach. Researched 2026-08-30 by six web-search subagents (five route segments plus a Point Reyes Light news pass); sources per spot. Narrations are segment arrays: narrator prose plus VERBATIM direct quotes (speaker name/kind/era) voiced by different ElevenLabs voices via scripts/generate-voiceovers.ts. Quotes were required to be traceable to a cited source; unverifiable claims were omitted or narrated as open questions. Digits inside quotes are verbatim. Deliberate overlaps: several places have two or three tellings from different segments — repeat drives get fresh content. Coordinates are OSM/GNIS-verified points on or beside the roadway.",
+  "track": {
+    "slug": "fairfax-to-stinson",
+    "name": "Fairfax to Stinson Beach",
+    "description": "Over White's Hill, down the railroad valley, through the paper-mill redwoods to Olema, then south along the San Andreas rift and Bolinas Lagoon to the sand at Stinson.",
+    "kind": "tour",
+    "icon": "car",
+    "color": "#2d6a5f",
+    "official": false
+  },
+  "spots": [
+    {
+      "slug": "fairfax-manor-end-of-the-line",
+      "title": "Manor: End of the Line",
+      "subtitle": "Where Fairfax's electric trains stopped and West Marin began",
+      "trigger": {
+        "center": {
+          "lat": 37.99313,
+          "lng": -122.59394
+        },
+        "radiusM": 250
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the neighborhood streets of the Manor district at the edge of Fairfax"
+      },
+      "narration": [
+        {
+          "text": "Fairfax thins out here at its western edge, in the neighborhood called the Manor district. The name recalls the Fairfax Manor subdivision the railroad was built to serve, and for decades this was literally the end of the line: in nineteen thirteen the Northwestern Pacific extended its electric commuter trains to their westernmost terminus, a station called Manor, one of more than twenty stops between here and Sausalito. Photographs in the state's Calisphere archive still show the small Manor depot standing around nineteen thirty-five. Long before the commuter era, the narrow-gauge North Pacific Coast Railroad came through in eighteen seventy-five on its way to the coast, and its builders faced the same obstacle this road faces next: the long climb over White's Hill.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Northwestern_Pacific_Railroad_interurban_lines",
+        "https://sananselmohistory.org/articles/trains-in-san-anselmo/",
+        "https://calisphere.org/item/6d2e54ff7a59e091cd5c7fa1da1902f0/"
+      ]
+    },
+    {
+      "slug": "whites-hill-grade",
+      "title": "The White's Hill Grade",
+      "subtitle": "A hill steep enough to stall trains, now a county preserve",
+      "trigger": {
+        "center": {
+          "lat": 38.01135,
+          "lng": -122.62049
+        },
+        "radiusM": 250
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the trailhead pullout near the crest of White's Hill"
+      },
+      "narration": [
+        {
+          "text": "The road is climbing White's Hill, the ridge that walls off the commuter towns from rural West Marin. When the North Pacific Coast Railroad opened this stretch in January eighteen seventy-five, its narrow-gauge tracks went up and over the hill; railroad histories record that the original alignment required two tunnels and six trestles, and that the grade was steep enough to stall trains on the climb. Near the crest, a broad pullout marks a trailhead for White Hill Preserve, roughly three hundred ninety acres of Marin County open space, where a fire road climbs toward the summit of White Hill itself at about fourteen hundred thirty feet. Over the top, the change is sudden: the last of Fairfax falls away, and the San Geronimo Valley opens ahead.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bothin_Tunnel",
+        "https://www.parks.marincounty.gov/parkspreserves/preserves/white-hill",
+        "https://bahiker.com/northbayhikes/white.html"
+      ]
+    },
+    {
+      "slug": "woodacre-bothin-tunnel",
+      "title": "Woodacre and the Tunnel",
+      "subtitle": "A rancho becomes four villages; a railroad goes under the hill",
+      "trigger": {
+        "center": {
+          "lat": 38.01273,
+          "lng": -122.63016
+        },
+        "radiusM": 200
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "Railroad Avenue branching off toward the village of Woodacre"
+      },
+      "narration": [
+        {
+          "text": "Coming down off White's Hill, the road reaches Woodacre, the easternmost of the San Geronimo Valley's four villages. Railroad Avenue, branching away here, follows the old rail right-of-way. In nineteen oh four the North Shore Railroad opened the Bothin Tunnel under White's Hill — three thousand one hundred ninety feet long, and sized for standard-gauge cars decades ahead of need. The last train passed through on July thirty-first, nineteen thirty-three, and the bore was sealed in the nineteen fifties after a cave-in. All of this valley was once Rancho San Geronimo, a Mexican land grant of some eight thousand seven hundred acres made to Rafael Cacho in eighteen forty-four. Adolph Mailliard, whose wife Annie was a sister of the writer Julia Ward Howe, bought the rancho in eighteen sixty-eight; after his heirs sold, the Lagunitas Development Company subdivided the land in the early nineteen tens and coined the names Woodacre and Forest Knolls for its new townsites.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bothin_Tunnel",
+        "https://en.wikipedia.org/wiki/Rancho_San_Geronimo_(Cacho)",
+        "https://www.sgvhistoricalsociety.org/brief-history-of-the-san-geronimo-valley"
+      ]
+    },
+    {
+      "slug": "spirit-rock",
+      "title": "Spirit Rock",
+      "subtitle": "Four hundred acres of ranchland turned meditation refuge",
+      "trigger": {
+        "center": {
+          "lat": 38.01532,
+          "lng": -122.64446
+        },
+        "radiusM": 200
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the Spirit Rock entrance and its oak-dotted hills"
+      },
+      "narration": [
+        {
+          "text": "The gate and rolling hills here belong to Spirit Rock Meditation Center, one of the largest Buddhist retreat centers in the western United States. It began in nineteen eighty-five, when a group of teachers including Jack Kornfield and Sylvia Boorstein incorporated as Insight Meditation West; Kornfield had helped found the Insight Meditation Society in Massachusetts a decade earlier. In nineteen eighty-eight, aided by an anonymous donation, the group bought four hundred twelve acres of this ranchland from The Nature Conservancy and took the name Spirit Rock, and a residential retreat hall opened in July nineteen ninety-eight. The center teaches vipassana, or insight meditation, in the Theravada Buddhist tradition, and its calendar of daylong programs and silent retreats draws thousands of visitors a year into these quiet folds of oak savanna.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Spirit_Rock_Meditation_Center",
+        "https://www.spiritrock.org/about/plan-your-visit"
+      ]
+    },
+    {
+      "slug": "san-geronimo-commons",
+      "title": "San Geronimo Commons",
+      "subtitle": "The golf course that became a land-use war, then salmon habitat",
+      "trigger": {
+        "center": {
+          "lat": 38.01467,
+          "lng": -122.65825
+        },
+        "radiusM": 250
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the creek-side meadows of the former golf course"
+      },
+      "narration": [
+        {
+          "text": "The meadows along the creek here were golf fairways not long ago. An eighteen-hole course operated from nineteen sixty-five; when it shut down, its fate became one of Marin's fiercest land-use fights. In twenty eighteen the Trust for Public Land bought the one-hundred-fifty-seven-acre course for eight point eight five million dollars, intending open space and salmon habitat. Golf supporters sued and qualified a countywide ballot measure to demand a public vote. District Four Supervisor Dennis Rodoni framed the divide for CBS News in twenty twenty:",
+          "speaker": null
+        },
+        {
+          "text": "I think this is about preserving something. For some people it's a golf course and for others it's just the open space and the beauty of that valley.",
+          "speaker": {
+            "name": "Dennis Rodoni",
+            "kind": "man",
+            "year": "twenty twenty"
+          }
+        },
+        {
+          "text": "Voters turned the measure down, and the land, renamed San Geronimo Commons, passed into county ownership. Christy Fischer of the Trust for Public Land told SFist in twenty twenty-two:",
+          "speaker": null
+        },
+        {
+          "text": "It's a once-in-a-lifetime opportunity to recreate the historic floodplain and reconnect the creeks in a way that creates a far more climate-resilient ecosystem in this area.",
+          "speaker": {
+            "name": "Christy Fischer",
+            "kind": "woman",
+            "year": "twenty twenty-two"
+          }
+        }
+      ],
+      "sources": [
+        "https://sfist.com/2022/07/12/defunct-west-marin-golf-course-being-rewilded/",
+        "https://www.cbsnews.com/sanfrancisco/news/fight-over-use-of-marin-county-public-space-to-be-decided-with-measure-d",
+        "https://ballotpedia.org/Marin_County,_California,_Measure_D,_San_Geronimo_Valley_Golf_Course_Initiative_(March_2020)"
+      ]
+    },
+    {
+      "slug": "san-geronimo-golf-last-round",
+      "title": "Last Round at San Geronimo",
+      "subtitle": "Fifty years of golf end with libations, smokes and a shotgun start",
+      "trigger": {
+        "center": {
+          "lat": 38.0148,
+          "lng": -122.664
+        },
+        "radiusM": 250
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the broad open meadow along the creek where fairways once ran"
+      },
+      "narration": [
+        {
+          "text": "This open meadow along San Geronimo Creek was a golf course for half a century. The San Geronimo Golf Course opened in nineteen sixty-seven, designed by A.V. Macan, and over the decades it drew everyone from working folks playing an afternoon round for eighteen dollars to Bob Hope and Samuel L. Jackson. In twenty seventeen, the Trust for Public Land agreed to buy the one hundred fifty-seven acres for eight point eight five million dollars so Marin County could turn it into open space. The Point Reyes Light covered the farewell tournament that December: one hundred forty-four golfers, a shotgun start, and libations at nine in the morning. One young golfer still held out hope.",
+          "speaker": null
+        },
+        {
+          "text": "Someone should save it. They should walk in with $5 million cash and throw it down!",
+          "speaker": {
+            "name": "Ben Sorcher",
+            "kind": "man",
+            "year": "twenty eighteen"
+          }
+        },
+        {
+          "text": "The assistant general manager, Chris Bright, took a longer view.",
+          "speaker": null
+        },
+        {
+          "text": "I've survived three sets of owners and hopefully I'll get to survive a fourth.",
+          "speaker": {
+            "name": "Chris Bright",
+            "kind": "man",
+            "year": "twenty eighteen"
+          }
+        },
+        {
+          "text": "Today the land is the San Geronimo Commons, protected from development.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://www.ptreyeslight.com/features/end-era-san-geronimo-golf-course/",
+        "https://ptreyeslight.com/article/open-space-planned-golf-course",
+        "https://www.ptreyeslight.com/news/open-space-trust-protects-valley-commons-development/"
+      ]
+    },
+    {
+      "slug": "san-geronimo-roys-redwoods",
+      "title": "San Geronimo and Roy's Redwoods",
+      "subtitle": "A depot hamlet, and an old-growth grove won by a bad loan",
+      "trigger": {
+        "center": {
+          "lat": 38.01524,
+          "lng": -122.67018
+        },
+        "radiusM": 150
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the Nicasio Valley Road junction at San Geronimo"
+      },
+      "narration": [
+        {
+          "text": "This crossroads is San Geronimo, the smallest of the valley villages and once a stop on the narrow-gauge railroad; one railroad survey notes the old depot building still standing on private land near the village church. The road joining here is Nicasio Valley Road, and just up it lies Roy's Redwoods, the San Geronimo Valley's first public preserve. The name honors James and Thomas Roy, brothers from Vermont who acquired four hundred twenty acres in eighteen seventy-seven when a twenty-thousand-dollar loan went unpaid, and who ran a dairy ranch here. Marin County's Open Space District bought the land in nineteen seventy-eight. Its old-growth redwoods are among the largest trees in Marin and shelter northern spotted owls, and a restoration completed in twenty twenty-four rebuilt trails so the trampled grove floor could recover. The One Tam partnership wrote of the project:",
+          "speaker": null
+        },
+        {
+          "text": "The community was involved at each step of the eight-year process from conception to construction.",
+          "speaker": {
+            "name": "One Tam",
+            "kind": "publication",
+            "year": null
+          }
+        }
+      ],
+      "sources": [
+        "https://www.sfchronicle.com/bayarea/article/roys-redwoods-preserve-trails-18312883.php",
+        "https://www.onetam.org/our-work/roys-redwoods",
+        "http://www.pacificng.com/template.php?page=roads%2Fca%2Fnpc%2Fgotg.htm"
+      ]
+    },
+    {
+      "slug": "sgv-community-center",
+      "title": "The Valley's Living Room",
+      "subtitle": "A saved building, a food pantry, and a roadhouse reborn",
+      "trigger": {
+        "center": {
+          "lat": 38.01627,
+          "lng": -122.67534
+        },
+        "radiusM": 120
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the community center buildings beside the road"
+      },
+      "narration": [
+        {
+          "text": "Beside the road sits the San Geronimo Valley Community Center, the shared living room of Woodacre, San Geronimo, Forest Knolls, Lagunitas and neighboring Nicasio. Its story starts in nineteen sixty-nine, when founder Jean Berensmeier helped save a historic building from demolition and opened what was first called the valley's Arts Center; the organization has run continuously since, offering arts programs, youth and senior services, and the community food pantry. A short lane away stands the old Valley Inn, a roadhouse with its own long run of feeding the valley: for some three decades it housed the Two Bird Cafe, and after a two-and-a-half-million-dollar sale reported by the Point Reyes Light in late twenty twenty-one, it reopened under the Giacomini family as a farm-to-table restaurant with a small inn — the newest keeper of a longtime valley gathering place.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://marinarts.org/organization/san-geronimo-valley-community-center/",
+        "https://www.ptreyeslight.com/news/two-bird-cafe-sells-to-local/",
+        "https://www.giacosroadhouse.com/ourstory"
+      ]
+    },
+    {
+      "slug": "lagunitas-school-shain-retires",
+      "title": "A Laura-Sized Hole",
+      "subtitle": "The principal who held a famously progressive school district together",
+      "trigger": {
+        "center": {
+          "lat": 38.0172,
+          "lng": -122.675
+        },
+        "radiusM": 180
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the small cluster of school buildings set back from the road among the trees"
+      },
+      "narration": [
+        {
+          "text": "The Lagunitas School District, based here in the valley, has long been one of the most progressive in California, home to Open Classroom, Montessori, and once a Waldorf-inspired program. The Point Reyes Light reported in twenty twenty-four on the retirement of Laura Shain, the principal who led the district for thirteen years, through the closure of the Waldorf program, a pandemic, and the difficult merger of the two remaining programs. In her first year she abolished dress code rules she considered sexist, and colleagues credited her with holding the community together through painful transitions. She left content.",
+          "speaker": null
+        },
+        {
+          "text": "The foundation has been built and the school will never stop changing, but we're just poised for more fine-tuning at this point.",
+          "speaker": {
+            "name": "Laura Shain",
+            "kind": "woman",
+            "year": "twenty twenty-four"
+          }
+        },
+        {
+          "text": "Meegan Potter, a former school board member, put the loss simply.",
+          "speaker": null
+        },
+        {
+          "text": "We're losing such a legacy. There's a Laura-sized hole to replace and it's going to be very challenging.",
+          "speaker": {
+            "name": "Meegan Potter",
+            "kind": "woman",
+            "year": "twenty twenty-four"
+          }
+        }
+      ],
+      "sources": [
+        "https://www.ptreyeslight.com/news/longtime-lagunitas-principal-to-retire/"
+      ]
+    },
+    {
+      "slug": "forest-knolls-knotweed",
+      "title": "The Plant That Terrified the Valley",
+      "subtitle": "One of the world's worst invasive weeds takes root along the creek",
+      "trigger": {
+        "center": {
+          "lat": 38.0152,
+          "lng": -122.6886
+        },
+        "radiusM": 200
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the wooded creek corridor running beside the road through the village"
+      },
+      "narration": [
+        {
+          "text": "Along the creek that follows this road through Forest Knolls, an unwelcome newcomer put down roots. The Point Reyes Light reported in twenty seventeen that Japanese knotweed, ranked among the world's one hundred worst invasive species, had been found in the San Geronimo Valley, first spotted in twenty eleven and later along Lagunitas and San Geronimo Creeks, including here in Forest Knolls. The plant can punch through asphalt and concrete and can regrow from a root fragment the size of a fingernail. Eric Wrubel of the National Park Service explained what was at stake.",
+          "speaker": null
+        },
+        {
+          "text": "It's what's known as an ecosystem engineer. It can transform the natural processes in an ecosystem.",
+          "speaker": {
+            "name": "Eric Wrubel",
+            "kind": "man",
+            "year": "twenty seventeen"
+          }
+        },
+        {
+          "text": "Sarah Phillips, the county resource district's urban streams coordinator, was blunter.",
+          "speaker": null
+        },
+        {
+          "text": "This is the first species that I have come across that has me absolutely terrified.",
+          "speaker": {
+            "name": "Sarah Phillips",
+            "kind": "woman",
+            "year": "twenty seventeen"
+          }
+        },
+        {
+          "text": "Only about a dozen people came to the community meeting called to fight it.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://www.ptreyeslight.com/news/reviled-invasive-taking-root-san-geronimo-valley/"
+      ]
+    },
+    {
+      "slug": "forest-knolls-papermill",
+      "title": "Forest Knolls and the Papermill",
+      "subtitle": "A 1907 general store that became the valley's saloon",
+      "trigger": {
+        "center": {
+          "lat": 38.01529,
+          "lng": -122.68894
+        },
+        "radiusM": 120
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the old saloon building at the Forest Knolls corner"
+      },
+      "narration": [
+        {
+          "text": "Forest Knolls gathers around a single corner, and the corner's fixture is the Papermill Creek Saloon. By the saloon's own account, the building opened in nineteen oh seven as a general store, poured soda through Prohibition, and became a bar called The Lodge in nineteen thirty-seven. The village name itself was coined by the Lagunitas Development Company, and the post office here dates to nineteen sixteen. In nineteen sixty-seven Thomasina Wilson and her husband bought what had become a rough biker bar; she renamed it for the pioneering paper mill downstream in today's Samuel P. Taylor State Park and presided for half a century. The saloon's published history remembers her this way:",
+          "speaker": null
+        },
+        {
+          "text": "Over five decades, she built a reputation as a no-nonsense yet deeply caring proprietor.",
+          "speaker": {
+            "name": "Papermill Creek Saloon",
+            "kind": "publication",
+            "year": null
+          }
+        },
+        {
+          "text": "Local accounts add that Janis Joplin, living up the road in the late nineteen sixties, was a regular.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://papermillcreeksaloon.com/about/",
+        "https://marinmagazine.com/food-drink/dining-news/papermill/",
+        "https://en.wikipedia.org/wiki/Forest_Knolls,_Marin_County,_California"
+      ]
+    },
+    {
+      "slug": "lagunitas-general-store",
+      "title": "Lagunitas General Store",
+      "subtitle": "A century-old store on an old depot site",
+      "trigger": {
+        "center": {
+          "lat": 38.01062,
+          "lng": -122.70226
+        },
+        "radiusM": 120
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the general store at the heart of Lagunitas"
+      },
+      "narration": [
+        {
+          "text": "A store has anchored Lagunitas for more than a century; one railroad survey finds a store on this spot as early as eighteen ninety, and the hamlet's post office opened in nineteen oh six. The name is Spanish for little lakes, after the ponds on Mount Tamalpais whose waters feed Lagunitas Creek. In the railroad era this was a station stop where the Lagunitas Development Company promoted summer cottages to vacationing San Franciscans, and today's Lagunitas General Store honors its past as a depot stop on the old Northwestern Pacific line. When owners with deep roots in the hamlet took over recently, they wrote:",
+          "speaker": null
+        },
+        {
+          "text": "It's with great pride that we carry on this important institution",
+          "speaker": {
+            "name": "Lagunitas General Store",
+            "kind": "publication",
+            "year": null
+          }
+        },
+        {
+          "text": "The deli counter and the porch still serve as the western valley's front room.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://www.lagunitasgeneralstore.com/",
+        "https://www.ptreyeslight.com/news/owners-with-lagunitas-roots-to-reopen-store/",
+        "https://en.wikipedia.org/wiki/Lagunitas,_California"
+      ]
+    },
+    {
+      "slug": "shafter-bridge-coho",
+      "title": "Shafter Bridge and the Coho",
+      "subtitle": "Where the endangered salmon run meets the redwoods",
+      "trigger": {
+        "center": {
+          "lat": 38.00458,
+          "lng": -122.70853
+        },
+        "radiusM": 200
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the bridge and the first redwoods at the creek crossing"
+      },
+      "narration": [
+        {
+          "text": "Where the valley pinches shut and the first redwoods close over the road, Sir Francis Drake Boulevard crosses Shafter Bridge at the edge of Samuel P. Taylor State Park. San Geronimo Creek joins Lagunitas Creek near the swimming holes known as the Inkwells, and a parking area serves the Leo T. Cronin Fish Viewing Area. This is among the best places in California to watch endangered coho salmon: Marin Water, which manages the watershed, reports that Lagunitas Creek supports one of the largest remaining populations of Central California Coast coho, spawning from December through January, and several hundred adults return in a good winter. Anna Halligan of Trout Unlimited told Civil Engineering magazine in twenty twenty-two:",
+          "speaker": null
+        },
+        {
+          "text": "The Lagunitas Creek Watershed is a high-priority salmon recovery watershed, and San Geronimo Creek provides roughly 40% of the available spawning habitat",
+          "speaker": {
+            "name": "Anna Halligan",
+            "kind": "woman",
+            "year": "twenty twenty-two"
+          }
+        },
+        {
+          "text": "From here the road runs on beneath the big trees toward Point Reyes.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://marinwater.org/mt-tam-watershed/fisheries-wildlife/",
+        "https://www.asce.org/publications-and-news/civil-engineering-source/civil-engineering-magazine/article/2022/08/rewilding-of-former-golf-course-to-benefit-endangered-salmon-other-species",
+        "https://home.nps.gov/pore/planyourvisit/wildlife_viewing_cohosalmon.htm"
+      ]
+    },
+    {
+      "slug": "shafter-bridge-coho-run",
+      "title": "Banner Year at Shafter Bridge",
+      "subtitle": "The biggest coho salmon run in a dozen years, counted through a shutdown",
+      "trigger": {
+        "center": {
+          "lat": 38.0042,
+          "lng": -122.7088
+        },
+        "radiusM": 200
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the bridge where the road crosses the creek at the fish-viewing area"
+      },
+      "narration": [
+        {
+          "text": "Here, where the road crosses Lagunitas Creek at the Leo T. Cronin Fish Viewing Area, endangered coho salmon return each winter to spawn. The Point Reyes Light reported in twenty nineteen that the run that season was the largest in twelve years, with more than three hundred redds, or nests, and seven hundred adult fish counted, including seventy-five redds in San Geronimo Creek and sixty in Devil's Gulch. The counting itself was complicated: a federal government shutdown had idled park service survey crews for weeks. Eric Ettlinger, the water district's aquatic ecologist, explained the odds these fish had beaten.",
+          "speaker": null
+        },
+        {
+          "text": "It looks like only about two percent of the fish that went out to the ocean survived and have come back.",
+          "speaker": {
+            "name": "Eric Ettlinger",
+            "kind": "man",
+            "year": "twenty nineteen"
+          }
+        },
+        {
+          "text": "Even that banner year fell far short of the federal recovery target of thirteen hundred nests, a reminder of how fragile this creek's silver-and-red winter migration remains.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://www.ptreyeslight.com/news/banner-year-spawning-coho/"
+      ]
+    },
+    {
+      "slug": "shafter-bridge-inkwells",
+      "title": "Shafter Bridge and the Inkwells",
+      "subtitle": "Dark pools at the canyon gate",
+      "trigger": {
+        "center": {
+          "lat": 38.0047,
+          "lng": -122.7088
+        },
+        "radiusM": 200
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the creek pools under Shafter Bridge"
+      },
+      "narration": [
+        {
+          "text": "Where San Geronimo Creek pours into Lagunitas Creek, the road crosses Shafter Bridge and enters the redwood canyon. Just below the crossing lie the Inkwells, a staircase of small falls and deep bedrock pools that have drawn swimmers for generations — named, by most accounts, for their inky dark water. The upper pool is still called Shafters, after the railroad bridge that once carried narrow gauge trains across the creek near this spot; the name belongs to the family whose land dealings shaped much of West Marin, a story for later in this drive. Beside the highway bridge, the Leo T. Cronin Fish Viewing Area marks the start of the Cross Marin Trail, the paved path built on the old railbed. In late fall and winter, visitors stand quietly at the creekside here, hoping to see endangered coho salmon fresh from the ocean.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Inkwells",
+        "https://www.nps.gov/thingstodo/walk-the-cross-marin-trail.htm",
+        "https://www.ktvu.com/news/the-inkwells-natural-swimming-holes-in-west-marin"
+      ]
+    },
+    {
+      "slug": "lagunitas-creek-coho-run",
+      "title": "The Coho of Lagunitas Creek",
+      "subtitle": "The great surviving salmon run",
+      "trigger": {
+        "center": {
+          "lat": 38.0112,
+          "lng": -122.713
+        },
+        "radiusM": 200
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the creek running beside the road"
+      },
+      "narration": [
+        {
+          "text": "The creek keeping pace with the road holds one of the most closely watched salmon runs in California. NOAA Fisheries, in its habitat restoration plan for this watershed, states:",
+          "speaker": null
+        },
+        {
+          "text": "Lagunitas Creek CCC coho salmon are the largest persistent population south of the Noyo River.",
+          "speaker": {
+            "name": "NOAA Fisheries",
+            "kind": "publication",
+            "year": null
+          }
+        },
+        {
+          "text": "C C C stands for Central California Coast, the endangered group these fish belong to. Each winter adult coho return from the ocean, dig gravel nests called redds, spawn, and die; Marin Municipal Water District crews walk this creek every season, counting each nest. The state park's own brochure puts the stakes plainly:",
+          "speaker": null
+        },
+        {
+          "text": "In the late fall through winter, coho salmon and steelhead trout migrate from the ocean to spawn in Lagunitas (Papermill) Creek. Sadly, fewer fish make these annual runs; both the coho and steelhead are now endangered species.",
+          "speaker": {
+            "name": "California State Parks",
+            "kind": "publication",
+            "year": "twenty eighteen"
+          }
+        },
+        {
+          "text": "That older name, Papermill Creek, is a clue to the story waiting a little farther along this road.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://www.fisheries.noaa.gov/west-coast/habitat-conservation/identifying-salmon-habitat-restoration-priorities-lagunitas-creek",
+        "https://www.marinwater.org/sites/default/files/2022-11/Lagunitas%20Creek%20Adult%20Salmonids%202021-22.pdf",
+        "https://www.parks.ca.gov/pages/469/files/SamuelPTaylorFinalWebLayout2018.pdf"
+      ]
+    },
+    {
+      "slug": "narrow-gauge-railbed-irving",
+      "title": "The Narrow Gauge and the Cross Marin Trail",
+      "subtitle": "A railroad becomes a footpath",
+      "trigger": {
+        "center": {
+          "lat": 38.0164,
+          "lng": -122.7234
+        },
+        "radiusM": 150
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the picnic ground across the creek"
+      },
+      "narration": [
+        {
+          "text": "Across the creek sits the Irving picnic ground, and threading past it runs a level path that explains this canyon's shape: the roadbed of the North Pacific Coast Railroad. The narrow gauge line opened through this canyon in the mid eighteen seventies, part of a route that would eventually stretch seventy-eight miles from the ferry landing at Sausalito to Cazadero on the Russian River. Dewey Livingston, a historian writing for the National Park Service, described the local stops in a nineteen ninety-five study:",
+          "speaker": null
+        },
+        {
+          "text": "Jewell's and Garcia were dairy ranch flagstops, while Camp Taylor and Tocaloma attracted tourists to the hotels and camping facilities.",
+          "speaker": {
+            "name": "Dewey Livingston, National Park Service",
+            "kind": "publication",
+            "year": "nineteen ninety-five"
+          }
+        },
+        {
+          "text": "Trains lost out to automobiles, and the line through this valley was abandoned in nineteen thirty-three. Today the railbed is the Cross Marin Trail, five and three tenths miles of nearly level path for walkers and cyclists, tracing the creek the whole way.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://www.nps.gov/thingstodo/walk-the-cross-marin-trail.htm",
+        "https://archive.org/details/goodlifedairyfar00livirich",
+        "https://www.traillink.com/trail/sir-francis-drake-bikeway-(cross-marin-trail)/"
+      ]
+    },
+    {
+      "slug": "camp-taylor-first-campground",
+      "title": "Camp Taylor",
+      "subtitle": "Where American car-free camping began",
+      "trigger": {
+        "center": {
+          "lat": 38.0187,
+          "lng": -122.7297
+        },
+        "radiusM": 150
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the campground in the redwood grove"
+      },
+      "narration": [
+        {
+          "text": "The campground inside this bend of the creek has hosted vacationers for a century and a half. Samuel Taylor opened a resort here in the eighteen seventies — a hotel, a dance pavilion, tent sites under the redwoods — with the new railroad delivering guests from San Francisco. The state park's brochure makes a striking claim:",
+          "speaker": null
+        },
+        {
+          "text": "Camp Taylor, one of California's first recreational camping sites, became an extremely popular northern California weekend destination from the late 1870s to the early 1900s. Guests were encouraged to spend summers in the wilderness, where they could camp, swim in the millpond, fish, hunt, explore the natural wonders, and relax.",
+          "speaker": {
+            "name": "California State Parks",
+            "kind": "publication",
+            "year": "twenty eighteen"
+          }
+        },
+        {
+          "text": "The resort faded with the railroad, and the land sat idle until the state acquired it in nineteen forty-five — park histories record both a default on taxes and a final sale by the last private owner, Elizabeth Rodgers, after a decade of campaigning by the Marin Conservation League. Samuel P. Taylor State Park opened to campers in nineteen forty-six.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://www.parks.ca.gov/?page_id=28547",
+        "https://en.wikipedia.org/wiki/Samuel_P._Taylor_State_Park",
+        "https://www.parks.ca.gov/pages/469/files/SamuelPTaylorFinalWebLayout2018.pdf"
+      ]
+    },
+    {
+      "slug": "samuel-p-taylor-lost-girl",
+      "title": "A Night Lost in the Redwoods",
+      "subtitle": "Two hundred searchers, eight counties, and a nine-year-old found safe",
+      "trigger": {
+        "center": {
+          "lat": 38.0196,
+          "lng": -122.7299
+        },
+        "radiusM": 250
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the state park entrance under the redwood canopy"
+      },
+      "narration": [
+        {
+          "text": "The redwood groves of Samuel P. Taylor State Park surround the road here, deep enough to swallow a person whole. The Point Reyes Light reported in twenty fourteen on a nine-year-old girl who went missing in the park on a June Friday. The search and rescue operation that followed drew roughly two hundred workers from teams across eight nearby counties, combing the creek canyons and steep wooded slopes as night fell over the forest. She spent the whole night alone among the trees. Twenty-one hours after she disappeared, on Saturday morning, she was found, not by the professional teams, but by two mountain bikers who lived in the San Geronimo Valley and knew this terrain from years of riding it. The story became one of those small West Marin legends: a community's worst fear, ending in relief on a fire road in the redwoods.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://www.ptreyeslight.com/news/girl-spent-night-lost-state-park/"
+      ]
+    },
+    {
+      "slug": "pioneer-paper-mill",
+      "title": "The Pioneer Paper Mill",
+      "subtitle": "Rags to newsprint on Papermill Creek",
+      "trigger": {
+        "center": {
+          "lat": 38.0226,
+          "lng": -122.7343
+        },
+        "radiusM": 150
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the old mill site down along the creek"
+      },
+      "narration": [
+        {
+          "text": "Down along the creek near this spot stood the Pioneer Paper Mill, the first paper mill on the Pacific coast, built in eighteen fifty-six by Samuel Penfield Taylor, a gold rush merchant whose father ran a paper mill on the Hudson River. Water wheels drove machinery that turned rags, old rope, and jute sacks into wrapping paper and newsprint for San Francisco. In June of eighteen sixty-seven the Marin Journal sent a reporter, who began this way:",
+          "speaker": null
+        },
+        {
+          "text": "Old sacks are very common things, and after they have lain about the yard awhile, somewhat filthy; but visit the paper mill, only fourteen miles from San Rafael, and you will think better of them.",
+          "speaker": {
+            "name": "Marin Journal",
+            "kind": "publication",
+            "year": "eighteen sixty-seven"
+          }
+        },
+        {
+          "text": "A company town called Taylorville grew around the works. A larger steam mill replaced the original in eighteen eighty-four, failed in the depression of the eighteen nineties, and burned early in the twentieth century. Concrete foundations still stand beside the Cross Marin Trail. The redwoods along this stretch are mostly younger, second growth trees; the park still holds about six hundred acres of old growth, with giants reachable on the Pioneer Tree Trail.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://landmarkquest.com/omeka/items/show/763",
+        "https://archive.org/details/historyofmarinco00munr",
+        "https://en.wikipedia.org/wiki/Samuel_Penfield_Taylor"
+      ]
+    },
+    {
+      "slug": "devils-gulch-barnabe-peak",
+      "title": "Devil's Gulch and Barnabe Peak",
+      "subtitle": "Wildflower slopes and a famous mule",
+      "trigger": {
+        "center": {
+          "lat": 38.0296,
+          "lng": -122.7365
+        },
+        "radiusM": 150
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the grassy side canyon climbing toward the peak"
+      },
+      "narration": [
+        {
+          "text": "A side canyon opens into the hills here: Devil's Gulch, where a small creek comes down through maples and oaks to join Lagunitas Creek. The park brochure describes it this way:",
+          "speaker": null
+        },
+        {
+          "text": "Wide, grassy slopes characterize Devil's Gulch. A succession of native wildflowers adds an ever-changing highlight to the landscape — buttercups and milkmaids early in the spring, followed by Indian paintbrush as summer approaches.",
+          "speaker": {
+            "name": "California State Parks",
+            "kind": "publication",
+            "year": "twenty eighteen"
+          }
+        },
+        {
+          "text": "Above the gulch rises Barnabe Peak, fourteen hundred sixty-six feet, topped by a fire lookout. Local histories agree the mountain is named for Barnabe, a mule the Taylor family kept as a pet — and many accounts add that the animal had earlier packed for John C. Frémont's expeditions, a story told for over a century though hard to document. Samuel Taylor and his wife Sarah are buried behind a white picket fence on the mountain's flank, above the gulch where trails now climb to the summit.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://www.parks.ca.gov/pages/469/files/SamuelPTaylorFinalWebLayout2018.pdf",
+        "https://baynature.org/article/return-to-devils-gulch/",
+        "http://www.protrails.com/trail/702/san-francisco-marin-headlands-mt-tamalpais-point-reyes-barnabe-peak-loop-trail"
+      ]
+    },
+    {
+      "slug": "jewell-vanished-hamlet",
+      "title": "Jewell",
+      "subtitle": "The hamlet that vanished twice",
+      "trigger": {
+        "center": {
+          "lat": 38.037,
+          "lng": -122.7458
+        },
+        "radiusM": 150
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the creek flat where the cottages stood"
+      },
+      "narration": [
+        {
+          "text": "On the flat between the road and the creek stood Jewell, a settlement that has now vanished twice. Omar Jewell ran a dairy and pig farm here in the eighteen sixties and sold the railroad a right of way across his land; the flagstop that resulted carried his name. In the nineteen thirties the strip along the creek was subdivided, and city dwellers built weekend cottages under the trees. The National Park Service later bought the little community and let the leases run out, and in twenty eighteen crews demolished the last abandoned houses. It was more than a cleanup: the Salmon Protection and Watershed Network hauled out some six thousand cubic yards of fill and recarved the flat into floodplain channels, so winter floods can again spread out and shelter young coho salmon. Native willows and wetland plants now grow where the cottages stood.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Jewell,_California",
+        "https://treesfoundation.org/2019/12/lagunitas-creek-floodplain-riparian-restoration-project-transforms-second-marin-ghost-town-into-coho-salmon-habitat/",
+        "https://www.sfchronicle.com/science/article/Marin-County-ghost-town-cleared-away-to-save-13214281.php"
+      ]
+    },
+    {
+      "slug": "shafter-land-empire",
+      "title": "The Shafter Empire",
+      "subtitle": "Two lawyers who owned a peninsula",
+      "trigger": {
+        "center": {
+          "lat": 38.0429,
+          "lng": -122.7451
+        },
+        "radiusM": 200
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the open ranch hills along the creek"
+      },
+      "narration": [
+        {
+          "text": "The Shafter name is stamped all over this drive — Shafter Bridge, Shafter Grade — and it comes from the biggest real estate story in West Marin's history. Oscar and James Shafter, brothers and San Francisco lawyers from Vermont, emerged from tangled Mexican land grant litigation in the eighteen fifties owning most of the Point Reyes peninsula. In eighteen fifty-eight Oscar wrote home to his father:",
+          "speaker": null
+        },
+        {
+          "text": "We are in full possession of Point Reyes Ranch. We have put sheep that cost $2000 onto it, have let portions of it and shall probably let the remainder of it before long.",
+          "speaker": {
+            "name": "Oscar L. Shafter",
+            "kind": "man",
+            "year": "eighteen fifty-eight"
+          }
+        },
+        {
+          "text": "The family divided the peninsula into tenant dairies named by letters of the alphabet and built what was called the largest dairy operation in California, shipping prized Point Reyes butter to San Francisco. The ranch hills opening around the road here belonged to that world; James Shafter himself bought land near Tocaloma in the eighteen seventies. The empire held until nineteen nineteen, when the land was finally sold off in parcels.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Oscar_L._Shafter",
+        "https://archive.org/details/lifediaryletters00shaf",
+        "https://en.wikipedia.org/wiki/James_McMillan_Shafter"
+      ]
+    },
+    {
+      "slug": "tocaloma-platform-bridge",
+      "title": "Tocaloma",
+      "subtitle": "A resort town reduced to a road junction",
+      "trigger": {
+        "center": {
+          "lat": 38.0489,
+          "lng": -122.759
+        },
+        "radiusM": 250
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the creek crossing at the old resort site"
+      },
+      "narration": [
+        {
+          "text": "This quiet junction was once a resort town. Tocaloma — the name comes from a Coast Miwok word for salamander — grew up where the narrow gauge crossed Lagunitas Creek, with a hotel, a post office, stables, and stagecoaches waiting to carry passengers over the hill to Olema. In eighteen seventy-nine the Marin County Journal reported:",
+          "speaker": null
+        },
+        {
+          "text": "Tocaloma Station, the nearest on the railroad to Olema, has made a grand advance within the last year. It is situated in the very midst of the finest sporting district to be found anywhere near the city, its streams abounding with fish and its hills with game.",
+          "speaker": {
+            "name": "Marin County Journal",
+            "kind": "publication",
+            "year": "eighteen seventy-nine"
+          }
+        },
+        {
+          "text": "Bertrand's Hotel, the grandest version, offered more than forty rooms, a dance hall, and croquet grounds. It burned to the ground in December of nineteen sixteen, and the town dwindled; a smaller roadhouse served motorists into the nineteen forties. Platform Bridge Road, joining here, is reportedly named for the old wood and iron platform bridge at Tocaloma, and the Cross Marin Trail begins here, tracing the creek back through the redwood canyon.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://www.marinhistory.org/blog/tocaloma/",
+        "https://archive.org/details/goodlifedairyfar00livirich",
+        "https://en.wikipedia.org/wiki/Tocaloma,_California"
+      ]
+    },
+    {
+      "slug": "tocaloma-vanished-resort",
+      "title": "Tocaloma: The Resort That Vanished",
+      "subtitle": "A forty-room hotel town reduced to a creek crossing and an old arch bridge",
+      "trigger": {
+        "center": {
+          "lat": 38.0503,
+          "lng": -122.7594
+        },
+        "radiusM": 250
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the creek crossing at Tocaloma"
+      },
+      "narration": [
+        {
+          "text": "The crossing of Lagunitas Creek here marks Tocaloma, a resort town that has almost completely vanished. When the North Pacific Coast Railroad came through in the mid eighteen seventies, Tocaloma became a station stop where the rail line met the stage road running from San Rafael to Olema. According to the Marin History Museum, French-born hotelkeeper John Bertrand built a hotel of more than forty rooms here in eighteen eighty-nine, with a dancehall, billiard room, banquet room, croquet grounds, and tent cabins, and by the eighteen nineties guests could reach it from San Francisco in little more than two hours. An earlier hotel on the site had burned in eighteen eighty-five; Bertrand's grand successor burned in turn in the winter of nineteen sixteen, a fire blamed on a defective kitchen flue, and the resort era never returned. The Anne T. Kent California Room notes that a graceful concrete arch bridge from the early automobile era still stands beside the modern roadway.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://www.marinhistory.org/blog/tocaloma/",
+        "https://en.wikipedia.org/wiki/Tocaloma,_California",
+        "https://medium.com/anne-t-kent-california-room-community-newsletter/sir-francis-drake-boulevard-road-of-many-names-e5ea261442ca"
+      ]
+    },
+    {
+      "slug": "bolinas-ridge-trailhead",
+      "title": "Bolinas Ridge Trailhead",
+      "subtitle": "An eleven-mile fire road along the ridge above the rift valley",
+      "trigger": {
+        "center": {
+          "lat": 38.0462,
+          "lng": -122.7708
+        },
+        "radiusM": 200
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the roadside pullouts on the Olema grade"
+      },
+      "narration": [
+        {
+          "text": "A string of roadside pullouts on this grade marks the start of the Bolinas Ridge Trail, an eleven-mile fire road that follows the spine of Bolinas Ridge all the way to the Bolinas-Fairfax Road. The National Park Service, which manages the ridge as part of the Golden Gate National Recreation Area, places the trailhead parking about one mile from Olema, on paved and gravel shoulders. The agency describes the first two and a half miles as open grassland climbing gradually, with some of the best views of the entire route: Olema Valley below, Tomales Bay in the distance, and Black Mountain rising beyond. For much of its length the trail roughly parallels Olema Creek and the San Andreas Fault, tracing from above the same rift the highway follows on the valley floor. Hikers and riders on horseback share the route through pasture gates and groves of eucalyptus and redwood.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://www.nps.gov/places/golden-gate-bolinas-ridge-trailhead.htm",
+        "https://www.nps.gov/thingstodo/hike-the-bolinas-ridge-trail.htm",
+        "https://www.parksconservancy.org/parks/bolinas-ridge"
+      ]
+    },
+    {
+      "slug": "olema-earthquake-country",
+      "title": "The Epicenter That Moved",
+      "subtitle": "Nineteen oh six, a displaced fence, and a famous swallowed cow",
+      "trigger": {
+        "center": {
+          "lat": 38.0388,
+          "lng": -122.786
+        },
+        "radiusM": 150
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the fault zone at the edge of Olema"
+      },
+      "narration": [
+        {
+          "text": "For a century Olema carried the reputation of being the epicenter of the earthquake of April eighteenth, nineteen oh six, because scientists measured some of the largest ground offsets right along this valley. Later analysis moved the origin point. The United States Geological Survey now describes an",
+          "speaker": null
+        },
+        {
+          "text": "epicenter in the Pacific Ocean just 2 miles west of San Francisco",
+          "speaker": {
+            "name": "the United States Geological Survey",
+            "kind": "publication"
+          }
+        },
+        {
+          "text": "The fault still slipped enormously here. The state earthquake commission's nineteen oh eight investigation, known as the Lawson Report, preserved the most famous story from a ranch in this valley:",
+          "speaker": null
+        },
+        {
+          "text": "During the earthquake a cow fell into the fault crack and the earth closed in on her so that only the tail remained visible. At the time of my visit, the tail had disappeared, being eaten by dogs.",
+          "speaker": {
+            "name": "the Lawson Report",
+            "kind": "publication",
+            "year": "nineteen oh eight"
+          }
+        },
+        {
+          "text": "The rancher later admitted the cow had died naturally and been pushed into the fissure. A genuine relic stands close by: off Bear Valley Road, at the national seashore headquarters, the short paved Earthquake Trail visits a fence the fault tore in two, its halves now standing about sixteen feet apart.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://earthquake.usgs.gov/earthquakes/events/1906calif/virtualtour/earthquake.php",
+        "https://www.npr.org/2006/04/18/5347831/retracing-the-path-of-the-1906-earthquake",
+        "https://www.nps.gov/thingstodo/walk-the-earthquake-trail.htm"
+      ]
+    },
+    {
+      "slug": "olema-schoolhouse",
+      "title": "The Schoolhouse and the Horse Races",
+      "subtitle": "A nineteen fifteen schoolhouse built to save Olema's children from sin",
+      "trigger": {
+        "center": {
+          "lat": 38.0397,
+          "lng": -122.7858
+        },
+        "radiusM": 160
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the old white wooden schoolhouse set on its acre near the road"
+      },
+      "narration": [
+        {
+          "text": "Near the crossroads of Olema stands a one-room schoolhouse built in nineteen fifteen. The land and money came from Emma Shafter Howard, who wanted a memorial for her father, and, as historian Jack Mason recorded, a way to save the town's youngsters from what she called",
+          "speaker": null
+        },
+        {
+          "text": "certain lowering influences common to many pioneer towns",
+          "speaker": {
+            "name": "Emma Shafter Howard",
+            "kind": "woman",
+            "year": "nineteen fifteen"
+          }
+        },
+        {
+          "text": "namely gin, brandy, and her own cousin's Sunday horse races. The Point Reyes Light told the building's story in twenty fourteen, when it went on the market for seven hundred ninety-five thousand dollars. The last pupils left in nineteen fifty-three, and the next year the schoolhouse was auctioned for forty-one hundred dollars to Warren Merritt, a watercolor painter who turned the blackboards into sketch pads and made room inside for two grand pianos. Later tenants brought learning back, holding weekly art classes for home-schooled kids on the old one-acre schoolyard.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://www.ptreyeslight.com/news/olema-schoolhouse-block/"
+      ]
+    },
+    {
+      "slug": "olema-inns-past-present",
+      "title": "Innkeeping at the Crossroads",
+      "subtitle": "A stage-stop hotel of eighteen seventy-six and a tavern still serving",
+      "trigger": {
+        "center": {
+          "lat": 38.0396,
+          "lng": -122.7876
+        },
+        "radiusM": 120
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the historic hotel buildings in Olema"
+      },
+      "narration": [
+        {
+          "text": "Olema's innkeeping story is still standing at its crossroads. The Marin History Museum records that John Nelson built the Olema Hotel here in eighteen seventy-six; Nelson ran the stage between Olema and San Rafael, and accounts in the San Francisco Chronicle describe the corner inn as a onetime stage stop that at times even did duty as a local bank. Today the town's overnight trade centers on Olema House, a small hotel at the junction whose tavern and restaurant, called Due West, occupies a refurbished building the hotel dates to about eighteen sixty-five — a structure that has served this road, in one role or another, across three centuries. The hotel grounds run down to Olema Creek. At the edge of town, a family campground on the shoreline highway takes tents and trailers year round, continuing Olema's oldest trade: putting up travelers bound for the seashore.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://olemahouse.com/",
+        "https://www.sfgate.com/bayarea/article/SOMETHING-DIFFERENT-The-Olema-Inn-Historic-and-2541146.php",
+        "https://olemacampground.net/"
+      ]
+    },
+    {
+      "slug": "olema-crossroads-heyday",
+      "title": "Olema's Eighteen-Sixties Heyday",
+      "subtitle": "The stage-road town the railroad left behind",
+      "trigger": {
+        "center": {
+          "lat": 38.0408,
+          "lng": -122.7881
+        },
+        "radiusM": 120
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the Olema crossroads"
+      },
+      "narration": [
+        {
+          "text": "Olema grew up where the stage road from San Rafael meets the shoreline road, and in the eighteen sixties and seventies that junction made it the commercial hub of this corner of Marin. The name comes from the Coast Miwok, whose word for coyote survives in it; a post office opened here as early as eighteen fifty-nine. Local histories describe a busy settlement in those decades, with hotels, a cluster of saloons, stage service, and even a racetrack. Then, in eighteen seventy-five, the North Pacific Coast Railroad laid its tracks about two miles away, across Papermill Creek, and commerce drained steadily toward the depot. The railhead was at first simply Olema Station; when it received a post office of its own in eighteen eighty-two, it took the name Point Reyes Station, and the new town permanently outgrew the old one. Olema kept its crossroads, its historic buildings, and its quiet.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://marinmagazine.com/community/history/point-reyes-stations-railroad-days/",
+        "https://en.wikipedia.org/wiki/Olema,_California"
+      ]
+    },
+    {
+      "slug": "vedanta-retreat-shafter-lands",
+      "title": "The Vedanta Retreat",
+      "subtitle": "Two thousand quiet acres on old Shafter ranch land",
+      "trigger": {
+        "center": {
+          "lat": 38.0353,
+          "lng": -122.7832
+        },
+        "radiusM": 200
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the wooded retreat lands south of Olema"
+      },
+      "narration": [
+        {
+          "text": "The forest and meadow along this stretch belong to the Vedanta Society of Northern California, which purchased about two thousand acres here in nineteen forty-six and has kept them ever since as a religious retreat. The land was ranch country before that, tied to the Shafter family, the San Francisco lawyers whose holdings once covered much of the Point Reyes peninsula; the historic house near the entrance is still called Shafter Manor, and the Society acquired it in nineteen seventy-three as a retreat house. The retreat welcomes quiet day visitors of any faith for meditation and study, with overnight stays by arrangement and without charge. For its purpose, the Society's retreat literature reaches back to an ancient Sanskrit scripture, the Svetasvatara Upanishad:",
+          "speaker": null
+        },
+        {
+          "text": "In a place helpful to the mind and pleasing to the eyes, in a hidden retreat, let the aspirant cultivate spirituality.",
+          "speaker": {
+            "name": "the Svetasvatara Upanishad",
+            "kind": "publication"
+          }
+        }
+      ],
+      "sources": [
+        "https://sfvedanta.org/retreat/",
+        "https://sfvedanta.org/the-society/history/"
+      ]
+    },
+    {
+      "slug": "olema-valley-rift",
+      "title": "Driving the Rift Valley",
+      "subtitle": "Two creeks, side by side, flowing opposite directions",
+      "trigger": {
+        "center": {
+          "lat": 38.0209,
+          "lng": -122.7729
+        },
+        "radiusM": 300
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the long straight valley floor"
+      },
+      "narration": [
+        {
+          "text": "This straight, narrow valley is the San Andreas Fault itself — a rift valley worn along the boundary where two plates of the earth's crust grind past each other. The land on the ocean side rides the Pacific plate; the rest of the continent stands on the North American plate. In nineteen oh six the rupture ran the full length of this valley, and the Geological Survey's account of that earthquake records that the",
+          "speaker": null
+        },
+        {
+          "text": "amount of horizontal slip, or relative movement along the fault, varied from 2 to 32 feet",
+          "speaker": {
+            "name": "the United States Geological Survey",
+            "kind": "publication"
+          }
+        },
+        {
+          "text": "The rift also plays a quiet trick with water. Two creeks share this valley floor, running nearly parallel yet flowing in opposite directions: Olema Creek drains toward Tomales Bay, while Pine Gulch Creek rises near Five Brooks and winds toward Bolinas Lagoon. Geologists describe that odd, divided drainage as a signature of fault-controlled country, where crushed rock and constantly shifting ground keep rearranging the streams.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Olema_Valley",
+        "https://pubs.usgs.gov/of/2005/1127/chapter9.pdf",
+        "https://earthquake.usgs.gov/earthquakes/events/1906calif/virtualtour/earthquake.php"
+      ]
+    },
+    {
+      "slug": "five-brooks-trailhead",
+      "title": "Five Brooks",
+      "subtitle": "A mill pond, a horse camp, and the gate to the wilderness",
+      "trigger": {
+        "center": {
+          "lat": 37.9979,
+          "lng": -122.7551
+        },
+        "radiusM": 250
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the Five Brooks turnoff"
+      },
+      "narration": [
+        {
+          "text": "The turnoff at Five Brooks leads a short way in to a gravel parking area beside a pond with a working past — an abandoned mill pond, left over from the era when timber came off these ridges, now ringed with willows and busy with birds. The National Park Service counts this as the principal gateway to the southern trails of Point Reyes National Seashore, about four and a half miles from the Bear Valley Visitor Center. The Stewart, Olema Valley, and Rift Zone trails all begin here, and connecting routes such as the Greenpicker, Glen, and Coast trails climb into the Phillip Burton Wilderness and over the ridge toward the ocean. Horses remain part of the place: a longtime concession stable at Five Brooks offers guided rides, and a horse camp long known as Stewart's puts up riders and their animals on the old Stewart ranch land nearby.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://www.nps.gov/places/point-reyes-five-brooks-trailhead.htm",
+        "https://www.nps.gov/places/point_reyes_picnic_area_five_brooks.htm",
+        "https://www.nps.gov/pore/learn/news/newsreleases_20080325_stewarts_horse_camp.htm"
+      ]
+    },
+    {
+      "slug": "olema-valley-ranches-saved",
+      "title": "The Valley That Stayed Pasture",
+      "subtitle": "How a freeway died and nineteen ranches became parkland",
+      "trigger": {
+        "center": {
+          "lat": 37.9747,
+          "lng": -122.732
+        },
+        "radiusM": 300
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the open ranch pastures of the southern valley"
+      },
+      "narration": [
+        {
+          "text": "The pastures along this stretch have been dairy and beef country since the eighteen fifties — and they came close to becoming something else entirely. In nineteen fifty-nine the state added a Point Reyes freeway to its highway plans, part of an era when planners projected heavy suburban growth for west Marin. Opposition built through the sixties. At a county hearing in November nineteen sixty-six, more than three hundred citizens turned out, and all thirty-three who testified opposed a freeway near their homes. Historian Louise Nelson Dyble cites one contemporary account:",
+          "speaker": null
+        },
+        {
+          "text": "It was evident the audience was anti-freeway in any form.",
+          "speaker": {
+            "name": "a contemporary account of the hearing",
+            "kind": "publication",
+            "year": "nineteen sixty-six"
+          }
+        },
+        {
+          "text": "The freeway was dropped, and the land followed a different path: between nineteen sixty-three and nineteen seventy-eight the federal government spent nearly fifty million dollars buying ranchland for the national seashore and, after nineteen seventy-two, the Golden Gate National Recreation Area — often leasing the land back to the same families. Today nineteen contiguous ranches here make up the Olema Valley Dairy Ranches Historic District, listed on the National Register of Historic Places in twenty eighteen.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://www.cahighways.org/ROUTE251.html",
+        "https://www.kqed.org/science/1920624",
+        "https://noehill.com/marin/nat100002286.asp"
+      ]
+    },
+    {
+      "slug": "dogtown-two-names",
+      "title": "Dogtown",
+      "subtitle": "The town with two names",
+      "trigger": {
+        "center": {
+          "lat": 37.9447,
+          "lng": -122.70606
+        },
+        "radiusM": 250
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the small cluster of old farmhouses in the trees"
+      },
+      "narration": [
+        {
+          "text": "Two names live in this scatter of houses among the trees. The settlement began as Woodville, founded by miners and lumberjacks inside an old Mexican land-grant rancho, and according to its Wikipedia history the sawmills here helped feed the growth of San Francisco until the timber ran out around the eighteen seventies. After that the valley turned to ranching and dairying, and Woodville settled into life as a stagecoach stop on the coast route. Neighbors in Bolinas noticed something particular about the place: its residents kept an unusual number of hunting dogs, and they took to calling it Dogtown. The nickname outlasted the lumber, the stagecoaches, and eventually the official name itself, which was formally changed to Dogtown — though some maps still stubbornly print Woodville. A count in two thousand seven put the population at about thirty people. Which name truly belongs here remains a small, unsettled argument in ink.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dogtown,_Marin_County,_California"
+      ]
+    },
+    {
+      "slug": "dogtown-woodville",
+      "title": "Dogtown",
+      "subtitle": "Population thirty, formerly Woodville",
+      "trigger": {
+        "center": {
+          "lat": 37.9447,
+          "lng": -122.7064
+        },
+        "radiusM": 250
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the handful of houses at Dogtown"
+      },
+      "narration": [
+        {
+          "text": "A handful of houses along the highway here make up Dogtown, one of the smallest named places in Marin County, with a population counted at just thirty. It began in the eighteen fifties and sixties as Woodville, a settlement of lumbermen and miners whose sawmills had already shut down by the eighteen seventies — and some maps still print the old name. The name that stuck came from its animals: as the story is told locally, neighbors over in Bolinas knew the place for the packs of hunting dogs its residents kept, called it the Dogtown, and eventually the nickname became official. The hamlet sits inside the historic Rancho Punta de los Reyes Sobrante land grant, wedged between two great parks, the national seashore and the Golden Gate National Recreation Area. From here the rift valley begins to open out, and Pine Gulch Creek runs near the road on its way to Bolinas Lagoon.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dogtown,_Marin_County,_California",
+        "https://en.wikipedia.org/wiki/Olema_Valley"
+      ]
+    },
+    {
+      "slug": "dogtown-thirteen-turns",
+      "title": "Dogtown and the Thirteen Turns",
+      "subtitle": "An Irishman's boundary trees meet a three-and-a-half-million-dollar chainsaw",
+      "trigger": {
+        "center": {
+          "lat": 37.9446,
+          "lng": -122.7064
+        },
+        "radiusM": 250
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the tall eucalyptus trees crowding the winding stretch of highway"
+      },
+      "narration": [
+        {
+          "text": "This tiny settlement is Dogtown, and the winding stretch of highway near it is known to locals as the Thirteen Turns. The towering eucalyptus here were planted by Henry Strain, an Irish immigrant dairy farmer who used the trees to mark the boundaries of his Dogtown property; after his ranch ceased operating in the nineteen seventies, young eucalyptus spread across the old pastureland beside the road. The Point Reyes Light reported in twenty twenty-one that Caltrans had launched a three point five million dollar safety project to trim or remove up to two hundred of the aging trees along this highway. Not everyone was pleased. Bolinas resident Dale Polissar wrote to the paper in protest.",
+          "speaker": null
+        },
+        {
+          "text": "We who love that beautiful drive should have something to say about this, and maybe it's not too late to stop it—or at least moderate it.",
+          "speaker": {
+            "name": "Dale Polissar",
+            "kind": "man",
+            "year": "twenty twenty-one"
+          }
+        },
+        {
+          "text": "Beauty, he argued, deserved a seat beside safety.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://www.ptreyeslight.com/news/olema-valley-eucalyptus-cut-big-caltrans-project/",
+        "https://www.ptreyeslight.com/article/olema-valley-eucalyptus-cut-big-caltrans-project"
+      ]
+    },
+    {
+      "slug": "palomarin-point-blue",
+      "title": "Palomarin and the Bird Observatory",
+      "subtitle": "Six decades of banded songbirds",
+      "trigger": {
+        "center": {
+          "lat": 37.94005,
+          "lng": -122.70522
+        },
+        "radiusM": 150
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the open pastures just before the lagoon comes into view"
+      },
+      "narration": [
+        {
+          "text": "A quiet lane beyond the town of Bolinas dead-ends at one of the longest-running bird studies on the continent. The Palomarin Field Station was established in nineteen sixty-six by the Point Reyes Bird Observatory, an organization founded the year before and known today as Point Blue Conservation Science. According to Point Blue, Palomarin is one of the oldest continuously operating bird-banding stations in the United States, and its biologists have followed the same coastal scrub songbirds — wrentits, song sparrows, white-crowned sparrows — season after season, the longest continuous study of songbird populations in the western United States. The National Park Service publishes its own birding guide to the station, which sits inside Point Reyes National Seashore at the end of Mesa Road. Each bird carries a tiny numbered band, and generations of young field biologists have gotten their start there, working mist nets in the fog.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://www.pointblue.org/our-work/keystone-datasets/palomarin-field-station-data-explorer/",
+        "https://research.fs.usda.gov/download/treesearch/60784.pdf",
+        "https://www.nps.gov/pore/learn/upload/site-bulletin-birding-palomarin.pdf"
+      ]
+    },
+    {
+      "slug": "audubon-canyon-ranch-heronry",
+      "title": "Audubon Canyon Ranch",
+      "subtitle": "The egrets that stopped a freeway",
+      "trigger": {
+        "center": {
+          "lat": 37.92939,
+          "lng": -122.68218
+        },
+        "radiusM": 150
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the white Victorian farmhouse at the canyon mouth"
+      },
+      "narration": [
+        {
+          "text": "Behind the white Victorian farmhouse at the ranch gate, great egrets and great blue herons nest high in a redwood canyon, and their colony is the reason this shoreline was saved. In January nineteen sixty-one, Martin Griffin, president of the Marin Audubon Society, learned that this five-hundred-three-acre ranch was about to be subdivided. The owner, a speculator named William Tevis, told him:",
+          "speaker": null
+        },
+        {
+          "text": "I plan to subdivide into twenty-acre parcels and the birds can move elsewhere.",
+          "speaker": {
+            "name": "William Tevis",
+            "kind": "man",
+            "year": "nineteen sixty-one"
+          }
+        },
+        {
+          "text": "Griffin, by his own account, answered the asking price on the spot:",
+          "speaker": null
+        },
+        {
+          "text": "We'll never get another chance. I'd better take it now.",
+          "speaker": {
+            "name": "Martin Griffin",
+            "kind": "man",
+            "year": "nineteen sixty-one"
+          }
+        },
+        {
+          "text": "A one-thousand-dollar personal check secured the option, and a birdwatching society whose largest previous expense had been a summer-camp scholarship raised three hundred thirty-seven thousand dollars to pay the ranch off by nineteen sixty-six. Founded as Audubon Canyon Ranch in nineteen sixty-two, the preserve was renamed for Martin Griffin in twenty ten, and the heronry canyon honors his partner in the campaign, Stan Picher.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://martingriffin.org/pdf/SMSCPTTWOpp28-53.pdf",
+        "https://www.egret.org/mission-vision-values/",
+        "https://en.wikipedia.org/wiki/Audubon_Canyon_Ranch"
+      ]
+    },
+    {
+      "slug": "bolinas-lagoon-fault",
+      "title": "A Lagoon on the Fault Line",
+      "subtitle": "An estuary born of the San Andreas",
+      "trigger": {
+        "center": {
+          "lat": 37.93228,
+          "lng": -122.68876
+        },
+        "radiusM": 150
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the wide tidal flats of the lagoon"
+      },
+      "narration": [
+        {
+          "text": "The water spreading out along the roadway is Bolinas Lagoon — about eleven hundred acres of tidal estuary, filling and draining twice a day through a narrow mouth at its far end. It owes its existence to the San Andreas Fault, which runs directly beneath it: the lagoon's long trough traces the boundary where the Pacific and North American plates slide past one another. Martin Griffin, the physician who led the fight to save this shore, described the geography in his memoir, Saving the Marin-Sonoma Coast:",
+          "speaker": null
+        },
+        {
+          "text": "Two towns, Bolinas and Stinson Beach, are separated by the San Andreas Fault, which created the \"earthquake bays\" of Bolinas Lagoon, Tomales Bay, and Bodega Bay to the north.",
+          "speaker": {
+            "name": "Martin Griffin",
+            "kind": "man",
+            "year": "nineteen ninety-eight"
+          }
+        },
+        {
+          "text": "At low tide the flats emerge pocked with millions of small holes, each the doorway of a burrowing invertebrate — a food supply that draws tens of thousands of shorebirds down the Pacific Flyway, and the reason the entire lagoon is managed today as a county nature preserve.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bolinas_Lagoon",
+        "https://www.parks.marincounty.gov/parkspreserves/preserves/bolinas-lagoon",
+        "https://martingriffin.org/pdf/SMSCPTTWOpp28-53.pdf"
+      ]
+    },
+    {
+      "slug": "bolinas-water-moratorium",
+      "title": "The Town That Stopped the Tap",
+      "subtitle": "The water meters that froze a town",
+      "trigger": {
+        "center": {
+          "lat": 37.93371,
+          "lng": -122.695
+        },
+        "radiusM": 150
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the head of the lagoon where the water first opens out"
+      },
+      "narration": [
+        {
+          "text": "No sign on this highway points to Bolinas, and that is no accident. In November nineteen seventy-one, the town's tiny utility district declared a water-shortage emergency — Bolinas then drew its water from a single small creek, Arroyo Hondo — and stopped issuing new water meters. The moratorium never ended. With the housing stock frozen at roughly five hundred eighty connections, a bare water meter became real estate in its own right: the Press Democrat reported that one sold at auction in two thousand five for three hundred ten thousand dollars. The missing road signs come from the same protective instinct — for years residents cut down every highway sign pointing to town, until the county gave up replacing them. Elia Haworth of the Bolinas Museum put it plainly:",
+          "speaker": null
+        },
+        {
+          "text": "In the '70s, yes, it was protectionism. And it was to stop tourists from finding us.",
+          "speaker": {
+            "name": "Elia Haworth",
+            "kind": "woman",
+            "year": "twenty fourteen"
+          }
+        },
+        {
+          "text": "Resident James Kirkham summed up the bargain for the Press Democrat:",
+          "speaker": null
+        },
+        {
+          "text": "It's a nice place to be whoever you want to be. As long as you can get a water meter.",
+          "speaker": {
+            "name": "James Kirkham",
+            "kind": "man",
+            "year": "twenty ten"
+          }
+        }
+      ],
+      "sources": [
+        "https://bcpud.org/water/bcpud-water-moratorium/",
+        "https://www.pressdemocrat.com/article/news/moratorium-in-marins-isolated-bolinas-serves-to-keep-town-from-getting-too/",
+        "https://www.kalw.org/show/crosscurrents/2014-08-05/bolinas-a-hidden-town-with-history"
+      ]
+    },
+    {
+      "slug": "bolinas-lagoon-north-end",
+      "title": "Three Faults and a Flooded Road",
+      "subtitle": "Redesigning the lagoon's north end for the rising Pacific",
+      "trigger": {
+        "center": {
+          "lat": 37.9354,
+          "lng": -122.6995
+        },
+        "radiusM": 220
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the junction where the lagoon's marshy north end meets the highway"
+      },
+      "narration": [
+        {
+          "text": "At this junction, where the road to Bolinas splits away, the highway skirts the marshy north end of Bolinas Lagoon, a federally protected water body where winter storms regularly push floodwater over the pavement. The Point Reyes Light reported in twenty sixteen on county plans to remake this corner of the lagoon: three alternatives that ranged from restoring the floodplains of two creeks to lifting the highway onto causeways, and even decommissioning the Olema Bolinas Road entirely. County planner Veronica Pearson explained why nothing here is simple.",
+          "speaker": null
+        },
+        {
+          "text": "This is a really complex geologic area. There are three faults converging right at this location.",
+          "speaker": {
+            "name": "Veronica Pearson",
+            "kind": "woman",
+            "year": "twenty sixteen"
+          }
+        },
+        {
+          "text": "Two years later the paper reported that Caltrans was clearing culverts and ditches along the lagoon's eastern bank, after advisors warned that floodwaters washing over car undercarriages were rinsing petroleum and brake dust straight into the lagoon.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://www.ptreyeslight.com/news/options-laid-out-north-bolinas-lagoon-restoration/",
+        "https://www.ptreyeslight.com/news/caltrans-clean-bolinas-lagoon-road/"
+      ]
+    },
+    {
+      "slug": "bolinas-y-schooner-port",
+      "title": "Bolinas, from the Y",
+      "subtitle": "A schooner port hiding at the end of a road",
+      "trigger": {
+        "center": {
+          "lat": 37.93537,
+          "lng": -122.69948
+        },
+        "radiusM": 200
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the road fork at the head of the lagoon"
+      },
+      "narration": [
+        {
+          "text": "The little road forking away at the head of the lagoon is the way into Bolinas, a town with a history far larger than its size. According to the Marin History Museum, in the early eighteen fifties the Bolinas township held more than half of Marin County's population, and lumber cut on the ridge above was loaded at a wharf on the lagoon, lightered out to schooners, and sailed to Gold Rush San Francisco. Dairies followed the timber, shipping butter to the city, and by the eighteen eighties as many as fifteen ships a day worked the trade. Bolinas Museum historian Elia Haworth described what getting here once required:",
+          "speaker": null
+        },
+        {
+          "text": "Well, you went in a boat, then you had to find a horse. Then you rode over from Sausalito.",
+          "speaker": {
+            "name": "Elia Haworth",
+            "kind": "woman",
+            "year": "twenty fourteen"
+          }
+        },
+        {
+          "text": "The town's enduring landmark is Smiley's, a saloon on Wharf Road that traces its founding to eighteen fifty-one and bills itself as one of the oldest continuously operating saloons in the West — it survived Prohibition disguised as a barber shop.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://marinhistory.org/blog/post-24/",
+        "https://smileyssaloon.com/",
+        "https://www.kalw.org/show/crosscurrents/2014-08-05/bolinas-a-hidden-town-with-history"
+      ]
+    },
+    {
+      "slug": "freeway-that-never-came",
+      "title": "The Freeway That Never Came",
+      "subtitle": "Deeds against bulldozers",
+      "trigger": {
+        "center": {
+          "lat": 37.92371,
+          "lng": -122.6747
+        },
+        "radiusM": 200
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the tall eucalyptus row along the water"
+      },
+      "narration": [
+        {
+          "text": "The old eucalyptus rows shading this stretch stand on a shoreline that was very nearly lost. In nineteen fifty-seven, by Martin Griffin's account, the State Lands Commission leased twelve hundred acres of the lagoon bottom to a Bolinas Harbor District that planned to dredge a harbor and build a marina, and by nineteen sixty-one the county's Bolinas-Stinson Beach Master Plan showed a freeway along the lagoon and a parkway on the ridge above. Audubon Canyon Ranch fought back by buying land squarely in the freeway's path. Co-founder Stan Picher, a celebrated art collector, called these canyons and marshes",
+          "speaker": null
+        },
+        {
+          "text": "jewels worthy of collection and preservation",
+          "speaker": {
+            "name": "Stan Picher",
+            "kind": "man",
+            "year": "nineteen sixties"
+          }
+        },
+        {
+          "text": "In nineteen sixty-seven Picher stood before the county supervisors, described the parcels the Ranch had bought ringing the lagoon, and handed their deeds to the county to seed a shoreline park. By nineteen sixty-nine the harbor district was out of business and the freeway was dead — and the ranch had been declared a National Natural Landmark the year before. The lagoon you are passing looks today almost exactly as it did then.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://martingriffin.org/pdf/SMSCPTTWOpp28-53.pdf",
+        "https://martingriffin.org/audubon-canyon-ranch/",
+        "https://en.wikipedia.org/wiki/Audubon_Canyon_Ranch"
+      ]
+    },
+    {
+      "slug": "kent-island-marina-that-never-was",
+      "title": "Kent Island",
+      "subtitle": "The marina that never was",
+      "trigger": {
+        "center": {
+          "lat": 37.91847,
+          "lng": -122.66997
+        },
+        "radiusM": 200
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the low green island out on the lagoon flats"
+      },
+      "narration": [
+        {
+          "text": "The low green island out on the flats is Kent Island, about one hundred ten acres of dune and marsh — once slated to become a resort. In nineteen sixty-four a company called Bahia Baulines proposed dredging the lagoon for a development with a hotel, a restaurant, a helicopter pad, and a marina for fifteen hundred boats. Audubon Canyon Ranch, the Nature Conservancy, and the Marin Conservation League raised the money to buy the island instead, and by nineteen sixty-seven it was deeded to Marin County on the condition it stay undeveloped forever. Martin Griffin remembered that scramble — with his fundraising partner away in Europe, he wrote,",
+          "speaker": null
+        },
+        {
+          "text": "the purchase and fund drive for Kent Island fell into my lap",
+          "speaker": {
+            "name": "Martin Griffin",
+            "kind": "man",
+            "year": "nineteen ninety-eight"
+          }
+        },
+        {
+          "text": "The island now belongs to nesting birds and to the harbor seals that haul out on the surrounding sandbars. Marin County Parks says one hundred fifty or more seals and their pups can gather here, most visibly in spring at low tide.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kent_Island_(California)",
+        "https://www.parks.marincounty.gov/parkspreserves/preserves/bolinas-lagoon",
+        "https://martingriffin.org/pdf/SMSCPTTWOpp28-53.pdf"
+      ]
+    },
+    {
+      "slug": "seadrift-sandspit",
+      "title": "Seadrift and the Sandspit",
+      "subtitle": "A seawall, a lawsuit, and a beach",
+      "trigger": {
+        "center": {
+          "lat": 37.91282,
+          "lng": -122.66247
+        },
+        "radiusM": 200
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the long sandspit of beach houses across the water"
+      },
+      "narration": [
+        {
+          "text": "Across the water, a long ribbon of beach houses rides the sandspit that shelters this entire lagoon. That is Seadrift, laid out by the William Kent Estate Company in the late nineteen forties. The pioneering city planner Catherine Bauer wrote its protective covenants in nineteen forty-nine, and the firm of architect William Wurster designed many of its early houses. It also became the stage for one of California's long-running beach-access fights. During the storms of nineteen eighty-three, homeowners built a rock seawall well over a mile long under an emergency permit, and the question of what the public was owed in exchange spent years in the courts. A settlement in nineteen ninety-four confirmed the public's right to walk Seadrift's ocean beach — though no closer than sixty feet from the seawall, with no camping or picnicking. The sandspit itself does quiet, essential work: it is the natural barrier that makes the lagoon a lagoon.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://pcad.lib.washington.edu/building/8043/",
+        "https://law.justia.com/cases/california/court-of-appeal/4th/60/1053.html",
+        "https://www.sfgate.com/bayarea/article/sunbather-wins-right-to-use-beach-at-seadrift-3229349.php"
+      ]
+    },
+    {
+      "slug": "willow-camp-stinson",
+      "title": "Willow Camp",
+      "subtitle": "How the beach got its name — and its road",
+      "trigger": {
+        "center": {
+          "lat": 37.90979,
+          "lng": -122.6566
+        },
+        "radiusM": 200
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the beach town gathering beyond the mouth of the lagoon"
+      },
+      "narration": [
+        {
+          "text": "The village ahead was not always Stinson Beach. For decades it was Willow Camp, a settlement of tents pitched among the willows behind the sand, on ground where Coast Miwok people had harvested salmon and clams for centuries. A wagon road reached the coast in eighteen seventy, and in the eighteen nineties Nathan and Rose Stinson built up a tent resort by the beach. The mountain railway that climbed Mount Tamalpais after eighteen ninety-six never actually reached the ocean — its celebrated gravity cars coasted toward Mill Valley and Muir Woods, not to the beach. The National Park Service describes how beachgoers really arrived:",
+          "speaker": null
+        },
+        {
+          "text": "Visitors could now ride a ferry and train from San Francisco and then catch a stagecoach down to Willow Camp, all within one day.",
+          "speaker": {
+            "name": "National Park Service",
+            "kind": "publication",
+            "year": "two thousand five"
+          }
+        },
+        {
+          "text": "Refugees from the nineteen-oh-six earthquake built some of the town's first businesses, and the community took the Stinson name in nineteen sixteen. One tradition endures: the Dipsea Race, begun in nineteen-oh-five and among the oldest footraces in the country, still finishes here each June, seven steep miles from Mill Valley.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://www.visitmarin.org/site/assets/files/1060/stinson_beach_ggnra.pdf",
+        "https://en.wikipedia.org/wiki/Stinson_Beach,_California",
+        "https://www.friendsofmttam.org/the-crookedest-railroad/timeline.html"
+      ]
+    },
+    {
+      "slug": "bolinas-lagoon",
+      "title": "Bolinas Lagoon",
+      "subtitle": "Eleven hundred acres the voters saved from a marina",
+      "trigger": {
+        "center": {
+          "lat": 37.91111,
+          "lng": -122.65994
+        },
+        "radiusM": 150
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the lagoon spreading beside the highway"
+      },
+      "narration": [
+        {
+          "text": "The water opening out beside the highway is Bolinas Lagoon, eleven hundred acres of tidal estuary held between Mount Tamalpais and the sea. The National Oceanic and Atmospheric Administration's magazine, Earth Is Blue, describes it this way:",
+          "speaker": null
+        },
+        {
+          "text": "Bolinas Lagoon, a United Nations designated Wetland of International Importance located within Greater Farallones National Marine Sanctuary, provides rich habitat for shorebirds, waterfowl, fish, marine mammals, and invertebrates.",
+          "speaker": {
+            "name": "Earth Is Blue Magazine, NOAA",
+            "kind": "publication"
+          }
+        },
+        {
+          "text": "Tens of thousands of migrating birds rest here along the Pacific Flyway, and harbor seals haul out on the flats at low tide. It nearly went another way. In nineteen fifty-seven, according to the Stinson Beach Historical Society's timeline, a harbor district was formed to develop the lagoon. Voters dissolved that district in nineteen sixty-nine, and Marin County took the lagoon as parkland instead. It is now one of only seven wetlands of international importance in the western United States.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://www.parks.marincounty.gov/parkspreserves/preserves/bolinas-lagoon",
+        "https://sanctuaries.noaa.gov/magazine/2/bolinas-lagoon-a-restoration-story/",
+        "https://stinsonbeachhistoricalsociety.org/stinson-beach-timeline/"
+      ]
+    },
+    {
+      "slug": "seadrift-access-fights",
+      "title": "Seadrift",
+      "subtitle": "A gated sand spit and forty years of beach-access fights",
+      "trigger": {
+        "center": {
+          "lat": 37.90461,
+          "lng": -122.64945
+        },
+        "radiusM": 140
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the long sand spit between the lagoon and the ocean"
+      },
+      "narration": [
+        {
+          "text": "The finger of sand across the lagoon is Seadrift, one of the most contested private communities on the California coast. A hotel called the Dipsea Inn opened out there in nineteen oh four, built for a railroad that never arrived; it was torn down after the First World War. The modern subdivision came in nineteen fifty-one, when county supervisors accepted Seadrift's first map, and it grew into a gated colony of beach houses. After storms in the early nineteen-eighties, a rock revetment roughly seventy-four hundred feet long went up along the ocean side, and years of lawsuits over public access followed. A nineteen ninety-four settlement opened the sandy beach seaward of the rocks to the public, while promising that the coastal commission, the state, and the county",
+          "speaker": null
+        },
+        {
+          "text": "will impose in any permit for improvements to the Seadrift Sandspit any condition which requires greater public access to the Seadrift Sandspit than required by this Agreement.",
+          "speaker": {
+            "name": "Seadrift settlement agreement",
+            "kind": "publication",
+            "year": "nineteen ninety-four"
+          }
+        },
+        {
+          "text": "none of them, that is. Marin County's own coastal program is blunt about the spit, warning:",
+          "speaker": null
+        },
+        {
+          "text": "Build-out of the Subdivision's existing residential lots will expose a significant number of houses and people to these geologic hazards.",
+          "speaker": {
+            "name": "Marin County Local Coastal Program",
+            "kind": "publication"
+          }
+        }
+      ],
+      "sources": [
+        "https://documents.coastal.ca.gov/reports/2023/2/F13b/F13b-2-2023-report.pdf",
+        "https://law.justia.com/cases/california/court-of-appeal/4th/60/1053.html",
+        "https://stinsonbeachhistoricalsociety.org/stinson-beach-timeline/"
+      ]
+    },
+    {
+      "slug": "willow-camp-origins",
+      "title": "Willow Camp",
+      "subtitle": "Tent resorts, a captain, and the family the town is named for",
+      "trigger": {
+        "center": {
+          "lat": 37.90086,
+          "lng": -122.64475
+        },
+        "radiusM": 120
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the willows at the edge of the village"
+      },
+      "narration": [
+        {
+          "text": "Before it was Stinson Beach, this was a place you camped. Captain Alfred Easkoot, a shipmaster who became Marin County's first elected surveyor, opened a tent resort by the beach in eighteen seventy-one; the Stinson Beach Historical Society counts twenty family tents there by eighteen seventy-nine, and the creek through the village still carries his name. Nathan Stinson had bought seventeen hundred and twenty acres here with James Upton in eighteen seventy, the year the first dirt road came through from Sausalito. After Upton died, Stinson married his widow, Rose, and in the eighteen-eighties the couple opened a rival resort among the willows, complete with a dance floor and its own newspaper, the Willow Whistle. Of the settlement's name, the historical society's timeline records simply:",
+          "speaker": null
+        },
+        {
+          "text": "Most people called it Willow Camp.",
+          "speaker": {
+            "name": "Stinson Beach Historical Society",
+            "kind": "publication"
+          }
+        },
+        {
+          "text": "The name held until nineteen sixteen, when a post office arrived and Willow Camp officially became Stinson Beach.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://stinsonbeachhistoricalsociety.org/stinson-beach-timeline/",
+        "https://en.wikipedia.org/wiki/Stinson_Beach,_California"
+      ]
+    },
+    {
+      "slug": "stinson-beach-rising-sea",
+      "title": "A Billion-Dollar Line in the Sand",
+      "subtitle": "The most vulnerable town in Marin plans for the encroaching ocean",
+      "trigger": {
+        "center": {
+          "lat": 37.9008,
+          "lng": -122.6451
+        },
+        "radiusM": 250
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the low-lying beach town clustered between the lagoon and the ocean"
+      },
+      "narration": [
+        {
+          "text": "Stinson Beach, wedged between the Pacific and Bolinas Lagoon, is considered the most vulnerable coastal community in Marin County. The Point Reyes Light reported in twenty twenty-five on a fifty-six page blueprint laying out a one point two billion dollar strategy to help this town of about five hundred residents withstand the rising ocean, from elevating roads and restoring dunes to replacing septic systems. The projections were sobering: with three point three feet of sea-level rise, nearly all development on the ocean side of the highway falls within a flood hazard zone. James Jackson, a hydrologist on the study, described the bind.",
+          "speaker": null
+        },
+        {
+          "text": "There's no obvious site where the community could simply relocate. But it's hard to envision the community remaining exactly where it is after several feet of sea-level rise.",
+          "speaker": {
+            "name": "James Jackson",
+            "kind": "man",
+            "year": "twenty twenty-five"
+          }
+        },
+        {
+          "text": "One longtime resident, Jeff Loomans, doubted the town could pull it off.",
+          "speaker": null
+        },
+        {
+          "text": "Stinson is an unincorporated village with no central political entity that could take the lead on this. Implementing this plan is a pipe dream.",
+          "speaker": {
+            "name": "Jeff Loomans",
+            "kind": "man",
+            "year": "twenty twenty-five"
+          }
+        }
+      ],
+      "sources": [
+        "https://www.ptreyeslight.com/news/roadmap-guides-stinson-amid-changing-shores/"
+      ]
+    },
+    {
+      "slug": "matt-davis-steep-ravine",
+      "title": "Trails Out of Town",
+      "subtitle": "The village staircase into Mount Tamalpais",
+      "trigger": {
+        "center": {
+          "lat": 37.89847,
+          "lng": -122.63776
+        },
+        "radiusM": 90
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the firehouse at Belvedere Avenue"
+      },
+      "narration": [
+        {
+          "text": "Behind the village firehouse at Belvedere Avenue, a signpost marks the start of the Matt Davis Trail, Stinson Beach's staircase into the high country of Mount Tamalpais. The Golden Gate National Parks Conservancy describes an ecologically varied route: Douglas fir forest, coastal chaparral, and the open grasslands of Bolinas Ridge on the way to the Pantoll ranger station. From Pantoll, hikers drop back toward the coast through Steep Ravine, a shaded canyon of redwoods and waterfalls, and the two trails join the Dipsea to make one of the Bay Area's classic loops. Artists found this country early; the historical society notes that the painters Thaddeus and Ludmilla Welch lived at Steep Ravine beginning in eighteen ninety-three. And in nineteen sixty, when crews dynamited the outcrop called Big Rock to widen the highway, rubble buried the natural hot springs at Steep Ravine. They can be reached now only at the lowest tides.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://www.parksconservancy.org/trails/matt-davis-trail",
+        "https://stinsonbeachhistoricalsociety.org/stinson-beach-timeline/",
+        "https://www.theoutbound.com/san-francisco/hiking/hike-the-matt-davis-steep-ravine-loop"
+      ]
+    },
+    {
+      "slug": "sand-dollar-village-center",
+      "title": "The Sand Dollar",
+      "subtitle": "Barges that became the village living room",
+      "trigger": {
+        "center": {
+          "lat": 37.89859,
+          "lng": -122.6389
+        },
+        "radiusM": 100
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the row of shops at the center of the village"
+      },
+      "narration": [
+        {
+          "text": "The low building at the heart of the village is the Sand Dollar, serving Stinson Beach since nineteen twenty-one. By long local account it began as wooden barges, floated across the water and joined together on this spot, though Annie Rand, who ran the place for more than three decades, allowed the story might be too good to be true. The Point Reyes Light asked Sam Temer, whose family has kept it for a quarter century, what the restaurant means here. His answer, in twenty twenty-five:",
+          "speaker": null
+        },
+        {
+          "text": "The Sand Dollar has always been called Stinson Beach's living room. It's an institution.",
+          "speaker": {
+            "name": "Sam Temer",
+            "kind": "man",
+            "year": "twenty twenty-five"
+          }
+        },
+        {
+          "text": "Its neighbors carry the same long-haul spirit. Stinson Beach Books keeps the village in novels and field guides, and Live Water Surf Shop, a fixture since nineteen seventy-eight, is the oldest surf shop north of San Francisco, famous for a logo of a white shark inside a red slashed circle.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://www.ptreyeslight.com/news/sand-dollar-close-to-making-a-comeback/",
+        "https://marinmagazine.com/explore/water-activities/a-local-legend-live-water-surf-shop-and-its-famous-no-shark-logo/",
+        "https://stinsonbeachbooks.com/"
+      ]
+    },
+    {
+      "slug": "the-calles",
+      "title": "The Calles",
+      "subtitle": "An earthquake, a subdivision map, and streets named Calle",
+      "trigger": {
+        "center": {
+          "lat": 37.89961,
+          "lng": -122.64297
+        },
+        "radiusM": 110
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the streets named Calle"
+      },
+      "narration": [
+        {
+          "text": "The short streets between the highway and the sand here are the Calles: Calle del Mar, Calle del Arroyo, Calle del Sierra. Calle is Spanish for street. A popular local story says they were carved out for refugees of the nineteen oh six earthquake. The record kept by the Stinson Beach Historical Society is more tangled, and more interesting. Archie Upton filed the village's first subdivision map on March twenty-fourth, nineteen oh six, twenty-five days before the earthquake struck San Francisco. The refugees came all the same. The Airey family lost their San Francisco iron foundry in the disaster, moved out to Willow Camp that same year, and opened one of the first hotels and restaurants in town. The streets of the Calles themselves were platted in nineteen thirteen, when Upton filed the fifty-eight-acre Charles Robinson Tract. However the lines got drawn, it was the earthquake that filled them in with people.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://stinsonbeachhistoricalsociety.org/stinson-beach-timeline/",
+        "https://en.wikipedia.org/wiki/Stinson_Beach,_California"
+      ]
+    },
+    {
+      "slug": "dipsea-finish",
+      "title": "The Dipsea Finish",
+      "subtitle": "America's oldest trail race ends at this beach",
+      "trigger": {
+        "center": {
+          "lat": 37.89759,
+          "lng": -122.63712
+        },
+        "radiusM": 90
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the corner where the Dipsea comes down to the sea"
+      },
+      "narration": [
+        {
+          "text": "Every June, on the second Sunday, runners pour down the mountain into Stinson Beach to finish the Dipsea Race, the oldest trail race in America. It began with a wager. In nineteen oh four, two San Francisco Olympic Club men, Charles Boas and Alfons Coney, raced each other on foot from Mill Valley over the shoulder of Mount Tamalpais to the Dipsea Inn on the sand spit. The first organized race followed on a rainy November nineteenth, nineteen oh five. The San Francisco Examiner called it",
+          "speaker": null
+        },
+        {
+          "text": "the greatest cross-country run that was ever held in this or any other country.",
+          "speaker": {
+            "name": "The San Francisco Examiner",
+            "kind": "publication",
+            "year": "nineteen oh five"
+          }
+        },
+        {
+          "text": "The Dipsea's famous handicap system grants head starts by age, so a schoolchild or a grandmother can beat the fastest runner in the field, and sometimes does. Finishers have always been fed close by: the Parkside, steps from the beach park, has run its snack bar since nineteen forty-nine.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://www.dipsea.org/history.php",
+        "https://www.nps.gov/articles/the-dipsea-race.htm",
+        "https://www.parksidecafe.com/"
+      ]
+    },
+    {
+      "slug": "stinson-beach-ggnra",
+      "title": "Stinson Beach",
+      "subtitle": "From tent camp to national parkland",
+      "trigger": {
+        "center": {
+          "lat": 37.8966,
+          "lng": -122.639
+        },
+        "radiusM": 120
+      },
+      "modes": [
+        "driving",
+        "cycling",
+        "walking"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the beach parking entrance"
+      },
+      "narration": [
+        {
+          "text": "The beach at the end of this road has passed through a long chain of hands. Easkoot's campers bathed here in the eighteen-seventies. In nineteen thirty-two, Archie Upton gave thirty-six hundred feet of shoreline to Marin County on one condition, that it be called Upton Beach, a name the sands toward Seadrift still carry. Eve Stinson Fitzhenry sold the old Willow Camp to the county as a park in nineteen thirty-nine; the state took over in nineteen fifty; and in the nineteen-seventies the beach joined the new Golden Gate National Recreation Area, which is why the lifeguards here wear National Park Service colors. About the ocean itself, the Park Service is direct. These waters belong to the region researchers call the Red Triangle, where white sharks hunt seals offshore. The Park Service's guidance:",
+          "speaker": null
+        },
+        {
+          "text": "Attacks on humans remain extremely rare, but visitors should be aware of the potential for sharks close to shore in shallow water.",
+          "speaker": {
+            "name": "The National Park Service",
+            "kind": "publication"
+          }
+        },
+        {
+          "text": "Swim when the lifeguards are on duty, from late May to mid-September. This sand is the end of the road, and the whole town's beginning.",
+          "speaker": null
+        }
+      ],
+      "sources": [
+        "https://www.nps.gov/places/000/stinson-beach.htm",
+        "https://www.parks.marincounty.gov/parkspreserves/parks/upton-beach",
+        "https://en.wikipedia.org/wiki/Stinson_Beach,_California"
+      ]
+    }
+  ]
+}

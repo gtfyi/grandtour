@@ -1,0 +1,11 @@
+# Gitleaks config; CI runs this on every PR (see .github/workflows/ci.yml).
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Public constants that pattern-match as keys"
+regexes = [
+  # ElevenLabs' published default voice id ("Rachel") in .env.example.
+  '''21m00Tcm4TlvDq8ikWAM''',
+]

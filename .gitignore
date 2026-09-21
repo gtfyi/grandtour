@@ -1,0 +1,60 @@
+node_modules
+dist
+*.log
+.env
+.env.local
+.DS_Store
+*.xcuserstate
+xcuserdata/
+.build/
+DerivedData/
+dist-web/
+server/uploads/
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
+
+# Field diagnostics from the iOS app (dev only)
+diag/
+
+# WordNet dict downloaded by enrich-vocab-senses.ts
+server/scripts/data/wordnet/
+
+# Generated Xcode project and build output (xcodegen generate)
+ios/GrandTour.xcodeproj/
+ios/build*/
+# Per-developer signing (see ios/project-local.yml.example)
+ios/project-local.yml
+
+# Third-party audio archive (PD/CC research corpus, ~1.8 GB). Reference
+# material for sourcing, not part of the project — never commit it.
+research/
+
+# Local pre-reorg database dumps
+.reorg-backup/
+
+# Field data and content sources stay out of the code repository (plan 016):
+# GPS traces, walk verifications, drive audits and per-track field notes are
+# private (015 B5); content sources move to the tours repository. The slates
+# already tracked above this line remain as example content.
+docs/*.json
+docs/*.geojson
+docs/bothin-*.md
+docs/point-reyes-*.md
+docs/sheriff-*.md
+docs/nicasio-*
+server/scripts/data/*.research.json
+server/scripts/data/bothin-*
+server/scripts/data/point-reyes-*
+server/scripts/data/sheriff-*
+server/scripts/data/shell-drive-*
+server/scripts/data/nicasio-*
+server/scripts/data/west-marin-*
+server/scripts/data/going-to-the-sun-road.*
+server/scripts/data/fairfax-to-stinson-3.spots.json
+
+# Generated distribution files: produced by the tours export, never committed here
+packages/tour-viewer/public/app/*.json
+packages/tour-viewer/public/*.grandtour.json
+
+# The site's wrangler state and build output
+site/.wrangler/

@@ -1,0 +1,224 @@
+# XcodeGen spec. Generate the project with:  cd ios && xcodegen generate
+# (brew install xcodegen)
+#
+# Device signing lives in the gitignored project-local.yml (see
+# project-local.yml.example); enable it with
+#   GRANDTOUR_SIGNING=true xcodegen generate
+# Simulator builds need no signing.
+name: GrandTour
+include:
+  - path: project-local.yml
+    enable: ${GRANDTOUR_SIGNING}
+options:
+  bundleIdPrefix: fyi.grandtour
+  deploymentTarget:
+    iOS: "17.0"
+    watchOS: "10.0"
+settings:
+  base:
+    MARKETING_VERSION: "0.1.0"
+    CURRENT_PROJECT_VERSION: "2026.9.13"
+    SWIFT_VERSION: "5.10"
+    GENERATE_INFOPLIST_FILE: NO
+    # API base URL, expanded into Info.plist. Override per build:
+    #   xcodebuild GRANDTOUR_API_BASE_URL=http://my-mac.tailnet:8787 ...
+    GRANDTOUR_API_BASE_URL: http://localhost:8787
+    # Which CarPlay experience CarPlaySceneDelegate presents (Info.plist
+    # GrandTourCarPlayMode): "audio" — lists + the system Now Playing screen,
+    # needs com.apple.developer.carplay-audio, the realistic grant for an
+    # audio tour app — or "navigation" — live map + directions, needs
+    # carplay-maps. Override per build:
+    #   xcodebuild GRANDTOUR_CARPLAY_MODE=navigation ...
+    GRANDTOUR_CARPLAY_MODE: audio
+    # Exactly one category per signed build. "none" is an explicit phone /
+    # system Now Playing build for teams without Apple's CarPlay approval.
+    GRANDTOUR_CARPLAY_ENTITLEMENTS_audio: GrandTour.entitlements
+    GRANDTOUR_CARPLAY_ENTITLEMENTS_navigation: GrandTourNavigation.entitlements
+    GRANDTOUR_CARPLAY_ENTITLEMENTS_none: GrandTourNoCarPlay.entitlements
+targets:
+  GrandTour:
+    type: application
+    platform: iOS
+    sources:
+      - Sources
+    info:
+      path: Info.plist
+      properties:
+        CFBundleDisplayName: GrandTour
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        # API base URL; set via the GRANDTOUR_API_BASE_URL build setting.
+        GrandTourAPIBaseURL: $(GRANDTOUR_API_BASE_URL)
+        GrandTourCarPlayMode: $(GRANDTOUR_CARPLAY_MODE)
+        UILaunchScreen: {}
+        NSLocationWhenInUseUsageDescription: GrandTour plays stories about the places around you as you move.
+        NSLocationAlwaysAndWhenInUseUsageDescription: GrandTour can keep narrating in the background as you travel.
+        NSMicrophoneUsageDescription: GrandTour records your narration in walk-and-record mode, so your tour plays back where you made it.
+        UIBackgroundModes:
+          - audio
+          - location
+        # Dev only: allow plain HTTP to the dev server (localhost, LAN, or
+        # Tailscale — the last isn't covered by NSAllowsLocalNetworking).
+        # Remove for production and serve HTTPS instead.
+        NSAppTransportSecurity:
+          NSAllowsArbitraryLoads: true
+        # CarPlay scene (CarPlaySceneDelegate). The phone window stays under
+        # the SwiftUI lifecycle; only the CarPlay role is declared here.
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: true
+          UISceneConfigurations:
+            CPTemplateApplicationSceneSessionRoleApplication:
+              - UISceneConfigurationName: GrandTour-CarPlay
+                UISceneClassName: CPTemplateApplicationScene
+                UISceneDelegateClassName: $(PRODUCT_MODULE_NAME).CarPlaySceneDelegate
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: fyi.grandtour.app
+        TARGETED_DEVICE_FAMILY: "1,2"
+        CODE_SIGN_STYLE: Automatic
+        # Device builds must carry the entitlement too. Signing must fail if
+        # the provisioning profile lacks Apple's grant, instead of producing
+        # an app that silently disappears from the car's launcher.
+        CODE_SIGN_ENTITLEMENTS: $(GRANDTOUR_CARPLAY_ENTITLEMENTS_$(GRANDTOUR_CARPLAY_MODE))
+    dependencies:
+      # Embeds the watch app into the iOS app (Watch/ directory).
+      - target: GrandTourWatch
+  # No app host. Pure journey tests plus view-model integration tests that
+  # exercise player-idle decisions with an isolated history and virtual clock.
+  GrandTourTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - Tests
+      - Sources/SpotScheduler.swift
+      - Sources/PlaybackEligibility.swift
+      - Sources/SpotLocator.swift
+      - Sources/Models.swift
+      - Sources/Geo.swift
+      - Sources/TriggerEvaluator.swift
+      - Sources/PollPolicy.swift
+      - Sources/NarrationDuration.swift
+      - Sources/GuidedTourPlanner.swift
+      - Sources/DemoDrive.swift
+      - Sources/TourViewModel.swift
+      - Sources/ActivityMode.swift
+      - Sources/AudioPlayer.swift
+      - Sources/AudioSession.swift
+      - Sources/AudioKeepalive.swift
+      - Sources/NowPlayingController.swift
+      - Sources/LocationManager.swift
+      - Sources/TourCache.swift
+      - Sources/TrackDownloadBundle.swift
+      - Sources/TourDiagnostics.swift
+      - Sources/GrandTourAPI.swift
+      - Sources/CreatorAPI.swift
+      - Sources/RecordingLibrary.swift
+      - Sources/ServerPreference.swift
+      - Sources/Distribution.swift
+      - Sources/AreaId.swift
+      - Sources/TourStyle.swift
+      - Sources/PlayHistory.swift
+      - Sources/TrackProgress.swift
+      - Sources/TrackPreference.swift
+      - Sources/FillInGapPreference.swift
+      - Sources/NarrationPreference.swift
+      - Sources/NarrationGapPreference.swift
+      - Sources/LocalePreference.swift
+      - Sources/SpokenSegment.swift
+      - Sources/QuizSpeech.swift
+      - Sources/VocabSpeech.swift
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: fyi.grandtour.tests
+        GENERATE_INFOPLIST_FILE: YES
+  # Standalone watch app: its own GPS, its own /nearby polling, its own
+  # audio (Bluetooth headphones — watchOS long-form audio never routes to
+  # the watch speaker). Shares the pure logic files the same way
+  # GrandTourTests does: recompiled straight into the target.
+  GrandTourWatch:
+    type: application
+    platform: watchOS
+    sources:
+      - WatchSources
+      - Sources/Models.swift
+      - Sources/Geo.swift
+      - Sources/SpotScheduler.swift
+      - Sources/PlaybackEligibility.swift
+      - Sources/SpotLocator.swift
+      - Sources/TriggerEvaluator.swift
+      - Sources/PollPolicy.swift
+      - Sources/GrandTourAPI.swift
+      - Sources/ServerPreference.swift
+      - Sources/Distribution.swift
+      - Sources/PlayHistory.swift
+      - Sources/TrackDownloadBundle.swift
+      - Sources/NarrationPreference.swift
+      - Sources/NarrationGapPreference.swift
+      - Sources/TrackPreference.swift
+      - Sources/LocalePreference.swift
+      - Sources/SpokenSegment.swift
+      - Sources/NarrationDuration.swift
+    info:
+      path: WatchSources/Info.plist
+      properties:
+        CFBundleDisplayName: GrandTour
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        # Single-target watch app, installable and runnable with no iPhone.
+        WKApplication: true
+        WKCompanionAppBundleIdentifier: fyi.grandtour.app
+        WKRunsIndependentlyOfCompanionApp: true
+        GrandTourAPIBaseURL: $(GRANDTOUR_API_BASE_URL)
+        NSLocationWhenInUseUsageDescription: GrandTour plays stories about the places around you as you move.
+        NSLocationAlwaysAndWhenInUseUsageDescription: GrandTour can keep narrating as you travel.
+        # The tour runs as a workout session so GPS and narration continue
+        # with the wrist down; no workout sample is ever saved to Health.
+        NSHealthShareUsageDescription: GrandTour uses a workout session to keep narrating and tracking your position while your wrist is down. No workout data is saved.
+        NSHealthUpdateUsageDescription: GrandTour uses a workout session to keep narrating and tracking your position while your wrist is down. No workout data is saved.
+        WKBackgroundModes:
+          - audio
+          - workout-processing
+        # allowsBackgroundLocationUpdates asserts (crashes) on watchOS
+        # without this — WKBackgroundModes alone doesn't cover location.
+        UIBackgroundModes:
+          - location
+        # Dev only: allow plain HTTP to the dev server. Remove for
+        # production and serve HTTPS instead (same caveat as the phone app).
+        NSAppTransportSecurity:
+          NSAllowsArbitraryLoads: true
+    entitlements:
+      path: GrandTourWatch.entitlements
+      properties:
+        com.apple.developer.healthkit: true
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: fyi.grandtour.app.watchkitapp
+        CODE_SIGN_STYLE: Automatic
+schemes:
+  # Logic-only tests without building the apps: the GrandTour scheme now
+  # embeds the watch app, which requires the watchOS platform to be
+  # installed even for `xcodebuild test`. This scheme builds just the test
+  # bundle, so tests run on any machine with an iOS simulator.
+  GrandTourTests:
+    build:
+      targets:
+        GrandTourTests: all
+    test:
+      config: Debug
+      targets:
+        - GrandTourTests
+  GrandTour:
+    build:
+      targets:
+        GrandTour: all
+        GrandTourTests: [test]
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets:
+        - GrandTourTests
+  GrandTourWatch:
+    build:
+      targets:
+        GrandTourWatch: all
+    run:
+      config: Debug

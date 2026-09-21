@@ -1,0 +1,207 @@
+{
+  "formatVersion": 1,
+  "exportedAt": "2026-01-01T00:00:00.000Z",
+  "track": {
+    "id": "00000000-0000-4000-8000-000000000001",
+    "slug": "sample-town",
+    "name": "Sample Town",
+    "description": "A synthetic test track.",
+    "kind": "tour",
+    "lifecycle": "evergreen",
+    "official": true,
+    "visibility": "public",
+    "holdReason": null,
+    "heldAt": null,
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  "spots": [
+    {
+      "spot": {
+        "id": "00000000-0000-4000-8000-000000000010",
+        "trackId": "00000000-0000-4000-8000-000000000001",
+        "slug": "town-hall",
+        "title": "Town Hall",
+        "subtitle": "",
+        "trigger": {
+          "kind": "point",
+          "center": {
+            "lat": 37.9871,
+            "lng": -122.5889
+          },
+          "radiusM": 40
+        },
+        "modes": [],
+        "locating": {
+          "mode": "auto",
+          "clips": {}
+        },
+        "status": "draft",
+        "createdAt": "2026-01-01T00:00:00.000Z",
+        "updatedAt": "2026-01-01T00:00:00.000Z"
+      },
+      "content": [
+        {
+          "id": "00000000-0000-4000-8000-000000000100",
+          "spotId": "00000000-0000-4000-8000-000000000010",
+          "locale": "en",
+          "variant": "default",
+          "document": {
+            "id": "doc-72",
+            "text": "Town Hall is spot 1 of the sample track. Its story is short and made up.",
+            "byteLength": 72,
+            "metadata": {},
+            "tiers": []
+          },
+          "audioUrl": null,
+          "durationMs": null,
+          "source": "human",
+          "provenance": null,
+          "status": "published",
+          "createdAt": "2026-01-01T00:00:00.000Z",
+          "updatedAt": "2026-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "spot": {
+        "id": "00000000-0000-4000-8000-000000000011",
+        "trackId": "00000000-0000-4000-8000-000000000001",
+        "slug": "the-creek",
+        "title": "The Creek",
+        "subtitle": "",
+        "trigger": {
+          "kind": "point",
+          "center": {
+            "lat": 37.9885,
+            "lng": -122.5901
+          },
+          "radiusM": 40
+        },
+        "modes": [],
+        "locating": {
+          "mode": "auto",
+          "clips": {}
+        },
+        "status": "draft",
+        "createdAt": "2026-01-01T00:00:00.000Z",
+        "updatedAt": "2026-01-01T00:00:00.000Z"
+      },
+      "content": [
+        {
+          "id": "00000000-0000-4000-8000-000000000101",
+          "spotId": "00000000-0000-4000-8000-000000000011",
+          "locale": "en",
+          "variant": "default",
+          "document": {
+            "id": "doc-72",
+            "text": "The Creek is spot 2 of the sample track. Its story is short and made up.",
+            "byteLength": 72,
+            "metadata": {},
+            "tiers": []
+          },
+          "audioUrl": "https://data.grandtour.fyi/audio/0000000000000000000000000000000000000000000000000000000000000002.mp3",
+          "durationMs": 45000,
+          "source": "human",
+          "provenance": null,
+          "status": "published",
+          "createdAt": "2026-01-01T00:00:00.000Z",
+          "updatedAt": "2026-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "spot": {
+        "id": "00000000-0000-4000-8000-000000000012",
+        "trackId": "00000000-0000-4000-8000-000000000001",
+        "slug": "old-depot",
+        "title": "Old Depot",
+        "subtitle": "",
+        "trigger": {
+          "kind": "point",
+          "center": {
+            "lat": 37.986,
+            "lng": -122.587
+          },
+          "radiusM": 40
+        },
+        "modes": [],
+        "locating": {
+          "mode": "auto",
+          "clips": {}
+        },
+        "status": "draft",
+        "createdAt": "2026-01-01T00:00:00.000Z",
+        "updatedAt": "2026-01-01T00:00:00.000Z"
+      },
+      "content": [
+        {
+          "id": "00000000-0000-4000-8000-000000000102",
+          "spotId": "00000000-0000-4000-8000-000000000012",
+          "locale": "en",
+          "variant": "default",
+          "document": {
+            "id": "doc-72",
+            "text": "Old Depot is spot 3 of the sample track. Its story is short and made up.",
+            "byteLength": 72,
+            "metadata": {},
+            "tiers": []
+          },
+          "audioUrl": "https://data.grandtour.fyi/audio/0000000000000000000000000000000000000000000000000000000000000003.mp3",
+          "durationMs": 45000,
+          "source": "human",
+          "provenance": null,
+          "status": "published",
+          "createdAt": "2026-01-01T00:00:00.000Z",
+          "updatedAt": "2026-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "spot": {
+        "id": "00000000-0000-4000-8000-000000000013",
+        "trackId": "00000000-0000-4000-8000-000000000001",
+        "slug": "bolinas-road",
+        "title": "Bolinas Road",
+        "subtitle": "",
+        "trigger": {
+          "kind": "point",
+          "center": {
+            "lat": 37.984,
+            "lng": -122.591
+          },
+          "radiusM": 40
+        },
+        "modes": [],
+        "locating": {
+          "mode": "auto",
+          "clips": {}
+        },
+        "status": "draft",
+        "createdAt": "2026-01-01T00:00:00.000Z",
+        "updatedAt": "2026-01-01T00:00:00.000Z"
+      },
+      "content": [
+        {
+          "id": "00000000-0000-4000-8000-000000000103",
+          "spotId": "00000000-0000-4000-8000-000000000013",
+          "locale": "en",
+          "variant": "default",
+          "document": {
+            "id": "doc-75",
+            "text": "Bolinas Road is spot 4 of the sample track. Its story is short and made up.",
+            "byteLength": 75,
+            "metadata": {},
+            "tiers": []
+          },
+          "audioUrl": "https://data.grandtour.fyi/audio/0000000000000000000000000000000000000000000000000000000000000004.mp3",
+          "durationMs": 45000,
+          "source": "human",
+          "provenance": null,
+          "status": "published",
+          "createdAt": "2026-01-01T00:00:00.000Z",
+          "updatedAt": "2026-01-01T00:00:00.000Z"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "grandtour-fyi",
+  "compatibility_date": "2026-08-01",
+  "routes": [
+    { "pattern": "grandtour.fyi", "custom_domain": true },
+    { "pattern": "www.grandtour.fyi", "custom_domain": true }
+  ],
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page"
+  }
+}

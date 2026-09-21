@@ -1,0 +1,1381 @@
+{
+  "_notes": "Additional spot slate for the Fairfax Town track — history, parks, music history (Women's Club, the ballfield Grateful Dead shows, Sleeping Lady), businesses beyond the downtown core, and reported news stories. Narration is written for on-device TTS (numbers/streets spelled out, side-free per the locating invariant). Researched 2026-08-31 by web-search subagents; sources listed per spot. Deduped against fairfax-town and fairfax-eats-shops.",
+  "track": {
+    "slug": "fairfax-town",
+    "name": "Fairfax Town",
+    "description": "The stores, restaurants, venues, and landmarks of downtown Fairfax.",
+    "kind": "tour",
+    "icon": "storefront",
+    "color": "#B85C38",
+    "official": false
+  },
+  "spots": [
+    {
+      "slug": "st-rita-catholic-church",
+      "title": "Saint Rita Catholic Church",
+      "subtitle": "From a mission tent to a Spanish Colonial landmark",
+      "trigger": {
+        "center": {
+          "lat": 37.9907,
+          "lng": -122.59128
+        },
+        "radiusM": 45
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the Spanish-style church with the bell tower"
+      },
+      "narration": "Saint Rita began in eighteen eighty-one as a mission of San Rafael, serving half a dozen Catholic families in what was still ranch country. In nineteen sixteen the congregation raised a little brown wooden church on Sir Francis Drake Boulevard, and in nineteen thirty Saint Rita became a parish in its own name. Then came the postwar boom. By nineteen fifty-one, Sunday crowds had outgrown the little church so completely that a tent with loudspeakers stood beside it to catch the overflow. The answer was the Spanish Colonial church here today, designed by San Francisco architect Martin Rist; the first mass was celebrated on Easter Sunday, nineteen fifty-three. Its stained glass arrived the same year from Carl Huneke of Century Stained Glass Studio in San Francisco, a master craftsman whose windows fill churches across Northern California. From frontier mission to overflow tent to landmark, Saint Rita has grown in step with Fairfax itself.",
+      "sources": [
+        "https://townoffairfaxca.gov/location/st-ritas-church/",
+        "https://www.hunekestainedglass.com/st-rita",
+        "https://sfarch.org/facility/saint-rita-parish/"
+      ]
+    },
+    {
+      "slug": "fairfax-community-church-food-pantry",
+      "title": "Fairfax Community Church",
+      "subtitle": "Founded by the town's women; now home of the Saturday food pantry",
+      "trigger": {
+        "center": {
+          "lat": 37.99445,
+          "lng": -122.59476
+        },
+        "radiusM": 45
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the community church sign along Sir Francis Drake"
+      },
+      "narration": "In nineteen nineteen, a group of Fairfax women met to talk about starting a Protestant congregation in their young town. Within two years they had raised enough money to buy two lots on Park Road and put up a building that did everything at once: church, community center, Masonic hall, and eventually the town's first city hall. That congregation became Fairfax Community Church, part of the United Church of Christ, a denomination that ordained America's first woman minister in eighteen fifty-three and its first openly gay minister in nineteen seventy-two. The church calls itself open and affirming, and it still works like a community center. On Saturday mornings this site hosts the Fairfax Food Pantry, a farmers-market-style food bank run with Fairfax Volunteers, the Town, and the Marin and San Francisco food bank, serving around two hundred eighty to three hundred people every week. A century on, the founders' idea holds: a church that belongs to the whole town.",
+      "sources": [
+        "http://www.fairfaxcommunitychurch.me/our-history",
+        "https://townoffairfaxca.gov/food-pantry/",
+        "https://www.ucc.org/church/fairfax-community-church-ucc/"
+      ]
+    },
+    {
+      "slug": "manor-school",
+      "title": "Manor School",
+      "subtitle": "A neighborhood school that sparked a countywide education fight",
+      "trigger": {
+        "center": {
+          "lat": 37.99794,
+          "lng": -122.59408
+        },
+        "radiusM": 60
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the elementary school buildings beyond the playfield"
+      },
+      "narration": "Fairfax residents won their own school district back in eighteen seventy-six, when classes served a scattering of ranch families. Manor School carries that tradition on the west end of town, in the neighborhood that shares its name. The campus here opened in nineteen eighty, when the Ross Valley School District consolidated its schools. Manor also wrote its own chapter of education history. In nineteen ninety-six, teachers and parents founded the Multi-Age Program, a Reggio Emilia inspired model where children of different ages learned together in the same classrooms. It ran at Manor for eighteen years, beloved by its families and debated by others, and when the district moved to end it, supporters filed to become a charter school. Denied by the local board and denied by the county, they were finally approved by the State Board of Education, a saga that divided this small town for years. Today Manor is simply the neighborhood elementary school again, about two hundred fifty students strong.",
+      "sources": [
+        "https://sananselmofairfaxmeasureh.org/schools/manor",
+        "https://rossvalleycharter.org/about-rvc/our-history/",
+        "https://capitalandmain.com/trouble-in-eden-a-divided-marin-county-community-gets-a-new-charter-school-0518"
+      ]
+    },
+    {
+      "slug": "fairfax-post-office",
+      "title": "Fairfax Post Office",
+      "subtitle": "Mail service since nineteen ten, older than the town itself",
+      "trigger": {
+        "center": {
+          "lat": 37.98672,
+          "lng": -122.58643
+        },
+        "radiusM": 35
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the post office with its flag on Center Boulevard"
+      },
+      "narration": "The Fairfax post office opened in nineteen ten, back when this was a resort community where city people came out for picnic grounds, dance pavilions, and summer cabins. A post office was a kind of declaration: this place has a name, and mail will find you here. Fairfax did not incorporate as a town until nineteen thirty-one, so for two decades the post office was one of the few official institutions Fairfax could claim. The office lives on at seven hundred seventy-three Center Boulevard, and it remains one of the errands nearly everyone still runs in person. In a town of about seven thousand five hundred people, this is where Fairfax eventually crosses paths with itself, waiting for stamps and packages the way earlier generations waited for letters from the city. More than a century of addresses, postmarks, and news from far away has passed across these counters.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Fairfax,_California",
+        "https://www.postallocations.com/ca/fairfax/fairfax"
+      ]
+    },
+    {
+      "slug": "fairfax-police-creek-gauge",
+      "title": "The Police and the Creek Gauge",
+      "subtitle": "A Prohibition-era police force that now watches the water",
+      "trigger": {
+        "center": {
+          "lat": 37.98515,
+          "lng": -122.59071
+        },
+        "radiusM": 35
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the creek channel behind Town Hall"
+      },
+      "narration": "The Fairfax Police Department was born chasing bootleggers. During Prohibition, a six-person force patrolled a rowdy resort town of speakeasies and weekend crowds, and a century later the department still works out of its original location. One of its quieter jobs is watching the creek. Behind Town Hall, a stream gauge measures Fairfax Creek: flood action begins at six point seven feet, and at seven point two feet the town sounds its flood siren, two long sustained blasts meaning water is about to leave its banks. In twenty ten the police department installed a creek webcam so anyone can watch the level rise from home during a storm. The emergency sirens are tested on the first Friday of every month at eleven forty-five in the morning, with one exception: the siren up on Fairfax Grade stays silent from February through July so it will not disturb nesting spotted owls. Even the alarm system defers to the wildlife here. That is very Fairfax.",
+      "sources": [
+        "https://townoffairfaxca.gov/departments/police/",
+        "https://townoffairfaxca.gov/emergency-siren-info/",
+        "https://townoffairfaxca.gov/fairfax-creek-web-cam/",
+        "https://www.rossvalleyfire.gov/creek-flood-gauges-and-cameras"
+      ]
+    },
+    {
+      "slug": "parkade-civic-crossroads",
+      "title": "Crossroads in a Parking Lot",
+      "subtitle": "Public art, EV chargers, and West Marin's bus lifeline",
+      "trigger": {
+        "center": {
+          "lat": 37.98716,
+          "lng": -122.58833
+        },
+        "radiusM": 60
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the open parking plaza between Sir Francis Drake and Broadway"
+      },
+      "narration": "The Parkade looks like a parking lot, and it is one: free, central, and laid out between Sir Francis Drake and Broadway. But it is also the town's crossroads. From here the West Marin Stagecoach, Marin Transit route sixty-eight, runs daily over White's Hill to the San Geronimo Valley, Point Reyes Station, and Inverness. For residents of West Marin's villages without cars, that bus is the lifeline to jobs, groceries, and medical care, and Fairfax is the hinge where it meets the rest of the county. The town has planted public electric vehicle chargers here as part of its climate work. And since twenty sixteen, the Parks and Recreation Commission has run Public Art in the Parkade, a rotating outdoor exhibit that has featured Scott Gibbons' mural Angeles of Fairfax, Marguerite Elliot's steel sentinel keeping watch over town, Sam Parry's political sculptures, and Susan Pascal Beran's kinetic SoulSail turning in the wind. Buses, chargers, and art: civic life, disguised as parking.",
+      "sources": [
+        "https://townoffairfaxca.gov/public-art/",
+        "https://marintransit.gov/sites/default/files/2023-05/Marin_Transit_Route_68_Map_and_Schedule.pdf",
+        "https://townoffairfaxca.gov/electric-vehicle-resources/",
+        "https://marinarts.org/venue/the-parkade/"
+      ]
+    },
+    {
+      "slug": "fairfax-street-choir",
+      "title": "The Fairfax Street Choir",
+      "subtitle": "A whole town, singing at once, since nineteen seventy-two",
+      "trigger": {
+        "center": {
+          "lat": 37.98588,
+          "lng": -122.58998
+        },
+        "radiusM": 45
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the big redwood-shaded lawn of Peri Park"
+      },
+      "narration": "On a sunny June day in nineteen seventy-two, a handful of friends gathered in a living room on Bolinas Road and started to sing. Marla Hunt Hanson, lately of the all-woman band the Ace of Cups, sat at the piano, and the Fairfax Street Choir was born. It began with about twenty voices — cafe workers, neighbors, wives and friends of local bands like the Sons of Champlin — and soon outgrew the living room, rehearsing twice a week wherever the town could hold them. Their sound mixed gospel, rock and roll, and homegrown new age harmony: a community choir the size of a block party. And the choir never really ended. Members reunited to record an album called Train to Glory in twenty thirteen, then Let Your Light Guide You Home in twenty nineteen, the same year their voices were featured in Ken Burns's Country Music documentary. Listen closely around here — Fairfax still hums.",
+      "sources": [
+        "http://www.thefairfaxstreetchoir.com/thebeginning.html",
+        "https://choralisrecords.com/FSC.html"
+      ]
+    },
+    {
+      "slug": "biketoberfest-marin",
+      "title": "Biketoberfest Marin",
+      "subtitle": "Beer, cowbells, and thousands of bikes every October",
+      "trigger": {
+        "center": {
+          "lat": 37.98508,
+          "lng": -122.58472
+        },
+        "radiusM": 60
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the Fair-Anselm shopping plaza and its parking court"
+      },
+      "narration": "Every October the plazas and parking courts near Center Boulevard fill with cowbells, beer steins, and thousands of bicycles for Biketoberfest Marin, the county's biggest celebration of bike culture. The festival is a fundraiser run by the Marin County Bicycle Coalition together with Access Four Bikes, the trail-advocacy group, and the proceeds go back into bike lanes, trails, and safety projects across Marin. It is equal parts county fair and gear show: a handmade bicycle exhibition, cargo-bike races, live bands, and dozens of West Coast brewers pouring under the autumn sun. In twenty twelve the event drew more than six thousand cycling enthusiasts and raised fifty thousand dollars for the two nonprofits. Held in the town that helped invent the mountain bike, it feels less like a trade show than a family reunion — and most of the crowd, naturally, arrives on two wheels.",
+      "sources": [
+        "https://sf.funcheap.com/biketoberfest-marin-2/",
+        "https://marinbike.org/tag/biketoberfest/",
+        "https://www.sfgate.com/outdoors/bikeabouttown/article/Biketoberfest-returns-to-Fairfax-4863618.php"
+      ]
+    },
+    {
+      "slug": "cittaslow-slow-city",
+      "title": "Certified Slow",
+      "subtitle": "America's second official Cittaslow town",
+      "trigger": {
+        "center": {
+          "lat": 37.98728,
+          "lng": -122.58262
+        },
+        "radiusM": 60
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the welcome-to-Fairfax sign where the boulevard enters town"
+      },
+      "narration": "Somewhere near the welcome sign, imagine an orange snail. In twenty ten, Fairfax was certified as a Cittaslow — a slow city — becoming just the second town in the United States to join the movement, after Sonoma. Cittaslow was born in Italy as an outgrowth of Slow Food, and its emblem is a snail carrying a village on its back. Certification is earned, not bought: towns are scored on criteria ranging from support for local food and family businesses to resisting standardization and protecting local character and traditions. For Fairfax, the snail was less a new idea than official recognition of how the town already lived — unhurried, local, and deliberately itself. The designation even crept onto the town's short-lived local currency, which carried a snail on one face. Entering Fairfax, in other words, you are formally, internationally certified to take your time.",
+      "sources": [
+        "https://patch.com/california/sananselmofairfax/fairfax-is-a-slow-city",
+        "https://www.slowfood.com/blog-and-news/first-slow-cities-in-turkey-and-usa/",
+        "https://www.pressdemocrat.com/2014/02/24/sebastopol-pursues-slow-city-version-of-tourism/"
+      ]
+    },
+    {
+      "slug": "fairbuck-local-currency",
+      "title": "The FairBuck",
+      "subtitle": "When Fairfax minted its own three-dollar coin",
+      "trigger": {
+        "center": {
+          "lat": 37.98663,
+          "lng": -122.58925
+        },
+        "radiusM": 40
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the pocket lawn of Bolinas Park at the downtown corner"
+      },
+      "narration": "For five years, Fairfax minted its own money. The FairBuck, launched at the Fairfax Festival in twenty eleven, was a brass coin worth three dollars at participating shops — a buck stamped on one face and, on the other, a snail, nodding to the town's Cittaslow slow-city credentials. It was a joint project of Sustainable Fairfax, the Town, and the Chamber of Commerce. Each coin cost about a dollar to mint, five thousand were struck in the first run, and more than thirty local merchants accepted them at face value. The idea was simple: money that could not leave town, so every FairBuck spent was a vote for a local business. The experiment wound down in twenty sixteen, when the last coins were redeemed and the leftover reserve funds went to community projects. Collectors still turn them up in junk drawers around the Ross Valley — small brass proof that Fairfax will try anything once.",
+      "sources": [
+        "https://abc7news.com/archive/8279172/",
+        "https://sustainablefairfax.org/tag/fairbuck/",
+        "https://patch.com/california/sananselmofairfax/fairbuck-for-fairfax-families-at-fairfax-businesses"
+      ]
+    },
+    {
+      "slug": "frank-egger-town-hall",
+      "title": "Four Decades of Frank",
+      "subtitle": "The council member who wouldn't quit",
+      "trigger": {
+        "center": {
+          "lat": 37.98561,
+          "lng": -122.59037
+        },
+        "radiusM": 40
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the Spanish-style Town Hall and Pavilion building"
+      },
+      "narration": "Town Hall has seen plenty of council members come and go — and one who mostly stayed. Frank Egger was first elected to the Fairfax Town Council in nineteen sixty-six and went on to serve ten four-year terms as a council member, seven of them as mayor, a run so long he was described as the longest continuously serving council member in California. A fierce slow-growth environmentalist, he championed open space like the Elliott Nature Preserve, some of the state's toughest anti-pesticide rules, and one of the nation's most generous municipal living-wage laws. Voters finally retired him in two thousand five — the San Francisco Chronicle headline read, \"Longtime Fairfax mayor is ousted\" — but retirement never quite took, and decades later he was still filing papers to run again. In a town that prizes its characters, four decades on the dais makes Egger a civic institution all by himself.",
+      "sources": [
+        "https://www.sfgate.com/politics/article/ELECTION-2005-Marin-County-Longtime-Fairfax-2596350.php",
+        "https://www.sfgate.com/news/article/PEOPLE-Veteran-Fairfax-councilman-sticks-to-2702516.php",
+        "https://www.frankegger.com/post/why-im-running"
+      ]
+    },
+    {
+      "slug": "ecofest-green-fairfax",
+      "title": "EcoFest and the Green Town",
+      "subtitle": "Environmentalism as a booth, a band, and a budget line",
+      "trigger": {
+        "center": {
+          "lat": 37.98512,
+          "lng": -122.589
+        },
+        "radiusM": 50
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the ball field behind the Fairfax Pavilion"
+      },
+      "narration": "Fairfax wears its environmentalism like a festival wristband. In two thousand four, a crew led by Jen Jones, Larry and Holly Bragman, and Patty Brecht founded the EcoFest, a green wing of the town's summer festival, filling the Pavilion with eco-minded vendors, educational booths, and causes like the fight against aerial pesticide spraying and GMO Free Marin. It soon grew its own music stage, a Friday night movie, and a kids' zone spilling onto the ball field. The town's politics kept pace with its parties: in March of twenty nineteen the Town Council declared a climate emergency — at the time the only municipality in Marin County to do so — setting a goal of zero emissions by twenty thirty, and following up with a formal climate action plan two years later. In Fairfax, saving the planet is not a niche interest. It is a booth, a band, and a line item in the town budget.",
+      "sources": [
+        "https://fairfaxfestival.com/ecofest-at-fairfax-festival/",
+        "http://www.climatefx.org/fairfax-climate-emergency-resolution.html",
+        "https://pacificsun.com/climate-resolution/",
+        "https://townoffairfaxca.gov/departments/climate-and-environment/"
+      ]
+    },
+    {
+      "slug": "fairfax-firehouse-seagrave",
+      "title": "The Volunteer Firehouse",
+      "subtitle": "A nineteen twenty-nine Seagrave and a town that fought its own fires",
+      "trigger": {
+        "center": {
+          "lat": 37.98527,
+          "lng": -122.59078
+        },
+        "radiusM": 35
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the old two-story stucco firehouse at Bolinas and Park"
+      },
+      "narration": "The stucco firehouse at Bolinas Road and Park Road tells a story of small-town self-reliance. Fairfax organized its own fire department in nineteen ten, a volunteer outfit formed under the Fairfax Improvement Club, and did not hire a paid firefighter until nineteen eighteen, when Chief Cap Capelli took the job. The modern station here went up in nineteen twenty-six, a two-story wood-frame building with a stucco skin. Three years later the department bought its pride and joy: a nineteen twenty-nine Seagrave pumper, rated at five hundred gallons a minute, which served the town into the early nineteen seventies and survives today, lovingly restored, as a parade vehicle. As late as nineteen seventy-four the department still ran on eight paid members and twenty volunteers. In nineteen eighty-two, Fairfax and San Anselmo merged their crews to form the Ross Valley Fire Department — but when the old Seagrave rolls at festival time, the whole town still waves.",
+      "sources": [
+        "https://www.rossvalleyfire.gov/history",
+        "https://www.marinfirehistory.org/fairfax-fd.html"
+      ]
+    },
+    {
+      "slug": "anne-lamott-literary-fairfax",
+      "title": "Bird by Bird Country",
+      "subtitle": "Anne Lamott and the writers of Fairfax",
+      "trigger": {
+        "center": {
+          "lat": 37.988,
+          "lng": -122.59047
+        },
+        "radiusM": 45
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the Fairfax branch library building"
+      },
+      "narration": "A town of about seven thousand with this much bookshelf presence is rare. Fairfax's best-known literary resident is Anne Lamott, whose writing guide Bird by Bird taught a generation of writers to take things one small piece at a time, and whose essays on faith, family, and recovery return again and again to the hills and characters of her Marin hometown. Profiles describe her cottage on a Fairfax hillside, with a home office she once compared to a rummage sale — but you are more likely to meet her work here at the library, or at the town-hosted book talks where she has appeared alongside her husband, the writer Neal Allen. She is not alone: the town's roll of notable residents also includes the poet Robert Peterson and the mystic writer Alfred Sorensen. In Fairfax the literary life is a public one — checked out, dog-eared, and discussed at length over coffee on Broadway.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Anne_Lamott",
+        "https://www.bookbrowse.com/author_interviews/full/index.cfm/author_number/125/anne-lamott",
+        "https://townoffairfaxca.gov/event/anne-lamott-and-neal-allen-book-talk/",
+        "https://en.wikipedia.org/wiki/Fairfax,_California"
+      ]
+    },
+    {
+      "slug": "winter-market-bike-lights",
+      "title": "Winter Lights on Bolinas",
+      "subtitle": "A holiday market with a glowing bike parade",
+      "trigger": {
+        "center": {
+          "lat": 37.98626,
+          "lng": -122.58957
+        },
+        "radiusM": 35
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the shopfronts along downtown Bolinas Road"
+      },
+      "narration": "Come December, downtown Fairfax throws itself a small-town holiday with characteristic flair. For the Fairfax Winter Market, Bolinas Road between Broadway and Elsie Lane fills with twinkling lights, craft stalls, and music, and the street takes on the glow of a village square. The signature move is pure Fairfax: a holiday bike parade, with locals decking out bicycles and scooters in strings of dazzling lights and rolling through downtown like a slow-motion comet. Tree lightings and winter festivals are a Marin-wide tradition, but the Fairfax version is smaller, funkier, and more pedal-powered than most — fitting for a town internationally certified for slowness, where even the holidays arrive at bicycle speed. If you pass this stretch on a midwinter evening, look for the lights strung shopfront to shopfront, and listen for carols mixing with bike bells.",
+      "sources": [
+        "https://townoffairfaxca.gov/event/fairfax-winter-market-a-magical-holiday-experience/",
+        "https://www.visitmarin.org/blog/marin-festival-and-holiday-collection/celebrate-the-holidays-with-events-and-festivities-in-marin/"
+      ]
+    },
+    {
+      "slug": "baldy-above-ross-valley",
+      "title": "Baldy",
+      "subtitle": "The bare summit the whole Ross Valley rallied to save",
+      "trigger": {
+        "center": {
+          "lat": 37.98717,
+          "lng": -122.58867
+        },
+        "radiusM": 55
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the bare grassy dome rising above the rooftops at the head of the valley"
+      },
+      "narration": "That bald green dome standing over downtown is Bald Hill — everyone here just calls it Baldy. It tops out at eleven hundred thirty-two feet, and its naked grass summit is the landmark shared by Fairfax, San Anselmo, and Ross. For decades the top was private land zoned for estate lots, and a house on Baldy was always a possibility. Neighbors started buying pieces of the ridge in nineteen ninety-three, parcel by parcel. Then, in February of twenty twenty-three, the Marin Open Space Trust bought the final sixty acres — the summit itself — for one and a quarter million dollars and handed it to the county's Open Space District, with the community raising the last four hundred thousand. Now Worn Springs Fire Road carries hikers up its shoulder to a three-hundred-sixty-degree view, from Mount Tamalpais to San Francisco Bay, and the hill connects into more than one hundred thousand acres of protected land. The mountain that watches over town belongs to everyone.",
+      "sources": [
+        "https://marinopenspacetrust.org/press-release-marin-open-space-trust-permanently-protects-bald-hill/",
+        "https://marinopenspacetrust.org/forever-protect-bald-hill/",
+        "https://parks.marincounty.gov/parkspreserves/preserves/bald-hill-preserve",
+        "https://www.sananselmoopenspace.org/bald-hill-preserve"
+      ]
+    },
+    {
+      "slug": "fairfax-creek-buried-downtown",
+      "title": "The Buried Creek",
+      "subtitle": "A stream runs under Main Street",
+      "trigger": {
+        "center": {
+          "lat": 37.98513,
+          "lng": -122.58951
+        },
+        "radiusM": 45
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the low flat blocks at the center of town where Bolinas Road meets the side streets"
+      },
+      "narration": "There is a creek running beneath this pavement right now. In nineteen thirty-one, just as Fairfax incorporated as a town, Fairfax Creek was diverted into a culvert under Bolinas Road, routed down Sherman to Dominga, and joined to San Anselmo Creek — all to open up more buildable land at the center of the new town. The creek has flowed in the dark under downtown ever since. It came at a cost. When state fish biologists surveyed the watershed in nineteen sixty-nine, they concluded that the culvert at the creek's mouth was a barrier no steelhead could pass, walling the fish out of the entire upper creek. Today Fairfax Creek still has a total barrier to fish passage where it meets San Anselmo Creek. Every town makes trades as it grows; Fairfax traded a living stream for its downtown, and the water still whispers about it under the street.",
+      "sources": [
+        "https://www.fairfaxresidents.org/development/",
+        "http://www.cemar.org/pdf/marin.pdf",
+        "https://www.streetstocreeks.org/ross-valley-watershed/",
+        "http://sevenwondersofmarin.blogspot.com/2009/04/field-in-fairfax.html"
+      ]
+    },
+    {
+      "slug": "steelhead-pastori-avenue",
+      "title": "Steelhead Water",
+      "subtitle": "Ocean-going trout still climb through Fairfax",
+      "trigger": {
+        "center": {
+          "lat": 37.98415,
+          "lng": -122.58318
+        },
+        "radiusM": 50
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the creek channel passing under the road near Pastori Avenue"
+      },
+      "narration": "San Anselmo Creek slips through town here, and it is still steelhead water. Steelhead are rainbow trout that go to sea and return to spawn, and they are listed as threatened under the federal Endangered Species Act. Summer surveys keep finding young steelhead in fair numbers in the upper creek through Fairfax — some of the best spawning gravel in the whole Ross Valley watershed lies upstream of this spot. Biologists who ran an electrofishing survey here counted steelhead alongside threespine stickleback, California roach, sculpin, and Sacramento sucker, and crayfish are common in these freshwater reaches. The fish still face obstacles: engineers were hired to design fish ladder options for a barrier near Pastori Avenue, part of a long campaign to reopen the creek, though some fixes have stalled on private property. Next time winter rains swell this channel brown and loud, remember what that means — somewhere under the surface, a fish that has seen the ocean may be pushing upstream past your feet.",
+      "sources": [
+        "https://friendsofcortemaderacreek.org/projects/fish-passage/",
+        "https://friendsofcortemaderacreek.org/the-watershed/plants-and-animals/",
+        "https://www.streetstocreeks.org/ross-valley-watershed/",
+        "http://www.cemar.org/pdf/marin.pdf"
+      ]
+    },
+    {
+      "slug": "fairfax-creek-restoration-olema",
+      "title": "Healing Fairfax Creek",
+      "subtitle": "Middle schoolers and willow walls",
+      "trigger": {
+        "center": {
+          "lat": 37.997,
+          "lng": -122.60035
+        },
+        "radiusM": 55
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the creek corridor running alongside Olema Road"
+      },
+      "narration": "Fairfax Creek runs through this neighborhood on its way down from the ridges above town, and this stretch is where the community started giving it back its health. In the fall of two thousand four, the Friends of Corte Madera Creek teamed up with science classes at White Hill Middle School just upstream, pulling out invasive broom and non-native blackberry along the banks and replacing them with native plants. Three years later a conservation corps crew planted seven hundred more natives and wove a living willow wall and a willow mattress into the bank — erosion control that sprouts leaves. The creek showed its power soon after: very heavy rain in January of two thousand eight sent floodwater over Olema Road at number three hundred, and that summer the undersized culvert there was dug out and replaced with a bigger one. Restoration here is patient, hand-scale work — kids with shovels, willows doing engineering — betting that a small creek can be a living one again.",
+      "sources": [
+        "https://friendsofcortemaderacreek.org/new_site/restoration/fairfax/",
+        "https://www.streetstocreeks.org/ross-valley-watershed/"
+      ]
+    },
+    {
+      "slug": "franciscan-hills-landslide-map",
+      "title": "Restless Ground",
+      "subtitle": "Why every Fairfax hillside got a report card",
+      "trigger": {
+        "center": {
+          "lat": 37.98959,
+          "lng": -122.59505
+        },
+        "radiusM": 55
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the steep wooded hillside streets climbing above the flats"
+      },
+      "narration": "The hills wrapped around Fairfax are made of the Franciscan Complex — old ocean floor scraped off a sinking tectonic plate over a hundred million years ago and shoved onto the edge of the continent. It is a jumble of graywacke sandstone, shale, ribbon chert, basalt, and slippery serpentinite, all sheared together into what geologists call a melange. That chaotic rock is why the town sits in a bowl of steep slopes, and it is also why the slopes move. Fairfax's landslide troubles got so notorious that in late nineteen seventy-two the state's Division of Mines and Geology sent a geologist to spend a year inventorying every single parcel in town, rating each site from one to four for slide susceptibility. Those horrendous slide problems are a big reason the town later protected its hillsides and ridgelines from development. When you see a tilted fence or a rippled road up here, you are watching geology happen — the seafloor under Fairfax, still settling in.",
+      "sources": [
+        "https://www.fairfaxresidents.org/development/",
+        "https://pubs.usgs.gov/mf/2000/2337/mf2337j.pdf",
+        "https://pubs.geoscienceworld.org/gsa/geosphere/article/11/4/1077/132227/Sandstone-matrix-melanges-architectural",
+        "https://en.wikipedia.org/wiki/Franciscan_Complex"
+      ]
+    },
+    {
+      "slug": "mill-fire-nineteen-forty-five",
+      "title": "The Mill Fire",
+      "subtitle": "The week Fairfax packed its bags",
+      "trigger": {
+        "center": {
+          "lat": 37.9803,
+          "lng": -122.5958
+        },
+        "radiusM": 60
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the point where Bolinas Road climbs out of town toward the watershed ridges"
+      },
+      "narration": "This road leads into the wild country that once nearly took the town. In nineteen forty-five, the Mill Fire broke out in Carson Canyon in the hills beyond Fairfax and blew up into one of Marin's great fire sieges. It threatened Fairfax and Woodacre, and at its height burned to within a quarter mile of Stinson Beach. County fire chief Lloyd De La Montanya threw everything at it — firefighters, soldiers, convict crews, volunteers, even high school boys on the lines. Three thousand residents of Fairfax and the San Geronimo Valley were put on alert to evacuate. In the end, nobody had to go; the line held, and Marin took fierce pride that the battle was fought and won. Behind the lines, local women staffed canteen units and turned out twelve thousand sandwiches for the crews in a single stretch. It was not the first time fire came over these ridges — a nineteen twenty-three fire burned across the county toward Bolinas Ridge — and everyone here knows it will not be the last.",
+      "sources": [
+        "https://www.marinfirehistory.org/1945-the-mill-fire-carson-canyon.html",
+        "https://www.marinfirehistory.org/1923-wildfires-including-ignacio-to-bolinas-ridge-fairfax.html"
+      ]
+    },
+    {
+      "slug": "fairfax-firewise-evacuation",
+      "title": "Living on the Edge of Wildland",
+      "subtitle": "One way in, one way out",
+      "trigger": {
+        "center": {
+          "lat": 37.98507,
+          "lng": -122.59044
+        },
+        "radiusM": 40
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the town hall and civic buildings along Bolinas Road"
+      },
+      "narration": "Fairfax is a textbook wildland-urban interface town: steep topography, heavy overgrown fuels, and narrow winding roads threading between flammable hillsides. That geography shapes how the town plans for fire today. Fairfax, working with FIRESafe Marin and the Marin Wildfire Prevention Authority, has drawn up evacuation maps for each neighborhood, with checklists and routes spelled out in advance. The hard truth, as the Ross Valley fire chief puts it, is that these communities were never designed for everyone to leave at once — in many canyons there is only one way in and one way out. So the advice is drilled in: leave early, take as few vehicles as possible, stay in your car, head downhill. A million-dollar grant recently funded clearing vegetation along central Marin escape routes, and Fairfax neighborhoods like Deer Park, Cascade Canyon, and Manor Hill have organized as nationally recognized Firewise communities. The nineteen forty-five fire never crossed into town. The whole point of all this work is to be ready if the next one tries.",
+      "sources": [
+        "https://townoffairfaxca.gov/departments/emergency-preparedness/",
+        "https://www.centralmarinfire.org/about/news/firesafe-marin-receives-1-million-grant-for-evacuation-route-clearance-in-central-marin",
+        "https://www.nps.gov/pore/learn/nature/wildlandfire_firesafemarinprojects_fairfax.htm"
+      ]
+    },
+    {
+      "slug": "coyotes-turkeys-return",
+      "title": "The Wild Neighbors",
+      "subtitle": "Coyote song and turkey traffic jams",
+      "trigger": {
+        "center": {
+          "lat": 37.9869,
+          "lng": -122.59086
+        },
+        "radiusM": 45
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the ballfield and park lawns near the community center"
+      },
+      "narration": "If a chorus of yips and howls rises over Fairfax some winter night, that is a comeback story singing. Coyotes were poisoned out of Marin for decades, until the federal ban on the poison ten-eighty let them spread back south — they reappeared in this region in nineteen eighty-three. In two thousand, Marin's supervisors dropped the federal lethal predator control program entirely, choosing coexistence, and by twenty eleven wildlife officials were logging coyote sightings in Fairfax and hearing their winter courtship choruses across the Ross Valley. The wild turkeys strutting down residential streets are newcomers of a different sort: in nineteen eighty-eight the state released birds from Texas and Oklahoma stock onto Loma Alta for hunting, and the turkeys promptly ignored every boundary, spreading into parklands and towns countywide. Add the black-tailed deer — Marin's most common deer, thoroughly adapted to browsing suburban gardens — and Fairfax lives with a full cast of wild neighbors. The town's unofficial policy is the county's official one: make room.",
+      "sources": [
+        "https://projectcoyote.org/wp-content/uploads/2015/03/PC-Marin-County-Livestock.pdf",
+        "https://patch.com/california/sananselmofairfax/coyote-choruses-no-cause-for-concern",
+        "https://ucanr.edu/blog/leaflet/article/wild-turkeys-pest-or-part-marin-landscape",
+        "https://marinwildlife.wordpress.com/deer/"
+      ]
+    },
+    {
+      "slug": "spotted-owls-watershed-gate",
+      "title": "Owl Country Uphill",
+      "subtitle": "A threatened owl thrives above town",
+      "trigger": {
+        "center": {
+          "lat": 37.978,
+          "lng": -122.5985
+        },
+        "radiusM": 60
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the forested slopes rising toward the water district lands above Bolinas Road"
+      },
+      "narration": "The dark forests climbing away from town here belong to the Mount Tamalpais watershed, and they hide one of California's conservation surprises: northern spotted owls. This is the very southern tip of the species' range, and against every trend, Marin's owls occur at higher densities here than almost anywhere, nesting in a wider variety of forest types and ages than their northern relatives. Biologists have been listening for them since the nineteen nineties — the National Park Service began surveys in nineteen ninety-three, and the monitoring gradually expanded across the water district and open space lands that surround Fairfax, making this one of the best-studied owl populations anywhere. Marin Water tracks the owls on the watershed as part of managing these lands for wildlife as well as reservoirs. The threats are real — barred owls pushing in from the north, sudden oak death thinning the canopy — but for now, on quiet nights, a federally threatened owl is hunting the ridges within earshot of a town.",
+      "sources": [
+        "https://www.onetam.org/peak-health/northern-spotted-owl",
+        "https://www.marinwater.org/FisheriesWildlife",
+        "https://www.govinfo.gov/content/pkg/GOVPUB-I29-PURL-gpo131860/pdf/GOVPUB-I29-PURL-gpo131860.pdf"
+      ]
+    },
+    {
+      "slug": "whites-hill-fog-gate",
+      "title": "The Sunny Side of the Fog",
+      "subtitle": "Why Fairfax bakes while the coast shivers",
+      "trigger": {
+        "center": {
+          "lat": 37.999,
+          "lng": -122.605
+        },
+        "radiusM": 65
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the highway grade climbing over White's Hill at the west end of the valley"
+      },
+      "narration": "Ahead is White's Hill, the wall between Fairfax and the San Geronimo Valley — and one edge of the town's private climate. Fairfax sits tucked behind Mount Tamalpais and the coastal ridges, sheltered from the wind and summer fog that chill the shore just a few miles away. While Stinson Beach huddles in gray, Fairfax summers average around eighty degrees, sunny and dry. That reputation is old: before the Golden Gate Bridge opened, trains carried San Franciscans here precisely for the warm, fog-free summer days, picnics, and open-air dancing. The ridges write the rainfall story too. Around Mount Tamalpais, yearly precipitation swings from under thirty-two inches in the drier eastern foothills to nearly sixty inches toward Bolinas Ridge; the long-running gauge at Lake Lagunitas in the hills above town has averaged about fifty-two and a half inches since eighteen seventy-five, while Fairfax itself gets roughly forty-seven. Drive twenty minutes in any direction from this spot and you change climates. Marin may have the most dramatic microclimates in the Bay Area, and Fairfax drew the sunny card.",
+      "sources": [
+        "https://www.ownmarin.com/fairfax",
+        "https://en.wikipedia.org/wiki/Mount_Tamalpais",
+        "https://friendsofcortemaderacreek.org/the-watershed/rainfall-streamflow-and-flooding/",
+        "https://sharonkramlich.com/blog/discover-fairfax-a-hidden-gem-of-marin-county-for-families-outdoor-enthusiasts-and-history-buffs"
+      ]
+    },
+    {
+      "slug": "peri-park-redwoods-tree-law",
+      "title": "The Town That Passed a Law for Trees",
+      "subtitle": "Redwood shade with legal standing",
+      "trigger": {
+        "center": {
+          "lat": 37.98576,
+          "lng": -122.59139
+        },
+        "radiusM": 45
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the shady redwood grove around the playground by the community center"
+      },
+      "narration": "The playground here at Peri Park hides inside a grove of coast redwoods, their crowns towering over red alders, Oregon ash, and bay laurels along Fairfax Creek. On a hot valley afternoon this is the coolest ground in town, and generations of Fairfax kids have grown up under these trees. Fairfax decided long ago that trees like these deserve legal protection. In nineteen seventy-three the town passed Ordinance number three eighty-seven, one of Marin's early tree-protection laws, declaring that its wide variety of native trees prevents topsoil erosion, reduces the risk of landslides, and cleans the air — in a town mapped for slide hazards, the trees are literally holding the hills together. To this day, a volunteer Tree Committee meets monthly to review every application to remove or heavily trim a protected tree, and cutting one without a permit can bring a fine. In Fairfax, a big redwood is not just scenery. It is infrastructure, habitat, and a neighbor with standing.",
+      "sources": [
+        "https://www.marinmommies.com/marin-playgrounds-peri-park-fairfax",
+        "https://townoffairfaxca.gov/tree-committee/",
+        "https://townoffairfaxca.gov/peri-park-playground/"
+      ]
+    },
+    {
+      "slug": "fitlab-strong",
+      "title": "FITLAB Strong",
+      "subtitle": "High-energy boutique fitness on Center Boulevard",
+      "trigger": {
+        "center": {
+          "lat": 37.98644,
+          "lng": -122.5851
+        },
+        "radiusM": 40
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the gym storefront along the Center Boulevard shops"
+      },
+      "narration": "At seven eleven Center Boulevard, FITLAB Strong packs a lot of sweat into a small footprint. The studio bills itself as a high-energy boutique fitness lab, blending functional strength training with group classes, personal training, and yoga, and it has grown enough to open a second outpost in Novato. It is a member of the Fairfax Chamber of Commerce and shows up in the town's radically local business directory, part of a stretch of Center Boulevard where wellness studios, a brewery, and the post office all share the same few hundred feet. If you pass in the morning, you may hear a class counting out reps before most of the town has had coffee.",
+      "sources": [
+        "https://www.fitlabstrong.com/",
+        "https://www.fairfaxopenforbusiness.com/services",
+        "https://www.chamberofcommerce.com/business-directory/california/fairfax/gym/2024039850-fitlab-strong"
+      ]
+    },
+    {
+      "slug": "rino-service-station",
+      "title": "Rino Service Station",
+      "subtitle": "Family-owned gas, smog checks, and repairs",
+      "trigger": {
+        "center": {
+          "lat": 37.98754,
+          "lng": -122.58917
+        },
+        "radiusM": 40
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the fuel pumps and service bays of the Rino station"
+      },
+      "narration": "Rino Service Station, at nineteen forty-two Sir Francis Drake Boulevard, is the kind of gas station that barely exists anymore: a family-owned pump-and-wrench operation where the same crew that sells you fuel can also smog your car, change the oil, check the brakes, and mount new tires. It is one of the last places to buy gasoline before the boulevard climbs over White Hill toward West Marin, which makes it a quiet lifeline for anyone headed to Samuel P. Taylor State Park or the coast. The station keeps long hours seven days a week, and its convenience store and air pump serve a steady parade of commuters, contractors, and the road cyclists who stream through Fairfax every weekend.",
+      "sources": [
+        "https://rinofairfax.com/",
+        "https://www.yelp.com/biz/rino-service-station-fairfax-3",
+        "https://www.gasbuddy.com/station/33214"
+      ]
+    },
+    {
+      "slug": "first-federal-savings-fairfax",
+      "title": "First Federal Savings and Loan",
+      "subtitle": "A small hometown savings and loan since the sixties",
+      "trigger": {
+        "center": {
+          "lat": 37.9876,
+          "lng": -122.59051
+        },
+        "radiusM": 40
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the low bank building with the First Federal sign"
+      },
+      "narration": "The bank branch at two thousand nine Sir Francis Drake Boulevard belongs to First Federal Savings and Loan Association of San Rafael, a genuine throwback in American banking. Founded in nineteen sixty-three, First Federal never merged its way into a megabank; it still operates just four branches, all in Marin, with assets around two hundred twenty-seven million dollars. The business model would be recognizable to a customer from its founding era: certificates of deposit on one side of the ledger, real estate lending on the other. In an age of app-only banking, the Fairfax branch keeps a teller window open on the boulevard, serving households that have banked here across generations.",
+      "sources": [
+        "https://www.usbanklocations.com/first-federal-savings-and-loan-association-of-san-rafael-2009-sir-francis-drake-boulvard-bran.html",
+        "https://ffsavings.com/contact-us/",
+        "https://www.yelp.com/biz/first-federal-savings-and-loan-association-of-san-rafael-fairfax"
+      ]
+    },
+    {
+      "slug": "fairfax-veterinary-clinic",
+      "title": "Fairfax Veterinary Clinic",
+      "subtitle": "Full-service animal hospital for the town's many companions",
+      "trigger": {
+        "center": {
+          "lat": 37.98951,
+          "lng": -122.59109
+        },
+        "radiusM": 40
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the veterinary clinic building set along the boulevard"
+      },
+      "narration": "Fairfax Veterinary Clinic, at two thousand eighty-four Sir Francis Drake Boulevard, is a full-service hospital for all household companion animals, in a town where dogs outnumber parking spaces on any given Saturday. Beyond routine exams, surgery, and dentistry, the clinic offers boarding and bathing, and it folds holistic approaches in alongside conventional medicine, a mix that suits Fairfax's crunchy sensibilities. Its spot on the boulevard puts it on the daily route between downtown and the Manor neighborhood, and the waiting room is a reliable cross-section of the town: trail dogs from the watershed, barn cats from the stables up the hill, and the occasional more exotic patient in a carrier.",
+      "sources": [
+        "https://www.fairfaxvet.com/contact/",
+        "https://www.yelp.com/biz/fairfax-veterinary-clinic-fairfax-3"
+      ]
+    },
+    {
+      "slug": "grace-thrift-shop",
+      "title": "Grace Thrift Shop",
+      "subtitle": "Pre-loved treasures on the boulevard",
+      "trigger": {
+        "center": {
+          "lat": 37.98984,
+          "lng": -122.59144
+        },
+        "radiusM": 40
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the thrift shop storefront with racks near the door"
+      },
+      "narration": "Grace Thrift Shop, at two thousand ninety Sir Francis Drake Boulevard, carries on a proud Fairfax tradition: nothing useful should ever be thrown away. The shop specializes in pre-loved clothing, accessories, and housewares, open every day of the week from late morning to five in the afternoon, and it has earned a warm reputation with shoppers who rate it among the best secondhand stops in the county. Thrifting is practically a competitive sport in this town, where vintage style is the default fashion, and Grace feeds the pipeline: one household's decluttering becomes another's festival outfit, camp kitchen, or first-apartment dish set, all at prices that keep the circular economy humming along the boulevard.",
+      "sources": [
+        "https://www.yelp.com/biz/grace-thrift-shop-fairfax",
+        "https://www.facebook.com/p/Grace-Thrift-Shop-Fairfax-61550616492603/"
+      ]
+    },
+    {
+      "slug": "buon-gusto-villa-library-site",
+      "title": "Buon Gusto Villa",
+      "subtitle": "The Italian resort buried under the library",
+      "trigger": {
+        "center": {
+          "lat": 37.99026,
+          "lng": -122.59271
+        },
+        "radiusM": 50
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the public library grounds near the corner of Scenic Road"
+      },
+      "narration": "The library grounds here hold a buried layer of Fairfax's resort era. Before the Marin County Free Library opened its Fairfax branch on this site in February of nineteen seventy-eight, this was Buon Gusto Villa, a long-standing Italian restaurant and resort from the days when San Francisco families rode the train out to Fairfax for country weekends. The name means good taste, and the villa delivered it the Italian way: long dinners, wine, bocce, and dancing in the country air, one of a constellation of Italian resorts — Pastori's chief among them — that made this town the Ross Valley's playground in the early twentieth century. The resorts faded with the railroad, but the site never stopped gathering people. Today the branch circulates well over two hundred thousand items a year from a collection of nearly eighty thousand volumes, remarkable throughput for a small town — good taste of a different kind, on the very same ground.",
+      "sources": [
+        "https://marinlibrary.org/history-of-fairfax-library/",
+        "https://marinlibrary.org/locations/mf/"
+      ]
+    },
+    {
+      "slug": "arts-auto-repair",
+      "title": "Art's Auto Repair",
+      "subtitle": "Oak Manor's trusted wrench since April Fools' Day, nineteen ninety",
+      "trigger": {
+        "center": {
+          "lat": 37.9956,
+          "lng": -122.596
+        },
+        "radiusM": 40
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the auto repair bays in the Oak Manor shops"
+      },
+      "narration": "Art's Auto Repair has kept the Manor district's cars running from twenty-four hundred Sir Francis Drake Boulevard since April first, nineteen ninety, and owner Art Ramirez likes to note that starting a business on April Fools' Day worked out just fine. More than three and a half decades later the shop holds a five-star reputation with customers, who praise the honesty, the quick turnaround, and the sense of humor that comes free with every oil change. The bays handle everything from workhorse Toyota trucks to luxury imports, open weekdays from eight in the morning. In a town at the end of the road, a mechanic you trust is a civic institution, and Art is one of them.",
+      "sources": [
+        "https://www.bbb.org/us/ca/fairfax/profile/auto-repair/arts-auto-repair-1116-442749",
+        "https://www.yelp.com/biz/arts-auto-repair-fairfax"
+      ]
+    },
+    {
+      "slug": "peruva-auto-services",
+      "title": "Peruva Auto Services",
+      "subtitle": "The Bolinas Road garage keeping Fairfax rolling",
+      "trigger": {
+        "center": {
+          "lat": 37.98599,
+          "lng": -122.58965
+        },
+        "radiusM": 40
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the auto shop garage doors on Bolinas Road"
+      },
+      "narration": "A few blocks up Bolinas Road from the downtown bustle, Peruva Auto Services works out of the garage at sixty-four Bolinas Road, on the route every driver takes toward the lake and the mountain. The shop handles general repair and tires, keeps weekday hours from eight to five, and has built a loyal following, with dozens of glowing reviews across Carfax, Yelp, and neighborhood boards praising fair prices and straight talk. It is a member of the Fairfax Chamber of Commerce and appears in the town's radically local directory. Fairfax loves its bicycles, but its aging Subarus and pickups still need care, and this is where many of them get it.",
+      "sources": [
+        "https://www.peruvaautoservices.com/",
+        "https://www.yelp.com/biz/peruva-auto-services-fairfax-fairfax",
+        "https://www.fairfaxopenforbusiness.com/services"
+      ]
+    },
+    {
+      "slug": "fairfax-san-anselmo-childrens-center",
+      "title": "Fairfax-San Anselmo Children's Center",
+      "subtitle": "Half a century of childcare at the old Deer Park School",
+      "trigger": {
+        "center": {
+          "lat": 37.97637,
+          "lng": -122.59064
+        },
+        "radiusM": 60
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the old schoolhouse campus at the end of Porteous Avenue"
+      },
+      "narration": "At the end of Porteous Avenue, where the road gives way to Deer Park's redwood trails, the old Deer Park Elementary School now houses the Fairfax-San Anselmo Children's Center. Founded in nineteen seventy-three by the legendary childcare advocate Ethel Seiderman, the center has cared for more than six thousand children, ninety-nine percent of them from low-income Marin families, offering everything from infant care to after-school programs. After years of fighting eviction threats from the school district, the community rallied: with the Seiderman Legacy Children's Fund, the historic property was purchased outright, securing a permanent home. A capital campaign is now transforming the aging campus into a modern center for learning and play.",
+      "sources": [
+        "https://www.fsacc.org/",
+        "https://patch.com/california/sananselmofairfax/fairfax-san-anselmo-childrens-center-hoping-to-stay-afff070c708",
+        "https://www.marinhhs.org/community-resource-guide/fairfax-san-anselmo-childrens-center"
+      ]
+    },
+    {
+      "slug": "first-friends-preschool",
+      "title": "First Friends Preschool",
+      "subtitle": "A beloved Montessori preschool on quiet Mono Avenue",
+      "trigger": {
+        "center": {
+          "lat": 37.98635,
+          "lng": -122.58758
+        },
+        "radiusM": 40
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the preschool play yard on Mono Avenue"
+      },
+      "narration": "On quiet Mono Avenue, just off the boulevard, First Friends Preschool gives many Fairfax and San Anselmo kids their very first classroom. The Montessori-based program at eighty-six Mono Avenue has served Ross Valley families for years, and Marin parenting guides describe it as a beloved neighborhood institution, currently enrolling classes years in advance, a telling sign of its reputation in a county where preschool spots are fought over. Children spend their days in mixed-age classrooms and an outdoor play yard shaded by the valley's oaks, walking distance from the parades and pancake breakfasts of downtown. Licensed and state-inspected, it is one of a handful of small preschools that quietly keep this town young.",
+      "sources": [
+        "https://www.ffpreschool.com/",
+        "https://www.marinmommies.com/get-know-first-friends-preschool%E2%80%93enrolling-now-2025-2026-and-2026-2027",
+        "https://winnie.com/place/first-friends-preschool-fairfax"
+      ]
+    },
+    {
+      "slug": "deleuse-jewelers",
+      "title": "Deleuse Jewelers",
+      "subtitle": "A French watchmaking dynasty's Marin outpost since nineteen eighty-two",
+      "trigger": {
+        "center": {
+          "lat": 37.98702,
+          "lng": -122.58929
+        },
+        "radiusM": 35
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the gold-lettered Deleuse jewelry window on the Broadway storefront row"
+      },
+      "narration": "This little jewelry house carries a story that began an ocean away. John Deleuse, a master watchmaker trained at France's national school of horology, founded the family business in nineteen forty-one and opened its first boutique in his hometown of Nice in nineteen forty-five. His son Jeff, a graduate gemologist and certified appraiser, brought the trade to Marin in nineteen eighty-two with Janet Deleuse, who designs the shop's fine jewelry and couture outerwear herself. Three generations of old-world craft now sit behind an unassuming Fairfax storefront, where repairs, appraisals, and custom pieces still happen the slow way, Tuesday through Saturday. It is the kind of shop where the person helping you shares a last name with the sign.",
+      "sources": [
+        "https://deleuse.com/pages/about-us",
+        "https://www.yelp.com/biz/deleuse-jewelers-fairfax-2"
+      ]
+    },
+    {
+      "slug": "lawrence-fong-dds",
+      "title": "Lawrence E. Fong, DDS",
+      "subtitle": "The dentist tucked above the toy store block",
+      "trigger": {
+        "center": {
+          "lat": 37.98703,
+          "lng": -122.58939
+        },
+        "radiusM": 30
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the small door marked sixty-one-A beside the Fairfax Variety storefront"
+      },
+      "narration": "Not every downtown business has a display window. Behind a modest door on this block, Doctor Lawrence Fong has run a general dentistry practice for decades, one of the quiet professional offices that keep a small downtown functioning as more than a row of restaurants. Patients describe him as skilled, patient, and gentle, a dentist who explains every option in detail and fills the chair time with good conversation. The practice is small, listed with just two clinicians, and so well established that it is not even taking new patients. Towns like Fairfax hold onto practitioners like this: you can get your teeth checked, your hair cut, and your groceries carried home, all within a block of the same corner.",
+      "sources": [
+        "https://www.fairfaxopenforbusiness.com/health-and-wellness",
+        "https://doctor.webmd.com/practice/lawrence-e-fong-dds-dea99c01-eec3-49bb-ac41-64516924c207"
+      ]
+    },
+    {
+      "slug": "fairfax-barber-shop",
+      "title": "Fairfax Barber Shop",
+      "subtitle": "Walk-in haircuts, seven days a week",
+      "trigger": {
+        "center": {
+          "lat": 37.98708,
+          "lng": -122.58974
+        },
+        "radiusM": 30
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the small storefront signed Fairfax Barber Shop mid-block on Broadway"
+      },
+      "narration": "Every real downtown needs a barbershop, and this is Fairfax's. The Fairfax Barber Shop keeps it simple: cuts, beard trims, and shaves, open seven days a week, with walk-ins welcome. Regulars watched the shop change hands in recent years, when longtime owner Mike passed the clippers to Spencer, and the reviews barely wobbled; the shop holds ratings near five stars across dozens of write-ups. Spencer gets particular praise for his calm demeanor and his patience with squirming kids in the chair, and barber John is remembered for attention to detail and a steady stream of jokes. It is an unpretentious room in a town that prizes unpretentious rooms, and it has outlasted plenty of flashier neighbors.",
+      "sources": [
+        "https://www.yelp.com/biz/fairfax-barber-shop-fairfax-2",
+        "https://reviews.birdeye.com/fairfax-barber-shop-170200998855524"
+      ]
+    },
+    {
+      "slug": "83-broadway-salon",
+      "title": "83 Broadway Salon",
+      "subtitle": "The salon that named itself after its address",
+      "trigger": {
+        "center": {
+          "lat": 37.9871,
+          "lng": -122.58994
+        },
+        "radiusM": 30
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the salon storefront numbered eighty-three near the west end of the Broadway shops"
+      },
+      "narration": "Some businesses agonize over branding; this one just looked at its own front door. The salon at eighty-three Broadway, long known as Broadway Hair Salon, does cuts, color, styling for weddings and proms, hair extensions, keratin treatments, and eyebrow waxing and tinting, open Tuesday through Saturday from early morning into the evening. Clients single out stylists like Casey and Lisa Sebastian for cutting and color work, and the shop holds a solid four-and-a-half-star rating. Fairfax supports a remarkable density of hair studios for a town of about seven thousand people, and this stretch of Broadway is where several of them cluster, close enough that the smell of color developer mingles with coffee from the cafes.",
+      "sources": [
+        "https://www.yelp.com/biz/broadway-hair-salon-fairfax",
+        "https://www.chamberofcommerce.com/business-directory/california/fairfax/hair-salon/32416803-83-broadway-salon"
+      ]
+    },
+    {
+      "slug": "bank-of-america-fairfax",
+      "title": "Bank of America",
+      "subtitle": "The big-bank lobby in a town allergic to chains",
+      "trigger": {
+        "center": {
+          "lat": 37.98718,
+          "lng": -122.5902
+        },
+        "radiusM": 40
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the bank building with the red-and-blue sign anchoring the west end of Broadway"
+      },
+      "narration": "Fairfax is famously unfriendly territory for chain stores. The town has fought formula businesses for years, and in March of twenty twenty-six it even adopted a moratorium blocking permits for new ones. Yet here at the west end of Broadway sits a full Bank of America financial center, one of the very few national names allowed to keep its sign downtown, grandfathered into a streetscape of one-of-a-kind shops. The lobby opens weekdays at ten, and on Fridays at nine, and locals treat it less like a corporate outpost than like the town's shared vault: this is where the merchants of Broadway make their deposits and the rent checks get cashed. Even a funky town needs a bank.",
+      "sources": [
+        "https://www.yelp.com/biz/bank-of-america-financial-center-fairfax-3",
+        "https://townoffairfaxca.gov/town-newsletter/"
+      ]
+    },
+    {
+      "slug": "mary-norton-acupuncture",
+      "title": "Mary Norton Acupuncture",
+      "subtitle": "Needles, herbs, and three decades of Fairfax patients",
+      "trigger": {
+        "center": {
+          "lat": 37.98918,
+          "lng": -122.59149
+        },
+        "radiusM": 45
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the two-hundred block office building where Broadway bends past the lumber yard"
+      },
+      "narration": "In the professional building out where Broadway bends away from the shops, Mary Norton has practiced acupuncture since nineteen ninety-three. She is a lifelong Marin County resident who trained at the Academy of Chinese Culture and Health Sciences, then apprenticed with Doctor Jane Tang, a renowned gynecology and infertility specialist, and studied pulse diagnosis with the Taiwanese master herbalist Doctor Jimmy Chang. Her style blends needles, massage, and Chinese herbal medicine, with a focus on pain, digestion, immunity, and stubborn sinus and lung conditions. Neighbors have voted her practice a Nextdoor Neighborhood Favorite two years running. In a town thick with healers of every description, she is one of the longest-standing, a fixture for more than thirty years.",
+      "sources": [
+        "https://www.marynortonacupuncture.com/about-1",
+        "https://www.yelp.com/biz/norton-mary-lac-acupuncture-fairfax"
+      ]
+    },
+    {
+      "slug": "the-color-lounge",
+      "title": "The Color Lounge",
+      "subtitle": "Italian organic color at the mouth of Bolinas Road",
+      "trigger": {
+        "center": {
+          "lat": 37.98689,
+          "lng": -122.58886
+        },
+        "radiusM": 30
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the small salon at the very first storefront as Bolinas Road leaves the Broadway corner"
+      },
+      "narration": "Just steps off the main corner, at the very start of Bolinas Road, The Color Lounge is exactly what its name promises: a small salon built around the craft of hair color. Owner and lead stylist Marissa has earned a reputation among clients for an artful eye, the kind of colorist people follow from town to town, and she works with high-quality organic color lines imported from Italy rather than the standard salon chemicals. The room is intimate, a few chairs rather than a factory floor, which suits this block: Bolinas Road packs salons, studios, and healers shoulder to shoulder for the next three blocks, and this is the first of them you pass.",
+      "sources": [
+        "https://www.thecolorloungesalon.com/",
+        "https://www.yelp.com/biz/the-color-lounge-fairfax"
+      ]
+    },
+    {
+      "slug": "hairfax-studio",
+      "title": "Hairfax Studio",
+      "subtitle": "The best business-name pun in town, run by the chamber president",
+      "trigger": {
+        "center": {
+          "lat": 37.9864,
+          "lng": -122.5891
+        },
+        "radiusM": 30
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the studio tucked into the Bolinas Road building reached from little Mono Lane"
+      },
+      "narration": "Locals agree the town's best business-name pun lives here: Hairfax. Tucked into the building on Bolinas Road and reached by way of tiny Mono Lane, the studio belongs to Karen Begley, whom everyone calls Kaz, a Vidal Sassoon-educated master colorist who has been cutting hair since nineteen ninety-six. She is also a trained yoga teacher, a student of herbalism, and the president of the Fairfax Chamber of Commerce, which makes this one-chair studio something like a tiny city hall for local business gossip. Kaz keeps the operation ammonia-free and low-footprint, and even brews her own organic conditioning oils. Cuts and naturally beautiful color for women, men, teens, and kids, all under a name that was simply too good to waste.",
+      "sources": [
+        "https://www.vagaro.com/hairfaxstudio/staff",
+        "https://www.yelp.com/biz/hairfax-studio-fairfax"
+      ]
+    },
+    {
+      "slug": "eleven-real-estate",
+      "title": "Eleven Real Estate",
+      "subtitle": "A homegrown brokerage on Bolinas Road",
+      "trigger": {
+        "center": {
+          "lat": 37.9864,
+          "lng": -122.58937
+        },
+        "radiusM": 30
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the real-estate office windows papered with home listings on Bolinas Road"
+      },
+      "narration": "The window full of listing sheets on Bolinas Road belongs to Eleven Real Estate, a boutique brokerage founded by broker Danielle Salk, who chose downtown Fairfax over a strip-mall office park for her flagship. The founding team, including partners Jurg Spoerry and Kerry Berry, has grown to roughly fifteen agents and staff, with a second office on Fourth Street in San Francisco, and its agents belong to the invitation-only Top Agent Network. Realtors' windows are the town's unofficial museum of housing anxiety: this is where locals stop mid-errand to wince at what the cottage around the corner just sold for. In a market as strange as Marin's, that little display changes more often than the movie titles at the theater.",
+      "sources": [
+        "https://elevencalifornia.com/about-us",
+        "https://www.yelp.com/biz/danielle-salk-eleven-real-estate-fairfax"
+      ]
+    },
+    {
+      "slug": "fox-and-stone-collective",
+      "title": "Fox + Stone Collective",
+      "subtitle": "Independent stylists sharing one roof",
+      "trigger": {
+        "center": {
+          "lat": 37.98634,
+          "lng": -122.58941
+        },
+        "radiusM": 30
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the salon signed Fox and Stone in the row of studios along the second block of Bolinas Road"
+      },
+      "narration": "Fox and Stone Collective runs on a model that suits this independent-minded town: rather than one owner with employees, it is a collective of self-employed stylists and beauty artists who share the space, each booking their own clients and setting their own craft. The Fairfax room on Bolinas Road operates Tuesday through Saturday, and the collective extends to a sister location in neighboring San Anselmo, with a roster of artists split between the two towns. It sits in the middle of what amounts to Fairfax's beauty district, where within a single block you can find color specialists, this collective, and a yoga studio, all in converted storefronts a stone's throw from the town's beloved bars and bakeries.",
+      "sources": [
+        "https://www.foxandstonesalon.com/",
+        "https://www.yelp.com/biz/fox-and-stone-collective-fairfax-fairfax"
+      ]
+    },
+    {
+      "slug": "padma-studio",
+      "title": "Padma Studio",
+      "subtitle": "A lotus opens on Bolinas Road",
+      "trigger": {
+        "center": {
+          "lat": 37.98628,
+          "lng": -122.58946
+        },
+        "radiusM": 30
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the yoga studio doorway with mats and soft light in the second block of Bolinas Road"
+      },
+      "narration": "Padma is Sanskrit for lotus, and Padma Studio opened here in twenty twenty-two as founder Lesley Desaulniers's vision of a space for healing, renewal, and joy. Desaulniers, a longtime Bay Area yoga teacher, built the schedule around all-levels vinyasa classes that weave together creative sequencing, breath work, mantra, music, and yoga philosophy, along with workshops, trainings, and visiting teachers. Fairfax has cycled through beloved yoga rooms over the years, including the longtime Yoga Mountain studio nearby that closed in this same era, and Padma picked up the thread for the town's large population of practitioners. On a street where you can get your hair colored, your future read, and your house sold, this is where you go to breathe.",
+      "sources": [
+        "https://www.padmastudiofairfax.com/",
+        "https://www.yelp.com/biz/yoga-mountain-studio-fairfax-2"
+      ]
+    },
+    {
+      "slug": "picaroto-cleaners",
+      "title": "Picaroto Cleaners",
+      "subtitle": "Four decades of pressed shirts on Center Boulevard",
+      "trigger": {
+        "center": {
+          "lat": 37.98642,
+          "lng": -122.58506
+        },
+        "radiusM": 35
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the dry cleaner's storefront with garment racks visible along Center Boulevard"
+      },
+      "narration": "Some businesses survive on buzz; a dry cleaner survives on trust. Picaroto Cleaners has been taking in the town's laundry from the same Center Boulevard storefront since around nineteen eighty, a family-owned and operated shop handling dry cleaning, wash-and-fold laundry, and alterations, open six days a week. The local Patch once profiled it as its business of the week, noting decades in the very same location even as the shop passed between owners. Fairfax presents itself as a town of mountain bikers and tie-dye, but somebody here still needs a suit pressed for a wedding, a hem taken up, a stain rescued before an interview, and for more than forty years this is where those small emergencies have been quietly solved.",
+      "sources": [
+        "https://patch.com/california/sananselmofairfax/business-of-the-week-picaroto-cleaners",
+        "https://www.yelp.com/biz/picaroto-cleaners-fairfax"
+      ]
+    },
+    {
+      "slug": "wu-wei-tea-temple",
+      "title": "Wu Wei Tea Temple",
+      "subtitle": "An alcohol-free temple of tea, kava, and Sunday open mics",
+      "trigger": {
+        "center": {
+          "lat": 37.98728,
+          "lng": -122.5874
+        },
+        "radiusM": 35
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the incense-scented doorway with exotic decor on Sir Francis Drake near the Broadway shops"
+      },
+      "narration": "In a town that loves its taverns, Wu Wei Tea Temple thrives by pouring no alcohol at all. Tracy Brien Ginzburg opened it in twenty fifteen, growing it out of a farmers-market tea stall into a full tea house and kava bar serving competition-grade teas, healing elixirs, bone broth, and Middle Eastern treats. By day it is a cafe and workspace; by night, an all-ages venue for about fifty people, with trivia on Tuesdays, tarot and astrology on Thursdays, world music on Saturdays, and a Sunday open mic, all wrapped in artwork by local artist Ernesto Sanchez. In July of twenty twenty-six, Jeremy D'Antonio, co-founder of the band San Geronimo, became its new owner, promising to change almost nothing.",
+      "sources": [
+        "https://www.pressdemocrat.com/2026/07/23/marin-rocker-named-new-owner-of-fairfaxs-wu-wei-tea-temple/",
+        "https://www.wuweiteatemple.com/about-1"
+      ]
+    },
+    {
+      "slug": "the-forge-tattoo",
+      "title": "The Forge Tattoo",
+      "subtitle": "Forty years of combined ink in an old surf-shop building",
+      "trigger": {
+        "center": {
+          "lat": 37.98742,
+          "lng": -122.58832
+        },
+        "radiusM": 35
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the tattoo studio window with flash art on Sir Francis Drake behind the Broadway row"
+      },
+      "narration": "The Forge opened its doors on January second, twenty sixteen, when veteran artists Adam Roach and Nathan Gonzalez, with more than forty years of tattooing between them, finally found the right room after nearly three years of searching. The building came with its own Fairfax pedigree, having previously housed the Purple Haze smoke shop and the Fat Kat surf shop, two names that tell you plenty about this town's priorities. The Pacific Sun profiled the founding crew as a dream team, and the shop works in custom styles across the board, welcoming walk-ins daily. In a town whose uniform is trail dust and old band shirts, a good tattoo shop is not a novelty; it is essential infrastructure.",
+      "sources": [
+        "https://pacificsun.com/feature-dream-team/",
+        "https://www.yelp.com/biz/the-forge-tattoo-fairfax"
+      ]
+    },
+    {
+      "slug": "siren-sisters-kitchen",
+      "title": "Siren Sisters Kitchen",
+      "subtitle": "A tall-ship cook drops anchor in Fairfax",
+      "trigger": {
+        "center": {
+          "lat": 37.98656,
+          "lng": -122.58137
+        },
+        "radiusM": 40
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the small storefront kitchen in the shops along Sir Francis Drake at the east edge of downtown"
+      },
+      "narration": "Before she cooked for Fairfax, Dina Berkhout cooked at sea. The Palestinian-Italian chef spent years feeding crews aboard tall ships on the Atlantic, the Pacific, and the Great Lakes, then came ashore to found Siren Sisters Kitchen, a woman-owned catering company and storefront at the eastern edge of downtown. The cozy shop sells soups, stews, and braised meats fresh and frozen, along with salmon cakes, bean burgers, and savory hand pies, drawing on Mediterranean and Middle Eastern traditions grounded in California's seasonal produce. The catering side does weddings across the Bay Area, but the freezer case is the local secret: sailor-tested comfort food you can carry home for the night the fog rolls in.",
+      "sources": [
+        "https://www.sirensisterskitchen.com/about/",
+        "https://www.yelp.com/biz/siren-sisters-kitchen-fairfax"
+      ]
+    },
+    {
+      "slug": "miwok-waters-ross-valley",
+      "title": "Before the Grant",
+      "subtitle": "The Coast Miwok centuries beneath downtown Fairfax",
+      "trigger": {
+        "center": {
+          "lat": 37.98671,
+          "lng": -122.59006
+        },
+        "radiusM": 45
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the creek running behind the downtown storefronts"
+      },
+      "narration": "The creek threading behind these storefronts is the oldest road in Fairfax. For thousands of years the Ross Valley was Coast Miwok country. People hunted the oak-studded hills, gathered acorns, seeds, and berries, and fished these fresh waters, which in those days still carried salmon. The evidence sits all around this valley. The town of Ross counts seven shell mounds within its borders. Over the ridge in Sleepy Hollow, a shell mound, arrowheads, and grinding stones have come out of the ground. And where San Anselmo's roads now tangle at the Hub, so many artifacts were found that historians believe it was a crossroads for the Miwok, just as it is today. The villages emptied in the mission era, when epidemics that arrived with European contact swept the valley. By around eighteen hundred, the old life here was ending. Everything Fairfax became was built on top of it.",
+      "sources": [
+        "https://sananselmohistory.org/brief-history/",
+        "https://www.shha.org/page-18131",
+        "https://www.moya-rhs.org/ross-timeline"
+      ]
+    },
+    {
+      "slug": "rancho-canada-de-herrera",
+      "title": "Valley of the Blacksmiths",
+      "subtitle": "Domingo Sais and the land grant under your feet",
+      "trigger": {
+        "center": {
+          "lat": 37.98692,
+          "lng": -122.58885
+        },
+        "radiusM": 45
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the main downtown crossroads"
+      },
+      "narration": "Every deed in Fairfax traces back to one soldier. Domingo Sais, born in eighteen oh six, the eldest of sixteen children, served at the Presidio of San Francisco for seven years. On the tenth of August, eighteen thirty-nine, Mexico paid him for that service with land: six thousand six hundred fifty-eight acres called Rancho Cañada de Herrera, the Valley of the Blacksmiths, covering today's Fairfax, Sleepy Hollow, and part of San Anselmo. Local histories say he first built a house of rushes, then settled in to raise crops, sheep, horses, and cattle, while his family fished salmon from the creek. Sais died in eighteen fifty-three, and the breakup of his lands began almost at once. The American land commission had taken up his claim a year earlier, but the United States did not confirm the patent until eighteen seventy-six, twenty-three years after he was gone. The town you are standing in was sold out of that paperwork.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rancho_Ca%C3%B1ada_de_Herrera",
+        "https://digicoll.lib.berkeley.edu/record/264449",
+        "https://www.marindirect.com/fxhistory/history.html",
+        "https://www.shha.org/page-18131"
+      ]
+    },
+    {
+      "slug": "taliaferro-thirty-two-acres",
+      "title": "The Doctor's Glen",
+      "subtitle": "A.W. Taliaferro, the man who gave Fairfax away",
+      "trigger": {
+        "center": {
+          "lat": 37.98415,
+          "lng": -122.58318
+        },
+        "radiusM": 60
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the wooded glen at the old resort grounds"
+      },
+      "narration": "The glen ahead was a gift, twice over. Doctor Alfred Taliaferro of Gloucester, Virginia, sailed into San Francisco in October of eighteen forty-nine and skipped the gold fields for Marin, where he hunted so often on Domingo Sais's rancho that Sais gave him thirty-two acres just to have the doctor as a neighbor. In eighteen fifty-five, Taliaferro handed the glen on as a wedding present to his boyhood friend Charles Fairfax, and a town got its name. Taliaferro himself was worth a tour stop anywhere. He opened Marin's first drug store, became San Quentin's first prison physician and testified against its brutality, served in the state assembly and senate, and rode to patients in any weather, refusing payment from anyone who could not afford it. In eighteen seventy-four a highwayman shot him in the arm; he was elected to San Rafael's first board of trustees two weeks later. He died in eighteen eighty-five of pneumonia caught on a night call, mourned across the county.",
+      "sources": [
+        "https://medium.com/anne-t-kent-california-room-community-newsletter/dr-alfred-w-taliaferro-more-than-just-marins-most-treasured-doctor-e339f75cb41",
+        "https://patch.com/california/sanrafael/san-rafael-history-dr-alfred-w-taliaferro-dispensed-c81cb28d211",
+        "https://www.marinhistory.org/blog/post-71/"
+      ]
+    },
+    {
+      "slug": "manuela-sais-picnic-grounds",
+      "title": "The Widow's Picnic Grounds",
+      "subtitle": "What became of the Sais family and their land",
+      "trigger": {
+        "center": {
+          "lat": 37.98598,
+          "lng": -122.5904
+        },
+        "radiusM": 40
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the open green of Fairfax Park"
+      },
+      "narration": "When Domingo Sais died in eighteen fifty-three, his rancho passed to his widow, Manuela, and six children, and piece by piece it slipped away. His son Pedro inherited Sleepy Hollow, leased it to a dairyman named Butterfield, and after Pedro's death in eighteen seventy-nine his heirs sold it off for sixteen thousand dollars. But Manuela made one deal that shaped this town's whole character. In eighteen seventy-five she leased sixty-five acres here to the North Pacific Coast Railroad as summer picnic grounds, and San Franciscans began riding the trains to spend Sundays under the Fairfax oaks. That lease is the ancestor of the park around you. In nineteen twenty the volunteer firemen bought nine of these acres from landowner Henry Frustuck, and a year later part went to the school district for Central School. A Mexican widow's picnic concession became the commons of Fairfax, and the family name survives on a street over the San Anselmo line.",
+      "sources": [
+        "https://www.marindirect.com/fxhistory/history2.html",
+        "https://www.shha.org/page-18131",
+        "https://en.wikipedia.org/wiki/Rancho_Ca%C3%B1ada_de_Herrera"
+      ]
+    },
+    {
+      "slug": "manor-hill-lot-boom",
+      "title": "Lots for Sale",
+      "subtitle": "Earthquake refugees and the subdivision fever of the nineteen-tens",
+      "trigger": {
+        "center": {
+          "lat": 37.99015,
+          "lng": -122.59618
+        },
+        "radiusM": 60
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the winding hillside streets above the valley floor"
+      },
+      "narration": "These hillside streets were once a sales brochure. After the earthquake and fire of nineteen oh six, Fairfax became a haven for refugees fleeing crumbling San Francisco, and speculators smelled opportunity. Between nineteen oh seven and nineteen fourteen the old rancho land was carved into tract after tract: the Fairfax Tract, Ridgeway, Deer Park, Pacheco, Fairfax Park, Fairfax Heights, Bothin Park, the Manor Tracts, and later the Cascades. The showpiece was Fairfax Manor, mapped in nineteen ten, where the Fairfax Development Company sold view lots along freshly graded roads named Redwood, Spruce, Scenic, and Tamalpais. City buyers rode the trains out, walked the raw hillsides, and bought a piece of the country. Manor was its own little settlement then, with its own name on the map; today it survives as a district of Fairfax, a school name, and this maze of narrow, view-hungry streets that were never really designed for automobiles, because there mostly weren't any yet.",
+      "sources": [
+        "https://www.marindirect.com/fxhistory/history.html",
+        "https://medium.com/anne-t-kent-california-room-community-newsletter/102-years-ago-fairfax-incline-railroad-installed-4039a3dd07e8",
+        "https://annetkent.kontribune.com/articles/8529",
+        "https://en.wikipedia.org/wiki/Manor,_California"
+      ]
+    },
+    {
+      "slug": "deer-park-villa-bootleggers",
+      "title": "Bootlegger's Lodge",
+      "subtitle": "A roadhouse that outlasted Prohibition",
+      "trigger": {
+        "center": {
+          "lat": 37.98027,
+          "lng": -122.593
+        },
+        "radiusM": 55
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the redwood grove at the old villa entrance"
+      },
+      "narration": "Up Bolinas Road, where town gives way to forest, stands one of the Bay Area's oldest family-run restaurants. The property opened as a lodge in nineteen sixteen and became a restaurant in nineteen twenty-two, in the heart of the dry years. Prohibition was hard on Fairfax's pleasure trade; it helped push the famous Pastori resort into a sale in nineteen twenty-five. Deer Park Villa endured, and its oldest hall is remembered to this day as Bootlegger's Lodge, the house's own wink at how a country roadhouse got through the twenties. The love story came later. In nineteen twenty-seven, newlyweds Joe and Antoinette Ghiringhelli had their wedding-night dinner here, were charmed, and promised each other they would own the place someday. In nineteen thirty-seven they did. To celebrate, Joe planted a grove of redwoods that has since grown into what the family calls the enchanted forest, and Ghiringhellis have run the villa ever since.",
+      "sources": [
+        "https://www.deerparkvilla.com/historic-wedding-venue-northern-california",
+        "https://www.herecomestheguide.com/wedding-venues/northern-california/deer-park-villa",
+        "https://www.marinhistory.org/blog/post-71/"
+      ]
+    },
+    {
+      "slug": "old-timers-saloon",
+      "title": "The Old Timer's Saloon",
+      "subtitle": "Fairfax's first bar, still pouring",
+      "trigger": {
+        "center": {
+          "lat": 37.98679,
+          "lng": -122.58461
+        },
+        "radiusM": 45
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the old wooden roadhouse on the boulevard"
+      },
+      "narration": "This wooden building on the boulevard has been serving drinks longer than Fairfax has been a town. The Arbini and Segale family put it up in nineteen oh eight as the Old Timer's Saloon, the first bar in Fairfax, back when the community was a scatter of picnic grounds, new subdivisions, and railroad platforms. The bar counter inside is even older than the building, a piece of eighteen nineties saloon furniture that has anchored the room through every era since: the excursion crowds, Prohibition, the resort decades, and the town's long afterlife as a haven for musicians and mountain bikers. In recent years the building got a two-year restoration, new bones, plumbing, and wiring behind the old face, and reopened as The Lodge. But the point of the place is continuity. In a town that has torn down its pavilions, incline railways, and grand resorts, Fairfax's first bar is still standing in its original spot, doing its original job.",
+      "sources": [
+        "https://www.thelodgefairfax.com/",
+        "https://www.marincountyvisitor.com/things-to-do/restaurants/the-lodge-fairfax/"
+      ]
+    },
+    {
+      "slug": "bothin-hill-farm",
+      "title": "The Philanthropist of Steel",
+      "subtitle": "Henry Bothin's healing colony on White's Hill",
+      "trigger": {
+        "center": {
+          "lat": 37.99353,
+          "lng": -122.59944
+        },
+        "radiusM": 70
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the road climbing toward the slopes of White's Hill"
+      },
+      "narration": "The name on this road belongs to a man who bought a thousand acres of Fairfax to give it away. Henry E. Bothin came off a Wisconsin farm penniless and made a fortune in Bay Area steel and commercial real estate. Around nineteen oh three he acquired more than one thousand acres near Fairfax from Phoebe Hearst, intending the land for charity. The nineteen oh six earthquake and fire destroyed seventy-nine of his eighty-one San Francisco buildings; he rebuilt, and kept giving. On the slopes of White's Hill he donated one hundred fifty-seven acres: one hundred twenty-two for Hill Farm, a convalescent home where city children recovered from illness in the country air, photographed in the care of nurse Elizabeth Ashe, and thirty-five for a women's tuberculosis sanatorium run with Doctor Philip King Brown. To make it permanent, he created the Bothin Foundation in nineteen seventeen, one of California's earliest private foundations, still at work today. The road, and an old subdivision called Bothin Park, keep his name in town.",
+      "sources": [
+        "https://medium.com/anne-t-kent-california-room-community-newsletter/december-11-2014-legacy-of-philanthropist-henry-e-bothin-f4ded6d87",
+        "https://annetkent.kontribune.com/articles/5453",
+        "https://www.marindirect.com/fxhistory/history.html"
+      ]
+    },
+    {
+      "slug": "frustuck-avenue-name-archive",
+      "title": "Reading the Street Signs",
+      "subtitle": "The town's history, filed under its street names",
+      "trigger": {
+        "center": {
+          "lat": 37.98246,
+          "lng": -122.59424
+        },
+        "radiusM": 50
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the street sign at the avenue's corner"
+      },
+      "narration": "Fairfax keeps its archives on its street signs. This avenue carries the name of Henry Frustuck, the landowner whose nine acres, bought by the volunteer firemen in nineteen twenty, became part of Fairfax Park. Pastori Avenue remembers Charles and Adele Pastori, whose resort made the town famous. Bothin Road points toward the lands the steel magnate Henry Bothin gave for healing children and women on White's Hill. Just over the San Anselmo line, Sais Avenue preserves the family that once held the entire valley by Mexican grant. Whole neighborhoods are fossils of the real estate boom: Manor and Scenic date from the Fairfax Manor subdivision, mapped in nineteen ten, whose promoters graded roads called Redwood, Spruce, Scenic, and Tamalpais and sold the view by the lot. And one founder is missing. Doctor Taliaferro, who gave away the glen that named the town, got no street at all, proof that in Fairfax, as everywhere, the map remembers the sellers better than the givers.",
+      "sources": [
+        "https://www.marindirect.com/fxhistory/history2.html",
+        "https://medium.com/anne-t-kent-california-room-community-newsletter/102-years-ago-fairfax-incline-railroad-installed-4039a3dd07e8",
+        "https://medium.com/anne-t-kent-california-room-community-newsletter/december-11-2014-legacy-of-philanthropist-henry-e-bothin-f4ded6d87",
+        "https://www.marinhistory.org/blog/post-71/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,852 @@
+{
+  "_notes": "Drive slate: the new leg of a 300 Bothin Rd (Fairfax) -> Village Peddler (1111 Magnolia Ave, Larkspur) drive. The Fairfax/SFD half is covered by fairfax-to-corte-madera + sfd-san-anselmo; this track owns College Ave at Kentfield Corners -> Magnolia Ave -> the Village Peddler, plus a downtown-Larkspur extension past the destination (Escalle through Dolliver Park) for whenever the drive continues. Southbound sides. Built 2026-09-01 from web-search subagents; facts traced to loaded sources (Larkspur Heritage walking-tour PDF, Anne T. Kent California Room, marinhistory.org, Wikipedia). Text-only on purpose (ElevenLabs quota exhausted) — iOS speaks it with the on-device voice.",
+  "track": {
+    "slug": "magnolia-avenue",
+    "name": "Magnolia Avenue",
+    "description": "Kentfield Corners to the Village Peddler and on through old Larkspur: a mansion campus, a vanished resort hotel, a brick winery, blue basalt, sunken silver, and four thousand dancers in a redwood grove.",
+    "kind": "tour",
+    "icon": "bicycle",
+    "color": "#7a5195",
+    "official": false
+  },
+  "spots": [
+    {
+      "slug": "college-of-marin",
+      "title": "Robin Williams Went Here",
+      "subtitle": "A mansion estate that became everybody's college",
+      "trigger": { "center": { "lat": 37.9538, "lng": -122.5487 }, "radiusM": 130 },
+      "modes": ["driving"],
+      "side": "right",
+      "locating": { "mode": "auto", "anchor": "the campus lawns and low halls behind the street trees" },
+      "narration": "This campus opened on August thirtieth, nineteen twenty-six, as Marin Junior College — eighty-seven students, seven teachers, holding class in the mansion of George Butler's Kentfield estate while the barn served as the gymnasium. The first real building was a thirty-seven-thousand-dollar science hall. It became College of Marin in nineteen forty-seven, and its alumni list reads like no other two-year school's: Robin Williams studied theater here in the early seventies, Dian Fossey passed through before the gorillas, plus basketball hall-of-famer Don Barksdale, Pete Carroll, Naomi Judd, and Adam Steltzner, the engineer who landed the Curiosity rover on Mars. The drama department likes to claim the best Juilliard transfer rate of any junior college in the country.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/College_of_Marin",
+        "https://medium.com/anne-t-kent-california-room-community-newsletter/college-of-marin-celebrates-its-90th-75a42c7a6306"
+      ]
+    },
+    {
+      "slug": "kent-woodlands",
+      "title": "The Family That Named the Town",
+      "subtitle": "How estate taxes turned a private ridge into five hundred homes",
+      "trigger": { "center": { "lat": 37.9510, "lng": -122.5496 }, "radiusM": 130 },
+      "modes": ["driving"],
+      "side": "right",
+      "locating": { "mode": "auto", "anchor": "the wooded ridge of big houses climbing toward Mount Tamalpais" },
+      "narration": "That whole wooded ridge running up toward Mount Tamalpais was one family's back yard. Albert Emmett Kent bought the land from the Ross estate in eighteen seventy-one and named his place Tamalpais; the settlement became Kent, then Kentfield when the post office arrived in nineteen oh five. His son William Kent went to Congress and gave the nation Muir Woods. But congressmen's heirs pay estate taxes too, and in nineteen thirty-six the family began selling the hillside off as Kent Woodlands — twenty-one subdivisions over the following decades, more than five hundred houses where the no-trespassing signs used to hang.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kentfield,_California",
+        "https://marinbuzz.com/p/the-day-the-no-trespassing-signs-came-down-how-the-kents-built-modern-marin"
+      ]
+    },
+    {
+      "slug": "village-peddler",
+      "title": "Fifty Years of Spokes",
+      "subtitle": "End of the line: the bike shop that outlasted them all",
+      "trigger": { "center": { "lat": 37.9470, "lng": -122.5468 }, "radiusM": 110 },
+      "modes": ["driving"],
+      "side": "right",
+      "locating": { "mode": "auto", "anchor": "the bike shop on the little shopping strip" },
+      "narration": "Here's your destination: the Village Peddler, selling and fixing bicycles at eleven-eleven Magnolia since nineteen seventy-three. Think about that timing. In nineteen seventy-three the mountain bike did not exist yet — the kids bombing down Marin's fire roads were still riding salvaged balloon-tire clunkers, and the famous Repack races above Fairfax were still three years off. This shop opened before all of it, and it's still here half a century later, in the county that gave the world the mountain bike. Not many bike shops anywhere can say they've been keeping the same town rolling for fifty years.",
+      "sources": [
+        "https://www.villagepeddler.com/articles/village-peddler-pg118.htm",
+        "https://cyclingcompass.com/shops/village-peddler-ca"
+      ]
+    },
+    {
+      "slug": "hotel-bon-air",
+      "title": "A Grand Hotel Vanishes",
+      "subtitle": "Fifty rooms, a saltwater pool, and a twelve-year life",
+      "trigger": { "center": { "lat": 37.9430, "lng": -122.5406 }, "radiusM": 120 },
+      "modes": ["driving"],
+      "side": "left",
+      "locating": { "mode": "auto", "anchor": "the flats running down to Corte Madera Creek" },
+      "narration": "Down toward the creek once rose a four-story resort hotel that cost eighty thousand dollars and lasted barely a dozen years. John Manlove and his wife opened the Hotel Bon Air in May of nineteen oh two: fifty rooms, a saltwater swimming pool, a bowling alley, a dance hall, and a gambling room. This was the creek's resort era — houseboats called arks moored along the banks, regattas in summer, and in nineteen oh six a lantern-lit illuminated water carnival. Then a Tomales bank seized it, the doors closed for good in nineteen fourteen, and the archbishop of San Francisco bought the land in nineteen eighteen. All that's left of the whole gilded operation is the name on Bon Air Road.",
+      "sources": [
+        "https://medium.com/anne-t-kent-california-room-community-newsletter/hotel-bon-air-new-evidence-from-survey-maps-4091973e2bd3"
+      ]
+    },
+    {
+      "slug": "escalle-winery",
+      "title": "Escalle's, Eighteen Eighty-Eight in Brick",
+      "subtitle": "Marin's last nineteenth-century winery",
+      "trigger": { "center": { "lat": 37.9423, "lng": -122.5398 }, "radiusM": 100 },
+      "modes": ["driving"],
+      "side": "right",
+      "locating": { "mode": "auto", "anchor": "the old brick buildings with the painted false front, tucked against the hillside" },
+      "narration": "That brick false front painted with Escalle's and eighteen eighty-eight is the last nineteenth-century winery left in Marin. A French brickmaker named Claude Callot leased this land in eighteen seventy-four; young Jean Escalle came over from France to work the brickyard, and when Callot died in eighteen eighty-eight, Escalle married his widow and turned the property to wine — twenty-three acres of Zinfandel and Riesling he sold by delivery wagon as the Corte Madera Vineyard. The railroad stop out front was simply called Escalle, and the little brick station still stands. Prohibition killed the wine business in nineteen twenty, the same year Jean Escalle died, but the buildings survive as a protected historic site — and the old grounds host community dances again.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Escalle,_Larkspur,_California",
+        "https://medium.com/anne-t-kent-california-room-community-newsletter/marin-entrepreneur-jean-escalle-1857-1920-9fdd042a6f48"
+      ]
+    },
+    {
+      "slug": "doherty-miwok-mounds",
+      "title": "The Mounds Under the Parking Lot",
+      "subtitle": "What was here first",
+      "trigger": { "center": { "lat": 37.9378, "lng": -122.5349 }, "radiusM": 100 },
+      "modes": ["driving"],
+      "side": "left",
+      "locating": { "mode": "auto", "anchor": "the little park by the shopping plaza on the creek side of the road" },
+      "narration": "Before the town, before the ranches, before any of it, Coast Miwok people lived here by the creek, and the ground remembered them long after the town forgot. A burial ground surfaced during construction in nineteen thirty-six. In nineteen seventy-one, when the Larkspur Plaza shopping center went up, a knoll holding shell mounds was simply bulldozed for fill. A year later the historical society placed a plaque in Doherty Park — one of the few markers anywhere along this road acknowledging the people who were here for thousands of years before the lumber schooners ever came up the creek.",
+      "sources": [
+        "https://www.larkspur.ca.gov/DocumentCenter/View/11804/Revised-Downtown-Walking-tour-descriptions-v8"
+      ]
+    },
+    {
+      "slug": "lark-theater",
+      "title": "Saved by Eight Hundred Neighbors",
+      "subtitle": "A streamline-moderne jewel built over a horseshoe pit",
+      "trigger": { "center": { "lat": 37.9370, "lng": -122.5352 }, "radiusM": 90 },
+      "modes": ["driving"],
+      "side": "right",
+      "locating": { "mode": "auto", "anchor": "the neon marquee and stepped tower of the little art-deco cinema" },
+      "narration": "The neon marquee and stepped tower belong to the Lark Theater, the only Art Deco building in Larkspur, put up by the Blumenfeld theater family in the mid nineteen thirties — reportedly right over a horseshoe pit. The architect, William David, trained under the great movie-palace designer Charles Lee, and the four-hundred-seat house opened with both heating and air conditioning, which was saying something. By the late nineties it sat empty, and in two thousand three the wrecking ball was scheduled. The town said no: a Save the Lark campaign raised the money, more than eight hundred people donated, and in July two thousand four the Lark reopened as a nonprofit cinema with red velvet seats and the neon burning again.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lark_Theater",
+        "https://larktheater.net/about-us/",
+        "https://www.larkspur.ca.gov/DocumentCenter/View/11804/Revised-Downtown-Walking-tour-descriptions-v8"
+      ]
+    },
+    {
+      "slug": "nwp-depot-naming",
+      "title": "When the Train Made the Town",
+      "subtitle": "Five more houses and a flower misnamed",
+      "trigger": { "center": { "lat": 37.9366, "lng": -122.5352 }, "radiusM": 90 },
+      "modes": ["driving"],
+      "side": "left",
+      "locating": { "mode": "auto", "anchor": "the little white Spanish-style station buildings beside the bike path" },
+      "narration": "This road is a railroad's twin. The North Pacific Coast laid its tracks through here in eighteen seventy-four along the old county road, and the right-of-way survives as the bike path running beside the street. When developer Charles Wright subdivided the town in eighteen eighty-seven, he extracted a promise: build five more houses, and the trains would stop. They did — a wooden station by eighteen ninety-one, replaced in nineteen twenty-nine by the Mission Revival depot that still stands. The trains quit in nineteen forty-one. And the town's name? Wright's English wife Georgiana looked at the blue flowers on these hills and called the place Larkspur. The flowers were lupine. Her defenders insist an Englishwoman knew her garden — the record stays diplomatically silent.",
+      "sources": [
+        "https://www.marinhistory.org/blog/downtownlarkspur/",
+        "https://www.larkspur.ca.gov/DocumentCenter/View/11804/Revised-Downtown-Walking-tour-descriptions-v8",
+        "https://www.pressdemocrat.com/sonoma-county-gazette/sonoma-county-news/exploring-the-route-of-the-north-pacific-coast-railroad-part-2-corte-mader/"
+      ]
+    },
+    {
+      "slug": "blue-rock-inn",
+      "title": "The Blue Rock",
+      "subtitle": "An 1895 hotel in locally quarried basalt",
+      "trigger": { "center": { "lat": 37.9362, "lng": -122.5354 }, "radiusM": 90 },
+      "modes": ["driving"],
+      "side": "right",
+      "locating": { "mode": "auto", "anchor": "the corner hotel with the witch's-cap tower and blue stone pillars" },
+      "narration": "The corner building with the hexagonal tower went up in eighteen ninety-five as the Hotel Merwin, then the Hotel Larkspur, serving San Franciscans who rode the train up for a weekend of fun while bars multiplied along Magnolia Avenue. In nineteen ten, new owners Serefino and Elizabeth Marilli hired designer Gustave Nagel, who wrapped the porch in pillars of blue basalt quarried right here in town — and the Blue Rock Inn it has been ever since. During Prohibition, rumor swore there was a still in the basement. Federal agents finally raided the place and found exactly one tank — full of water. The witch's-cap tower survives; the third story came in the fifties.",
+      "sources": [
+        "https://www.marinhistory.org/blog/downtownlarkspur/",
+        "https://www.larkspur.ca.gov/DocumentCenter/View/11804/Revised-Downtown-Walking-tour-descriptions-v8"
+      ]
+    },
+    {
+      "slug": "emporio-rulli",
+      "title": "Panettone in the Phone Exchange",
+      "subtitle": "Milanese pastry in a 1925 telephone building",
+      "trigger": { "center": { "lat": 37.9356, "lng": -122.5352 }, "radiusM": 80 },
+      "modes": ["driving"],
+      "side": "left",
+      "locating": { "mode": "auto", "anchor": "the Italian pastry shop with the gilded storefront" },
+      "narration": "The gilded storefront belongs to Emporio Rulli, a genuine Italian pasticceria that Gary and Jeannie Rulli opened in nineteen eighty-eight. Gary apprenticed with pastry masters in Milan and Turin, and his Christmas panettone ships all over the world from this little block. The brick building itself has its own story: it went up in nineteen twenty-five as the Pioneer Corte Madera Telephone exchange, back when a human operator in this room connected every call in town. Now the switchboards are espresso machines.",
+      "sources": [
+        "https://patch.com/california/larkspurcortemadera/directory/listing/36492/emporio-rulli-inc",
+        "https://www.larkspur.ca.gov/DocumentCenter/View/11804/Revised-Downtown-Walking-tour-descriptions-v8"
+      ]
+    },
+    {
+      "slug": "silver-peso",
+      "title": "The Bar Paid For in Sunken Silver",
+      "subtitle": "A Navy diver's Manila Bay salvage",
+      "trigger": { "center": { "lat": 37.9353, "lng": -122.5353 }, "radiusM": 80 },
+      "modes": ["driving"],
+      "side": "left",
+      "locating": { "mode": "auto", "anchor": "the old corner bar with the neon martini glass" },
+      "narration": "The corner bar with the neon martini glass started life before nineteen oh nine as a blacksmith shop — the barn doors are still visible on the side street. But the name is the good part. During the Second World War, Navy diver Chester Wolmack watched the government dump crates of silver pesos into Manila Bay to keep them from the advancing Japanese army. After the war, Wolmack came back with two fellow divers and hauled a fortune in pesos off the bay floor. He opened this bar with the proceeds, handed out silver pesos to customers his first week, and called the place the Silver Peso. The annex next door was Larkspur's first firehouse, built in nineteen eleven.",
+      "sources": [
+        "https://www.larkspur.ca.gov/DocumentCenter/View/11804/Revised-Downtown-Walking-tour-descriptions-v8",
+        "https://en.wikipedia.org/wiki/Larkspur_Downtown_Historic_District"
+      ]
+    },
+    {
+      "slug": "rose-bowl-firehouse",
+      "title": "The Firehouse the Dances Built",
+      "subtitle": "Four thousand dancers a night in a redwood grove",
+      "trigger": { "center": { "lat": 37.9348, "lng": -122.5354 }, "radiusM": 80 },
+      "modes": ["driving"],
+      "side": "left",
+      "locating": { "mode": "auto", "anchor": "the nineteen-thirties firehouse with the red tile roof" },
+      "narration": "For fifty summers, Saturday night in Larkspur meant the Rose Bowl. The volunteer firemen started throwing dances in nineteen ten to buy equipment, and by nineteen thirteen they had a permanent open-air floor in a half-acre redwood grove a block off the avenue, ringed by a rose-covered fence. At the peak in the thirties, four thousand people a night came by ferry and train at fifty cents a head to dance under strings of lights and a winking Rose Bowl moon, with a firefall of flares rigged forty feet up in the trees. The ticket money bought the town a chemical fire engine, its hydrants, and the fire station here, built in nineteen thirty-nine. The last dance was nineteen sixty-three; apartments grow where the grove was.",
+      "sources": [
+        "https://www.larkspurcommunityfoundation.org/rose-bowl-history/",
+        "https://www.kqed.org/w/bigband/halls/rose.html",
+        "https://www.larkspur.ca.gov/DocumentCenter/View/11804/Revised-Downtown-Walking-tour-descriptions-v8"
+      ]
+    },
+    {
+      "slug": "larkspur-city-hall",
+      "title": "The Fifteen-Thousand-Dollar City Hall",
+      "subtitle": "Dedicated 1913, to the penny",
+      "trigger": { "center": { "lat": 37.9343, "lng": -122.5356 }, "radiusM": 80 },
+      "modes": ["driving"],
+      "side": "left",
+      "locating": { "mode": "auto", "anchor": "the twin-towered mission-style building behind the trimmed hedge" },
+      "narration": "The mission-revival building with the twin towers is City Hall, and the town still knows exactly what it cost: fifteen thousand, one hundred dollars, and fifty cents. Larkspur incorporated in March nineteen oh eight, hired San Francisco architect Charles Claussen, and dedicated this building in April nineteen thirteen. The same year, the Larkspur Women's Club opened the town library in one small room on the first floor. Hollywood came calling in nineteen forty-nine, when the film-noir thriller Impact shot scenes here. The blocks around you — forty-one buildings along Magnolia — went onto the National Register in nineteen eighty-two as a downtown that still looks the way small-town California did before nineteen thirty.",
+      "sources": [
+        "https://www.thelarkspurchamber.org/history",
+        "https://en.wikipedia.org/wiki/Larkspur_Downtown_Historic_District",
+        "https://www.larkspur.ca.gov/DocumentCenter/View/11804/Revised-Downtown-Walking-tour-descriptions-v8"
+      ]
+    },
+    {
+      "slug": "picco",
+      "title": "The Ninety-Six-Hour Dough",
+      "subtitle": "Michelin comes to little Larkspur",
+      "trigger": { "center": { "lat": 37.9340, "lng": -122.5356 }, "radiusM": 70 },
+      "modes": ["driving"],
+      "side": "left",
+      "locating": { "mode": "auto", "anchor": "the corner restaurant at King Street" },
+      "narration": "The corner restaurant is Picco, which chef Bruce Hill opened in two thousand five and which has kept the Michelin Guide making trips to a town of twelve thousand ever since. The signature move is patience: the pizza dough takes ninety-six hours — two days of cold fermentation, two days rising — before it ever sees the oven. Hill built the menu on Marin ingredients from the farms and dairies just over the hills, and two decades in, it's still the toughest table on the avenue.",
+      "sources": [
+        "https://guide.michelin.com/en/california/larkspur/restaurant/picco",
+        "https://pacificsun.com/picco-at-20-larkspur-restaurant-celebrates-double-decades/"
+      ]
+    },
+    {
+      "slug": "kings-corner",
+      "title": "King's Corner",
+      "subtitle": "A dairy ranch, a department store fortune, and a mosaic steeple",
+      "trigger": { "center": { "lat": 37.9338, "lng": -122.5357 }, "radiusM": 80 },
+      "modes": ["driving"],
+      "side": "right",
+      "locating": { "mode": "auto", "anchor": "the mosaic-tiled church steeple near the tall white farmhouse" },
+      "narration": "This crossing is where Larkspur began. Patrick King set up his cattle and dairy ranch at this corner in eighteen sixty-nine — the same King who later leased land up the road to the brickmakers at Escalle. The tall Queen Anne farmhouse his family added in the nineties housed the Costellos from eighteen ninety-eight all the way to two thousand seven; James Costello owned the San Francisco department store that became the Macy's on Union Square. And the church with the mosaic-tiled steeple is Saint Patrick's, built in nineteen forty, Spanish Colonial Revival — on land that had been, of all things, a prickly-pear farm.",
+      "sources": [
+        "https://www.larkspur.ca.gov/DocumentCenter/View/11804/Revised-Downtown-Walking-tour-descriptions-v8"
+      ]
+    },
+    {
+      "slug": "crazy-murphys",
+      "title": "Crazy Murphy's House",
+      "subtitle": "Haunted Victorian, film set, famous kitchen",
+      "trigger": { "center": { "lat": 37.9327, "lng": -122.5362 }, "radiusM": 80 },
+      "modes": ["driving"],
+      "side": "left",
+      "locating": { "mode": "auto", "anchor": "the tall Victorian against the redwoods" },
+      "narration": "The tall Victorian against the redwoods dates to about eighteen eighty-eight, and for decades the local kids swore it was haunted. The Murphy family moved in around nineteen ten, and the owner's odd habits earned it the name Crazy Murphy's; empty through the twenties and thirties, it looked the part. In nineteen forty-nine a film crew agreed and shot the noir thriller Impact here. Then in the seventies it became the Lark Creek Inn, and in nineteen eighty-nine chef Bradley Ogden took over the kitchen and made this old haunted house one of the most famous farm-to-table restaurants in America. Today it pours martinis as Perry's, the Larkspur outpost of the nineteen sixty-nine Union Street original. Next door, the low buildings were a nineteen forty-five auto agency built from beams and skylights salvaged from the Sausalito ferry terminals.",
+      "sources": [
+        "https://www.larkspur.ca.gov/DocumentCenter/View/11804/Revised-Downtown-Walking-tour-descriptions-v8",
+        "https://www.perryssf.com/location/larkspur/"
+      ]
+    },
+    {
+      "slug": "dolliver-dark-park",
+      "title": "Dark Park and the Gold Rush Loggers",
+      "subtitle": "Second-growth children of thousand-year giants",
+      "trigger": { "center": { "lat": 37.9320, "lng": -122.5362 }, "radiusM": 90 },
+      "modes": ["driving"],
+      "side": "right",
+      "locating": { "mode": "auto", "anchor": "the deep redwood grove with the playground beneath it" },
+      "narration": "The redwood grove where the creek comes down the canyon is Dolliver Park, so deep in shade the locals just call it Dark Park. These trees are the children of giants. In eighteen forty-nine, a company of gold-seekers from Baltimore set up a sawmill in the canyon above you, then abandoned it for the Sierra goldfields after about five months — but the name stuck, and Baltimore Canyon's old-growth redwoods, some a thousand years old, were logged out over the rest of the century. Larkspur Creek still drains the canyon through this grove; steelhead trout were found in it as late as nineteen eighty-one. Up the fork sits the Dolliver House, home of the family the park is named for.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Larkspur_Creek",
+        "https://medium.com/anne-t-kent-california-room-community-newsletter/when-sawmills-flourished-in-larkspur-274b0680362f",
+        "https://www.larkspur.ca.gov/DocumentCenter/View/11804/Revised-Downtown-Walking-tour-descriptions-v8"
+      ]
+    },
+    {
+      "slug": "guesthouse",
+      "title": "The Picco Farm Team",
+      "subtitle": "Michelin-listed dinners across from the college",
+      "trigger": { "center": { "lat": 37.9547, "lng": -122.54836 }, "radiusM": 70 },
+      "modes": ["driving"],
+      "side": "left",
+      "locating": { "mode": "auto", "anchor": "the dinner house across the street from the campus" },
+      "narration": "The dinner house across from the campus is Guesthouse, opened in twenty eighteen by chef Jared Rogers and Dustin Sullivan — and if the cooking down the road at Picco in Larkspur tastes like a sibling, that's because it is. Rogers spent a decade in Picco's kitchen before striking out on his own here, and the Michelin Guide followed him to Kentfield. Local, seasonal, and a neighborhood room rather than a destination shrine — which is exactly the point.",
+      "sources": [
+        "https://guide.michelin.com/us/en/california/kentfield/restaurant/guesthouse",
+        "https://marinmagazine.com/arts-events/things-to-do/whats-hot-the-guesthouse-restaurant/"
+      ]
+    },
+    {
+      "slug": "half-day-cafe",
+      "title": "Brunch in the Old Garage",
+      "subtitle": "Scratch cooking in the 1930s Kentfield Garage",
+      "trigger": { "center": { "lat": 37.95445, "lng": -122.54848 }, "radiusM": 70 },
+      "modes": ["driving"],
+      "side": "left",
+      "locating": { "mode": "auto", "anchor": "the old white garage building across from the college" },
+      "narration": "The white building next door started life in the nineteen thirties as the Kentfield Garage, fixing the cars of the college crowd, then drifted through years as an antique store and a realty office. In nineteen eighty-six Dan Ohlson turned it into the Half Day Cafe, and it became the kind of scratch-made breakfast-and-lunch place a town organizes its weekends around. His daughter ran it for nearly two decades after him, and under new ownership the griddle is still going — half a day at a time, as the name promises.",
+      "sources": [
+        "http://halfdaycafe.net/about.html",
+        "https://restaurantrealty.com/morad-elkamraoui-the-new-owner-of-half-day-cafe/"
+      ]
+    },
+    {
+      "slug": "woodlands-market",
+      "title": "Sixty-Three Years on Nob Hill First",
+      "subtitle": "The grocer family behind Woodlands Market",
+      "trigger": { "center": { "lat": 37.95219, "lng": -122.5496 }, "radiusM": 90 },
+      "modes": ["driving"],
+      "side": "right",
+      "locating": { "mode": "auto", "anchor": "the shopping center set back behind the parking lot" },
+      "narration": "Set back behind the parking lot is Woodlands Market, Kentfield's grocery store, and its roots run through Nob Hill. Don Santa's Italian immigrant family opened the Hyde Street Market in San Francisco in nineteen ten and ran it for sixty-three years. Don's father Larry had actually escaped the grocery business to spend twenty-five years running an auto shop in Marin — until Don founded Woodlands in nineteen eighty-six and pulled him right back behind the counter. And there's a ghost under the parking lot: this shopping center sits on the site of the old Kentfield train station, where the ride to San Francisco took about fifty minutes until the last commuter train ran in February of nineteen forty-one.",
+      "sources": [
+        "https://www.woodlandsmarket.com/about/",
+        "https://hoodline.com/2017/08/marin-based-woodlands-market-opens-in-rincon-hill-on-saturday/"
+      ]
+    },
+    {
+      "slug": "rustic-bakery",
+      "title": "The Cracker That Conquered America",
+      "subtitle": "Where Rustic Bakery started",
+      "trigger": { "center": { "lat": 37.94775, "lng": -122.54785 }, "radiusM": 70 },
+      "modes": ["driving"],
+      "side": "right",
+      "locating": { "mode": "auto", "anchor": "the bakery in the little row of shops" },
+      "narration": "The bakery in this little row of shops is where Rustic Bakery began — and where a single sales pitch built a national brand. In two thousand five, Carol LeValley and Josh Harris walked up to the Cowgirl Creamery counter at the Ferry Building and told the owners their famous cheeses deserved better crackers, artisan ones. The Cowgirls tasted a sample and ordered fifty cases on the spot. The couple bought this storefront, a former wine bar, two days after leasing it, and their organic sourdough flatbreads now sell in grocery stores across the country. This is the original cafe, still baking.",
+      "sources": [
+        "https://rusticbakery.com/pages/about",
+        "https://ediblemarinandwinecountry.ediblecommunities.com/eat/eat-rustic-bakery-nothing-half-baked-about-couple-s-success/"
+      ]
+    },
+    {
+      "slug": "mg-burgers-larkspur",
+      "title": "Burgers Since Nineteen Sixty-Two",
+      "subtitle": "A walk-up time capsule",
+      "trigger": { "center": { "lat": 37.94629, "lng": -122.54525 }, "radiusM": 90 },
+      "modes": ["driving"],
+      "side": "right",
+      "locating": { "mode": "auto", "anchor": "the little burger shack with the walk-up counter" },
+      "narration": "The little shack with the walk-up counter is M and G Burgers, flipping patties on this spot for over sixty years. Inside, it's a time capsule — regulars say the room hasn't changed since about nineteen seventy-two, right down to the movies projected on the wall — and the menu is the old religion: burgers, thick-cut bacon, real fries. In twenty twenty-five, Marin Magazine's county-wide poll named it the best burger in Marin, which the regulars could have told you decades ago.",
+      "sources": [
+        "https://www.facebook.com/p/MG-Burgers-100057566473261/",
+        "https://eattheway.com/restaurants-in-larkspur-ca/"
+      ]
+    },
+    {
+      "slug": "farm-house-local",
+      "title": "Breakfast Behind the Blacksmith Shop",
+      "subtitle": "Farm-to-table mornings on Ward Street",
+      "trigger": { "center": { "lat": 37.93598, "lng": -122.53522 }, "radiusM": 70 },
+      "modes": ["driving"],
+      "side": "left",
+      "locating": { "mode": "auto", "anchor": "around the corner on Ward Street, behind the old blacksmith-shop bar" },
+      "narration": "Tucked around the corner on Ward Street, behind the old blacksmith shop that became the Silver Peso, sits Farm House Local, chef David Monson's breakfast-and-lunch spot, open since March of twenty thirteen. The kitchen names its farms and purveyors on the menu, closes at two thirty in the afternoon, and has spent a decade proving that a town this size can support serious morning food. Locals plan their Saturdays around the wait.",
+      "sources": [
+        "https://www.marincountyvisitor.com/things-to-do/restaurants/farm-house-local-larkspur/",
+        "https://www.yelp.com/biz/farm-house-local-larkspur"
+      ]
+    },
+    {
+      "slug": "equator-coffees",
+      "title": "The Coffee Pioneers on the Corner",
+      "subtitle": "Fair trade first, national honors later",
+      "trigger": { "center": { "lat": 37.93287, "lng": -122.53598 }, "radiusM": 70 },
+      "modes": ["driving"],
+      "side": "left",
+      "locating": { "mode": "auto", "anchor": "the corner coffee bar at the south end of the downtown strip" },
+      "narration": "The corner coffee bar belongs to Equator Coffees, founded in nineteen ninety-five by Helen Russell and Brooke McDonnell, partners in business and in life. They became a fair-trade certified roaster back in nineteen ninety-seven, years before that was fashionable, and in twenty sixteen the Small Business Administration named them America's Small Business Persons of the Year — the first LGBT-owned company ever to take the national title. The empire is Bay Area-wide now, but the coffee poured on this corner comes with that particular Marin origin story.",
+      "sources": [
+        "https://www.equatorcoffees.com/pages/about",
+        "https://sprudge.com/equator-coffee-larkspur-100566.html"
+      ]
+    },
+    {
+      "slug": "rancho-quintin",
+      "title": "The Land of Quintin",
+      "subtitle": "A rancho named for a Miwok warrior, not a saint",
+      "trigger": { "center": { "lat": 37.9546, "lng": -122.5481 }, "radiusM": 100 },
+      "modes": ["driving"],
+      "locating": { "mode": "auto", "anchor": "as College Avenue rolls south from the crossroads" },
+      "narration": "Everything you're driving through right now sits inside Rancho Punta de Quentin, nearly nine thousand acres granted in eighteen forty to a sea captain named John Cooper. But the name is older and stranger: it honors Quintin, a Coast Miwok warrior and lieutenant of Chief Marin, captured at the rocky point on the bay in eighteen twenty-four after aiding Marin's rebellion. The story goes that he later worked as a boat captain on these very waters. American settlers, assuming any Spanish name needed a saint, tacked San onto the point — and so the prison, the point, and half the maps say San Quentin, canonizing a man the mission held prisoner.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rancho_Punta_de_Quentin",
+        "https://www.calexplornia.com/quintin-miwok/"
+      ]
+    },
+    {
+      "slug": "creek-that-rows",
+      "title": "The Creek That Rows",
+      "subtitle": "Marin Rowing's home water",
+      "trigger": { "center": { "lat": 37.9549, "lng": -122.5478 }, "radiusM": 90 },
+      "modes": ["driving"],
+      "locating": { "mode": "auto", "anchor": "the creek channel behind you as you turn onto College Avenue" },
+      "narration": "The creek you're leaving behind is the home water of the Marin Rowing Association, founded in nineteen sixty-eight by coach Bob Cumming with a crew of Redwood High School boys and a Sunday-morning masters boat of ex-college oarsmen who called themselves the Cardiac Eight. From those beginnings on Corte Madera Creek came one of the country's strongest junior rowing programs, sending rowers on to national teams, world championships, and the Olympics. On still mornings you can sometimes catch a racing shell sliding along the tidal channel, oars swinging in the concrete-walled creek like it was built for them.",
+      "sources": [
+        "https://www.marinrowing.org/history",
+        "https://en.wikipedia.org/wiki/Marin_Rowing_Association"
+      ]
+    },
+    {
+      "slug": "concrete-river",
+      "title": "The Concrete River",
+      "subtitle": "The channel fight that launched a senator",
+      "trigger": { "center": { "lat": 37.9540, "lng": -122.5488 }, "radiusM": 90 },
+      "modes": ["driving"],
+      "locating": { "mode": "auto", "anchor": "as College Avenue crosses the creek bridge" },
+      "narration": "The creek under this bridge used to drown the Ross Valley about once every four years, so in the late nineteen sixties the Army Corps of Engineers poured it into a concrete straitjacket, a channel running through Larkspur, Kentfield, and Ross. The pouring stopped in nineteen seventy-one behind the Ross post office — because residents rebelled and faced down the bulldozers, a fight often credited with launching Barbara Boxer's political career on her way to the United States Senate. The concrete never fully worked anyway; the creek overtopped it in the great flood of eighty-two. And the story has a coda: in twenty twenty-five, crews finished tearing out sections of those same walls to bring the wetlands back.",
+      "sources": [
+        "https://archive.estuarynews.org/estuary-news/corte-madera-flood/",
+        "https://flooddistrict.marincounty.gov/cmcfrm-project/",
+        "https://friendsofcortemaderacreek.org/the-watershed/rainfall-streamflow-and-flooding/"
+      ]
+    },
+    {
+      "slug": "sons-first-gig",
+      "title": "The Sons' First Gig",
+      "subtitle": "Marin's horn band starts here, 1965",
+      "trigger": { "center": { "lat": 37.9535, "lng": -122.5489 }, "radiusM": 80 },
+      "modes": ["driving"],
+      "locating": { "mode": "auto", "anchor": "the college campus alongside the avenue" },
+      "narration": "One more music note for this campus: the story goes that the Sons of Champlin, Marin's great horn-driven soul band, played their very first show at College of Marin in the spring of nineteen sixty-five. Bill Champlin and jazz guitarist Terry Haggerty had come up out of a pre-Beatles R and B outfit called the Opposite Six; within a year of that campus gig they were playing the Fillmore, and by sixty-nine they'd released the sprawling double album Loosen Up Naturally. Champlin later spent nearly three decades singing with Chicago, but the band started here, between the lecture halls.",
+      "sources": [
+        "https://www.concertarchives.org/bands/sons-of-champlin",
+        "https://en.wikipedia.org/wiki/Sons_of_Champlin"
+      ]
+    },
+    {
+      "slug": "gym-fire-1963",
+      "title": "The Gym That Burned Before Christmas",
+      "subtitle": "Basketball uniforms and a floor heater, 1963",
+      "trigger": { "center": { "lat": 37.9531, "lng": -122.549 }, "radiusM": 80 },
+      "modes": ["driving"],
+      "locating": { "mode": "auto", "anchor": "the college buildings along the avenue" },
+      "narration": "On December sixteenth, nineteen sixty-three, at three twenty-four in the afternoon, College of Marin's gymnasium caught fire in the most mundane way imaginable: a rack of basketball uniforms, hung up to dry, fell onto a portable electric floor heater. Fifty firefighters and five trucks from four towns couldn't save the thirty-two-year-old building. The fire took three hundred thousand dollars with it — including the contents of eight hundred student lockers and every record the physical education department kept. The finishing touch: Kentfield's fire chief was, at that exact moment, sitting in a meeting about fire-water systems when the alarm sounded.",
+      "sources": [
+        "https://www.marinfirehistory.org/1963-college-of-marin-gymnasium-kentfield.html"
+      ]
+    },
+    {
+      "slug": "lost-coho",
+      "title": "The Lost Coho",
+      "subtitle": "What the concrete took, what still swims",
+      "trigger": { "center": { "lat": 37.9526, "lng": -122.5494 }, "radiusM": 90 },
+      "modes": ["driving"],
+      "side": "left",
+      "locating": { "mode": "auto", "anchor": "the creek running behind the campus buildings" },
+      "narration": "The creek behind those buildings once ran with two kinds of salmon. Coho were recorded in this watershed in the twenties, the sixties, and as late as nineteen eighty-one — then the sightings stopped; the last was nineteen eighty-four, and the concrete channel likely helped finish them. But the steelhead never quit. Corte Madera Creek still holds one of San Francisco Bay's few surviving wild steelhead runs, and the state has named it one of just eight anchor watersheds around the Bay with real restoration potential. That's why the concrete is coming out behind the college — somebody is betting on the fish.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Corte_Madera_Creek_(Marin_County,_California)",
+        "https://friendsofcortemaderacreek.org/"
+      ]
+    },
+    {
+      "slug": "kent-middle-adalines",
+      "title": "The Two Adalines",
+      "subtitle": "A matriarch, a sculptor, one name",
+      "trigger": { "center": { "lat": 37.9518, "lng": -122.5497 }, "radiusM": 90 },
+      "modes": ["driving"],
+      "side": "left",
+      "locating": { "mode": "auto", "anchor": "the middle-school campus alongside the avenue" },
+      "narration": "The middle school here is named Adaline E. Kent — but which Adaline is the question. The school honors the Kent matriarch, the woman who gave this town its playing fields. Her granddaughter and namesake, born in Kentfield in nineteen hundred, became one of California's great modernist sculptors: she studied in Paris under Bourdelle, showed at the Golden Gate International Exposition in nineteen thirty-nine, and hung in the Museum of Modern Art's landmark American abstract show of fifty-one. She died in a car accident on the coast highway in fifty-seven, and the art world spent decades forgetting her — until a major retrospective in twenty twenty-three brought Kentfield's sculptor home.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Adaline_Kent",
+        "https://www.altaonline.com/dispatches/a61441561/adaline-kent-comes-home/"
+      ]
+    },
+    {
+      "slug": "driving-the-railroad",
+      "title": "You're Driving the Railroad",
+      "subtitle": "Steam, then electrics, under your wheels",
+      "trigger": { "center": { "lat": 37.95, "lng": -122.5497 }, "radiusM": 90 },
+      "modes": ["driving"],
+      "locating": { "mode": "auto", "anchor": "the long straight stretch of the avenue" },
+      "narration": "This long straightaway isn't shaped like a railroad by accident — the maps still tag this stretch as the abandoned right-of-way of the Northwestern Pacific. Narrow-gauge steam trains came through in eighteen seventy-five, stopping at a station called Tamalpais for the Kent estate next door; after the turn of the century the line was electrified, and quiet interurban trains hummed down this corridor to San Francisco ferries for four decades, with stops at Kentfield, Escalle, and Larkspur. Then the Golden Gate Bridge opened, and the automobile finished what it started: the last electric train ran on February twenty-eighth, nineteen forty-one. Now the railbed carries you.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Northwestern_Pacific_Railroad_interurban_lines",
+        "https://www.marinhistory.org/blog/kentfieldstation/"
+      ]
+    },
+    {
+      "slug": "murray-park",
+      "title": "The Ranch That Named the Lane",
+      "subtitle": "William Murray's hundred acres",
+      "trigger": { "center": { "lat": 37.949, "lng": -122.5496 }, "radiusM": 90 },
+      "modes": ["driving"],
+      "side": "right",
+      "locating": { "mode": "auto", "anchor": "where a small lane climbs away from the avenue" },
+      "narration": "Before there was a Kent Woodlands, there was William Murray's cattle ranch. Murray sold four hundred acres — the whole future Kent Woodlands — to Albert Kent in eighteen seventy-three, but kept a hundred for himself, and in eighteen eighty-two he and Maria Murray expanded a little cabin up that lane into a Carpenter Gothic farmhouse that still stands. After his death the children formed the Murray Land Company and cut the ranch into lots in nineteen twelve, creating the Murray Park neighborhood that straddles the Kentfield-Larkspur line right where this road changes its name from College to Magnolia. Neighbors have twice beaten back rezoning, keeping the old ranch heart intact.",
+      "sources": [
+        "https://www.ci.larkspur.ca.us/DocumentCenter/View/13808/Historic-Assessment-Report_Filed_20210823",
+        "https://en.wikipedia.org/wiki/Murray_Park,_California"
+      ]
+    },
+    {
+      "slug": "king-mountain",
+      "title": "The Ghost Subdivision",
+      "subtitle": "Curbs in the woods on King Mountain",
+      "trigger": { "center": { "lat": 37.9455, "lng": -122.544 }, "radiusM": 110 },
+      "modes": ["driving"],
+      "side": "right",
+      "locating": { "mode": "auto", "anchor": "the oak-and-madrone ridge climbing above the road" },
+      "narration": "Hike the wooded ridge above you and you'll find something eerie: concrete curbs and sidewalk fragments winding through the forest, the skeleton of a subdivision that was graded and then never built. That's King Mountain, saved as open space in nineteen ninety after the neighborhood fought for it, its oak, bay, and madrone woodland tended ever since by volunteers who call themselves the Green Gorillas. And the story is still going — in the summer of twenty twenty-six, a land trust bought the hundred-and-sixty-one-acre summit to donate to the county, roughly doubling the preserve and opening views that sweep from Mount Tamalpais to San Pablo Bay.",
+      "sources": [
+        "https://parks.marincounty.gov/parkspreserves/preserves/king-mountain",
+        "https://localnewsmatters.org/2026/07/11/king-mountain-summit-could-open-to-public-through-161-acre-marin-county-land-donation/"
+      ]
+    },
+    {
+      "slug": "flood-1982",
+      "title": "Thirteen Inches of Rain",
+      "subtitle": "The flood of record, New Year's 1982",
+      "trigger": { "center": { "lat": 37.944, "lng": -122.5417 }, "radiusM": 100 },
+      "modes": ["driving"],
+      "side": "left",
+      "locating": { "mode": "auto", "anchor": "where the flats open toward the creek" },
+      "narration": "In the first days of January nineteen eighty-two, a storm parked itself over Marin and dropped about thirteen inches of rain on Kentfield — the heaviest total in the Bay Area. Corte Madera Creek surged to six thousand cubic feet per second, the largest flow ever recorded, jumping the Army Corps' concrete channel entirely. Water ran four and five feet deep down Kentfield's streets with enough force to move parked cars; College Avenue behind you was photographed underwater, and residents remember overturned cars near Bon Air the next morning. Around the Bay the storm killed thirty-three people and damaged seven thousand buildings. Every flood gauge in this valley still measures itself against that one.",
+      "sources": [
+        "https://friendsofcortemaderacreek.org/the-watershed/rainfall-streamflow-and-flooding/",
+        "https://en.wikipedia.org/wiki/January_1982_California_floods"
+      ]
+    },
+    {
+      "slug": "magnolia-shoreline",
+      "title": "When the Tide Came to Magnolia",
+      "subtitle": "The vanished marsh under the flats",
+      "trigger": { "center": { "lat": 37.9436, "lng": -122.5396 }, "radiusM": 90 },
+      "modes": ["driving"],
+      "side": "left",
+      "locating": { "mode": "auto", "anchor": "where Bon Air Road drops away toward the creek" },
+      "narration": "Hard to picture now, but into the late eighteen hundreds the tide reached nearly to this road. Virtually all of the lower Ross Valley was tidal marsh and winding slough, with the creek deep enough for schooners to sail up to the landing at Kentfield. For thousands of years before that, these flats were Coast Miwok harvest grounds — shellfish, waterfowl, acorns, game — an estuary pantry that archaeology shows fed people here for some four and a half millennia. The fill and the levees came later, and the marsh became lawns and a hospital and a shopping center. The creek remembers, though. Ask anyone who was here in eighty-two.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Corte_Madera_Creek_(Marin_County,_California)",
+        "https://www.marinhistory.org/blog/downtownlarkspur/"
+      ]
+    },
+    {
+      "slug": "buckelew",
+      "title": "The Man Who Bought Marin",
+      "subtitle": "Three ranchos in eleven days, gone by thirty-seven",
+      "trigger": { "center": { "lat": 37.9412, "lng": -122.5372 }, "radiusM": 100 },
+      "modes": ["driving"],
+      "locating": { "mode": "auto", "anchor": "with the old rancho lands stretching away on either side" },
+      "narration": "In eleven days of eighteen fifty, a twenty-eight-year-old watchmaker named Benjamin Rush Buckelew bought three Mexican ranchos — including every acre you've driven so far. Buckelew was already a striver's striver: publisher of the Californian newspaper, maker of San Francisco's first official map. He planned a great township here called California City, and in eighteen fifty-two sold twenty acres at Point San Quentin to the state for the prison. Then came the land-title lawsuits, wave after wave of them, grinding down every Mexican-era claim in California. They outlived him. Buckelew died of tuberculosis in eighteen fifty-nine at thirty-seven; the federal patent confirming his land arrived seven years too late to matter.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rancho_Punta_de_Quentin",
+        "https://fernhilltours.com/2022/07/14/benjamin-r-buckelew-the-first-official-map-of-san-francisco/"
+      ]
+    },
+    {
+      "slug": "bohemia-mudflats",
+      "title": "Bohemia on the Mudflats",
+      "subtitle": "A secret gallery and a freezing rock band",
+      "trigger": { "center": { "lat": 37.938, "lng": -122.535 }, "radiusM": 80 },
+      "modes": ["driving"],
+      "side": "left",
+      "locating": { "mode": "auto", "anchor": "the flats stretching away toward the bay" },
+      "narration": "The creek flats out there had a secret bohemian chapter. In nineteen sixty, beat artist Wallace Berman — later one of the faces on the Sergeant Pepper cover — turned an abandoned house on the Larkspur boardwalk into the Semina Gallery, mounting one-day-only exhibitions and printing his hand-made journal from this town. A few years on, the founding lineup of Quicksilver Messenger Service spent their first two winters crammed into a crumbling house on these same mudflats, so broke they burned planks from the dock to keep warm. The flats got filled, the arks are nearly all gone, and the art moved on — but for a decade, the cheapest addresses in Marin were the most interesting.",
+      "sources": [
+        "https://www.granarybooks.com/pages/books/2022/wallace-berman-john-reed/semina-gallery-of-the-pure-exhibiting-creative-works-by-john-reed",
+        "https://recordcollectormag.com/articles/limits"
+      ]
+    },
+    {
+      "slug": "rose-lane-village",
+      "title": "A Village Older Than the Pyramids",
+      "subtitle": "Four and a half thousand years by the creek",
+      "trigger": { "center": { "lat": 37.9368, "lng": -122.535 }, "radiusM": 80 },
+      "modes": ["driving"],
+      "side": "left",
+      "locating": { "mode": "auto", "anchor": "the streets running off toward the flats behind downtown" },
+      "narration": "When a housing development broke ground on the flats east of here in the twenty-tens, archaeologists uncovered something extraordinary: a Coast Miwok village site occupied more or less continuously for about four and a half thousand years. There were hundreds of burials, tools, harpoon tips, flutes and whistles, bear bones — and a ceremonial burial of a California condor unlike anything the excavators had seen. The Federated Indians of Graton Rancheria, as the descendants, had everything reburied at an undisclosed place. When critics said the artifacts belonged in a museum for the public, chairman Greg Sarris answered that the idea the objects belong to the public is itself a colonial view. The houses went up; the village keeps its secrets.",
+      "sources": [
+        "https://archaeology.org/news/2013/05/21/130521-california-coast-miwok-shell-midden/",
+        "https://www.cbsnews.com/amp/sanfrancisco/news/indian-mound-paved-over-during-marin-housing-development"
+      ]
+    },
+    {
+      "slug": "niven-nursery",
+      "title": "The Glasshouse Quarter",
+      "subtitle": "Sixty years of roses behind downtown",
+      "trigger": { "center": { "lat": 37.9364, "lng": -122.5351 }, "radiusM": 70 },
+      "modes": ["driving"],
+      "side": "left",
+      "locating": { "mode": "auto", "anchor": "where Ward Street runs off toward the flats" },
+      "narration": "For most of a century, the flat land behind downtown was a city of glass. James Niven and his family ran a wholesale nursery there from nineteen twenty-one to nineteen eighty-three, growing roses and orchids in ranks of greenhouses under a landmark water tank — by the end, the last commercial nursery in Larkspur. When demolition finally came, the federal Historic American Buildings Survey documented every glasshouse and the tank before the bulldozers moved in, and the neighborhood that replaced them was named Rose Lane, for the crop. So if the street names back there sound like a florist's order book, that's why.",
+      "sources": [
+        "https://www.loc.gov/item/ca3877/",
+        "https://www.ci.larkspur.ca.us/DocumentCenter/View/936/8865002001_2011-08-23_rev2011-11-08_Niven-Nursery"
+      ]
+    },
+    {
+      "slug": "battle-cry-writers",
+      "title": "Battle Cry on Magnolia",
+      "subtitle": "The town's unlikely literary shelf",
+      "trigger": { "center": { "lat": 37.9374, "lng": -122.5351 }, "radiusM": 70 },
+      "modes": ["driving"],
+      "locating": { "mode": "auto", "anchor": "the old downtown storefronts ahead" },
+      "narration": "This little downtown has a serious literary shelf. In the early fifties, a Marine veteran named Leon Uris worked days as a San Francisco newspaper circulation manager and spent his nights in Larkspur pounding out his first novel — Battle Cry, the bestseller that launched the career that gave the world Exodus. And the town is home to Leonard Gardner, whose nineteen sixty-nine boxing novel Fat City was a National Book Award finalist that writers from Joan Didion to Denis Johnson have treated as scripture; John Huston filmed it, Gardner wrote the screenplay. Even the voice of Journey, Steve Perry, has called these hills home. Not bad for a town of twelve thousand.",
+      "sources": [
+        "http://www.larkspur.ca.gov/174/Larkspur-Past-Present",
+        "https://en.wikipedia.org/wiki/Leonard_Gardner",
+        "https://marinmagazine.com/cities-towns/why-we-love-larkspur-everything-you-ever-wanted-to-know-about-this-friendly-fascinating-city/"
+      ]
+    },
+    {
+      "slug": "american-trust-bank",
+      "title": "A Century Behind One Facade",
+      "subtitle": "The 1923 bank that never stopped banking",
+      "trigger": { "center": { "lat": 37.93595, "lng": -122.53515 }, "radiusM": 60 },
+      "modes": ["driving"],
+      "side": "left",
+      "locating": { "mode": "auto", "anchor": "the formal beige bank building with the arched double doors" },
+      "narration": "The dignified beige building at the Ward Street corner has done exactly one job for a hundred years. Built in nineteen twenty-three for the American Trust Company, it has been a bank continuously ever since, under name after name, behind the same Renaissance Revival face — dentil frieze, bas-relief medallions, twisted-rope moldings, a shield over the door, all still intact. The heritage surveys call it the best-preserved classical building in town. This corner also saw the town's first great spectacles: from nineteen oh nine to nineteen thirteen, the Fourth of July Booster Day parades quick-stepped down the full length of Magnolia — a tradition Larkspur keeps to this day.",
+      "sources": [
+        "https://npgallery.nps.gov/NRHP/GetAsset/NRHP/82000972_text",
+        "https://www.larkspur.ca.gov/DocumentCenter/View/11804/Revised-Downtown-Walking-tour-descriptions-v8"
+      ]
+    },
+    {
+      "slug": "frizzis-prizefights",
+      "title": "Prizefights Behind Frizzi's",
+      "subtitle": "One family's saloon, candy store, and mayor",
+      "trigger": { "center": { "lat": 37.936, "lng": -122.5352 }, "radiusM": 60 },
+      "modes": ["driving"],
+      "side": "right",
+      "locating": { "mode": "auto", "anchor": "the low white gabled storefronts just past the stone-pillared hotel" },
+      "narration": "The low white storefronts past the Blue Rock were Frizzi territory for nearly a century. Gus Frizzi opened his Exchange saloon here in eighteen ninety, and county-wide crowds squeezed into the back to cheer name prizefighters who sparred behind the bar. Julia Frizzi ran an ice cream and candy parlor from ninety-four; the old Ladies' Parlor entrance got walled in and became what's been called the smallest storefront in Marin County. Son Walter shipped out for the First World War and came home to serve as councilman and mayor — and when the historians surveyed this block in nineteen eighty, a Frizzi still owned it.",
+      "sources": [
+        "https://npgallery.nps.gov/NRHP/GetAsset/NRHP/82000972_text",
+        "https://www.larkspur.ca.gov/DocumentCenter/View/11804/Revised-Downtown-Walking-tour-descriptions-v8"
+      ]
+    },
+    {
+      "slug": "labora-picture-shows",
+      "title": "Saturday-Night Picture Shows",
+      "subtitle": "Movies before the Lark had neon",
+      "trigger": { "center": { "lat": 37.93566, "lng": -122.5353 }, "radiusM": 60 },
+      "modes": ["driving"],
+      "side": "right",
+      "locating": { "mode": "auto", "anchor": "the plain flat-front market building in the old wooden row" },
+      "narration": "Decades before the Lark Theater's neon, this plain false-front building was where Larkspur went to the pictures. Town lore holds that a Mr. LaBora ran Saturday-night picture shows in this hall around the turn of the century, back when a projected image was itself the miracle. The building started as an Eastlake storefront in the late eighteen hundreds — a fire in nineteen forty-five took its original second story — and for most of its life it was the town's grocery, in a row that included the old Tamalpais Grocery next door. Main streets used to layer their entertainments and their errands into the same fifty feet of wood.",
+      "sources": [
+        "https://www.larkspur.ca.gov/DocumentCenter/View/11804/Revised-Downtown-Walking-tour-descriptions-v8",
+        "https://npgallery.nps.gov/NRHP/GetAsset/NRHP/82000972_text"
+      ]
+    },
+    {
+      "slug": "lumber-company-block",
+      "title": "The Vanished Lumberyard",
+      "subtitle": "Main Street built of its own boards",
+      "trigger": { "center": { "lat": 37.9356, "lng": -122.53525 }, "radiusM": 60 },
+      "modes": ["driving"],
+      "side": "left",
+      "locating": { "mode": "auto", "anchor": "the shingled two-story building with the recessed arch in its gable" },
+      "narration": "For twenty years, this whole side of the block was a lumberyard. The Larkspur Lumber Company held most of the east side of Magnolia between Ward and Cane from about nineteen oh five to nineteen twenty-five; the shingled two-story mid-block was its office, with living quarters upstairs. The town literally built itself out of this yard — the first firehouse went up in nineteen eleven with boards from next door. And when the lumber company finally left in twenty-five, the tile-roofed row of brick storefronts you're passing rose on its frontage the very same year. Main Street ate its own lumberyard and turned it into shops.",
+      "sources": [
+        "https://www.larkspur.ca.gov/DocumentCenter/View/11804/Revised-Downtown-Walking-tour-descriptions-v8",
+        "https://npgallery.nps.gov/NRHP/GetAsset/NRHP/82000972_text"
+      ]
+    },
+    {
+      "slug": "stolzenberg-barn",
+      "title": "The Butcher's Barn Behind the Shops",
+      "subtitle": "Cattle grazed a block off Main Street",
+      "trigger": { "center": { "lat": 37.9355, "lng": -122.53545 }, "radiusM": 60 },
+      "modes": ["driving"],
+      "side": "right",
+      "locating": { "mode": "auto", "anchor": "hidden behind the shopfronts on the uphill side" },
+      "narration": "Hidden behind the storefronts on the uphill side stands an honest-to-goodness barn — two stories of weathered wood with a low gable roof. It served Stolzenberg's butcher shop, which faced the avenue before nineteen oh nine, and the arrangement was as direct as it gets: cattle grazed in the pasture out back and were slaughtered on the premises, a block off Main Street. The historic-district surveys treasure it as a rare survivor of a first use that has simply ceased to exist. Next time downtown Larkspur feels precious, remember it smelled like a stockyard within living memory of the buildings around you.",
+      "sources": [
+        "https://www.larkspur.ca.gov/DocumentCenter/View/11804/Revised-Downtown-Walking-tour-descriptions-v8",
+        "https://npgallery.nps.gov/NRHP/GetAsset/NRHP/82000972_text"
+      ]
+    },
+    {
+      "slug": "rosebowl-chateau",
+      "title": "The House on Stilts",
+      "subtitle": "A cottage jacked up to fit a bar underneath",
+      "trigger": { "center": { "lat": 37.9352, "lng": -122.53545 }, "radiusM": 60 },
+      "modes": ["driving"],
+      "side": "right",
+      "locating": { "mode": "auto", "anchor": "the storefront with three arched windows; look at its roofline from the side" },
+      "narration": "Look sideways at the building with the three arched windows and you'll see something odd on the roof: an entire house. It began as one of four identical Italianate rental cottages on a back lane, and in the roaring twenties somebody jacked it into the air and built a store underneath — the cottage is still up there, encapsulated. As the Rosebowl Chateau, the bar below became the official watering hole for the fire department's famous dances in the redwood grove, refreshing thousands of dancers a week until the last dance in nineteen sixty-three. The dances ended; the house never came back down.",
+      "sources": [
+        "https://npgallery.nps.gov/NRHP/GetAsset/NRHP/82000972_text",
+        "https://www.larkspur.ca.gov/DocumentCenter/View/11804/Revised-Downtown-Walking-tour-descriptions-v8"
+      ]
+    },
+    {
+      "slug": "tents-1906",
+      "title": "Tents in the Pear Orchards",
+      "subtitle": "1906 refugees who never went home",
+      "trigger": { "center": { "lat": 37.933, "lng": -122.5359 }, "radiusM": 70 },
+      "modes": ["driving"],
+      "side": "left",
+      "locating": { "mode": "auto", "anchor": "the open ground across from the old Victorian in the redwoods" },
+      "narration": "In April nineteen oh six, San Francisco burned, and this quiet stretch of Magnolia filled with canvas. Refugees from the earthquake pitched their tents in the open ground across from the old Murphy house — the haunted-looking Victorian in the redwoods. Plenty of San Franciscans already kept summer cottages in Larkspur, and after the disaster, many simply never went back: the Costello family up at King Street, department store owners with a pear orchard, made their summer place a permanent home that year. The earthquake did more to populate Marin's little towns than any real estate campaign ever managed.",
+      "sources": [
+        "https://npgallery.nps.gov/NRHP/GetAsset/NRHP/82000972_text",
+        "https://www.larkspur.ca.gov/DocumentCenter/View/11804/Revised-Downtown-Walking-tour-descriptions-v8"
+      ]
+    },
+    {
+      "slug": "klunkers",
+      "title": "Klunkers of Baltimore Canyon",
+      "subtitle": "Mountain biking's forgotten first chapter",
+      "trigger": { "center": { "lat": 37.9322, "lng": -122.5364 }, "radiusM": 90 },
+      "modes": ["driving"],
+      "side": "right",
+      "locating": { "mode": "auto", "anchor": "where Madrone Avenue heads up the canyon past the park" },
+      "narration": "Everyone knows mountain biking was born on Repack, above Fairfax, in nineteen seventy-six. The kids from these blocks know better. Starting in nineteen sixty-eight, Larkspur middle-schoolers salvaged balloon-tire Schwinns from the San Rafael dump for a few dollars, pushed them up Eldridge Grade, and bombed down Mount Tamalpais — the Larkspur Canyon Gang, with Baltimore Canyon at the end of Madrone Avenue as home turf. Their Great Race, nine riders at once down the mountain, ran in December nineteen seventy-one, five years before the first timed Repack. When the Fairfax crowd finally showed up, Canyon Gang riders took top-five spots in half of all twenty-four Repacks. The Hall of Fame eventually agreed: it started here.",
+      "sources": [
+        "https://mmbhof.org/mtn-bike-hall-of-fame/history/larkspur-canyon-gang/",
+        "https://www.collectorsweekly.com/articles/the-hippie-daredevils-who-were-just-crazy-enough-to-invent-mountain-biking/"
+      ]
+    },
+    {
+      "slug": "madrone-canyon-ecology",
+      "title": "Second-Growth Cathedral",
+      "subtitle": "Steelhead, salamanders, and a thirty-foot waterfall",
+      "trigger": { "center": { "lat": 37.9325, "lng": -122.536 }, "radiusM": 80 },
+      "modes": ["driving"],
+      "side": "right",
+      "locating": { "mode": "auto", "anchor": "where the redwood canopy closes over the road" },
+      "narration": "Where the canopy closes overhead, you're entering a recovering forest. The redwoods of Madrone Canyon and Baltimore Canyon above are the grandchildren of the giants logged out in the eighteen hundreds — and the recovery is real. The creek's perennial pools still hold steelhead and Pacific giant salamanders; these canyons sit in the heart of the county with the densest spotted owl population anywhere in the species' range; and at the canyon's head, Dawn Falls drops thirty feet in winter. The town takes it seriously enough that every single tree in this canyon neighborhood is protected by city ordinance.",
+      "sources": [
+        "https://baynature.org/article/explore-baltimore-canyon-a-six-mile-waterfall-loop/",
+        "https://parks.marincounty.gov/parkspreserves/preserves/baltimore-canyon"
+      ]
+    },
+    {
+      "slug": "mile-of-flame-1899",
+      "title": "The Mile of Flame",
+      "subtitle": "The 1899 fire that rain put out",
+      "trigger": { "center": { "lat": 37.9317, "lng": -122.5366 }, "radiusM": 80 },
+      "modes": ["driving"],
+      "locating": { "mode": "auto", "anchor": "the ridges rising south of town" },
+      "narration": "In October eighteen ninety-nine, before Larkspur had a fire department, the ridges above town caught fire in what the papers called the greatest forest fire in the history of Marin County. For two days it burned the heavy timber between Mill Valley, Corte Madera, and Larkspur, and on the night of October ninth, witnesses described a phalanx of leaping flames a mile long bearing down on both towns at once. There were no engines to send. What saved Larkspur was simply rain — it arrived in time, and the fire died at the town's edge. Eleven years later, the volunteers started throwing dances to buy a fire engine. This is why.",
+      "sources": [
+        "https://www.marinfirehistory.org/1899-corte-madera-mill-valley-larkspur-wildfire.html"
+      ]
+    },
+    {
+      "slug": "arroyo-holon",
+      "title": "Crossing the Rancho Line",
+      "subtitle": "The creek that was a border",
+      "trigger": { "center": { "lat": 37.9315, "lng": -122.5362 }, "radiusM": 70 },
+      "modes": ["driving"],
+      "locating": { "mode": "auto", "anchor": "where the little creek slips under the road by the park" },
+      "narration": "The little creek sliding under the road here once had a bigger name and a bigger job. As Arroyo Holon, it marked the boundary between two Mexican land grants: Rancho Punta de Quentin, whose ground you've been driving since Kentfield, and the Reed family's Corte Madera del Presidio, the very first Mexican grant in this part of Marin, given to John Reed in eighteen thirty-four. The American courts invalidated part of the Reeds' claim in eighteen fifty-four, and the family spent seventeen years in litigation getting their land back. So as you cross this culvert, you're crossing a property line older than the state of California — from Buckelew's lost empire onto Reed land.",
+      "sources": [
+        "https://www.cortemaderamemories.org/whats-in-a-name.html",
+        "https://en.wikipedia.org/wiki/Rancho_Corte_Madera_del_Presidio"
+      ]
+    },
+    {
+      "slug": "dolliver-house",
+      "title": "The First House in Town",
+      "subtitle": "1888 Stick-Eastlake in the redwoods",
+      "trigger": { "center": { "lat": 37.9316, "lng": -122.5369 }, "radiusM": 80 },
+      "modes": ["driving"],
+      "locating": { "mode": "auto", "anchor": "tucked behind the redwoods where the canyon road begins" },
+      "narration": "Barely visible behind the redwoods where the canyon road begins stands what's said to be the first house ever built in the township of Larkspur. Thomas Dolliver, a San Francisco businessman, had it built in eighteen eighty-eight as a summer home, and he hired the right man: Gustave Nagel, the master builder whose hands are all over this town — he's the one who later wrapped the Blue Rock Inn in its blue basalt pillars. The house is one of California's finest Stick-Eastlake confections, on the National Register since nineteen seventy-eight, and the nomination says it has changed little from the day the Dollivers first summered in it. The park across the way carries the family's name.",
+      "sources": [
+        "https://noehill.com/marin/nat1978000703.asp",
+        "https://www.larkspur.ca.gov/DocumentCenter/View/11804/Revised-Downtown-Walking-tour-descriptions-v8"
+      ]
+    },
+    {
+      "slug": "fire-1909",
+      "title": "Fire in Baltimore Canyon",
+      "subtitle": "Wet sacks and backfires, July 1909",
+      "trigger": { "center": { "lat": 37.9317, "lng": -122.5382 }, "radiusM": 90 },
+      "modes": ["driving"],
+      "locating": { "mode": "auto", "anchor": "as the road heads into the redwood canyon" },
+      "narration": "On July twelfth, nineteen oh nine, this canyon burned from the valley bottom to the ridge, half a mile up. About a hundred volunteers from Larkspur, Corte Madera, Kentfield, and Mill Valley stood between the fire and the town, fighting it with the tools of the era: brush, backfires, and wet sacks. Several collapsed from the heat. Two workers employed by Congressman William Kent were trapped between the main fire and a backfire and had to be pulled out. The suspected cause was depressingly modern — careless campers. The canyon recovered; the second-growth redwoods around you are the proof.",
+      "sources": [
+        "https://www.marinfirehistory.org/1909-larkspur-forest-fire.html"
+      ]
+    },
+    {
+      "slug": "janis-joplin",
+      "title": "Pearl in the Redwoods",
+      "subtitle": "Janis Joplin's last year, up this canyon",
+      "trigger": { "center": { "lat": 37.9311, "lng": -122.5376 }, "radiusM": 80 },
+      "modes": ["driving"],
+      "locating": { "mode": "auto", "anchor": "deep in the redwood canyon above" },
+      "narration": "Janis Joplin spent the last year of her life up this canyon. In late nineteen sixty-nine she bought a redwood house on West Baltimore Avenue and made it her refuge: burl woodwork by the carpenter behind Sausalito's Trident restaurant, a sunken tiled bath, and a four-foot dog door cut for her Saint Bernard. She was living here — recording Pearl down in Los Angeles — when she died at a Hollywood hotel in October nineteen seventy, twenty-seven years old. The album came out three months later and went to number one. The house is still up there in the trees, private as she wanted it.",
+      "sources": [
+        "https://rockandrollroadmap.com/places/homes-of-rock-and-roll-stars/san-francisco-area-homes-of-rock-and-roll-stars/janis-joplins-last-bay-area-residence/",
+        "https://en.wikipedia.org/wiki/Larkspur,_California"
+      ]
+    },
+    {
+      "slug": "garcia-hunter",
+      "title": "The Canyon That Wrote American Beauty",
+      "subtitle": "Garcia and Hunter under one roof",
+      "trigger": { "center": { "lat": 37.9308, "lng": -122.5381 }, "radiusM": 80 },
+      "modes": ["driving"],
+      "locating": { "mode": "auto", "anchor": "further up the winding canyon road" },
+      "narration": "Further up this canyon, from late nineteen sixty-nine into nineteen seventy, Jerry Garcia shared a house on Madrone Avenue with lyricist Robert Hunter — and out of that one crowded roof came the heart of Workingman's Dead and American Beauty, the albums where the Grateful Dead learned to write songs. Hunter remembered Garcia walking down this canyon telling him they were creating a universe, and that the words were Hunter's half to build. There was even a trail through the redwoods connecting their place to Janis Joplin's house one ridge over — a neighborhood footpath between two corners of rock history, through the trees you're looking at.",
+      "sources": [
+        "https://www.thefader.com/2011/08/01/jerry-garcia-american-beauty",
+        "https://www.dead.net/workingmans-dead-50-cumberland-blues"
+      ]
+    },
+    {
+      "slug": "ki-longfellow",
+      "title": "The Showboat Novelist",
+      "subtitle": "From Madrone Canyon to a Bristol theatre-ship",
+      "trigger": { "center": { "lat": 37.9305, "lng": -122.5384 }, "radiusM": 80 },
+      "modes": ["driving"],
+      "locating": { "mode": "auto", "anchor": "along the canyon lane among the redwoods" },
+      "narration": "One more resident of this improbable canyon: the novelist Ki Longfellow grew up on Madrone Avenue among these redwoods. Her life ran on its own eccentric rails — she married Vivian Stanshall of the Bonzo Dog Doo-Dah Band, England's great surrealist rock prankster, and together they ran the Thekla, an old cargo ship they converted into a floating theatre in Bristol harbor that's still a beloved music venue today. Her novel The Secret Magdalene became her American breakout, and her memoir of life with Stanshall closed the circle. A canyon that raised Grateful Dead albums and a showboat novelist — something in the water, or the shade.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ki_Longfellow",
+        "https://en.wikipedia.org/wiki/Vivian_Stanshall"
+      ]
+    },
+    {
+      "slug": "dynamited-dam",
+      "title": "The Dynamited Dam",
+      "subtitle": "A drowned reservoir and the Blue Rock's quarry",
+      "trigger": { "center": { "lat": 37.9302, "lng": -122.5387 }, "radiusM": 90 },
+      "modes": ["driving"],
+      "locating": { "mode": "auto", "anchor": "up the creek this canyon road follows" },
+      "narration": "Up the creek this road follows, hikers still find the stub of a stone dam. It once pooled Larkspur Creek into a small reservoir where the town swam on hot days — until a drowning, after which the dam was dynamited in the nineteen twenties rather than risk another. The quarry that yielded its stones is part of the same story as the hotel you passed downtown: locally quarried blue basalt, the rock that wraps the Blue Rock Inn's pillars and gave it its name. One seam of stone, holding up a hotel porch and lying in ruins in a creek — the whole town geology lesson in two stops.",
+      "sources": [
+        "https://parks.marincounty.gov/parkspreserves/preserves/baltimore-canyon",
+        "https://marinmagazine.com/community/local-news/baltimore-canyon/"
+      ]
+    },
+    {
+      "slug": "twin-cities-police",
+      "title": "One Police Force, Three Towns",
+      "subtitle": "The 1980 merger that kept growing",
+      "trigger": { "center": { "lat": 37.939, "lng": -122.5352 }, "radiusM": 70 },
+      "modes": ["driving"],
+      "locating": { "mode": "auto", "anchor": "down the drive past the ballfields" },
+      "narration": "Here's a civic oddity: Larkspur hasn't had its own police department since nineteen eighty. That January, Larkspur and Corte Madera signed a joint powers agreement merging their two forces into the Twin Cities Police Authority — small towns pooling what neither could afford alone. The arrangement worked so well that after thirty-two years, San Anselmo asked in, and in twenty thirteen the whole thing became the Central Marin Police Authority: one force, three towns, headquartered down that drive past the ballfields. In a county famous for its tiny fiefdoms, it remains one of the rare examples of towns actually sharing.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Central_Marin_Police_Authority",
+        "https://www.centralmarinpolice.org/"
+      ]
+    },
+    {
+      "slug": "july-4-legion",
+      "title": "Pancakes Before the Parade",
+      "subtitle": "The log cabin at 500 Magnolia",
+      "trigger": { "center": { "lat": 37.9362, "lng": -122.5344 }, "radiusM": 60 },
+      "modes": ["driving"],
+      "side": "left",
+      "locating": { "mode": "auto", "anchor": "the log-cabin American Legion hall" },
+      "narration": "The log cabin on the corner is the American Legion hall, and it anchors the town's biggest annual ritual. Every Fourth of July, the Legion has served its pancake breakfast here since the early nineteen fifties — and then the joint Larkspur and Corte Madera parade steps off from Redwood High and marches to the Corte Madera town center, drawing crowds around fifteen thousand strong, one of the biggest small-town parades in Marin. It's the direct descendant of the Booster Day parades that quick-stepped down this same avenue starting in nineteen oh nine, when the town was young and needed to show itself off. Larkspur has never really stopped.",
+      "sources": [
+        "https://www.visitmarin.org/event-calendar/2026/july-2026/corte-madera-and-larkspur-4th-of-july-parade-and-festival/",
+        "https://npgallery.nps.gov/NRHP/GetAsset/NRHP/82000972_text"
+      ]
+    },
+    {
+      "slug": "marin-primary",
+      "title": "The Preschool That Ate a Schoolhouse",
+      "subtitle": "A grade a year at 20 Magnolia",
+      "trigger": { "center": { "lat": 37.9287, "lng": -122.5325 }, "radiusM": 90 },
+      "modes": ["driving"],
+      "side": "left",
+      "locating": { "mode": "auto", "anchor": "the schoolyard at the south end of the avenue" },
+      "narration": "The schoolyard at the south end of Magnolia tells a growth story. Marin Primary began in nineteen seventy-five as a preschool in a Corte Madera church basement; around nineteen eighty it moved into this campus, the town's old Larkspur-Corte Madera public schoolhouse, and then it simply grew — adding one grade every year, like rings on a tree, until by nineteen ninety-four it had become Marin Primary and Middle School. The old public school building got the rarest fate available to a school: it stayed a school.",
+      "sources": [
+        "https://www.mpms.org/",
+        "https://www.privateschoolreview.com/marin-primary-middle-school-profile"
+      ]
+    }
+  ]
+}

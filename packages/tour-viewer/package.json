@@ -1,0 +1,30 @@
+{
+  "name": "@grandtour/tour-viewer",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 5190",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "bun test tests"
+  },
+  "dependencies": {
+    "@grandtour/shared": "workspace:*",
+    "maplibre-gl": "^4.7.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "typescript": "^7.0.2",
+    "vite": "^5.4.0"
+  },
+  "exports": {
+    ".": "./src/TourView.tsx"
+  }
+}

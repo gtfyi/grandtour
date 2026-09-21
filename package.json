@@ -1,0 +1,30 @@
+{
+  "name": "grandtour",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "description": "GrandTour — location-aware audio platform. Monorepo: shared schema, API server, admin web, iOS app.",
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "server",
+    "admin",
+    "site"
+  ],
+  "scripts": {
+    "dev": "bun run scripts/dev.ts",
+    "typecheck": "bun run --filter '*' typecheck",
+    "test": "bun run --filter '*' test",
+    "release:console": "cd server && bun --env-file=../.env scripts/release-console.ts",
+    "dev:server": "bun run --filter @grandtour/server dev",
+    "dev:admin": "bun run --filter @grandtour/admin dev",
+    "dev:viewer": "bun run --filter @grandtour/tour-viewer dev",
+    "db:migrate": "bun run --filter @grandtour/server db:migrate",
+    "dev:site": "bun run --filter @grandtour/site dev",
+    "site:build": "bun run --filter @grandtour/site build",
+    "site:deploy": "bun run --filter @grandtour/site deploy"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}

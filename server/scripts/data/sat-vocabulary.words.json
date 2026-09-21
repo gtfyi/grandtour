@@ -1,0 +1,37 @@
+{
+  "track": "sat-vocabulary",
+  "source": {
+    "title": "GrandTour contributors (original definitions)",
+    "url": "https://github.com/gtfyi/grandtour"
+  },
+  "words": [
+    {
+      "word": "abate",
+      "pronunciation": "uh-BAYT",
+      "partOfSpeech": "verb",
+      "definition": "to become less strong or less severe; to ease off gradually.",
+      "exampleSentence": "By morning the storm had abated, and the crews went back out on the water."
+    },
+    {
+      "word": "ebullient",
+      "pronunciation": "ih-BULL-yunt",
+      "partOfSpeech": "adjective",
+      "definition": "bubbling over with cheerful energy; loudly and visibly enthusiastic.",
+      "exampleSentence": "The ebullient crowd cheered every runner who crossed the finish line, first or last."
+    },
+    {
+      "word": "laconic",
+      "pronunciation": "luh-KON-ik",
+      "partOfSpeech": "adjective",
+      "definition": "saying a great deal in very few words; clipped and brief in speech.",
+      "exampleSentence": "Her laconic reply — just the word 'noted' — ended the meeting on the spot."
+    },
+    {
+      "word": "obfuscate",
+      "pronunciation": "OB-fuh-skayt",
+      "partOfSpeech": "verb",
+      "definition": "to cloud or muddle something so it is harder to understand, usually on purpose.",
+      "exampleSentence": "The report seemed designed to obfuscate the numbers rather than explain them."
+    }
+  ]
+}

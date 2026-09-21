@@ -1,0 +1,39 @@
+name: Bug report
+description: Something played, failed to play, or misbehaved.
+labels: [bug]
+body:
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Where
+      options: [iOS app, watchOS app, CarPlay, Server / API, Admin web, AI pipeline, Scripts]
+    validations:
+      required: true
+  - type: input
+    id: track
+    attributes:
+      label: Track and spot
+      description: Track slug and spot slug if a specific spot is involved.
+      placeholder: fairfax-town-deep / college-of-marin
+  - type: dropdown
+    id: trigger
+    attributes:
+      label: Trigger kind (if a spot is involved)
+      options: [point, area, fill-in item, not applicable]
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you expected, what you got. For playback issues, include speed and whether you were walking or driving.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: How to reproduce
+      description: Steps, a `scripts/walkthrough.ts` invocation, or a diag session file if you have one.
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      placeholder: commit sha, iOS version, device

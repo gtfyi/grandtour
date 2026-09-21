@@ -1,0 +1,865 @@
+{
+  "_notes": "Additional spot slate for the Fairfax Town track — history, parks, music history (Women's Club, the ballfield Grateful Dead shows, Sleeping Lady), businesses beyond the downtown core, and reported news stories. Narration is written for on-device TTS (numbers/streets spelled out, side-free per the locating invariant). Researched 2026-08-31 by web-search subagents; sources listed per spot. Deduped against fairfax-town and fairfax-eats-shops.",
+  "track": {
+    "slug": "fairfax-town",
+    "name": "Fairfax Town",
+    "description": "The stores, restaurants, venues, and landmarks of downtown Fairfax.",
+    "kind": "tour",
+    "icon": "storefront",
+    "color": "#B85C38",
+    "official": false
+  },
+  "spots": [
+    {
+      "slug": "birds-nest-glen",
+      "title": "Bird's Nest Glen",
+      "subtitle": "The last American lord who gave the town its name",
+      "trigger": {
+        "center": {
+          "lat": 37.98504,
+          "lng": -122.58353
+        },
+        "radiusM": 40
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the bronze state landmark plaque beside Pastori Avenue"
+      },
+      "narration": "Behind these fences and gardens stood Bird's Nest Glen, the estate of Charles Snowden Fairfax, tenth Baron of Cameron — heir to a Scottish title he never bothered to claim. Friends called him Lord Charlie. He came west for gold in eighteen forty-nine, found politics instead, and was Speaker of the California Assembly by eighteen fifty-four. When he married Ada Benham, his friend Doctor Taliaferro gave the couple this sweep of oak-studded valley as a wedding present, and from eighteen fifty-five their home was famous for open-handed hospitality. Their friends fell into the habit of saying, let's go to Fairfax's — and the name stuck. It outlived the man, who died in eighteen sixty-nine, and outlived the estate itself: when the town incorporated on March second, nineteen thirty-one, the nickname became official. The bronze plaque near the road, state landmark number six hundred seventy-nine, marks the site of the vanished manor.",
+      "sources": [
+        "https://www.marinhistory.org/blog/post-71/",
+        "https://www.californiahistoricallandmarks.com/landmarks/chl-679",
+        "https://en.wikipedia.org/wiki/Charles_S._Fairfax",
+        "https://patch.com/california/sananselmofairfax/history-mystery-this-is"
+      ]
+    },
+    {
+      "slug": "last-duel-birds-nest",
+      "title": "The Last Duel",
+      "subtitle": "Two assemblymen, forty yards, and the Civil War in miniature",
+      "trigger": {
+        "center": {
+          "lat": 37.9857,
+          "lng": -122.5829
+        },
+        "radiusM": 35
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the creek crossing on Pastori Avenue below the boulevard"
+      },
+      "narration": "On May twenty-fifth, eighteen sixty-one, with the Civil War barely a month old, two California assemblymen came to Charlie Fairfax's estate to settle their politics with rifles. Charles Piercy stood with the Union. Daniel Showalter was a defiant secessionist who had voted against pledging California to the Union, and words over that vote had hardened into a challenge. From the house, the parties walked to a grassy meadow on the grounds, and the two men faced each other at about forty yards. Both fired. Both missed. Honor could have ended it there — instead they insisted on a second exchange, and Showalter's bullet struck Piercy in the mouth, killing him instantly. It is remembered as the last notable political duel fought in California. Showalter was indicted for murder, fled south, was captured by Union troops and held at Fort Yuma, and died in Mazatlan, Mexico, in eighteen sixty-six. The old resort lands nearby cover the dueling ground.",
+      "sources": [
+        "https://www.marinhistory.org/blog/post-117/",
+        "https://historynet.com/charlie-fairfax-and-his-two-dueling-friends-made-their-mark-in-the-history-of-california/",
+        "https://en.wikipedia.org/wiki/Charles_Wesley_Piercy"
+      ]
+    },
+    {
+      "slug": "pastoris-resort",
+      "title": "Pastori's",
+      "subtitle": "When San Francisco came to dine under the oaks",
+      "trigger": {
+        "center": {
+          "lat": 37.98655,
+          "lng": -122.5833
+        },
+        "radiusM": 40
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the corner where Pastori Avenue meets Sir Francis Drake Boulevard"
+      },
+      "narration": "In nineteen oh five, Charles and Adele Pastori paid fifteen thousand dollars for the old Fairfax estate and turned it into one of Marin's most famous resorts. The railroad gave the place its own stop, and San Franciscans rode up in their Sunday best for open-air dinners under the oaks at what became known simply as Pastori's. Charles died in nineteen eleven, and six months later the villa burned to the ground. Adele rebuilt it grander than before — guest cottages, a maple dance floor, and a platform in a great oak reached by fifty-two steps, where, the story goes, a young Irving Berlin once played piano to the diners below. Prohibition slowly drained the crowds, and in nineteen twenty-five she sold to San Francisco's Emporium department store, which ran the grounds as a country club for its own employees. The avenue beside you still carries the family name.",
+      "sources": [
+        "https://patch.com/california/sananselmofairfax/the-history-of-the-marin-town-and-country-club",
+        "https://www.marinhistory.org/blog/post-71/",
+        "https://calisphere.org/item/50e6a254af2f3d37386d52e48d0d2195/",
+        "https://www.marinfirehistory.org/1911-pastoris-in-fairfax.html"
+      ]
+    },
+    {
+      "slug": "marin-town-and-country-club",
+      "title": "Marin Town and Country Club",
+      "subtitle": "Seven pools, a Redwood Bowl, and thirty summers",
+      "trigger": {
+        "center": {
+          "lat": 37.9842,
+          "lng": -122.5832
+        },
+        "radiusM": 45
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the fenced, overgrown resort grounds at the far end of Pastori Avenue"
+      },
+      "narration": "In nineteen forty-three, Max Friedman paid one hundred seventy-five thousand dollars for the old Pastori grounds, and the next summer opened the Marin Town and Country Club — fifteen hundred people showed up on the first day. Seven swimming and diving pools dotted forty acres, along with tennis courts, ballfields, a soda fountain, and forty-five apartments and summer cabins. At the outdoor Redwood Bowl, Saturday night dance music was broadcast across the western United States. For three decades this was where Marin spent its summers, until tastes changed and the club closed in nineteen seventy-two. Since then the property has led a strange afterlife: tenants quietly renting the old cabins, development schemes fought to a standstill at the ballot box, a sale of twenty-eight acres in two thousand two, and the whole place back on the market twenty years later. Behind the fences, the empty pools of Fairfax's great resort are still there.",
+      "sources": [
+        "https://patch.com/california/sananselmofairfax/the-history-of-the-marin-town-and-country-club",
+        "https://patch.com/california/sananselmofairfax/where-it-is-now-the-marin-town-and-country-club",
+        "https://www.sfgate.com/bayarea/article/The-Cabin-Confederacy-A-former-Marin-resort-2645859.php",
+        "http://www.westhill.com/mtcc/mtcc1943.html"
+      ]
+    },
+    {
+      "slug": "when-the-creeks-rose",
+      "title": "When the Creeks Rose",
+      "subtitle": "The floods of nineteen eighty-two and two thousand five",
+      "trigger": {
+        "center": {
+          "lat": 37.9862,
+          "lng": -122.58975
+        },
+        "radiusM": 40
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the low stretch of Bolinas Road through the middle of downtown"
+      },
+      "narration": "Fairfax sits in a bowl where steep canyon creeks come together, and twice in living memory that geography turned violent. On January third and fourth, nineteen eighty-two, a warm storm stalled over Marin and dropped well over a foot of rain in about two days. Flood sirens sounded in Fairfax, San Anselmo, and Ross as the creeks jumped their banks and a river ran down the valley's main streets. Across the Bay Area that storm killed thirty-three people and did two hundred eighty million dollars in damage. In December of two thousand five it happened again: floodwater poured through the Ross Valley, and the damage across Fairfax, San Anselmo, Ross, and Kentfield reached nearly ninety-five million dollars. That disaster launched the flood-control program the valley still argues about today — and it is why, a few times a year, you may hear the town's flood siren being tested.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/January_1982_California_floods",
+        "https://flooddistrict.marincounty.gov/flood-control-zone-9-ross-valley/",
+        "https://sananselmohistory.org/articles/flooding/",
+        "https://www.cbsnews.com/sanfrancisco/news/waterlogged-marin-residents-recovering-as-flood-waters-recede/"
+      ]
+    },
+    {
+      "slug": "road-to-alpine-dam",
+      "title": "The Road to Alpine Dam",
+      "subtitle": "How a water project up Bolinas Road built the town below",
+      "trigger": {
+        "center": {
+          "lat": 37.98246,
+          "lng": -122.59289
+        },
+        "radiusM": 50
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the fork where Cascade Drive splits from Bolinas Road"
+      },
+      "narration": "Bolinas Road starts as a town street and then climbs about eight winding miles into the hills — and that climb helps explain Fairfax itself. In nineteen twelve, Marin voters created the first municipal water district in California, and its first great project was Alpine Dam, thrown across Lagunitas Creek in the mountains above town. Construction began in the summer of nineteen seventeen, but the World War drained away labor and materials, so the young district took over the work itself and finished the dam in nineteen nineteen — a curved concrete wall holding back more than a billion gallons. Everything went up this road: crews, mules, machinery, and concrete. Among the workers were Italian immigrant laborers, and many settled in Fairfax, leaving a lasting stamp on the young town's families and neighborhoods. At this fork, Cascade Drive bends toward the waterfall canyon, while Bolinas Road keeps climbing — all the way to the dam, which still stands.",
+      "sources": [
+        "https://medium.com/anne-t-kent-california-room-community-newsletter/history-of-marin-countys-water-supply-b16bee1b655c",
+        "https://marinmagazine.com/arts-events/things-to-do/alpine-dam/",
+        "https://en.wikipedia.org/wiki/Alpine_Lake_(Marin_County,_California)",
+        "https://www.anthrojournal-urbanities.com/wp-content/uploads/2024/05/3-Caldararo.pdf"
+      ]
+    },
+    {
+      "slug": "peri-park-playground",
+      "title": "Peri Park",
+      "subtitle": "A playground built by volunteers, named for a Prohibition-era saloon keeper",
+      "trigger": {
+        "center": {
+          "lat": 37.98576,
+          "lng": -122.59139
+        },
+        "radiusM": 45
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the play structures under the redwood grove behind the big green pavilion"
+      },
+      "narration": "Tucked into a redwood grove just behind downtown, this playground carries a saloon keeper's name. Andy Peri ran the original Peri's bar a few doors up Broadway, and he was also Fairfax's chief of police during Prohibition — and in this town, nobody found that a contradiction. The park remembering him has always been a volunteer project. Community members built its wooden play structures by hand, and Fairfax kids spent about two decades wearing them smooth. By twenty nineteen the old wood had become a safety hazard, and replacing it was estimated at fifty thousand dollars. So Fairfax did what Fairfax does: it passed the hat. Families and the town raised the money together, and in April of twenty twenty-one neighbors gathered under the trees to cut the ribbon on brand new structures — built, fittingly, by a company called Bear Playgrounds. The fundraising never really stopped; the current campaign is expanding the tot lot for the very smallest climbers. What you hear on the slides is another generation growing up in Peri Park.",
+      "sources": [
+        "https://townoffairfaxca.gov/peri-park-playground/",
+        "https://townoffairfaxca.gov/peri-park-playground-open/",
+        "https://www.marinmommies.com/help-renovate-fairfaxs-peri-park",
+        "https://peristavern.com/about/"
+      ]
+    },
+    {
+      "slug": "bolinas-park",
+      "title": "Bolinas Park",
+      "subtitle": "The redwood-shaded front lawn where the whole town calendar happens",
+      "trigger": {
+        "center": {
+          "lat": 37.98613,
+          "lng": -122.59099
+        },
+        "radiusM": 40
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the small redwood-shaded lawn where Bolinas Road bends away from downtown"
+      },
+      "narration": "The pocket of green where Bolinas Road angles away from downtown is Bolinas Park, and it works like the town's shared front lawn. Redwoods throw shade across the grass, benches collect neighbors, and the Fairfax calendar runs straight through it. On Wednesday evenings from the first of May through the end of October, the farmers market fills the park from four until eight — produce stands, handmade foods, live music drifting up into the branches, and a matching program that stretches CalFresh dollars into extra fruit and vegetables for any family that needs it. Each spring, the town recreation department seeds this lawn with eggs, and children eight and under swarm the grass while the Spring Bunny poses for photos. And every June, when the Fairfax Festival takes over town, the Redwood Stage rises here among the very trees that named it. No statue, no fountain, no admission fee — just a small park doing heavy civic lifting, one Wednesday evening and one egg hunt at a time.",
+      "sources": [
+        "https://townoffairfaxca.gov/location/bolinas-park/",
+        "https://townoffairfaxca.gov/event/fairfax-farmers-market-3-2024-08-07/",
+        "https://townoffairfaxca.gov/egg-hunt/",
+        "https://www.parks.marincounty.gov/parkspreserves/parks/bolinas-park"
+      ]
+    },
+    {
+      "slug": "fairfax-festival-parade-route",
+      "title": "The Parade Street",
+      "subtitle": "Broadway has been throwing itself a party since nineteen twelve",
+      "trigger": {
+        "center": {
+          "lat": 37.98713,
+          "lng": -122.58953
+        },
+        "radiusM": 45
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the stretch of Broadway lined with old storefronts in the middle of downtown"
+      },
+      "narration": "Broadway looks like a sleepy main street, but once a year it becomes a river of costumes, bicycles, and marching bands. Fairfax has been parading since nineteen twelve, when the town threw Fourth of July celebrations with games and brass bands; by nineteen fifty the party was drawing twenty-five thousand visitors, and the Native Sons of the Golden West ran it under the slogan, what a show, and it's all free. The first event actually called the Fairfax Festival came in June of nineteen sixty-six, complete with rock and roll stages and beer vendors — and by nineteen sixty-nine the crowds got so rowdy that the town council canceled the whole thing. It took until nineteen seventy-nine for two residents, Marcia Oldham and Carol Sherman, to revive it as a family affair, and their formula stuck. Every June the parade still steps off near Good Earth and flows along this street to Peri Park, where the festival spreads across four parks at once. An Ecofest joined in two thousand four. All these years later, the show is still free.",
+      "sources": [
+        "https://fairfaxfestival.com/fairfax-festival-history/",
+        "https://fairfaxfestival.com/parade/",
+        "https://townoffairfaxca.gov/event/44th-annualfairfax-festival-parade/"
+      ]
+    },
+    {
+      "slug": "deer-park-meadow",
+      "title": "Deer Park",
+      "subtitle": "An old schoolhouse, an oak meadow, and the doorway to the watershed",
+      "trigger": {
+        "center": {
+          "lat": 37.9755,
+          "lng": -122.58981
+        },
+        "radiusM": 60
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the meadow and old schoolyard where the pavement of Porteous Avenue ends"
+      },
+      "narration": "Where Porteous Avenue runs out of pavement, Fairfax hands you to the wild. The oak-ringed meadow ahead is Deer Park, a beloved trailhead where the neighborhood ends and the Mount Tamalpais watershed begins. The building at its edge spent decades as Deer Park School, the little elementary school at one ninety-nine Porteous Avenue. When the district no longer needed classrooms here, the campus found a second life as home to the Fairfax San Anselmo Children's Center — and in a recent milestone, the Center, working with the Seiderman Legacy Children's Fund, purchased the historic property in full, turning a long-held dream of a permanent home for learning and play into reality. Past the schoolyard, Deer Park Fire Road climbs out of the meadow and into the protected watershed trail network, linking this quiet dead-end street to the flanks of Mount Tamalpais. The loop through here draws hikers year round, and the park's name is a promise kept often enough: come early or late, walk quietly, and watch the edges of the meadow.",
+      "sources": [
+        "https://www.fsacc.org/",
+        "https://www.mtbproject.com/trail/7014570/deer-park-fire-road",
+        "https://www.alltrails.com/trail/us/california/deer-park-loop",
+        "https://go.boarddocs.com/ca/rova/Board.nsf/files/CM4R6T6B9D7F/$file/199%20Porteous%20Ave%20Appraisal%20Final%20Report.pdf"
+      ]
+    },
+    {
+      "slug": "cascade-canyon-gate",
+      "title": "Cascade Canyon Gate",
+      "subtitle": "The condo project that became five hundred acres of open space",
+      "trigger": {
+        "center": {
+          "lat": 37.97812,
+          "lng": -122.61393
+        },
+        "radiusM": 55
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the open-space gate at the very end of Cascade Drive"
+      },
+      "narration": "The gate at the end of Cascade Drive is where Fairfax decided what kind of town it would be. For decades this canyon belonged to Floyd Elliott, a former mayor, and by nineteen seventy-one, when he was ready to sell, the land was zoned for more than one hundred high-density condominium units. Karen Urquhart had grown up sneaking hikes here — hiding from Elliott so she wouldn't be kicked off his land. When she learned the canyon might be lost, she founded People for the Fairfax Cascades and pulled officials, activists, and neighbors into the fight. It worked. Cascade Canyon became the first major land purchase of the brand-new Marin County Open Space District: the county covered two-thirds, and philanthropist Debbie Ettinger bought and donated the remaining acreage, about one hundred seventy-six acres. Today roughly five hundred acres stay wild behind this gate, and the inner canyon still carries the old owner's name as the Elliott Nature Preserve. After good winter rains, a short walk in brings you to Cascade Falls — the small waterfall that made this canyon worth fighting for.",
+      "sources": [
+        "http://sevenwondersofmarin.blogspot.com/2009/05/cascade-canyon.html",
+        "https://parks.marincounty.gov/parkspreserves/preserves/cascade-canyon",
+        "https://townoffairfaxca.gov/cascade-bridges-project-update/",
+        "https://marinsideout.wordpress.com/2021/11/16/cascade-falls/"
+      ]
+    },
+    {
+      "slug": "fairfax-skatepark",
+      "title": "The Skatepark",
+      "subtitle": "A skatepark raised like a barn, thirty thousand dollars at a time",
+      "trigger": {
+        "center": {
+          "lat": 37.98652,
+          "lng": -122.59035
+        },
+        "radiusM": 35
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the skate ramps in the corner of the Bank Street parking lot"
+      },
+      "narration": "The ramps in the Bank Street parking lot are proof that in Fairfax, even a skatepark is a barn raising. Local skaters had spent years asking for a legal place to ride, so a volunteer group called Skatepark Four Fairfax started passing the hat — and blew past its thirty thousand dollar fundraising goal on community donations alone. In March of twenty twenty-one, the town council voted to hand over the western portion of the Pavilion parking lot, and on April tenth of that year the skatepark held its grand opening. It runs on simple rules: open from nine in the morning until sundown, seven days a week, for skateboards, scooters, and roller and inline skates. On paper it is still labeled temporary, and the town's parks and recreation committee has been working on how to make it permanent. In the meantime, the ramps keep rumbling — a reminder that in this town, when kids want somewhere to play, the grown-ups build it themselves.",
+      "sources": [
+        "https://townoffairfaxca.gov/tweens-teens/",
+        "https://www.townoffairfax.org/temporary-location-for-skate-board-scooter-park-approved/",
+        "https://redwoodbark.org/65028/news/construction-ramps-up-as-fairfax-welcomes-a-new-skatepark/",
+        "https://skatepark4fairfax.wixsite.com/skatepark4fairfax"
+      ]
+    },
+    {
+      "slug": "fairfax-library-garden",
+      "title": "The Library Garden",
+      "subtitle": "A reading room with no walls, paved with three hundred neighbors' names",
+      "trigger": {
+        "center": {
+          "lat": 37.99015,
+          "lng": -122.5925
+        },
+        "radiusM": 45
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the oak-shaded garden and stone patio beside the Fairfax Library"
+      },
+      "narration": "The Fairfax Library sits on nearly an acre of rising ground, with a meadow and massive heritage oaks — and since the fall of twenty twenty-two, the outdoors here has been part of the library itself. That October, the town celebrated a finished garden project that more than doubled the library's usable space without adding a single wall: a stone paver patio with tables and benches, an arbor for shade, an accessible path winding through native plantings, and an outdoor stone circle built for gatherings. Even the WiFi reaches out under the oaks. The money came from county parks funds, the Library Foundation, Friends of the Library, and two family estates — but the most personal layer is underfoot. More than three hundred people bought engraved pavers through a Friends fundraising campaign, so the patio is literally paved with local names. On a warm day you will find children's story and music programs on the grass, wellness classes for seniors, teens crafting, and plenty of readers who never quite make it through the front door.",
+      "sources": [
+        "https://marinlibrary.org/fairfax-garden/",
+        "https://www.marinlibraryfoundation.org/fairfax-library-garden"
+      ]
+    },
+    {
+      "slug": "fairfax-pavilion-rock-years",
+      "title": "The Pavilion Plugs In",
+      "subtitle": "A firemen's dance hall that hosted Janis, the Airplane, the Dead — and a band about to become Creedence",
+      "trigger": {
+        "center": {
+          "lat": 37.98612,
+          "lng": -122.59069
+        },
+        "radiusM": 50
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the broad wooden dance hall crowning the park"
+      },
+      "narration": "This barn of a building is the Fairfax Pavilion, raised by the town's volunteer firemen and dedicated in nineteen twenty-one with room for two thousand dancers. For decades it earned its keep the old-fashioned way: Charleston contests in the twenties, vaudeville through the Depression, roller skating to big-band records in the forties. Then the San Francisco sound arrived, and local historians count Janis Joplin with Big Brother and the Holding Company, the Jefferson Airplane, and the Grateful Dead among the acts that shook these rafters. In the summer of nineteen sixty-six, two dollars bought a night with the Styx and the Knight Riders. On December thirtieth, nineteen sixty-six, a dance here featured the Golliwogs, an East Bay band that soon renamed itself Creedence Clearwater Revival. And on August twenty-second, nineteen eighty-one, the Jerry Garcia Band played the Pavilion as a birthday benefit for the Fairfax schools. A century on, it is still the heart of the town.",
+      "sources": [
+        "https://marinhistory.org/blog/post-75/",
+        "http://thesanfranciscosound.blogspot.com/2010/08/creedence-clearwater-revival.html"
+      ]
+    },
+    {
+      "slug": "contratti-field-dead-vs-airplane",
+      "title": "Dead Versus Airplane",
+      "subtitle": "The ballfield where San Francisco's two biggest bands settled it with softball",
+      "trigger": {
+        "center": {
+          "lat": 37.9869,
+          "lng": -122.59086
+        },
+        "radiusM": 60
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the chain-link backstop of the baseball diamond"
+      },
+      "narration": "This diamond was called Central Field when it hosted the strangest rivalry in rock and roll. In the middle nineteen sixties, the Grateful Dead and the Jefferson Airplane, two bands then remaking American music, met on this Fairfax ballfield to play softball. The series ran for years. In nineteen seventy, the San Francisco columnist Herb Caen reported the result of one rematch: the Dead's team, the Dead Ringers, with promoter Bill Graham on the pitcher's mound, edged the Airplane seventeen to sixteen. Caen could not resist a punch line, writing, \"there's more than one way to go on grass.\" The field was later renamed Contratti Park, and when Fairfax proclaimed Jerry Garcia Day in August of twenty thirteen, the town remembered those games among his ties to town. Even psychedelic pioneers, it turns out, wanted what every small town offers: a warm evening, a scoreboard, and a base to steal.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Fairfax,_California",
+        "https://www.sfchronicle.com/totalsf/article/fairfax-bay-area-marin-wes-anderson-22188179.php",
+        "https://patch.com/california/sananselmofairfax/fairfax-council-to-honor-late-grateful-dead-musician-with-jerry-garcia-day"
+      ]
+    },
+    {
+      "slug": "sleeping-lady-cafe",
+      "title": "The Sleeping Lady Café",
+      "subtitle": "Marin's first vegetarian restaurant, first smoke-free club, and the nucleus of the seventies Fairfax scene",
+      "trigger": {
+        "center": {
+          "lat": 37.98629,
+          "lng": -122.58948
+        },
+        "radiusM": 35
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the row of small storefronts partway up Bolinas Road"
+      },
+      "narration": "From nineteen seventy-two to nineteen eighty-four, the storefront at fifty-eight Bolinas Road held the Sleeping Lady Café, named for the reclining figure people trace in the silhouette of Mount Tamalpais. It was the first vegetarian restaurant in Marin County and the first nightclub anywhere around to ban smoking, run less like a business than a community living room, and it became the nucleus of Fairfax's seventies music scene. The booking was gloriously mixed: folk pickers and jazz players, then Marin punk bands like the Pukes sharing the calendar with legends. In the early nineteen eighties, Mark Naftalin's Blue Monday Party recorded blues giants live in this little room, among them John Lee Hooker, Percy Mayfield, Lowell Fulson, and Charlie Musselwhite. When the Lady finally closed in nineteen eighty-four, the town mourned, and decades later a bar on Broadway revived the name in tribute. The legend, like the mountain, is still sleeping nearby.",
+      "sources": [
+        "http://www.deaddisc.com/GDFD_Sleeping_Lady.htm",
+        "https://sleepingladycafe.com/about-sleeping-lady-cafe-history/",
+        "https://jerrybase.com/venues/1117"
+      ]
+    },
+    {
+      "slug": "river-city-52-bolinas",
+      "title": "River City",
+      "subtitle": "The pool hall where the Jerry Garcia Band played for the price of a beer",
+      "trigger": {
+        "center": {
+          "lat": 37.98634,
+          "lng": -122.58941
+        },
+        "radiusM": 35
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the storefront at fifty-two Bolinas Road, a few doors from the old Sleeping Lady space"
+      },
+      "narration": "A few doors along Bolinas Road from the Sleeping Lady stood River City, at number fifty-two, a game arcade and pool hall in the middle of tiny downtown Fairfax. In early nineteen seventy-five, its owner, Ron Barbarita, started booking jazz combos, then rock bands, and suddenly one of the smallest rooms in Marin had one of the biggest calendars. On September twentieth and twenty-first, nineteen seventy-five, the Jerry Garcia Band crammed onto its floor, a superstar playing a neighborhood watering hole minutes from home. Bob Weir's band Kingfish came through that same fall, and the roster grew to include Keith and Donna Godchaux of the Grateful Dead, Taj Mahal, Mike Bloomfield, Brian Auger, and Clover, the Marin band that would soon hand Huey Lewis his start. Dead scholars still trade tapes and memories of those nights, when world-class music hid behind a pool-hall door in Fairfax.",
+      "sources": [
+        "http://jgmf.blogspot.com/2012/07/jgb-at-river-city-fairfax.html",
+        "https://jerrygarcia.com/show/1975-09-20-river-city-fairfax-ca/",
+        "https://www.setlist.fm/venue/river-city-fairfax-ca-usa-4bd76fae.html"
+      ]
+    },
+    {
+      "slug": "van-morrison-caledonia-records",
+      "title": "Van Morrison's Fairfax",
+      "subtitle": "The soul legend who lived here — and put his parents behind a record-store counter",
+      "trigger": {
+        "center": {
+          "lat": 37.98661,
+          "lng": -122.58907
+        },
+        "radiusM": 40
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the corner where Bolinas Road meets Broadway"
+      },
+      "narration": "Fairfax spent the early nineteen seventies with a soul legend in its midst. In the spring of nineteen seventy-one, Van Morrison moved from Woodstock, New York to Marin County and settled in Fairfax, where he lived for about three years at the height of his powers. Much of the album Saint Dominic's Preview took shape while he was living here, and the song Snow in San Anselmo names the next town over. Morrison also brought his parents across from Belfast and set them up in business: George and Violet Morrison ran Caledonia Records, a little record shop on Bolinas Road, named for Van's beloved word for ancient Scotland, the same word he gave his studio, his publishing company, and his Caledonia Soul Orchestra. Record buyers wandered in hoping the man himself might be behind the counter, and sometimes he was around town. He later confessed he never quite fit California, but for a few years this small town was home.",
+      "sources": [
+        "https://thefrisc.com/meanwhile-back-in-san-francisco-van-morrisons-bay-area-moment-d0bcda960e30/",
+        "https://suncoastvanfans.blogspot.com/2025/04/caledonia-records-fairfax-california.html",
+        "https://en.wikipedia.org/wiki/Fairfax,_California"
+      ]
+    },
+    {
+      "slug": "broadway-music-row",
+      "title": "Broadway's Music Row",
+      "subtitle": "Two doors, a century of nightly music: nineteen and twenty-nine Broadway",
+      "trigger": {
+        "center": {
+          "lat": 37.98692,
+          "lng": -122.58818
+        },
+        "radiusM": 40
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the pair of old bar fronts near the middle of the Broadway block"
+      },
+      "narration": "Two doorways on this block have carried Fairfax music for a hundred years. The building at nineteen Broadway went up in nineteen twenty-one as a local gathering hall, and since nineteen eighty-four it has hosted live music virtually every night, tens of thousands of musicians in all, from surf-guitar king Dick Dale to Fishbone, the English Beat, and Buckethead. A few steps away, the Peri family has poured drinks since the nineteen thirties, moving Peri's Silver Dollar into twenty-nine Broadway in nineteen forty-nine, where its forty-foot bar still runs the length of the room and a fourth generation keeps the stage lit; the town has honored the family for more than eighty years in business. When Phil Lesh's Terrapin Crossroads closed in San Rafael in twenty twenty-one, musicians from the Grateful Dead extended family made Peri's a new home base, folding the newest chapter of Marin music history into one of its oldest rooms.",
+      "sources": [
+        "https://macsat19broadway.com/history/",
+        "https://peristavern.com/about/",
+        "https://www.marincountyvisitor.com/jerry-garcia-and-the-grateful-deads-marin-county-roots/"
+      ]
+    },
+    {
+      "slug": "sunshine-bicycle-center",
+      "title": "Sunshine Bicycle Center",
+      "subtitle": "Fairfax's bike shop since nineteen seventy-one",
+      "trigger": {
+        "center": {
+          "lat": 37.98659,
+          "lng": -122.58565
+        },
+        "radiusM": 40
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the bike shop storefront on Center Boulevard"
+      },
+      "narration": "Fairfax likes to call itself the birthplace of mountain biking, and Sunshine Bicycle Center has been the town's bike shop through nearly all of that story. Open since nineteen seventy-one on Center Boulevard, it is a fiercely local, independent shop where sales and repair still happen under one roof. Owner Martin Hansen started as a staff wrench and has worked here for some three decades, and several of the crew count ten years or more — over a century of combined experience at the workstands. The racks carry Trek, Ibis, Orbea, and Electra, along with bikes from Marin, the county's namesake brand. Racers, commuters, and kids headed for the dirt of Mount Tamalpais all pass through the same door, which is exactly how Fairfax likes it.",
+      "sources": [
+        "https://www.sunshinebicycle.com/",
+        "https://www.sunshinebicycle.com/pages/about-us",
+        "https://www.yelp.com/biz/sunshine-bicycle-center-fairfax"
+      ]
+    },
+    {
+      "slug": "odonnells-fairfax-nursery",
+      "title": "O'Donnell's Fairfax Nursery",
+      "subtitle": "Native plants and organic roots since nineteen ninety",
+      "trigger": {
+        "center": {
+          "lat": 37.98674,
+          "lng": -122.58255
+        },
+        "radiusM": 50
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the nursery's outdoor rows of plants along Sir Francis Drake Boulevard"
+      },
+      "narration": "On Sir Francis Drake Boulevard toward the eastern edge of town sits O'Donnell's Fairfax Nursery, a Fairfax fixture with deep roots — literally. Paul O'Donnell bought the old Sherwood's nursery in nineteen ninety and put his own name on it, and ever since, the nursery has been a staunch advocate for restoring California native habitat and an uncompromising practitioner of organic horticulture. This is the place Marin gardeners come for plants that actually belong here: madrone trees, huckleberry, native ferns, and native cherries, grown for the county's own hillsides. If you are trying to coax a garden out of Marin's dry summers, the advice traded over the counter here is worth as much as anything in the pots.",
+      "sources": [
+        "https://www.yelp.com/biz/o-donnells-fairfax-nursery-fairfax",
+        "https://patch.com/california/sananselmofairfax/business-of-the-week-odonnells-fairfax-nursery",
+        "https://rngr.net/marketplace/directory/odonnellsfairfaxnursery/view"
+      ]
+    },
+    {
+      "slug": "longevity-collective",
+      "title": "The Longevity Collective",
+      "subtitle": "Cold plunges and biohacking across from Good Earth",
+      "trigger": {
+        "center": {
+          "lat": 37.98672,
+          "lng": -122.58638
+        },
+        "radiusM": 40
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the wellness spa storefront facing the Good Earth parking lot"
+      },
+      "narration": "Across from Good Earth Natural Foods on Center Boulevard, The Longevity Collective is one of the newest arrivals on the Fairfax wellness scene. Founded by Joe Drimmer, a veteran of more than a decade in the wellness industry, the spa is built around the modern longevity playbook: infrared saunas, cold plunge tubs, red light therapy, hydromassage, pulsed electromagnetic field sessions, even hyperbaric oxygen and peptide therapy. The pitch is self-renewal, one contrast cycle at a time — heat, then icy water, then heat again. In a town that has always mixed mountain bikers, musicians, and seekers, a biohacking spa across from the health food store feels less like a novelty and more like the next chapter.",
+      "sources": [
+        "https://www.marintlc.com/",
+        "https://www.marintlc.com/about",
+        "https://www.yelp.com/biz/the-longevity-collective-fairfax"
+      ]
+    },
+    {
+      "slug": "marin-stables",
+      "title": "Marin Stables",
+      "subtitle": "A nineteen thirty-seven barn at the gateway to Mount Tam",
+      "trigger": {
+        "center": {
+          "lat": 37.97586,
+          "lng": -122.59587
+        },
+        "radiusM": 60
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the old wooden barn at the end of Wood Lane"
+      },
+      "narration": "Up the hill from downtown, at the end of Wood Lane in a quiet canyon near Deer Park, stand the historic Marin Stables. The classic old barn was built in nineteen thirty-seven, and some of its hitching posts are so worn they seem to tell stories of their own. The stables sit on Marin Municipal Water District land under a long-term lease, and a dedicated nonprofit works to preserve them. Today the barn boards horses, offers natural-horsemanship lessons for beginning and intermediate riders, and opens directly onto the watershed trails of Mount Tamalpais — riders can step from the arena straight into some of the best trail country in the Bay Area. Hikers heading for Deer Park often detour just to admire the place.",
+      "sources": [
+        "https://patch.com/california/sananselmofairfax/hike-deer-park-visit-the-historic-marin-stables",
+        "https://www.marinhorsecouncil.org/barns",
+        "https://www.yelp.com/biz/marin-stables-fairfax"
+      ]
+    },
+    {
+      "slug": "indie-alley",
+      "title": "The Indie Alley",
+      "subtitle": "Small-town coworking for independent creatives",
+      "trigger": {
+        "center": {
+          "lat": 37.98612,
+          "lng": -122.5893
+        },
+        "radiusM": 40
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the coworking storefront partway up Bolinas Road"
+      },
+      "narration": "On Bolinas Road, The Indie Alley is Fairfax's answer to the big-city coworking chain — except independent, homegrown, and sized for a small town. It is a community workspace and event center for solopreneurs, founders, freelancers, and independent creatives, with open desks, meeting rooms, and an events calendar that ranges from skill-building workshops to networking gatherings. There is bike storage, naturally, this being Fairfax, plus a kitchen, outdoor areas for collaboration, and complimentary coffee and tea. For a town full of people who quit commuting to San Francisco a long time ago, it fills a real gap in daily life: somewhere to work alone, together, without leaving the valley.",
+      "sources": [
+        "https://www.theindiealley.com/",
+        "https://www.yelp.com/biz/the-indie-alley-fairfax"
+      ]
+    },
+    {
+      "slug": "emmas-shop",
+      "title": "Emma's Shop",
+      "subtitle": "Handmade jewelry meets curated vintage",
+      "trigger": {
+        "center": {
+          "lat": 37.98632,
+          "lng": -122.58942
+        },
+        "radiusM": 40
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the pair of small shopfronts facing each other on lower Bolinas Road"
+      },
+      "narration": "Emma's Shop began in June of twenty twenty, when jewelry designer and vintage collector Emma Rose decided to merge her two worlds under one roof on Bolinas Road. The jewelry is her own line, handcrafted in a treehouse studio in West Marin; the vintage clothing and accessories are her personal finds, alongside hats, sunglasses, tinctures, and home goods. The venture grew quickly: in twenty twenty-two she opened a second space directly across the street, shared with the Fox and Stone salon collective. Between the two storefronts, a short stretch of Bolinas Road now doubles as Emma Rose's whole universe — designer, collector, and shopkeeper, all within a stone's throw of one another.",
+      "sources": [
+        "https://emmas-shop.com/pages/who-we-are",
+        "https://www.yelp.com/biz/emma-s-shop-fairfax"
+      ]
+    },
+    {
+      "slug": "herban-garden",
+      "title": "The Herban Garden",
+      "subtitle": "Fair-trade gifts and mindful giving",
+      "trigger": {
+        "center": {
+          "lat": 37.98663,
+          "lng": -122.58897
+        },
+        "radiusM": 40
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the gift shop window near the start of Bolinas Road"
+      },
+      "narration": "The Herban Garden on Bolinas Road has quietly made ethics its whole inventory. Everything in the shop is chosen for how it was made and where it came from: fair trade organic bedding, natural cosmetics, organic clothing, baby goods, handcrafted jewelry, and unusual gifts from around the world. The owner calls the philosophy mindful giving — the idea that a present should have positive ripple effects out in the world, not just under the wrapping paper. The shop is woven into town life, too; it has helped provide the gift baskets Fairfax presents each year to residents who have reached ninety years of age. A gift store, in other words, that treats generosity as a practice rather than a transaction.",
+      "sources": [
+        "https://www.yelp.com/biz/the-herban-garden-fairfax",
+        "https://patch.com/california/sananselmofairfax/business-of-the-week-the-herban-garden",
+        "https://www.facebook.com/FairtradeFairfax/"
+      ]
+    },
+    {
+      "slug": "mystic-rose",
+      "title": "Mystic Rose",
+      "subtitle": "Enchanting vintage and curiosities",
+      "trigger": {
+        "center": {
+          "lat": 37.98678,
+          "lng": -122.58891
+        },
+        "radiusM": 35
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the vintage shop window near the corner of Bolinas Road and Broadway"
+      },
+      "narration": "At the foot of Bolinas Road, a few steps from the corner of Broadway, Mystic Rose deals in vintage clothing, curiosities, and the pleasantly unexplainable. Local shopping guides have called it one of the most beautifully curated shops in Marin, and the description fits: this is not a thrift pile but a small, deliberate collection of enchanting objects, each piece placed as if it means something. It shares its stretch of storefronts with Wayfinder Books, which makes this little corner of downtown a fine place to lose half an afternoon. Come for a garment with a past life, and leave wondering who wore it, where, and to what occasion.",
+      "sources": [
+        "https://www.yelp.com/biz/mystic-rose-fairfax",
+        "https://www.facebook.com/mysticrosevintage",
+        "https://patch.com/california/sananselmofairfax/where-shop-locally-san-anselmo-fairfax-holiday-season"
+      ]
+    },
+    {
+      "slug": "fairfix-cafe",
+      "title": "Fairfix Cafe",
+      "subtitle": "Breakfast and a pun on the town's namesake",
+      "trigger": {
+        "center": {
+          "lat": 37.98695,
+          "lng": -122.58851
+        },
+        "radiusM": 40
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the cafe tables along the Broadway sidewalk"
+      },
+      "narration": "The pun arrives before the coffee does: Fairfix Cafe — formally Lord Fairfix Cafe and Tap — is a wink at Lord Charles Snowden Fairfax, the Virginia-born aristocrat and California politician whose estate gave this town its name. Mario opened the cafe on Broadway in January of twenty nineteen, and he is usually the one working the counter and the grill himself. Mornings bring fresh-baked pastries and savory egg dishes; later in the day the menu shifts to salads, soups, sandwiches, and Mediterranean specialties. It is the kind of one-owner operation Fairfax specializes in, where the person seasoning your food is also the person who named the business after a nineteenth-century baron — and then misspelled it on purpose.",
+      "sources": [
+        "https://cafefairfix.com/",
+        "https://townoffairfaxca.gov/location/marios-fairfix-cafe/",
+        "https://www.yelp.com/biz/fairfix-cafe-fairfax"
+      ]
+    },
+    {
+      "slug": "marin-alliance-federal-fight",
+      "title": "The Godmother's Long Fight",
+      "subtitle": "America's first licensed dispensary battled the federal government for eighteen years — from this little plaza",
+      "trigger": {
+        "center": {
+          "lat": 37.98722,
+          "lng": -122.58757
+        },
+        "radiusM": 35
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the small storefront plaza at School Street, just off Broadway"
+      },
+      "narration": "In nineteen ninety-six, months after California legalized medical marijuana, Lynette Shaw opened the Marin Alliance for Medical Marijuana here at School Street Plaza — the first licensed cannabis dispensary in the United States. Two years later, in nineteen ninety-eight, federal prosecutors hit it with an injunction. Shaw held out for over a decade, until twenty eleven, when the government threatened her landlord with asset forfeiture and the shop went dark. Then the fight turned. In October of twenty fifteen, federal judge Charles Breyer ruled that Congress had barred the Justice Department from spending money to enforce the injunction, and in twenty sixteen the United States Attorney quietly dropped her appeal, ending an eighteen-year legal war. Shaw — who reporters came to call the godmother of medical marijuana — reopened under the very same town permit. Fairfax never wavered: through raids, injunctions, and closures, the town kept her license on the books, waiting.",
+      "sources": [
+        "https://www.leafly.com/news/politics/feds-finally-end-18-year-fight-against-mmj-pioneer-lynette-shaw",
+        "https://www.nbcbayarea.com/news/local/marin-alliance-medical-marijuana-pioneer-lynette-shaw-fighting-to-reopen-dispensary/113979/",
+        "https://cannabisnow.com/marin-countys-godmother-marijuana-back-business/"
+      ]
+    },
+    {
+      "slug": "plastic-bag-ballot-victory",
+      "title": "The Bag Ban Ballot",
+      "subtitle": "Sued into a corner by the plastics industry, Fairfax voters banned the bag themselves",
+      "trigger": {
+        "center": {
+          "lat": 37.98478,
+          "lng": -122.59012
+        },
+        "radiusM": 45
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the Fairfax Town Hall building on Bolinas Road"
+      },
+      "narration": "In August of two thousand seven, the Fairfax Town Council did something almost no American town had done: it banned single-use plastic bags. The plastics industry answered fast, threatening legal action and arguing the town had skipped required environmental review under state law — the same playbook that forced Oakland to shelve its own ban. A town of about seven thousand people had no budget for that fight. So Fairfax found a side door. Citizen groups put the ban directly on the ballot as a voter initiative, which is exempt from that review requirement. In November of two thousand eight, Fairfax voters passed it with seventy-nine percent of the vote — the first plastic bag ban in California enacted by the people themselves. The tactic became a template. Within a few years, bag bans swept the Bay Area, then the state, and in twenty sixteen California voters made it law from border to border.",
+      "sources": [
+        "https://sustainablefairfax.org/initiatives/past-initiatives/plastic-bag-ban/",
+        "https://www.nbcnews.com/id/wbna23596727",
+        "https://pacificsun.com/the-war-on-plastic-bags/"
+      ]
+    },
+    {
+      "slug": "victory-village-opens",
+      "title": "Victory Village",
+      "subtitle": "In a county famous for saying no to housing, Fairfax built fifty-four homes for seniors",
+      "trigger": {
+        "center": {
+          "lat": 37.99048,
+          "lng": -122.60421
+        },
+        "radiusM": 60
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the newer apartment complex set back from Sir Francis Drake Boulevard near Oak Manor"
+      },
+      "narration": "Marin County is nationally famous for fighting new housing — which is what makes this building news. Victory Village opened here in the summer of twenty twenty: fifty-four affordable homes for seniors aged sixty-two and older, about a mile from downtown Fairfax. Eleven of the apartments were set aside for people coming out of homelessness, including six for residents living with serious mental illness. Twenty-eight units were designed for people with mobility impairments. Every household received a project-based rental subsidy, capping rent at thirty percent of income — in a county where market rents had pushed out a generation of elders on fixed incomes. The nonprofit Resources for Community Development shepherded the project through years of planning, funding rounds, and public meetings before crews finally broke ground. When the waiting list opened in February of twenty twenty, applications poured in — a measure of how many longtime Ross Valley residents were one rent increase away from leaving for good.",
+      "sources": [
+        "https://blog.bayareametro.gov/posts/affordable-housing-complex-seniors-opens-summer-marin",
+        "https://rcdhousing.org/victory-village/"
+      ]
+    },
+    {
+      "slug": "green-party-council-majority",
+      "title": "The Greenest Town Hall",
+      "subtitle": "In two thousand nine, Fairfax became only the fourth municipality in American history with a Green Party majority",
+      "trigger": {
+        "center": {
+          "lat": 37.98531,
+          "lng": -122.59058
+        },
+        "radiusM": 40
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the big wooden Fairfax Pavilion beside the town ballfields on Bolinas Road"
+      },
+      "narration": "On November third, two thousand nine, this little town made national political history: Fairfax became just the fourth municipality in the United States ever governed by a Green Party majority, joining Arcata, Sebastopol, and New Paltz, New York. The green wave had been building for a decade — Lew Tremaine first won a council seat in nineteen ninety-nine, Larry Bragman followed, and when Renee Goddard and others joined them, Greens held the majority of the five seats. Voters renewed that majority in the November twenty eleven elections. It was more than a novelty. The Green era gave Fairfax some of the policies it became known for: aggressive climate and zero-waste goals, resistance to chain stores, and a habit of putting big questions directly to voters. In a country where the Green Party rarely wins anything, this town hall and pavilion hosted something close to a laboratory — a place where third-party politics actually ran a government.",
+      "sources": [
+        "https://greenpagesnews.org/fairfax-californias-town-council-the-green-party-majority/",
+        "https://www.cagreens.org/news/green-election-results-november-2011"
+      ]
+    },
+    {
+      "slug": "school-street-plaza-housing-fight",
+      "title": "Two Hundred Forty-Three Apartments",
+      "subtitle": "A six-story housing proposal split Fairfax, sparked a recall, and won conditional approval anyway",
+      "trigger": {
+        "center": {
+          "lat": 37.98747,
+          "lng": -122.58686
+        },
+        "radiusM": 45
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the low office and shop buildings of School Street Plaza at ninety-five Broadway"
+      },
+      "narration": "This unassuming office plaza became the most fought-over piece of ground in Marin County. In the twenty twenties, developer Mill Creek Residential proposed replacing it with a six-story building holding two hundred forty-three apartments — roughly a quarter of them reserved for low-income households — plus ground-floor shops. The state had ordered Fairfax to plan for four hundred ninety new homes, and this site anchored the town's official housing plan. Still, the proposal set off what the San Francisco Chronicle called a freakout: packed meetings, warnings from state housing officials that Fairfax risked losing control of its own zoning, and by October of twenty twenty-five, a recall campaign against council members. In November of twenty twenty-five, the council conditionally approved the project — the largest development in the town's history. Whatever rises here, the battle over it became the story: a tiny, funky town wrestling with California's housing mandates in full public view.",
+      "sources": [
+        "https://www.sfchronicle.com/bayarea/article/fairfax-marin-county-housing-dispute-19965072.php",
+        "https://www.pressdemocrat.com/2025/11/25/fairfax-conditionally-approves-243-apartment-project/",
+        "https://sfist.com/2025/10/13/recall-fever-comes-to-fairfax-and-its-all-over-a-housing-development/"
+      ]
+    },
+    {
+      "slug": "olema-road-mudslide-2023",
+      "title": "The Hillside Let Go",
+      "subtitle": "An atmospheric river sent a Fairfax hillside into an apartment complex — nineteen people, seven dogs, four cats, one guinea pig",
+      "trigger": {
+        "center": {
+          "lat": 37.98191,
+          "lng": -122.57702
+        },
+        "radiusM": 60
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the apartment buildings tucked under the steep wooded hillside along Olema Road"
+      },
+      "narration": "On the morning of January thirteenth, twenty twenty-three, after weeks of relentless atmospheric river storms, the saturated hillside above Olema Road gave way. Just before ten in the morning, mud and debris slammed into the back of an apartment complex on the three hundred block, punching into at least two units and damaging others. Nineteen residents were forced out — along with seven dogs, four cats, and one guinea pig, a census that made news across the Bay Area. Building inspectors red-tagged two of the six units, and the utility cut power and gas to the whole complex, fearing more of the slope would follow. No one was seriously hurt, which firefighters called fortunate given how far the mud traveled. The slide became a local emblem of that brutal storm winter, when a parade of atmospheric rivers killed more than twenty people statewide and reminded hillside towns like Fairfax that the eighty-two flood was not just history.",
+      "sources": [
+        "https://www.kron4.com/news/19-people-displaced-after-mudslide-hits-fairfax-apartment-complex/",
+        "https://abc7news.com/bay-area-storm-fairfax-mudslide-russian-river-levels-sonoma-county-flooding/12699057/",
+        "https://www.nbcbayarea.com/news/local/north-bay/north-bay-mudslide-fairfax/3129410/"
+      ]
+    },
+    {
+      "slug": "streets-for-people-experiment",
+      "title": "Streets for People",
+      "subtitle": "The Sunday Fairfax closed Bolinas Road to cars — on purpose, as an experiment",
+      "trigger": {
+        "center": {
+          "lat": 37.98612,
+          "lng": -122.58888
+        },
+        "radiusM": 40
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the first block of Bolinas Road where it meets Broadway, in the heart of downtown"
+      },
+      "narration": "On Sunday, August twenty-sixth, twenty twelve, this block belonged to no car. Fairfax closed Bolinas Road between Broadway and Elsie Lane from noon to four in the afternoon for an event called Streets for People — yoga and Zumba in the roadway, street painting, bike demonstrations, live music, and a kids zone where traffic usually idles. The Fairfax Chamber of Commerce and Sustainable Fairfax organized it together, each pledging one thousand dollars, with the town spending about seven hundred twenty dollars on two extra police officers for traffic control. Modeled loosely on San Francisco's Sunday Streets, the closure was more than a party. Officials called it an experiment to test the town's general plan vision of one day making this stretch of Bolinas Road a permanent vehicle-free greenway. The permanent plaza has not happened — but the question the experiment posed, of whether a small downtown works better without cars, keeps returning to Fairfax council agendas.",
+      "sources": [
+        "https://patch.com/california/millvalley/streets-for-people-event-closes-bolinas-road-in-fairfax-sunday"
+      ]
+    },
+    {
+      "slug": "formula-business-moratorium",
+      "title": "No Formula, Please",
+      "subtitle": "Fairfax froze permits for chain businesses while it writes tougher rules to stay funky",
+      "trigger": {
+        "center": {
+          "lat": 37.98668,
+          "lng": -122.58798
+        },
+        "radiusM": 45
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the independent storefronts lining Broadway in downtown Fairfax"
+      },
+      "narration": "Look down Broadway and count the chain stores. You will likely finish at zero — and in twenty twenty-six, Fairfax moved to keep it that way. On March fourth, twenty twenty-six, the Town Council adopted an emergency forty-five-day moratorium halting permits for any new formula business, and on April seventeenth it voted to extend the freeze into the following year while it drafts permanent rules. The town's definition is precise: a business with eight or more locations anywhere in the world, sharing at least two standardized traits from a list of seven — things like uniform menus, color schemes, decor, or trademarks. Before the freeze, chains could actually enter Fairfax with a conditional use permit, and the code even allowed drive-through restaurants — loopholes many residents were surprised to learn existed. The moratorium continues a decades-long Fairfax tradition of legislating its own character, in a town whose unofficial motto is printed on bumper stickers: keep Fairfax funky.",
+      "sources": [
+        "https://www.pressdemocrat.com/2026/04/22/fairfax-extends-moratorium-on-formula-businesses/",
+        "https://townoffairfaxca.gov/10-day-report-issued-on-formula-business-moratorium/"
+      ]
+    },
+    {
+      "slug": "fairfax-womens-club",
+      "title": "The Women's Club",
+      "subtitle": "The hall the clubwomen built, then gave to the whole town",
+      "trigger": {
+        "center": {
+          "lat": 37.9856,
+          "lng": -122.5917
+        },
+        "radiusM": 40
+      },
+      "modes": [],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the old clubhouse with its dance floor windows at the edge of Peri Park, on Park Road"
+      },
+      "narration": "The modest hall at the edge of Peri Park belongs to a chapter of small-town California that rarely gets its due. In the early twentieth century, when many towns had no budget for public buildings, it was women's clubs that built them — organizing, fundraising, and raising halls for lectures, dances, and civic meetings. Fairfax's clubwomen did exactly that here on Park Road, and then went one step further: the Fairfax Women's Club donated its clubhouse to the town outright, and it soon became the central meeting place for the town's residents. It still is. Inside there is a dance floor and a stage; outside, the building keeps company with the bocce court, the seasonal gardens, the playground, and the wooded creek. Birthdays, anniversaries, community meetings, and neighborhood groups cycle through it all year — a century-old gift that Fairfax has never stopped unwrapping.",
+      "sources": [
+        "https://townoffairfaxca.gov/womens-club/",
+        "https://townoffairfaxca.gov/peri-park-playground/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,349 @@
+{
+  "_notes": "Text-only spot slate for the drive from 300 Bothin Rd, Fairfax to One Medical, 1801 Shattuck Ave, Berkeley. Narration is written for on-device TTS (numbers/roads spelled out, side-free per the locating invariant). `side` is an authoring hint for the expected side of the road in the direction of travel (Fairfax→Berkeley) — runtime side resolution still comes from courseDeg vs ST_Azimuth. Spots are ordered along the route. Researched 2026-08-29 by web-search subagents; sources listed per spot.",
+  "route": {
+    "origin": "300 Bothin Rd, Fairfax, CA",
+    "destination": "One Medical, 1801 Shattuck Ave, Berkeley, CA (second Berkeley office exists at 2145 University Ave)",
+    "path": "Sir Francis Drake Blvd east through San Anselmo, Ross, Kentfield, Greenbrae and Larkspur Landing → I-580 East over the Richmond–San Rafael Bridge → I-580/I-80 Eastshore Freeway south past Albany → University Ave exit → east to Shattuck Ave, north three blocks"
+  },
+  "track": {
+    "slug": "fairfax-to-berkeley",
+    "name": "Fairfax to Berkeley",
+    "description": "The drive from the Ross Valley over the Richmond–San Rafael Bridge to North Shattuck: mountain-bike legends, prison ballads, bay islands, wartime shipyards, and the birthplace of California cuisine.",
+    "kind": "tour",
+    "icon": "car.fill",
+    "color": "#2f6f4f",
+    "official": false
+  },
+  "spots": [
+    {
+      "slug": "fairfax-birthplace-of-the-mountain-bike",
+      "title": "Birthplace of the Mountain Bike",
+      "subtitle": "Downtown Fairfax and the Repack legend",
+      "trigger": { "center": { "lat": 37.98630, "lng": -122.58910 }, "radiusM": 120 },
+      "modes": ["driving"],
+      "side": "varies",
+      "locating": { "mode": "auto", "anchor": "the little cluster of storefronts where Bolinas Road meets Broadway" },
+      "narration": "Welcome to downtown Fairfax, the small town that gave the world the mountain bike. In the nineteen-seventies, local riders began hauling balloon-tire bikes from the thirties and forties up the ridge west of town, then racing them down a dirt road that plummets thirteen hundred feet in about two miles. They called the race Repack, because the braking on that descent got so hot it vaporized the grease inside the coaster brakes, and after every run the riders had to repack them by hand. Those tinkerers turned their old klunkers into an entirely new kind of bicycle, and a global industry followed. Fairfax is now home to the Marin Museum of Bicycling and the Mountain Bike Hall of Fame, which moved here from Crested Butte, Colorado. The museum sits just off Broadway near Sir Francis Drake Boulevard, and inside are some of the very machines that started it all.",
+      "sources": ["https://mmbhof.org/mtn-bike-hall-of-fame/history/repack-history/", "https://mmbhof.org/the-museum/about/"]
+    },
+    {
+      "slug": "san-anselmo-hub",
+      "title": "The Hub",
+      "subtitle": "Where a railroad split a valley in two",
+      "trigger": { "center": { "lat": 37.97798, "lng": -122.56379 }, "radiusM": 130 },
+      "modes": ["driving"],
+      "side": "varies",
+      "locating": { "mode": "auto", "anchor": "the busy tangle of signals ahead where Red Hill Avenue splits off from the boulevard" },
+      "narration": "Every road in the Ross Valley seems to braid together at the junction coming up, a crossing locals simply call the Hub. In eighteen seventy-four the North Pacific Coast Railroad laid its line through this exact spot and split it in two, one branch bending west toward the coast redwoods, the other running east to San Rafael. For years, railroad maps did not bother with a town name at all; they just printed the word Junction. The name San Anselmo finally came into use in the eighteen-eighties, borrowed from an old land grant, but the nickname never let go, and San Anselmo still calls itself the Hub City. The trains are long gone, replaced by traffic lights where Sir Francis Drake Boulevard meets Red Hill Avenue. So if you catch a red here, take heart: people have been waiting their turn at this crossing for a hundred and fifty years.",
+      "sources": ["https://sananselmohistory.org/brief-history/", "https://marinmagazine.com/community/history/the-story-behind-an-intersection-san-anselmos-the-hub/"]
+    },
+    {
+      "slug": "imagination-park-yoda",
+      "title": "Imagination Park",
+      "subtitle": "Yoda, Indiana Jones, and George Lucas's gift",
+      "trigger": { "center": { "lat": 37.97539, "lng": -122.56183 }, "radiusM": 120 },
+      "modes": ["driving"],
+      "side": "right",
+      "locating": { "mode": "auto", "anchor": "the small fountain plaza beside San Anselmo Town Hall, a block off the boulevard toward downtown" },
+      "narration": "There is a bit of movie magic hiding one block away, in the heart of downtown San Anselmo. Next to Town Hall sits a pocket park called Imagination Park, and keeping watch over its fountain are two bronze figures: Yoda, all two and a half feet of Jedi master, and Indiana Jones, standing six-foot-three with whip in hand. George Lucas, a longtime San Anselmo resident, made it happen. In twenty thirteen he donated a parcel of land he owned downtown, paid to clear away the old commercial buildings on it, and gave the town both statues. They were sculpted by Lawrence Noble, an artist who worked with the Lucasfilm team on the second Star Wars film. Lucas said he wanted a place where children and adults could pause for a moment of peace and, with luck, a little inspiration. Judging by the kids climbing on Yoda most afternoons, it worked.",
+      "sources": ["https://www.sananselmo.gov/1975/Imagination-Park", "https://www.atlasobscura.com/places/imagination-park", "https://www.sfgate.com/entertainment/article/indiana-jones-yoda-statue-san-anselmo-george-lucas-14092350.php"]
+    },
+    {
+      "slug": "sf-theological-seminary",
+      "title": "Castles on the Hill",
+      "subtitle": "San Francisco Theological Seminary",
+      "trigger": { "center": { "lat": 37.97120, "lng": -122.56125 }, "radiusM": 140 },
+      "modes": ["driving"],
+      "side": "right",
+      "locating": { "mode": "auto", "anchor": "the gray stone towers crowning the wooded hilltop above the rooftops" },
+      "narration": "Crowning the wooded hilltop above town are stone towers that look airlifted straight from Scotland. That is San Francisco Theological Seminary, founded in eighteen seventy-one in San Francisco and moved to this fourteen-acre hilltop, where it opened its doors in eighteen ninety-two. The castles exist thanks to Alexander Montgomery, a California businessman who in eighteen eighty-nine gave two hundred and fifty thousand dollars, a staggering fortune at the time, to raise Montgomery and Scott Halls. Montgomery Hall was built in the Richardsonian Romanesque style from blue stone hauled out of a quarry in San Rafael, trimmed with lighter stone from San Jose. For more than a century this was one of the great Presbyterian seminaries of the American West; today the hilltop lives on as the Marin campus of the University of Redlands. Watch between the trees, because the turrets appear and vanish as the road bends.",
+      "sources": ["https://sananselmohistory.org/articles/notable-buildings/", "https://en.wikipedia.org/wiki/San_Francisco_Theological_Seminary", "https://www.redlands.edu/academics/colleges-and-schools/san-francisco-theological-seminary"]
+    },
+    {
+      "slug": "marin-art-garden-center",
+      "title": "Marin Art and Garden Center",
+      "subtitle": "Eleven acres the women of Marin saved",
+      "trigger": { "center": { "lat": 37.96454, "lng": -122.55729 }, "radiusM": 120 },
+      "modes": ["driving"],
+      "side": "left",
+      "locating": { "mode": "auto", "anchor": "the leafy hedge and gateway of the garden center at Laurel Grove Avenue" },
+      "narration": "Behind the hedge along the boulevard in Ross lie eleven acres with a remarkable story. This land was once part of Rancho Punta de Quentin, a Mexican land grant bought in eighteen fifty-nine by James Ross, the Scottish merchant the town is named for. His daughter Annie and her husband George Worn made their homestead here, and in eighteen sixty-four built an eight-sided, two-story wellhouse that is still standing. When development threatened the estate after World War Two, a determined group of Marin women led by conservationist Caroline Livermore bought it, and in nineteen forty-five created the Marin Art and Garden Center. The mansion itself is gone, but a fairy ring of magnolias still grows where its great magnolia once stood, alongside a dawn redwood and a giant sequoia. In twenty twenty-two the entire garden was added to the National Register of Historic Places.",
+      "sources": ["https://en.wikipedia.org/wiki/Marin_Art_and_Garden_Center", "https://maringarden.org/historic-timeline/", "https://www.sfchronicle.com/bayarea/article/marin-historic-places-17283000.php"]
+    },
+    {
+      "slug": "college-of-marin-kentfield",
+      "title": "College of Marin",
+      "subtitle": "Where Robin Williams learned Shakespeare",
+      "trigger": { "center": { "lat": 37.95638, "lng": -122.54855 }, "radiusM": 150 },
+      "modes": ["driving"],
+      "side": "right",
+      "locating": { "mode": "auto", "anchor": "the campus lawns and low college buildings along College Avenue" },
+      "narration": "The lawns and classroom buildings coming up belong to College of Marin, which has been teaching in Kentfield since nineteen twenty-six, back when it was called Marin Junior College. Community colleges are modest places, but this drama department has a startling track record. In the early nineteen-seventies a restless young student gave up studying political science in Southern California, enrolled here to be near his parents, and threw himself into Shakespeare under drama professor James Dunn. Dunn later said the true depth of the young man's talent only revealed itself when he cast him as Fagin in the musical Oliver. That student was Robin Williams. He spent three years on this campus before winning a full scholarship to Juilliard in New York. And he is in good company: actors Kathleen Quinlan and Kurtwood Smith trained on this same little campus by the creek.",
+      "sources": ["https://www.cccco.edu/About-Us/Notable-Alumni/Robin-Williams", "https://pa.marin.edu/our-history", "https://en.wikipedia.org/wiki/College_of_Marin"]
+    },
+    {
+      "slug": "corte-madera-creek",
+      "title": "Corte Madera Creek",
+      "subtitle": "A concrete channel with wild steelhead in it",
+      "trigger": { "center": { "lat": 37.95050, "lng": -122.53370 }, "radiusM": 250 },
+      "modes": ["driving"],
+      "side": "right",
+      "locating": { "mode": "auto", "anchor": "the wide green waterway running alongside the boulevard" },
+      "narration": "The waterway threading beside the boulevard is Corte Madera Creek, and it leads a double life. After decades of floods in the Ross Valley, the Army Corps of Engineers straightened the creek's lower miles in the late nineteen-sixties and lined this stretch with concrete. Yet it remains a living stream. Every winter, wild steelhead trout swim in from San Francisco Bay and fight their way up this very channel to spawn in the gravel hills upstream. For years the smooth concrete was almost too much for them; the water ran so fast that exhausted fish were simply swept back downstream. Engineers and local creek volunteers have been reworking the channel with resting pools and better fish passage so more of the spawners make it home. Keep an eye on the water: the tide pushes all the way up here, and egrets and herons patrol the shallows.",
+      "sources": ["https://flooddistrict.marincounty.gov/cmcfrm-project/", "https://flooddistrict.marincounty.gov/ross-valley-land-use-and-habitat/"]
+    },
+    {
+      "slug": "larkspur-ferry-terminal",
+      "title": "Larkspur Ferry Terminal",
+      "subtitle": "Award-winning roof, famous for letting rain in",
+      "trigger": { "center": { "lat": 37.94471, "lng": -122.51414 }, "radiusM": 200 },
+      "modes": ["driving"],
+      "side": "right",
+      "locating": { "mode": "auto", "anchor": "the great angular lattice of steel roof rising near the water's edge" },
+      "narration": "That angular crown of steel near the water is the Larkspur Ferry Terminal, opened on December eleventh, nineteen seventy-six, on the site of an old rock quarry. Architect Jacques de Brer topped it with an eighteen-thousand-square-foot space-frame canopy, a soaring lattice of triangles that won an honor award in a national competition for steel-framed structures. It also became a local legend for less flattering reasons: the roof is pitched so high and so grandly that when it rains, the rain simply blows in on the waiting passengers, and critics grumbled that it worked better as sculpture than as shelter. It also cost about three times its original budget. Still, the boats redeem everything. From under that beautiful, leaky roof, high-speed catamarans skim commuters across the bay to the San Francisco Ferry Building, one of the loveliest commutes anywhere in America.",
+      "sources": ["https://en.wikipedia.org/wiki/Larkspur_Landing", "https://en.wikipedia.org/wiki/Golden_Gate_Ferry"]
+    },
+    {
+      "slug": "remillard-brick-kiln",
+      "title": "The Brick Kiln that Rebuilt San Francisco",
+      "subtitle": "Green Brae Brick Kiln, eighteen ninety-one",
+      "trigger": { "center": { "lat": 37.94499, "lng": -122.50722 }, "radiusM": 130 },
+      "modes": ["driving"],
+      "side": "left",
+      "locating": { "mode": "auto", "anchor": "the long brick building with the tall smokestack tucked against the hillside" },
+      "narration": "One last landmark before the bridge: a long brick building with a tall smokestack, tucked against the hillside. That is the Green Brae Brick Kiln, built in eighteen ninety-one by the Remillard Brick Company, which by nineteen hundred had grown into the largest brickmaking firm on the entire Pacific Coast. The building is a rare survivor of a Hoffman kiln, a clever continuous design in which the fire itself traveled slowly around a ring of chambers, baking bricks around the clock. Its finest hour came after the earthquake and fire of nineteen-oh-six, when much of the brick used to rebuild San Francisco came out of this kiln. The yard closed in nineteen fifteen, and of its more than twenty-five buildings, only the kiln and chimney survive, now a California Historical Landmark. Not a bad legacy for a humble brick oven at the edge of the bay.",
+      "sources": ["https://noehill.com/marin/cal0917.asp", "https://ohp.parks.ca.gov/ListedResources/Detail/917"]
+    },
+    {
+      "slug": "san-quentin",
+      "title": "San Quentin",
+      "subtitle": "California's oldest prison — and its tiny village",
+      "trigger": { "center": { "lat": 37.94290, "lng": -122.49820 }, "radiusM": 400 },
+      "modes": ["driving"],
+      "side": "right",
+      "locating": { "mode": "auto", "anchor": "the low stone walls and watchtowers on the shoreline ahead" },
+      "narration": "Behind the stone walls on the shoreline ahead stands San Quentin, California's oldest prison, holding this point since eighteen fifty-two. But look closer and you'll find something gentler: a village of about one hundred people, in cottages first built for prison staff, with its own post office that has been sorting mail since the eighteen fifties. On February twenty-fourth, nineteen sixty-nine, Johnny Cash set up a stage inside and recorded a live album here — and, without warning his own band, debuted a brand-new song called A Boy Named Sue. That off-the-cuff performance became the biggest hit of his career on the pop charts. Today the institution is changing too: in twenty twenty-three, the state renamed it the San Quentin Rehabilitation Center, part of an effort to remodel it around education rather than punishment. A place with a heavy past, quietly trying to write a new chapter.",
+      "sources": ["https://en.wikipedia.org/wiki/San_Quentin,_California", "https://en.wikipedia.org/wiki/At_San_Quentin", "https://www.cdcr.ca.gov/facility-locator/sqrc/"]
+    },
+    {
+      "slug": "richmond-san-rafael-bridge",
+      "title": "The Roller Coaster Bridge",
+      "subtitle": "Five and a half miles of humps and dips since 1956",
+      "trigger": { "center": { "lat": 37.93990, "lng": -122.48080 }, "radiusM": 350 },
+      "modes": ["driving"],
+      "side": "none",
+      "locating": { "mode": "none", "anchor": "the double-humped bridge deck stretching across the water ahead" },
+      "narration": "Get ready for one of the strangest bridges in America. The Richmond–San Rafael Bridge stretches about five and a half miles across the bay, and it rises and dips like a roller coaster. That's no accident: it has to clear two separate shipping channels, so engineers built two identical steel humps — one hundred eighty-five feet and one hundred thirty-five feet of clearance — and let the deck sag in between to save steel. When it opened on September first, nineteen fifty-six, it replaced a ferry line that had carried cars across since nineteen fifteen. Critics were rough on its looks; the architect Frank Lloyd Wright famously despised it. Locals grew fond of it anyway. And after more than six decades as a cars-only crossing, a protected path opened on the upper deck in twenty nineteen, letting cyclists and walkers travel between Marin and Contra Costa counties for the very first time.",
+      "sources": ["https://en.wikipedia.org/wiki/Richmond%E2%80%93San_Rafael_Bridge", "https://www.baycrossings.com/ugly-duckling-richmond-san-rafael-bridge/", "https://cal.streetsblog.org/2019/11/18/bike-pedestrian-path-on-the-richmond-san-rafael-bridge-is-finally-open"]
+    },
+    {
+      "slug": "the-brothers-lighthouse",
+      "title": "The Brothers",
+      "subtitle": "A working lighthouse you can sleep in",
+      "trigger": { "center": { "lat": 37.93810, "lng": -122.46400 }, "radiusM": 400 },
+      "modes": ["driving"],
+      "side": "left",
+      "locating": { "mode": "auto", "anchor": "the two small rocky islets with the white Victorian lighthouse" },
+      "narration": "Out in the open water sit two small rocky islets called The Brothers — and on the larger one, a Victorian lighthouse has kept watch since eighteen seventy-four. East Brother Light Station marks the narrow, foggy strait where San Francisco Bay squeezes into San Pablo Bay, a bottleneck that once claimed ships with grim regularity. When the Coast Guard automated the light in nineteen sixty-nine, the government planned to tear the old keeper's house down. Neighbors refused to let that happen. They formed a nonprofit, restored the gingerbread woodwork by hand, and in nineteen eighty reopened the island as one of the most unusual bed-and-breakfasts anywhere: guests ride a small boat out, climb the tower at sunset, and spend the night surrounded by water on every side. The light itself still shines after a hundred and fifty years — tended now by innkeepers instead of keepers.",
+      "sources": ["https://en.wikipedia.org/wiki/East_Brother_Island_Light", "https://ebls.org/", "https://www.atlasobscura.com/places/east-brother-light-station-bed-breakfast"]
+    },
+    {
+      "slug": "red-rock-island",
+      "title": "Red Rock Island",
+      "subtitle": "The bay's only private island",
+      "trigger": { "center": { "lat": 37.93640, "lng": -122.44800 }, "radiusM": 400 },
+      "modes": ["driving"],
+      "side": "right",
+      "locating": { "mode": "auto", "anchor": "the steep bare island glowing rusty red in the water" },
+      "narration": "That steep, bare island rising from the bay has a secret: it is the only privately owned island in all of San Francisco Bay. Red Rock covers barely six acres, yet the borders of Marin, Contra Costa, and San Francisco counties all meet on it. Over the years its owners have dreamed up a casino, a twenty-story hotel, even a Playboy Club for this lonely outcrop — and in the nineteen eighties the guru Bhagwan Shree Rajneesh nearly bought it before his Oregon commune collapsed. One buyer paid just under fifty thousand dollars for it in nineteen sixty-four. In twenty twenty-three it was listed for twenty-five million, and a mystery buyer quietly scooped it up the following year. Through it all, nobody has ever really built anything here. The rock still glows rusty red from its iron-rich stone, and the bay keeps its one private island beautifully empty.",
+      "sources": ["https://www.cbsnews.com/sanfrancisco/news/red-rock-island-san-francisco-bay-private-island-hits-the-real-estate-market/", "https://www.sfgate.com/local/article/red-rock-island-san-francisco-bay-secures-buyer-19663326.php"]
+    },
+    {
+      "slug": "castro-rocks-seals",
+      "title": "Castro Rocks",
+      "subtitle": "Harbor seals beneath the bridge",
+      "trigger": { "center": { "lat": 37.93470, "lng": -122.43300 }, "radiusM": 350 },
+      "modes": ["driving"],
+      "side": "right",
+      "locating": { "mode": "auto", "anchor": "the string of low rocks at the base of the bridge piers" },
+      "narration": "Just beside the bridge piers, a string of low rocks barely clears the water — and at low tide they are crowded with harbor seals. This is Castro Rocks, the largest harbor seal rookery in the northern part of San Francisco Bay, where dozens of seals haul out to rest, warm up, and, each spring, give birth to their pups. The rocks are named for Don Víctor Castro, a Californio ranchero whose family once held this shoreline, and they have appeared on nautical charts since a survey in eighteen fifty. The seals are such established residents that when engineers seismically retrofitted the bridge, federal wildlife authorities issued special permits and rules so the construction would not drive them away. So somewhere below the roadway at this very moment, there is a good chance a seal is dozing in the sun, utterly unbothered by the traffic overhead.",
+      "sources": ["https://en.wikipedia.org/wiki/Castro_Rocks", "https://baynature.org/magazine/archive/high-time-for-harbor-seal-pupping"]
+    },
+    {
+      "slug": "chevron-long-wharf",
+      "title": "The Long Wharf",
+      "subtitle": "California's largest marine oil terminal",
+      "trigger": { "center": { "lat": 37.93330, "lng": -122.42000 }, "radiusM": 350 },
+      "modes": ["driving"],
+      "side": "right",
+      "locating": { "mode": "auto", "anchor": "the long tanker pier reaching out into the bay" },
+      "narration": "See the long pier reaching into the bay, often with a tanker moored alongside? That is the Richmond Long Wharf, the largest marine oil terminal in California. It serves the Chevron refinery on the hills beyond — a plant so old it predates the city of Richmond itself. Standard Oil lit the fires here on July third, nineteen oh two, refining ten thousand barrels of crude a day, and by nineteen oh three the company was running the first electric trolley in Contra Costa County between the refinery and this wharf. Today the terminal moves roughly one hundred fifty million barrels a year, with about seven hundred ships calling annually — one arriving or departing every twelve hours or so. For more than a century, much of Northern California's fuel, quite possibly including the tank carrying you now, first touched land at this pier.",
+      "sources": ["https://en.wikipedia.org/wiki/Richmond_Long_Wharf", "https://richmond.chevron.com/about/history"]
+    },
+    {
+      "slug": "point-richmond",
+      "title": "Point Richmond",
+      "subtitle": "The duck hunt that built a city",
+      "trigger": { "center": { "lat": 37.93020, "lng": -122.40700 }, "radiusM": 400 },
+      "modes": ["driving"],
+      "side": "right",
+      "locating": { "mode": "auto", "anchor": "the Victorian rooftops tucked into the hillside as the bridge touches down" },
+      "narration": "Welcome back to solid ground. This hilly corner is Point Richmond, the little Victorian village that started it all. In eighteen ninety-five, a man named Augustin Macdonald hiked up a knob here on a duck-hunting trip, noticed the deep water just offshore, and realized he had found the perfect western terminus for the Santa Fe Railway. The first passenger train from Chicago rolled in by nineteen hundred, and on the Fourth of July that year a ferry called the Ocean Wave began shuttling travelers onward to San Francisco. Standard Oil followed with its refinery in nineteen oh two — three years before the city of Richmond even incorporated. So the railroad, the ferry, and the refinery all arrived before the city existed. The old brick downtown, tucked among these hills, still feels like a small town that time politely forgot.",
+      "sources": ["https://pointrichmondhistory.org/history.html", "https://www.ci.richmond.ca.us/112/History-of-Richmond"]
+    },
+    {
+      "slug": "chevron-richmond-refinery",
+      "title": "Chevron Richmond Refinery",
+      "subtitle": "Nineteen oh two: the plant that predates the city",
+      "trigger": { "center": { "lat": 37.92800, "lng": -122.38150 }, "radiusM": 350 },
+      "modes": ["driving"],
+      "side": "left",
+      "locating": { "mode": "auto", "anchor": "the silver tanks and tall stacks spread across the hillsides" },
+      "narration": "Those storage tanks climbing the hills belong to one of the oldest major oil refineries on the West Coast. The fires were first lit here on July third, nineteen oh two, when this was Standard Oil country, and the plant instantly became the largest refinery on the Pacific Coast. Here is the strange part: the refinery came first, and the city followed. Richmond did not incorporate until nineteen oh five, three years after the stills started running. The original mission was humble, making a cleaner, cheaper kerosene from California crude, which had a reputation for burning smoky. Today the complex sprawls across twenty nine hundred acres and processes roughly two hundred forty thousand barrels of crude a day into gasoline, diesel, and jet fuel. It remains the city's largest employer, and also its longest-running argument, as neighbors and the company have debated its air and safety record for generations.",
+      "sources": ["https://richmond.chevron.com/about/history", "https://en.wikipedia.org/wiki/Chevron_Richmond_Refinery", "https://clui.org/ludb/site/chevrons-richmond-refinery"]
+    },
+    {
+      "slug": "kaiser-shipyards",
+      "title": "The Kaiser Shipyards",
+      "subtitle": "Seven hundred forty-seven ships, one astonishing record",
+      "trigger": { "center": { "lat": 37.92705, "lng": -122.37100 }, "radiusM": 350 },
+      "modes": ["driving"],
+      "side": "right",
+      "locating": { "mode": "auto", "anchor": "the flat stretch of waterfront where the wartime shipyards stood" },
+      "narration": "During the Second World War, the waterfront along this shore became the most productive shipbuilding complex in America. Henry Kaiser's four Richmond yards launched seven hundred forty-seven ships, and in November nineteen forty-two, workers here built an entire Liberty ship, the Robert E. Peary, in four days, fifteen hours, and twenty-nine minutes, keel to launch. A publicity stunt, sure, but a real, seaworthy ship. Tens of thousands of workers poured in from across the country, many of them women and many of them Black families leaving the South, and Richmond's population exploded almost overnight. Kaiser had to invent ways to care for them all, and two of those inventions outlived the war. The shipyard child care centers helped shape early childhood education for decades. And the workers' prepaid medical plan opened to the public in nineteen forty-five under a name you know: Kaiser Permanente.",
+      "sources": ["https://en.wikipedia.org/wiki/SS_Robert_E._Peary", "https://www.nps.gov/rori/", "https://about.kaiserpermanente.org/who-we-are/our-history"]
+    },
+    {
+      "slug": "ford-assembly-rosie",
+      "title": "Ford Assembly Building",
+      "subtitle": "Rosie the Riveter's daylight factory",
+      "trigger": { "center": { "lat": 37.92240, "lng": -122.35600 }, "radiusM": 350 },
+      "modes": ["driving"],
+      "side": "right",
+      "locating": { "mode": "auto", "anchor": "the long glass-walled factory building at the water's edge" },
+      "narration": "Down along the shoreline stands a factory made almost entirely of windows. Detroit's great industrial architect Albert Kahn designed it for Henry Ford in nineteen thirty-one, a daylight factory where sun poured onto the assembly line, and it was the largest auto plant on the West Coast. When civilian car production stopped for the war, it became the Richmond Tank Depot, one of only three in the entire country. In about three years, workers assembled some forty-nine thousand jeeps and readied ninety-one thousand other combat vehicles for shipment overseas. Today it anchors Rosie the Riveter World War Two Home Front National Historical Park, created in two thousand to honor the men and women who worked the home front, with a visitor center in the plant's old oil house. The vast craneway where finished vehicles once rolled out is now an event hall with the bay glittering through its glass.",
+      "sources": ["https://www.nps.gov/places/ford-assembly-plant.htm", "https://albertkahnlegacy.org/from-model-a-to-modern-renewal-the-remarkable-95-year-story-of-the-albert-kahn-designed-richmond-california-ford-plant/", "https://en.wikipedia.org/wiki/Rosie_the_Riveter_World_War_II_Home_Front_National_Historical_Park"]
+    },
+    {
+      "slug": "hoffman-split",
+      "title": "The Hoffman Split",
+      "subtitle": "Where the freeway goes east and west at once",
+      "trigger": { "center": { "lat": 37.91250, "lng": -122.32360 }, "radiusM": 400 },
+      "modes": ["driving"],
+      "side": "none",
+      "locating": { "mode": "none", "anchor": "the sweeping ramps where two freeways braid together" },
+      "narration": "Get ready for a small piece of highway absurdity. As Interstate five eighty merges with Interstate eighty here at what locals call the Hoffman Split, you enter one of California's rare wrong-way concurrencies. For the next few miles toward Oakland, the signs will insist you are driving Interstate eighty west and Interstate five eighty east at the exact same time, on the same pavement, in the same direction. Both are technically true, and both feel impossible. This shared stretch is the Eastshore Freeway, one of the busiest corridors in Northern California, funneling traffic toward the MacArthur Maze, where three interstates tangle together near the Bay Bridge. So if your navigation app and the road signs seem to disagree about which way you are headed, relax. Everyone on this road is going east and west at once, and somehow we all still get where we are going.",
+      "sources": ["https://en.wikipedia.org/wiki/Interstate_580_(California)", "https://en.wikipedia.org/wiki/Interstate_80_in_California"]
+    },
+    {
+      "slug": "albany-hill",
+      "title": "Albany Hill",
+      "subtitle": "Eucalyptus planted to muffle dynamite",
+      "trigger": { "center": { "lat": 37.90500, "lng": -122.31370 }, "radiusM": 400 },
+      "modes": ["driving"],
+      "side": "left",
+      "locating": { "mode": "auto", "anchor": "the lone wooded hill rising above the rooftops" },
+      "narration": "See that solitary hill crowned with trees, standing alone above the flatlands? Those eucalyptus were not planted for beauty. They were planted for explosions. In eighteen seventy-nine, the Giant Powder Company set up a dynamite works on this then-remote shoreline, supplying the blasting powder that carved California's mines and railroads. The company planted groves of fast-growing eucalyptus as a living wall, meant to muffle the blasts and shield nearby towns when things went wrong. And things went terribly wrong: in January eighteen eighty-three, a chain-reaction explosion killed thirty-seven Chinese workers and a superintendent, and this shoreline stayed notorious for blasts until the powder plants finally moved away in nineteen oh five. The dynamite is long gone. The trees stayed, grew tall, and now shelter monarch butterflies in winter, a peaceful ending for a forest planted to absorb the shock of disaster.",
+      "sources": ["https://www.hmdb.org/m.asp?m=174552", "https://monumenttoextraction.org/stories/giant-powder/", "https://en.wikipedia.org/wiki/Giant_Powder_Company"]
+    },
+    {
+      "slug": "albany-bulb",
+      "title": "The Albany Bulb",
+      "subtitle": "A landfill that turned into an art park",
+      "trigger": { "center": { "lat": 37.89700, "lng": -122.30900 }, "radiusM": 350 },
+      "modes": ["driving"],
+      "side": "right",
+      "locating": { "mode": "auto", "anchor": "the scrubby green peninsula poking out into the bay" },
+      "narration": "That knob of land reaching into the bay is not natural at all. It is a pile of broken buildings. From nineteen sixty-three to nineteen eighty-three, this was Albany's dump for construction debris, concrete, rebar, rubble, and asphalt, heaped into the water until a lawsuit shut it down. Then something wonderful happened: nature and artists moved in together. Wildflowers and coyote brush swallowed the rubble, and starting in the nineteen nineties, self-taught sculptors began building strange and beautiful things from whatever washed up or stuck out of the ground. The most famous is the Beseeching Woman, a fifteen-foot figure with her arms flung wide toward the Golden Gate, made by a civil rights attorney named Osha Neumann. The Bulb has hosted driftwood castles, painted concrete slabs, and years of debate about what a wild, unplanned place should become. It remains one of the East Bay's oddest and best-loved shorelines.",
+      "sources": ["https://en.wikipedia.org/wiki/Albany_Bulb", "https://www.sfgate.com/local/article/Albany-Bulb-former-landfill-hiking-dump-sculptures-15781896.php", "https://eastbayexpress.com/albany-bulb-a-landfill-turned-art-gallery-turned-environmental-preserve-2-1/"]
+    },
+    {
+      "slug": "golden-gate-fields",
+      "title": "Golden Gate Fields",
+      "subtitle": "Eighty-three years of racing, and what comes next",
+      "trigger": { "center": { "lat": 37.88650, "lng": -122.30855 }, "radiusM": 350 },
+      "modes": ["driving"],
+      "side": "right",
+      "locating": { "mode": "auto", "anchor": "the huge empty grandstand beside the water" },
+      "narration": "That enormous grandstand by the bay sat at the heart of West Coast horse racing for more than eight decades. Golden Gate Fields opened on this rocky point in nineteen forty-one, with Bing Crosby among the founding board members and twenty thousand racegoers on hand. The track saw genuine legends: here the great Noor defeated Triple Crown winner Citation, a young Willie Shoemaker rocketed to fame, and Russell Baze became the first jockey in history to win ten thousand races. The final horses crossed the wire on June ninth, twenty twenty-four, ending an eighty-three-year run. Now comes the next chapter: a deal is in the works for the Trust for Public Land to buy the property and hand it to the East Bay Regional Park District, which could make this one of the largest new bayfront parks in a generation. The land underneath is Fleming Point, where dynamite makers once worked, so this shoreline has already reinvented itself before.",
+      "sources": ["https://en.wikipedia.org/wiki/Golden_Gate_Fields", "https://www.berkeleyside.org/2026/03/31/the-history-of-golden-gate-fields", "https://sfstandard.com/2026/03/31/golden-gate-fields-east-bay-regional-park/"]
+    },
+    {
+      "slug": "berkeley-pier-ferry-tale",
+      "title": "The Three-Mile Pier",
+      "subtitle": "When Berkeley drove onto the bay",
+      "trigger": { "center": { "lat": 37.87700, "lng": -122.30530 }, "radiusM": 400 },
+      "modes": ["driving"],
+      "side": "right",
+      "locating": { "mode": "auto", "anchor": "the open water of the bay beyond the shoreline park" },
+      "narration": "Look out across the water for a moment. Reaching into the bay from the foot of University Avenue is what remains of the Berkeley Pier, and it hides an astonishing number: when the Golden Gate Ferry Company built it in nineteen twenty-six, it ran three and a half miles out into the bay. Why so far? The water here is only seven to nine feet deep, so the pier had to stretch nearly to the shipping channel before an automobile ferry could dock. Drivers would motor out over open water, park on a boat, and sail to San Francisco. The Bay Bridge ended all that in the late nineteen thirties, and the shortened pier became a beloved fishing spot until structural problems closed it in twenty fifteen. Berkeley is still debating how to bring it, and maybe ferries, back.",
+      "sources": ["https://www.berkeleyside.org/2017/09/25/history-berkeley-pier-ferry-tale", "https://en.wikipedia.org/wiki/Berkeley_Pier"]
+    },
+    {
+      "slug": "berkeley-meadow",
+      "title": "A Meadow Made from a Dump",
+      "subtitle": "Sylvia McLaughlin's shoreline victory",
+      "trigger": { "center": { "lat": 37.87090, "lng": -122.30500 }, "radiusM": 350 },
+      "modes": ["driving"],
+      "side": "right",
+      "locating": { "mode": "auto", "anchor": "the flat green meadow between the freeway and the marina" },
+      "narration": "That stretch of wild green between the freeway and the marina used to be a garbage dump. Berkeley spent decades pushing its trash into the bay, and by the nineteen sixties there were serious plans to fill even more of the water for development. A determined faculty wife named Sylvia McLaughlin helped launch a campaign that lasted nearly fifty years and turned this shoreline into parkland instead. The seventy-two acre Berkeley Meadow was capped and restored over five years at a cost of six million dollars, and today it holds seasonal wetlands and coastal prairie where the landfill once stood. In twenty twelve the whole shoreline park was renamed in her honor. Your exit at University Avenue is coming up, and the meadow will see you off the freeway.",
+      "sources": ["https://www.ebparks.org/parks/mclaughlin-eastshore", "https://www.berkeleyside.org/2011/04/14/the-berkeley-meadow-rebooted-the-wildest-place-in-town"]
+    },
+    {
+      "slug": "west-berkeley-shellmound",
+      "title": "The West Berkeley Shellmound",
+      "subtitle": "Five thousand seven hundred years at Fourth and University",
+      "trigger": { "center": { "lat": 37.86745, "lng": -122.30140 }, "radiusM": 150 },
+      "modes": ["driving"],
+      "side": "left",
+      "locating": { "mode": "auto", "anchor": "the open paved lot at the Fourth Street corner" },
+      "narration": "Just ahead, where Fourth Street crosses, sits a plain paved lot with one of the deepest human stories on San Francisco Bay. This is the West Berkeley Shellmound, part of a village site dating back five thousand seven hundred years, among the earliest known Ohlone settlements on the bay shore. Generations built a great mound of shells here that served as burial ground, ceremonial place, and lookout. For over twenty years, Ohlone leaders fought development plans for this parking lot, and in twenty twenty-four they won something remarkable: the city bought the land for twenty-seven million dollars, most of it raised by the women-led Sogorea Te' Land Trust, and returned it to the Lisjan Ohlone. Berkeley became one of the first American cities ever to give land back this way. You are driving across a homeland.",
+      "sources": ["https://www.berkeleyside.org/2024/03/12/berkeley-shellmound-spengers-lot-sogorea-te-settlement", "https://sogoreate-landtrust.org/2024/03/13/the-west-berkeley-shellmound-sacred-site-will-be-returned-to-the-lisjan-ohlone-through-sogorea-te-land-trust/", "https://en.wikipedia.org/wiki/West_Berkeley_Shellmound"]
+    },
+    {
+      "slug": "ocean-view-fourth-street",
+      "title": "Ocean View and Spenger's",
+      "subtitle": "Berkeley's oldest neighborhood",
+      "trigger": { "center": { "lat": 37.86790, "lng": -122.29860 }, "radiusM": 130 },
+      "modes": ["driving"],
+      "side": "left",
+      "locating": { "mode": "auto", "anchor": "the old warehouse rooflines of the Fourth Street shops" },
+      "narration": "You are passing through Ocean View, and here is the twist: this working waterfront neighborhood is older than Berkeley itself, settled by the eighteen fifties, well before the university gave the town its name. Its most famous fixture stood at Fourth Street, where Bavarian immigrant Johann Spenger bought a creekside lot for three hundred fifty dollars and his family opened a clam stand in eighteen ninety. That stand grew into Spenger's Fresh Fish Grotto, a cavernous seafood palace hung with ship models and harpoons that fed the East Bay for one hundred twenty-eight years before closing in twenty eighteen. The old industrial blocks around it were reinvented in the nineteen seventies as the Fourth Street shopping district, where boutiques now occupy the bones of factories and warehouses. Berkeley began down here, at the water's edge.",
+      "sources": ["https://en.wikipedia.org/wiki/Spenger%27s_Fresh_Fish_Grotto", "https://www.berkeleyside.org/2018/10/24/update-berkeleys-oldest-restaurant-spengers-fish-grotto-has-permanently-closed"]
+    },
+    {
+      "slug": "san-pablo-lincoln-highway",
+      "title": "Crossing the Lincoln Highway",
+      "subtitle": "San Pablo Avenue, road of empires",
+      "trigger": { "center": { "lat": 37.86880, "lng": -122.29440 }, "radiusM": 150 },
+      "modes": ["driving"],
+      "side": "none",
+      "locating": { "mode": "none", "anchor": "the wide signal crossing at San Pablo Avenue" },
+      "narration": "The broad avenue you are about to cross has carried travelers under four different names. In Spanish colonial days it was the Camino de la Contra Costa, the road of the opposite coast. American settlers made it the San Pablo Road, the main route through the East Bay. Then in the late nineteen twenties it joined the Lincoln Highway, America's first transcontinental road, meaning a driver could stand at this corner and follow one continuous route all the way to Times Square in New York. It carried the U.S. Route Forty shield until the shoreline freeway you just exited opened in nineteen thirty-six and took over the through traffic. University Avenue itself became a classic connector strip, and today it is one of the East Bay's great immigrant business corridors, lined with Indian, Mexican, and Asian markets and restaurants.",
+      "sources": ["https://en.wikipedia.org/wiki/California_State_Route_123", "https://www.lincolnhighwayassoc.org/ca/traveler/2001-03/highway_nostalgia.html"]
+    },
+    {
+      "slug": "university-of-california-origins",
+      "title": "Westward the Course of Empire",
+      "subtitle": "How Berkeley got its name",
+      "trigger": { "center": { "lat": 37.87185, "lng": -122.27300 }, "radiusM": 160 },
+      "modes": ["driving"],
+      "side": "none",
+      "locating": { "mode": "none", "anchor": "the white Campanile tower rising above downtown ahead" },
+      "narration": "See that slender white tower rising ahead? That is the Campanile, the campanile of the University of California, founded in eighteen sixty-eight and the reason this whole city exists. The name came first, and oddly. In eighteen sixty-six, the college trustees stood on a rock overlooking the Golden Gate, and one of them recited a poem by the Irish philosopher Bishop George Berkeley: westward the course of empire takes its way. They named the town site for a bishop who never saw California. Nearly a century later, in nineteen sixty-four, students on Sproul Plaza launched the Free Speech Movement here, which reshaped American campus life. Downtown Berkeley grew up along Shattuck Avenue to serve the university, and in a moment you will make the turn onto Shattuck for the last few blocks of this drive.",
+      "sources": ["https://en.wikipedia.org/wiki/University_of_California,_Berkeley"]
+    },
+    {
+      "slug": "arrival-one-medical-shattuck",
+      "title": "Arrival on North Shattuck",
+      "subtitle": "One Medical at the edge of the Gourmet Ghetto",
+      "trigger": { "center": { "lat": 37.87330, "lng": -122.26830 }, "radiusM": 130 },
+      "modes": ["driving"],
+      "side": "left",
+      "locating": { "mode": "auto", "anchor": "the modern apartment block just past Hearst Avenue" },
+      "narration": "You are on the last block now. One Medical sits at eighteen-oh-one Shattuck Avenue, on the ground floor of a modern apartment building between Hearst and Delaware, just where downtown gives way to North Berkeley. And what a neighborhood to arrive in. A short walk up this very street is Chez Panisse, opened by Alice Waters in nineteen seventy-one, the restaurant credited with inventing California cuisine. Alfred Peet started roasting coffee a few blocks away at Walnut and Vine in nineteen sixty-six, teaching a generation, including the founders of Starbucks, what dark roast could be. The whole district earned the nickname the Gourmet Ghetto, birthplace of the American food revolution. So once your visit is done, some of the best coffee, cheese, and pizza in the country is waiting within a five minute stroll. Welcome to Berkeley.",
+      "sources": ["https://www.onemedical.com/locations/sf/berkeley/", "https://en.wikipedia.org/wiki/Gourmet_Ghetto"]
+    }
+  ]
+}

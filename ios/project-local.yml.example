@@ -1,0 +1,14 @@
+# Copy to project-local.yml (gitignored), set your Apple team, then generate
+# with the include enabled:
+#   GRANDTOUR_SIGNING=true xcodegen generate
+targets:
+  GrandTour:
+    settings:
+      base:
+        DEVELOPMENT_TEAM: YOUR_TEAM_ID
+  # The watch app signs separately; its app ID also needs the HealthKit
+  # capability enabled (the tour runs as a workout session).
+  GrandTourWatch:
+    settings:
+      base:
+        DEVELOPMENT_TEAM: YOUR_TEAM_ID

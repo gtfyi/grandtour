@@ -1,0 +1,175 @@
+{
+  "_notes": "Text-only spot slate for Iron Springs Road, Fairfax: the Manor railhead, the climb to Camp Tamarancho, and the trail loop over White Hill. Narration is TTS-ready (numbers spelled out, side-free per the locating invariant). Researched 2026-08-29 by web-search subagents; sources listed per spot. Coordinate notes: trail spots use OSM way centroids (Overpass); the B-17 crash point is the Wikimapia community polygon (moderate confidence, consistent with 'struck six feet below the crest, slid seventy-five yards'); the Broken Dam spot is the OSM centroid of the trail's middle segment, not a surveyed dam location. Facts flagged as unverified by research (Tamarancho name origin, the original iron spring, a third fatality, the nuclear cargo) are either omitted or narrated as open questions.",
+  "track": {
+    "slug": "iron-springs",
+    "name": "Iron Springs Road",
+    "description": "From the old Manor railhead up the climb every rider earns: a lost funicular, the volunteer trails that made Marin singletrack legal again, serpentine from the ocean floor, a buried Flying Fortress, and a dam that watered a pottery sanatorium.",
+    "kind": "tour",
+    "icon": "bicycle",
+    "color": "#8a4b2d",
+    "official": false
+  },
+  "spots": [
+    {
+      "slug": "manor-end-of-the-line",
+      "title": "Manor, End of the Line",
+      "subtitle": "Where the electric trains gave up",
+      "trigger": { "center": { "lat": 37.99238, "lng": -122.59691 }, "radiusM": 130 },
+      "modes": ["walking", "cycling", "driving"],
+      "locating": { "mode": "auto", "anchor": "the mouth of Iron Springs Road at Sir Francis Drake Boulevard" },
+      "narration": "Iron Springs Road begins in Manor, and for decades Manor was quite literally the end of the line. In nineteen thirteen the Northwestern Pacific extended its electric interurban trains to a small depot here, making this the westernmost stop of the whole Marin electric system: third-rail cars to Sausalito, then a ferry across the Golden Gate. The depot sign measured the world from this spot, about eighteen and a half miles to San Francisco. The electrics ran until February of nineteen forty-one, when buses and the new bridge finished them off. Trains came through even earlier than that: in the eighteen-seventies a narrow-gauge railroad clawed over White's Hill just beyond here, the hardest stretch on its whole line, needing two tunnels and six trestles. And under it all lies Rancho Canada de Herrera, the Mexican land grant given to the soldier Domingo Sais in eighteen thirty-nine, which became Fairfax.",
+      "sources": [
+        "https://mcmrhs.org/railroads/northwestern-pacific-nwp/northwestern-pacific-railroads-nwp-marin-county-interurban-electric-service/",
+        "https://calisphere.org/item/6d2e54ff7a59e091cd5c7fa1da1902f0/",
+        "https://en.wikipedia.org/wiki/Northwestern_Pacific_Railroad_interurban_lines",
+        "https://en.wikipedia.org/wiki/Rancho_Ca%C3%B1ada_de_Herrera"
+      ]
+    },
+    {
+      "slug": "manor-hill-incline",
+      "title": "The Incline That Sold a Neighborhood",
+      "subtitle": "Fairfax Manor's five-cent funicular",
+      "trigger": { "center": { "lat": 37.98866, "lng": -122.59405 }, "radiusM": 150 },
+      "modes": ["walking", "cycling", "driving"],
+      "locating": { "mode": "auto", "anchor": "the foot of Manor Hill near Sequoia Road" },
+      "narration": "The hillside above you once had its own funicular railway. In nineteen ten, Edward Holt of the Fairfax Development Company toured Europe and came home besotted with Alpine mountain railways, so he and a partner put up ten thousand dollars to build one here and sell hillside lots in the new Fairfax Manor subdivision. The Fairfax Incline opened in nineteen thirteen: fifteen hundred feet of track climbing five hundred feet from Sequoia Road to upper Scenic Road, a grade of one foot up for every three forward. The single car held twenty-six passengers on cleverly tilted seats, took three to five minutes, and cost a nickel. By nineteen twenty there was a tavern at the top serving chicken dinners for a dollar fifty, and an outdoor dance floor where a couple could dance all evening for seventy-five cents. The incline ran until nineteen twenty-nine; the streets it sold remain.",
+      "sources": [
+        "https://medium.com/anne-t-kent-california-room-community-newsletter/102-years-ago-fairfax-incline-railroad-installed-4039a3dd07e8",
+        "https://calisphere.org/item/c4a5e71705be7789b0e8762551b1f33f/",
+        "https://www.cable-car-guy.com/html/ccncfun.html"
+      ]
+    },
+    {
+      "slug": "iron-springs-mystery",
+      "title": "The Iron Springs Mystery",
+      "subtitle": "A road named for a spring nobody can find",
+      "trigger": { "center": { "lat": 37.99215, "lng": -122.6004 }, "radiusM": 140 },
+      "modes": ["walking", "cycling", "driving"],
+      "locating": { "mode": "auto", "anchor": "the bend where the houses thin out and the canyon opens" },
+      "narration": "Here is a small local mystery: nobody seems to have written down which iron spring this road is named for. There is a real Iron Spring Creek in these hills, a named stream draining the flank of White Hill toward Fairfax Creek, and watershed surveys record its little valley being grazed back in the eighteen hundreds. Iron-stained seeps would be no surprise in this rock. But no old map, resort brochure, or county history that has surfaced actually documents the spring itself, even though Fairfax was thick with mineral-water resorts a century ago. A beloved brewpub downtown borrowed the name for twenty years, and it too never said where it came from. What the road is unambiguously known for today is the climb you are on: about a mile and a half and four hundred seventy-five feet up to the Tamarancho trailhead, which every rider earns under their own power, because there is no parking up there at all.",
+      "sources": [
+        "https://www.streetstocreeks.org/ross-valley-watershed/",
+        "https://friendsofcortemaderacreek.org/wp-content/uploads/2025/07/Geomorph-1.pdf",
+        "https://bayarearides.com/rides/tamarancho/",
+        "https://www.craftbeer.com/featured-brewery/iron-springs-pub-brewery"
+      ]
+    },
+    {
+      "slug": "tamarancho-gate",
+      "title": "The Gate at Tamarancho",
+      "subtitle": "The deal that made singletrack legal",
+      "trigger": { "center": { "lat": 37.99194, "lng": -122.60361 }, "radiusM": 120 },
+      "modes": ["cycling", "hiking"],
+      "locating": { "mode": "auto", "anchor": "the trailhead kiosk at the Camp Tamarancho boundary" },
+      "narration": "This gate marks Camp Tamarancho, more than four hundred acres of Boy Scout camp, and one of the most important handshakes in mountain biking. Marin invented the sport, then closed nearly all of its singletrack to bikes. Tamarancho became the great exception: the Marin Council of the Boy Scouts opened its private land to riders under a pay-to-ride arrangement called Friends of Tamarancho, where every trail pass funds the trails themselves. When day passes arrived in two thousand three they cost five dollars; they are barely more now, sold at the bike shops in town. For years this loop and China Camp were the only legal singletrack networks in the county, and the model here, private land, managed use, rider-funded stewardship, has been called a blueprint for trail access everywhere. Scouts still camp here all summer, which is worth remembering as you roll through: you are a guest, and the arrangement works because guests behave.",
+      "sources": [
+        "https://www.boyscouts-marin.org/camping-programs-and-facilities/camp-tamarancho/4057",
+        "https://www.svmtb.org/2003/01/camp-tamarancho-trail-passes/",
+        "https://marintrailstewards.org/tamarancho",
+        "https://www.singletracks.com/mtb-trails/visiting-the-birthplace-of-mountain-biking-marin-county-california/"
+      ]
+    },
+    {
+      "slug": "serpentine",
+      "title": "Serpentine",
+      "subtitle": "Riding on the ocean floor",
+      "trigger": { "center": { "lat": 37.9889, "lng": -122.611 }, "radiusM": 150 },
+      "modes": ["cycling", "hiking"],
+      "locating": { "mode": "auto", "anchor": "the rocky switchbacks of the Serpentine Trail" },
+      "narration": "The Serpentine Trail is named twice over: for its switchbacks, and for the smooth green-gray rock they cut through. Serpentine is California's state rock, and the story of how it got here is enormous. This ridge is part of the Franciscan complex, the crumpled leftovers of an ocean floor that spent millions of years diving beneath North America. Some slabs of the deep crust and upper mantle were scraped off instead of swallowed, soaked in seawater, and transformed into serpentinite, which now caps ridges all through these hills. The rock makes harsh soil, low in nutrients and laced with heavy metals, so ordinary plants struggle. What grows instead is the lean chaparral around you, manzanita and chamise, with rare serpentine-adapted plants at the higher elevations and wildflowers blooming straight out of the weathered outcrops in spring. When the trail surface turns polished and slick under your tires, that is the mantle of the earth you are sliding on.",
+      "sources": [
+        "https://pubs.usgs.gov/of/2005/1127/chapter9.pdf",
+        "https://www.calflora.org/app/ipl/ipx?loc_id=gpi107",
+        "https://www.parks.marincounty.gov/parkspreserves/preserves/white-hill"
+      ]
+    },
+    {
+      "slug": "wagon-wheel-and-goldman",
+      "title": "Wagon Wheel and Goldman",
+      "subtitle": "Eleven thousand hours of volunteer digging",
+      "trigger": { "center": { "lat": 37.98995, "lng": -122.62317 }, "radiusM": 130 },
+      "modes": ["cycling", "hiking"],
+      "locating": { "mode": "auto", "anchor": "the high junction where the Wagon Wheel Trail crosses the ridge" },
+      "narration": "Every trail in this loop was dug by hand, by volunteers, and the names remember them. Construction started in the spring of nineteen ninety-five and took until two thousand one, over eleven thousand volunteer hours, supervised by Jim Jacobsen of the Bicycle Trails Council of Marin, with Randy Libby and a crew from Forest Knolls doing much of the digging. The Wagon Wheel Trail is named for exactly what you would hope: an old iron-spoked wagon wheel the builders unearthed while cutting the bench. The Goldman Trail carries a heavier name; it honors Alan Goldman, a trail-access advocate who died while this network was still being planned, so his trail opened without him. The loop was finally closed in May of two thousand one, when the last connection was finished, and the same volunteer arrangement has maintained every foot of it since. Trails here do not just have names. They have authors.",
+      "sources": [
+        "https://www.boyscouts-marin.org/document/newtrailnews-winter2025-26/218098",
+        "https://marintrailstewards.org/tamarancho"
+      ]
+    },
+    {
+      "slug": "clunker-country",
+      "title": "Clunker Country",
+      "subtitle": "The pioneers' backyard, with Repack on the horizon",
+      "trigger": { "center": { "lat": 37.99152, "lng": -122.62226 }, "radiusM": 130 },
+      "modes": ["cycling", "hiking"],
+      "locating": { "mode": "auto", "anchor": "the open stretches with a view across the Fairfax valley" },
+      "narration": "Before there was a trail pass, or trails, there were clunkers. In the nineteen-seventies the Fairfax riders who invented the mountain bike treated this land as an extension of their yards. The photographer Wende Cragg, whose pictures are most of what survives from that era, described Tamarancho as prime woodsy real estate right out her back door, and her archive holds a shot of Charlie Kelly chasing Fred Wolf along these hills in the summer of nineteen seventy-eight. The famous racecourse itself is not here. Look across the Fairfax valley and you are looking toward Pine Mountain, where the Repack road drops thirteen hundred feet in about two miles. The first race ran in October of nineteen seventy-six; Gary Fisher still holds the record at four minutes twenty-two seconds, and Joe Breeze won it more times than anyone. This side of the valley got the quieter legacy: the riding those races grew out of, and the trails that grew out of the riding.",
+      "sources": [
+        "https://theradavist.com/wende-cragg-early-mountain-bike-photos",
+        "https://mmbhof.org/mtn-bike-hall-of-fame/history/repack-history/",
+        "https://en.wikipedia.org/wiki/Repack_(mountain_bike_race)"
+      ]
+    },
+    {
+      "slug": "the-buried-bomber",
+      "title": "The Buried Bomber",
+      "subtitle": "A Flying Fortress under the trail",
+      "trigger": { "center": { "lat": 37.99586, "lng": -122.62635 }, "radiusM": 150 },
+      "modes": ["cycling", "hiking"],
+      "locating": { "mode": "auto", "anchor": "the wooded slope just below the White Hill ridgeline, where the B-17 Trail runs" },
+      "narration": "The B-17 Trail is named for the airplane buried under this hillside. At two in the morning on May sixteenth, nineteen forty-six, a B-17 Flying Fortress out of Clovis, New Mexico was groping through dense fog toward Hamilton Field, nearly out of fuel. The crew radioed Oakland for help, and everyone, crew and controllers alike, believed the plane was over Oakland when it was actually here. Told to descend to fifteen hundred feet and head out to sea, it struck White Hill about six feet below the crest and slid seventy-five yards down this slope. Two of the nine men aboard were killed, some later accounts say three; the injured pilot and co-pilot walked downhill in the dark to find a telephone. Then it got strange. By dawn, soldiers were holding onlookers back at gunpoint while cranes lifted out two large crates, and within hours the Army had bulldozed the rest of the wreck into the ground. The plane's home base was training for the Bikini Atoll atomic tests, and the rumor that it carried components for them has never been confirmed or laid to rest. In nineteen eighty-two a winter storm washed one huge radial engine out of a ravine, and it rests against a redwood in the canyon below to this day.",
+      "sources": [
+        "https://www.check-six.com/Crash_Sites/Marin_B-17_crash.htm",
+        "https://en.wikipedia.org/wiki/Fairfax,_California_B-17_crash",
+        "https://aviation-safety.net/wikibase/98367",
+        "https://abc7news.com/cold-war-history-plane-crash-marin-county-whites-hill-redwood-forest/10642394/"
+      ]
+    },
+    {
+      "slug": "white-hill",
+      "title": "White Hill",
+      "subtitle": "Six years of ranching, a name forever",
+      "trigger": { "center": { "lat": 37.99465, "lng": -122.62693 }, "radiusM": 150 },
+      "modes": ["cycling", "hiking"],
+      "locating": { "mode": "auto", "anchor": "the bare summit knob of White Hill" },
+      "narration": "You are on White Hill, fourteen hundred thirty feet, with Mount Tamalpais and the bay laid out around you. The name belongs to Lorenzo Eastlick White, a Massachusetts forty-niner who around eighteen fifty ran a ten-thousand-acre rancho in the next valley for an absentee owner who later became governor of New Jersey. The White family stayed fewer than six years, and the name has now outlasted them by more than a century and a half. This summit is public land, part of the open-space network Marin County voters created in nineteen seventy-two when they taxed themselves to buy the ridgelines, which is a large part of why these hills are trails instead of subdivisions. The hill has seen darker days: in September nineteen twenty-three a wildfire swept from Ignacio through Woodacre, where only five of thirty-five houses survived, and crossed this ridge to within a mile and a half of Fairfax before soldiers from the Presidio and local high-schoolers stopped it with backfires.",
+      "sources": [
+        "https://medium.com/anne-t-kent-california-room-community-newsletter/whats-up-with-white-s-hill-bcc82b8705cc",
+        "https://www.parks.marincounty.gov/parkspreserves/preserves/white-hill",
+        "https://www.marinfirehistory.org/1923-wildfires-including-ignacio-to-bolinas-ridge-fairfax.html",
+        "https://www.topozone.com/california/marin-ca/summit/white-hill-6/"
+      ]
+    },
+    {
+      "slug": "endor",
+      "title": "Endor",
+      "subtitle": "The Bay Area's first flow trail",
+      "trigger": { "center": { "lat": 37.99974, "lng": -122.62563 }, "radiusM": 150 },
+      "modes": ["cycling", "hiking"],
+      "locating": { "mode": "auto", "anchor": "the top gate of the Endor flow trail" },
+      "narration": "This is the top of Endor, the first purpose-built flow trail in Marin and, by most accounts, in the whole Bay Area. It was dug in the winter of two thousand twelve into thirteen by volunteers, including crews of high-school racers from the growing NorCal league, working alongside a borrowed trail machine, and it opened in May of two thousand thirteen: roughly a mile of sculpted berms and tabletops, downhill only, dropping about two hundred fifty feet to the fire road below. The name is the joke that had to be made, because the trail plunges through second-growth redwoods, and racing through redwoods on two wheels is as close as most of us will get to the forest moon of Endor. The canyon deserves a quieter footnote too: these mixed redwood and fir forests are spotted owl country, and Marin holds one of the densest populations of northern spotted owls anywhere in the bird's range. Keep your eyes on the trail, though. The berms are unforgiving of stargazers.",
+      "sources": [
+        "https://www.boyscouts-marin.org/document/newtrailnews-winter2025-26/218098",
+        "https://bermstyle.com/the-bay-areas-first-flow-trail-is-under-construction-now-and-you-can-help/",
+        "https://bayarearides.com/rides/tamarancho/",
+        "https://www.pointblue.org/science_blog/marin-county-spotted-owls/"
+      ]
+    },
+    {
+      "slug": "broken-dam",
+      "title": "Broken Dam",
+      "subtitle": "Water for the pottery sanatorium",
+      "trigger": { "center": { "lat": 37.9987, "lng": -122.6205 }, "radiusM": 170 },
+      "modes": ["cycling", "hiking"],
+      "locating": { "mode": "auto", "anchor": "the truss bridge on the Broken Dam Trail" },
+      "narration": "The Broken Dam Trail crosses its namesake on a little truss bridge: the remains of a dam more than a century old, built to send water down the canyon to a tuberculosis hospital. In nineteen eleven, on land the steel magnate Henry Bothin opened to charity below these hills, Doctor Philip King Brown founded the Arequipa Sanatorium, a rest-cure hospital for working-class women. Its name means place of rest, and it became famous for an unlikely reason: to give patients gentle, paying work, it ran its own pottery, directed at first by the renowned English ceramicist Frederick Hurten Rhead. Arequipa Pottery operated only from nineteen eleven to nineteen eighteen, and its pieces now sit in the Smithsonian. Antibiotics ended the sanatorium era and the hospital closed in nineteen fifty-seven; Girl Scouts have camped on the site, now Camp Bothin, since nineteen sixty. Bothin's name is also on the creek below you and on the old railroad tunnel through White's Hill, but this modest broken dam is his most visitable monument.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Arequipa_Pottery",
+        "https://americanhistory.si.edu/collections/object/nmah_583477",
+        "https://nursingclio.org/2020/04/16/art-as-a-tonic-making-pottery-and-defeating-tuberculosis-at-the-arequipa-sanatorium/",
+        "https://camp.gsnorcal.org/about/bothin/",
+        "https://www.boyscouts-marin.org/document/newtrailnews-winter2025-26/218098"
+      ]
+    }
+  ]
+}

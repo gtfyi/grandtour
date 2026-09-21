@@ -1,0 +1,4 @@
+[test]
+# Runs before any test file loads, so src/db.ts always initializes against
+# the test database no matter which test file imports the app first.
+preload = ["./tests/preload.ts"]

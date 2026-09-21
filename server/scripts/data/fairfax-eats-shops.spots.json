@@ -1,0 +1,625 @@
+{
+  "_notes": "Text-only spot slate for every verified-open restaurant, bar, cafe, and store in Fairfax as of late August 2026, plus the theater, the bicycling museum, the seasonal farmers market, and Deer Park Villa. Narration is TTS-ready (numbers spelled out, side-free). Researched 2026-08-29 by web-search subagents (open/closed status verified per business; sources per spot). Businesses found CLOSED and therefore excluded: Grilly's (space partly now Bah Mi Ba's building), Trouve, Taste Kitchen & Table (now Amelie), Perry's Deli (now Salt-N-Pepper), Way Station (closed Nov 2025), HenHouse pub (now Fairfax Brewing), The Hummingbird (Yelp-closed, unconfirmed). Coordinates: OSM business nodes where present; Nominatim address geocodes otherwise; The Lodge's is a street-level approximation (Nominatim had no house number for 1573 SFD). Triggers are deliberately small (50-80 m) because downtown storefronts are meters apart — expect several spots in range at once on Broadway and Bolinas; the client plays nearest-first.",
+  "track": {
+    "slug": "fairfax-eats-shops",
+    "name": "Fairfax Eats & Shops",
+    "description": "Every open restaurant, bar, cafe, and store in downtown Fairfax — a town of two thousand dinners and no chain in sight but the 7-Eleven. Snapshot taken August 2026.",
+    "kind": "tour",
+    "icon": "storefront",
+    "color": "#b0532f",
+    "official": false
+  },
+  "spots": [
+    {
+      "slug": "macs-at-19-broadway",
+      "title": "Mac's at 19 Broadway",
+      "subtitle": "Live music on this spot since 1921",
+      "trigger": { "center": { "lat": 37.9869, "lng": -122.58799 }, "radiusM": 50 },
+      "modes": ["walking", "cycling"],
+      "locating": { "mode": "auto", "anchor": "the club marquee near the east end of Broadway" },
+      "narration": "Mac's at Nineteen Broadway is the latest name on a room that has hosted music since nineteen twenty-one, and by the club's own count more than eighty thousand musicians have played it, with live music claimed every night since nineteen eighty-four. Recently relaunched as a speakeasy-styled cocktail lounge and nightclub, it took Best of Marin honors in twenty twenty-four for both music venue and comedy. If a town of seven thousand can be said to have a main stage, this is it.",
+      "sources": [
+        "https://macsat19broadway.com/",
+        "https://www.partyslate.com/venues/19-broadway-nightclub"
+      ]
+    },
+    {
+      "slug": "stillwater",
+      "title": "Stillwater",
+      "subtitle": "Cocktails, fried chicken, and a fire pit",
+      "trigger": { "center": { "lat": 37.98684, "lng": -122.58823 }, "radiusM": 50 },
+      "modes": ["walking", "cycling"],
+      "locating": { "mode": "auto", "anchor": "the bar at twenty-three Broadway" },
+      "narration": "Stillwater is the newer face of Broadway nightlife: a cocktail bar and New American restaurant opened during the pandemic by bartender David Ruiz. The fried chicken sandwich has a local following, Tuesdays mean two-dollar oysters, and out back there is a yard with a fire pit for the fog-cooled evenings. Coastal Californian comfort food, in other words, in a town that considers comfort a food group.",
+      "sources": [
+        "https://www.yelp.com/biz/stillwater-fairfax",
+        "https://book.toasttab.com/r/stillwater-23-broadway-blvd"
+      ]
+    },
+    {
+      "slug": "my-thai",
+      "title": "My Thai",
+      "subtitle": "The San Rafael favorite's second act",
+      "trigger": { "center": { "lat": 37.98684, "lng": -122.58832 }, "radiusM": 50 },
+      "modes": ["walking", "cycling"],
+      "locating": { "mode": "auto", "anchor": "the storefront at twenty-five Broadway" },
+      "narration": "My Thai at twenty-five Broadway is the Fairfax offshoot of the downtown San Rafael restaurant that was repeatedly voted that city's best Thai. Curries, pad Thai, and larb, in a room barely bigger than its kitchen, next door to Stillwater.",
+      "sources": [
+        "https://mythai.com/fairfax",
+        "https://www.yelp.com/biz/my-thai-fairfax-fairfax"
+      ]
+    },
+    {
+      "slug": "peris-tavern",
+      "title": "Peri's Tavern",
+      "subtitle": "A forty-foot bar poured in 1948",
+      "trigger": { "center": { "lat": 37.98694, "lng": -122.58836 }, "radiusM": 50 },
+      "modes": ["walking", "cycling"],
+      "locating": { "mode": "auto", "anchor": "the old silver-dollar bar at twenty-nine Broadway" },
+      "narration": "Peri's is the town's great dive, and the Peri name has been on Fairfax businesses for more than a century: Chuck Peri ran the Varsity Club here in the nineteen twenties, and Charles Peri Senior opened Peri's Silver Dollar in the nineteen thirties. The forty-foot bar you can lean on dates to nineteen forty-eight. Under new stewardship it goes by Peri's Tavern now, with nightly live music, a pool room, and a beer garden, but everyone in town still just says Peri's.",
+      "sources": [
+        "https://peristavern.com/about/",
+        "https://peristavern.com/"
+      ]
+    },
+    {
+      "slug": "fradelizios",
+      "title": "Fradelizio's",
+      "subtitle": "Gnocchi and wine from the barrel since the nineties",
+      "trigger": { "center": { "lat": 37.98696, "lng": -122.58859 }, "radiusM": 50 },
+      "modes": ["walking", "cycling"],
+      "locating": { "mode": "auto", "anchor": "the ristorante at thirty-five Broadway" },
+      "narration": "Fradelizio's has served Northern Italian food at thirty-five Broadway since about nineteen ninety-seven; the restaurant itself cheerfully advertises its age in half-year increments. It is known for homemade gnocchi, wild boar cannelloni, and a wine program that pours from the barrel. In a town this size, twenty-eight years makes you an institution twice over.",
+      "sources": [
+        "https://www.fradelizios.com/contact",
+        "https://marinmagazine.com/food-drink/where-to-eat-fairfax/"
+      ]
+    },
+    {
+      "slug": "ghiringhellis-pizzeria",
+      "title": "Ghiringhelli's Pizzeria",
+      "subtitle": "A Fairfax family name since 1937",
+      "trigger": { "center": { "lat": 37.98693, "lng": -122.58927 }, "radiusM": 50 },
+      "modes": ["walking", "cycling"],
+      "locating": { "mode": "auto", "anchor": "the pizzeria at forty-five Broadway" },
+      "narration": "Ghiringhelli's Pizzeria was established in nineteen eighty-five by two Fairfax-born friends, Mike Ghiringhelli and Ed Ferrero, and is now run by the second generation, hand-tossing dough made fresh daily. The family name goes even deeper in this town: the Ghiringhellis have owned Deer Park Villa, the redwood-grove lodge up Bolinas Road, since nineteen thirty-seven. The pizzeria side of the family also launched a wholesale natural-foods operation back in nineteen eighty-nine, well before that was fashionable.",
+      "sources": [
+        "https://ghiringhellis.com/",
+        "https://townoffairfaxca.gov/location/deer-park-villa/"
+      ]
+    },
+    {
+      "slug": "tibet-moon",
+      "title": "Tibet Moon",
+      "subtitle": "Singing bowls on Broadway",
+      "trigger": { "center": { "lat": 37.98701, "lng": -122.58916 }, "radiusM": 50 },
+      "modes": ["walking", "cycling"],
+      "locating": { "mode": "auto", "anchor": "the Himalayan imports shop at forty-seven Broadway" },
+      "narration": "Tibet Moon deals in Himalayan imports: Tibetan handicrafts, singing bowls, prayer flags, jewelry, and clothing. It is the kind of store every visitor assumes Fairfax must have, and Fairfax does not disappoint.",
+      "sources": [
+        "https://www.yelp.com/biz/tibet-moon-fairfax"
+      ]
+    },
+    {
+      "slug": "fairfax-variety",
+      "title": "Fairfax Variety",
+      "subtitle": "The five-and-dime that refused to die",
+      "trigger": { "center": { "lat": 37.98703, "lng": -122.58939 }, "radiusM": 50 },
+      "modes": ["walking", "cycling"],
+      "locating": { "mode": "auto", "anchor": "the old-fashioned variety store at sixty-one Broadway" },
+      "narration": "Fairfax Variety is a genuine old-fashioned five-and-dime: toys, housewares, sewing notions, greeting cards, and the exact odd thing you came downtown for. Stores like this have vanished almost everywhere, which makes this one a beloved fixture, and a reliable stop for any kid who has just been promised a treat.",
+      "sources": [
+        "https://www.yelp.com/biz/fairfax-variety-fairfax"
+      ]
+    },
+    {
+      "slug": "fairfax-scoop",
+      "title": "Fairfax Scoop",
+      "subtitle": "The line out the door is part of the recipe",
+      "trigger": { "center": { "lat": 37.98698, "lng": -122.58935 }, "radiusM": 50 },
+      "modes": ["walking", "cycling"],
+      "locating": { "mode": "auto", "anchor": "the tiny ice cream shop at sixty-three Broadway, usually with a line" },
+      "narration": "Fairfax Scoop is a closet-sized organic ice cream shop run by Ray and Mindy Martin, and Ray claims it was the first all-organic ice cream shop in the country. About eight flavors are made fresh daily in five-gallon batches with Straus Family Creamery dairy, the waffle cones are made in house, and in summer the staff has been known to forage wild Fairfax blackberries for the churn. The honey-lavender is the one people cross the county for. The line moves slower than you want and faster than you fear.",
+      "sources": [
+        "https://www.sfgate.com/restaurants/article/tiny-organic-ice-cream-shop-has-big-following-in-2772552.php",
+        "https://www.yelp.com/biz/fairfax-scoop-fairfax"
+      ]
+    },
+    {
+      "slug": "live-water-surf-shop",
+      "title": "Live Water Surf Shop",
+      "subtitle": "The No Shark logo, inland branch",
+      "trigger": { "center": { "lat": 37.98704, "lng": -122.5897 }, "radiusM": 50 },
+      "modes": ["walking", "cycling"],
+      "locating": { "mode": "auto", "anchor": "the surf and skate shop at sixty-nine Broadway" },
+      "narration": "Live Water is the inland outpost, opened in twenty thirteen, of the Stinson Beach surf shop founded in nineteen seventy-eight, the oldest surf shop north of San Francisco. Founder Kirby Ferris drew its famous No Shark logo, a red slash through a shark silhouette, which is either a joke or a prayer depending on how well you know Stinson's waters. Brenna and Pete Gubbins have run the business since two thousand six, selling boards, wetsuits, and skate gear to a town twenty minutes from the nearest wave.",
+      "sources": [
+        "https://marinmagazine.com/explore/water-activities/a-local-legend-live-water-surf-shop-and-its-famous-no-shark-logo/"
+      ]
+    },
+    {
+      "slug": "amelie",
+      "title": "Amélie",
+      "subtitle": "Paris via San Francisco, croissants included",
+      "trigger": { "center": { "lat": 37.98706, "lng": -122.58976 }, "radiusM": 50 },
+      "modes": ["walking", "cycling"],
+      "locating": { "mode": "auto", "anchor": "the French cafe at seventy-one Broadway" },
+      "narration": "Amélie is a French bakery, cafe, and wine bar opened in August of twenty twenty by the team behind San Francisco's Amélie wine bars, in the space that was long the cafe Taste Kitchen and Table. Quiches, steak frites, and an organic farm-to-table menu, but the reputation rests on the pastry case: reviewers have called the croissants and pain au chocolat some of the best outside France. Since the old Fairfax bakery listings all point here now, this is officially where the town gets its butter.",
+      "sources": [
+        "https://mercisf.com/2020/08/14/amelie-fairfax-a-new-french-bakery-cafe-and-wine-bar/",
+        "https://www.yelp.com/biz/taste-kitchen-and-table-fairfax"
+      ]
+    },
+    {
+      "slug": "fairfax-theatre",
+      "title": "Fairfax Theatre",
+      "subtitle": "Opened 1950 with Gregory Peck",
+      "trigger": { "center": { "lat": 37.98665, "lng": -122.5876 }, "radiusM": 60 },
+      "modes": ["walking", "cycling"],
+      "locating": { "mode": "auto", "anchor": "the movie theater marquee at nine Broadway" },
+      "narration": "The Fairfax Theatre opened on June thirtieth, nineteen fifty, as a six-hundred-seat single-screen movie palace, premiering with Gregory Peck in The Gunfighter. A nineteen ninety-three restoration carved it into five screens and a sixth was added in twenty twelve, so the marquee's old Fairfax Five nickname undercounts it. Seventy-five years on, a town of seven thousand still has its own first-run cinema, which is rarer than any film it shows.",
+      "sources": [
+        "https://cinematreasures.org/theaters/400",
+        "https://www.fandango.com/fairfax-theatre-aafbi/theater-page"
+      ]
+    },
+    {
+      "slug": "fairfax-lumber",
+      "title": "Fairfax Lumber & Hardware",
+      "subtitle": "Employee-owned since 1993, open since 1912",
+      "trigger": { "center": { "lat": 37.98824, "lng": -122.59136 }, "radiusM": 70 },
+      "modes": ["walking", "cycling"],
+      "locating": { "mode": "auto", "anchor": "the lumber yard at one-oh-nine Broadway" },
+      "narration": "Fairfax Lumber and Hardware has been supplying the town's projects since nineteen twelve, which means this yard predates the incorporated town itself. In nineteen ninety-three the company became one hundred percent employee-owned, and it built an early reputation for green and ecological building materials. More than a century of Fairfax decks, chicken coops, and half-finished ideas started at this counter.",
+      "sources": [
+        "https://www.fairfaxlumber.com/about-us/",
+        "https://ecologycenter.org/directory/directory-entries/fairfax-lumber-hardware/"
+      ]
+    },
+    {
+      "slug": "bah-mi-ba",
+      "title": "Bah Mi Ba",
+      "subtitle": "Five hundred square feet of banh mi",
+      "trigger": { "center": { "lat": 37.98685, "lng": -122.58884 }, "radiusM": 50 },
+      "modes": ["walking", "cycling"],
+      "locating": { "mode": "auto", "anchor": "the takeout window at the corner of Bolinas and Broadway" },
+      "narration": "Bah Mi Ba is a takeout-only Vietnamese sandwich window run by the Village Sake team, chef Lai Chao and Scott Whitman, working out of just five hundred fourteen square feet at one Bolinas Road, in the corner building that long housed the Mexican grill Grilly's. The banh mi bread is baked in house, which is the whole argument. Order, walk to the parkade, eat, repeat.",
+      "sources": [
+        "https://www.bahmiba.com/our-story",
+        "https://www.yelp.com/biz/bah-mi-ba-fairfax"
+      ]
+    },
+    {
+      "slug": "the-coffee-roastery",
+      "title": "The Coffee Roastery",
+      "subtitle": "Roasting on this corner since 1979",
+      "trigger": { "center": { "lat": 37.9869, "lng": -122.58916 }, "radiusM": 50 },
+      "modes": ["walking", "cycling"],
+      "locating": { "mode": "auto", "anchor": "the corner coffeehouse at four Bolinas Road" },
+      "narration": "The Coffee Roastery has anchored this corner since nineteen seventy-nine, founded by Deborah London and Norm Weintraub, and it still roasts its beans in house. The menu sprawls across three walls, there is a little stage for local performers, and the whiteout mocha and apricot bars have their own followings. If you want to understand Fairfax, sit here for one hour on a Saturday morning and just listen.",
+      "sources": [
+        "https://www.sfchronicle.com/totalsf/article/fairfax-bay-area-marin-wes-anderson-22188179.php",
+        "https://coffee-roastery-the-fairfax-ca.hub.biz/"
+      ]
+    },
+    {
+      "slug": "wayfinder-bookshop",
+      "title": "Wayfinder Bookshop",
+      "subtitle": "Point Reyes Books' little sister",
+      "trigger": { "center": { "lat": 37.98674, "lng": -122.58894 }, "radiusM": 50 },
+      "modes": ["walking", "cycling"],
+      "locating": { "mode": "auto", "anchor": "the bookshop at nine Bolinas Road" },
+      "narration": "Wayfinder Bookshop opened on November seventeenth, twenty twenty-three, as the sister store of the much-loved Point Reyes Books over the hill. It is small and sharply curated, which is the correct design for a town where the bookstore functions as a second post office: you will run into someone you know.",
+      "sources": [
+        "https://ptreyesbooks.com/fairfax",
+        "https://pacificsun.com/wayfinder-bookshop-opens-in-fairfax/"
+      ]
+    },
+    {
+      "slug": "sonas-denim",
+      "title": "SONAS Denim",
+      "subtitle": "A denim house on Bolinas Road",
+      "trigger": { "center": { "lat": 37.98689, "lng": -122.58909 }, "radiusM": 50 },
+      "modes": ["walking", "cycling"],
+      "locating": { "mode": "auto", "anchor": "the denim boutique at ten Bolinas Road" },
+      "narration": "SONAS Denim is a small denim boutique at ten Bolinas Road, one of the shops the chamber of commerce files under its unofficial town motto, Keep Fairfax Funky. Jeans, jackets, and the confidence to wear both at once.",
+      "sources": [
+        "https://www.fairfaxopenforbusiness.com/shops"
+      ]
+    },
+    {
+      "slug": "revolution-9",
+      "title": "Revolution 9",
+      "subtitle": "Toys and games, despite the Beatles name",
+      "trigger": { "center": { "lat": 37.98685, "lng": -122.58912 }, "radiusM": 50 },
+      "modes": ["walking", "cycling"],
+      "locating": { "mode": "auto", "anchor": "the toy shop at fourteen Bolinas Road" },
+      "narration": "Revolution Nine borrows its name from the strangest track on the White Album, but it is not a record store: it sells toys, games, puzzles, and craft kits. Between this shop and the five-and-dime around the corner, downtown Fairfax remains a dangerous place to walk with a child and a wallet.",
+      "sources": [
+        "https://r9fairfax.com/",
+        "https://www.yelp.com/biz/revolution-9-fairfax"
+      ]
+    },
+    {
+      "slug": "village-sake",
+      "title": "Village Sake",
+      "subtitle": "A Michelin Bib Gourmand in a no-reservations pub",
+      "trigger": { "center": { "lat": 37.9867, "lng": -122.58897 }, "radiusM": 50 },
+      "modes": ["walking", "cycling"],
+      "locating": { "mode": "auto", "anchor": "the izakaya at nineteen Bolinas Road" },
+      "narration": "Village Sake is the town's culinary heavyweight: a Japanese izakaya from chef Scott Whitman, who ran the kitchen at Sausalito's Sushi Ran for fifteen years, including its Michelin-starred run. His own place earned a Michelin Bib Gourmand and a spot on the San Francisco Chronicle's Top Twenty-Five restaurants list. It takes no reservations, so the line forms on the sidewalk before the doors open, and Fairfax treats waiting in it as a social event.",
+      "sources": [
+        "https://guide.michelin.com/us/en/california/fairfax/restaurant/village-sake",
+        "https://www.villagesake.com/pages/chef-scott-whitman"
+      ]
+    },
+    {
+      "slug": "gestalt-haus",
+      "title": "Gestalt Haus",
+      "subtitle": "Roll your bike right in",
+      "trigger": { "center": { "lat": 37.98659, "lng": -122.58927 }, "radiusM": 50 },
+      "modes": ["walking", "cycling"],
+      "locating": { "mode": "auto", "anchor": "the beer hall at twenty-eight Bolinas Road" },
+      "narration": "Gestalt Haus is the mountain-bike town's clubhouse: a beer and sausage hall where you wheel your bike straight inside and hang it on hooks along the wall. Around two dozen sausages, vegan ones included, Bavarian potato salad, and rotating drafts. It is the offshoot of the original Gestalt Haus in San Francisco's Mission District, which pioneered the bikes-inside format, and it is the mandatory final waypoint of a proper Tamalpais ride.",
+      "sources": [
+        "https://www.yelp.com/biz/gestalt-haus-fairfax-fairfax",
+        "https://localwiki.org/sf/Gestalt_Haus"
+      ]
+    },
+    {
+      "slug": "mas-masa",
+      "title": "Más Masa",
+      "subtitle": "Tortillas from scratch, daily",
+      "trigger": { "center": { "lat": 37.9864, "lng": -122.5891 }, "radiusM": 50 },
+      "modes": ["walking", "cycling"],
+      "locating": { "mode": "auto", "anchor": "the taqueria in the courtyard at thirty-one Bolinas Road" },
+      "narration": "Más Masa builds everything on fresh masa ground and pressed in house, which is rarer than it should be: al pastor tacos, pork and cauliflower tacos, and house hot sauces, with locally grown ingredients where they can get them. Karina Carillo and Ana Medina have run it since twenty twenty-two. The name is the promise: more masa.",
+      "sources": [
+        "https://www.eatmasmasa.com/",
+        "https://www.restaurantji.com/ca/fairfax/m-s-masa-/"
+      ]
+    },
+    {
+      "slug": "conifer",
+      "title": "Conifer",
+      "subtitle": "House-made clothing and a considered shelf",
+      "trigger": { "center": { "lat": 37.98643, "lng": -122.58905 }, "radiusM": 50 },
+      "modes": ["walking", "cycling"],
+      "locating": { "mode": "auto", "anchor": "the boutique in the thirty-one Bolinas Road courtyard" },
+      "narration": "Conifer is a clothing label with its own storefront, sharing the thirty-one Bolinas Road courtyard with the taqueria and the pet shop. Alongside its house line it stocks other makers: crafts, gifts, and apothecary goods, the whole shop edited like a good playlist.",
+      "sources": [
+        "https://www.conifershop.com/"
+      ]
+    },
+    {
+      "slug": "for-paws",
+      "title": "For Paws",
+      "subtitle": "The town's pet pantry",
+      "trigger": { "center": { "lat": 37.98638, "lng": -122.58916 }, "radiusM": 50 },
+      "modes": ["walking", "cycling"],
+      "locating": { "mode": "auto", "anchor": "the pet supply shop at thirty-one Bolinas Road" },
+      "narration": "For Paws is the independent pet supply store in the Bolinas Road courtyard: natural dog and cat food, treats, and toys. In a town where the dogs outnumber the parking spaces, this counts as essential infrastructure.",
+      "sources": [
+        "https://forpawsforpets.com/",
+        "https://www.yelp.com/biz/for-paws-fairfax-4"
+      ]
+    },
+    {
+      "slug": "the-potting-shed",
+      "title": "The Potting Shed",
+      "subtitle": "Plants, gifts, and terrarium parties",
+      "trigger": { "center": { "lat": 37.9861, "lng": -122.58931 }, "radiusM": 50 },
+      "modes": ["walking", "cycling"],
+      "locating": { "mode": "auto", "anchor": "the plant and gift shop at fifty-five Bolinas Road" },
+      "narration": "The Potting Shed started as a plant nursery in two thousand and changed hands in two thousand eight, settling into its current form: succulents, air plants, houseplants, jewelry, and home goods, with terrarium-building workshop parties on the side. It pitches plant delivery as the sustainable alternative to cut flowers, which is a very Fairfax argument, and a winning one.",
+      "sources": [
+        "https://potting-shed.com/"
+      ]
+    },
+    {
+      "slug": "marin-service-course",
+      "title": "Marin Service Course",
+      "subtitle": "A pro team garage for civilians",
+      "trigger": { "center": { "lat": 37.98559, "lng": -122.58959 }, "radiusM": 50 },
+      "modes": ["walking", "cycling"],
+      "locating": { "mode": "auto", "anchor": "the bike shop at eighty-five Bolinas Road" },
+      "narration": "Marin Service Course, founded in twenty nineteen, takes its name from pro-cycling jargon: a service course is the warehouse where a racing team preps its equipment. Here that treatment goes to civilians, with repairs, custom builds, and road, gravel, and mountain gear. In the town that invented the mountain bike, a five-star wrench is a form of civic duty.",
+      "sources": [
+        "https://marinbike.org/news/marin-service-course/",
+        "https://reviews.birdeye.com/marin-service-course-167040005684408"
+      ]
+    },
+    {
+      "slug": "california-cowboy",
+      "title": "California Cowboy",
+      "subtitle": "Leisure wear moves to town",
+      "trigger": { "center": { "lat": 37.98563, "lng": -122.58951 }, "radiusM": 50 },
+      "modes": ["walking", "cycling"],
+      "locating": { "mode": "auto", "anchor": "the apparel shop at eighty-five Bolinas Road" },
+      "narration": "California Cowboy, a vintage-inspired leisure apparel brand founded by a Gap and Levi's alum, opened its Fairfax store in twenty twenty-five, sharing the eighty-five Bolinas Road building with the bike shop. Aloha shirts with beer-pocket engineering, in a town that respects both.",
+      "sources": [
+        "https://shop.californiacowboy.com/pages/our-locations",
+        "https://www.yelp.com/biz/california-cowboy-fairfax"
+      ]
+    },
+    {
+      "slug": "sorella-caffe",
+      "title": "Sorella Caffe",
+      "subtitle": "The cottage Italian dinner house",
+      "trigger": { "center": { "lat": 37.98521, "lng": -122.59004 }, "radiusM": 50 },
+      "modes": ["walking", "cycling"],
+      "locating": { "mode": "auto", "anchor": "the cottage restaurant at one-oh-seven Bolinas Road" },
+      "narration": "Sorella Caffe is the family-run Italian dinner house of Bolinas Road, a cozy cottage serving pasta, grilled fish, and cioppino, long enough established to have celebrated its tenth anniversary years ago and to have been featured on KQED's Check, Please! Bay Area. Sorella means sister, and the room feels like eating at one's house.",
+      "sources": [
+        "https://sorellacaffe.com/",
+        "https://sorellacaffe.com/page4.html"
+      ]
+    },
+    {
+      "slug": "la-gastronomia-di-porchetta",
+      "title": "La Gastronomia di Porchetta",
+      "subtitle": "Tuscany in Good Earth's first storefront",
+      "trigger": { "center": { "lat": 37.98514, "lng": -122.59024 }, "radiusM": 50 },
+      "modes": ["walking", "cycling"],
+      "locating": { "mode": "auto", "anchor": "the deli case at one-twenty-three Bolinas Road" },
+      "narration": "La Gastronomia di Porchetta opened in twenty twenty-three, run by Elena, from Forte dei Marmi in Tuscany, with Gustavo and their family, and built around rotisserie porchetta carved into sandwiches and plates. Within a year the San Francisco Chronicle had put it on its Top Twenty-Five restaurants list. The address has history too: one-twenty-three Bolinas Road is the little storefront where Good Earth Natural Foods was founded in nineteen sixty-nine, before it grew into the supermarket across town. This room has been feeding Fairfax its convictions for over fifty years.",
+      "sources": [
+        "https://lagastronomiadiporchetta.com/",
+        "https://shop.genatural.com/about-us"
+      ]
+    },
+    {
+      "slug": "fairfax-farmers-market",
+      "title": "Fairfax Farmers Market",
+      "subtitle": "Wednesday evenings in Bolinas Park",
+      "trigger": { "center": { "lat": 37.98507, "lng": -122.59044 }, "radiusM": 80 },
+      "modes": ["walking", "cycling"],
+      "locating": { "mode": "auto", "anchor": "Bolinas Park, across from the gas station" },
+      "narration": "On Wednesday evenings from May through October, Bolinas Park becomes the Fairfax Community Farmers Market, four to eight, with produce stands, food vendors, and live music. It is less a shopping trip than the town's midweek block party; if you are here on a summer Wednesday, the entire population appears to be within one hundred yards of this spot.",
+      "sources": [
+        "https://townoffairfaxca.gov/event/fairfax-farmers-mark-2026-2026-07-29/",
+        "https://www.yelp.com/biz/fairfax-community-farmers-market-fairfax"
+      ]
+    },
+    {
+      "slug": "seven-eleven",
+      "title": "7-Eleven",
+      "subtitle": "The lone chain store",
+      "trigger": { "center": { "lat": 37.98505, "lng": -122.5912 }, "radiusM": 50 },
+      "modes": ["walking", "cycling"],
+      "locating": { "mode": "auto", "anchor": "the convenience store at one-fifty Bolinas Road" },
+      "narration": "This 7-Eleven, open around the clock at one-fifty Bolinas Road, holds a peculiar distinction: it is about the only national chain storefront in downtown Fairfax, a town that has fought off most others. Every midnight snack run in a five-mile radius ends here.",
+      "sources": [
+        "https://www.7-eleven.com/locations/ca/fairfax/150-bolinas-rd-15957"
+      ]
+    },
+    {
+      "slug": "deer-park-villa",
+      "title": "Deer Park Villa",
+      "subtitle": "The Ghiringhellis' enchanted forest",
+      "trigger": { "center": { "lat": 37.98027, "lng": -122.593 }, "radiusM": 100 },
+      "modes": ["walking", "cycling", "driving"],
+      "locating": { "mode": "auto", "anchor": "the redwood-grove lodge up Bolinas Road" },
+      "narration": "Deer Park Villa opened as a lodge in nineteen sixteen, and the Ghiringhelli family, the same family as the Broadway pizzeria, has owned it since nineteen thirty-seven. Joe Ghiringhelli planted the redwoods that now tower over the grounds, a grove the venue calls the Enchanted Forest. Today it works mostly as a wedding and event venue rather than a walk-in restaurant, which means on any given Saturday, someone is having the best day of their life about four hundred yards up this road.",
+      "sources": [
+        "https://townoffairfaxca.gov/location/deer-park-villa/"
+      ]
+    },
+    {
+      "slug": "the-lodge",
+      "title": "The Lodge",
+      "subtitle": "Fairfax's first bar, reborn for cyclists",
+      "trigger": { "center": { "lat": 37.98679, "lng": -122.58445 }, "radiusM": 80 },
+      "modes": ["walking", "cycling"],
+      "locating": { "mode": "auto", "anchor": "the restored saloon building on Sir Francis Drake near Center" },
+      "narration": "The Lodge occupies the old Old Timer's Saloon, built in nineteen oh eight and remembered as Fairfax's first bar. Restored and reopened in twenty nineteen, it is now a New American restaurant and bar aimed squarely at the cyclists and hikers streaming toward West Marin, with a big backyard for the post-ride debrief. A hundred and more years of this town toasting itself, under one roof.",
+      "sources": [
+        "https://www.tripadvisor.com/Restaurant_Review-g32366-d19674150-Reviews-The_Lodge-Fairfax_Marin_County_California.html"
+      ]
+    },
+    {
+      "slug": "lolas-depot",
+      "title": "Lola's Depot",
+      "subtitle": "Opened on Leap Day, stocked from everywhere",
+      "trigger": { "center": { "lat": 37.98729, "lng": -122.58745 }, "radiusM": 50 },
+      "modes": ["walking", "cycling"],
+      "locating": { "mode": "auto", "anchor": "the funky secondhand shop at eighteen-twenty-six Sir Francis Drake" },
+      "narration": "Lola's Depot opened on Leap Day, February twenty-ninth, two thousand eight, and has spent the years since as the town's cabinet of curiosities: vintage clothes, jewelry, crystals, CDs, toys, and collectibles, all secondhand, recycled, and repurposed. Come in for nothing in particular; that is what it sells best.",
+      "sources": [
+        "http://lolasdepotfairfax.blogspot.com/",
+        "https://www.yelp.com/biz/lolas-depot-fairfax"
+      ]
+    },
+    {
+      "slug": "shimmer-boutique",
+      "title": "Shimmer",
+      "subtitle": "Consignment with a conscience",
+      "trigger": { "center": { "lat": 37.98741, "lng": -122.58798 }, "radiusM": 50 },
+      "modes": ["walking", "cycling"],
+      "locating": { "mode": "auto", "anchor": "the boutique at eighteen-thirty Sir Francis Drake" },
+      "narration": "Shimmer is a women's consignment boutique opened in June twenty eighteen, running casual through designer labels plus jewelry and accessories on a resale model pitched as sustainability you can wear. One town, remarkably, supports several thriving secondhand shops; this is the polished one.",
+      "sources": [
+        "https://shimmerfairfax.com/",
+        "https://www.yelp.com/biz/shimmer-boutique-fairfax"
+      ]
+    },
+    {
+      "slug": "barefoot-cafe",
+      "title": "Barefoot Cafe",
+      "subtitle": "Breakfast institution since 2006",
+      "trigger": { "center": { "lat": 37.98742, "lng": -122.58823 }, "radiusM": 50 },
+      "modes": ["walking", "cycling"],
+      "locating": { "mode": "auto", "anchor": "the cafe at nineteen-hundred Sir Francis Drake" },
+      "narration": "Barefoot Cafe has held down this stretch of Sir Francis Drake since two thousand six, serving organic, locally sourced breakfast, lunch, dinner, and a weekend brunch busy enough to constitute a town meeting. It is listed on the town's own website as a local institution, which in Fairfax is as close to a landmark plaque as a restaurant gets.",
+      "sources": [
+        "https://barefootcafe.com/ourstory.html",
+        "https://townoffairfaxca.gov/location/barefoot-cafe/"
+      ]
+    },
+    {
+      "slug": "g-liquors",
+      "title": "G Liquors",
+      "subtitle": "The corner bottle shop",
+      "trigger": { "center": { "lat": 37.98743, "lng": -122.58841 }, "radiusM": 50 },
+      "modes": ["walking", "cycling"],
+      "locating": { "mode": "auto", "anchor": "the liquor and grocery store at nineteen-ten Sir Francis Drake" },
+      "narration": "G Liquors, in business here since around twenty seventeen, is the downtown bottle shop and convenience grocery: wine for the dinner party you forgot, ice for the cooler, and the last-minute everything of a small town's main drag.",
+      "sources": [
+        "https://www.bbb.org/us/ca/fairfax/profile/liquor/g-liquor-wine-grocery-store-1116-890003"
+      ]
+    },
+    {
+      "slug": "cafe-lotus",
+      "title": "Cafe Lotus",
+      "subtitle": "Organic North Indian from the Lotus family",
+      "trigger": { "center": { "lat": 37.98744, "lng": -122.5885 }, "radiusM": 50 },
+      "modes": ["walking", "cycling"],
+      "locating": { "mode": "auto", "anchor": "the Indian restaurant at nineteen-twelve Sir Francis Drake" },
+      "narration": "Cafe Lotus has served organic North Indian food here since two thousand four, founded by Surinder Pal Sroa and his son Jyoti of the award-winning Lotus Cuisine of India in San Rafael. Vegetarian and vegan friendly with a patio out front, it eventually annexed the hair salon next door, which is the Fairfax version of empire.",
+      "sources": [
+        "https://www.visitfairfaxca.org/eat-drink/cafelotus",
+        "https://cafelotus.gotoeat.net/"
+      ]
+    },
+    {
+      "slug": "salt-n-pepper",
+      "title": "Salt-N-Pepper",
+      "subtitle": "New sandwiches in Perry's old deli",
+      "trigger": { "center": { "lat": 37.98745, "lng": -122.58868 }, "radiusM": 50 },
+      "modes": ["walking", "cycling"],
+      "locating": { "mode": "auto", "anchor": "the sandwich shop at nineteen-sixteen Sir Francis Drake" },
+      "narration": "Salt-N-Pepper is the sandwich shop that took over nineteen-sixteen Sir Francis Drake after Perry's Delicatessen Number Three closed, ending a long deli run that regulars still mourn in their online reviews. The new counter carries the same civic duty: this town requires a sandwich between the coffee and the trailhead.",
+      "sources": [
+        "https://www.yelp.com/biz/salt-n-pepper-fairfax-3",
+        "https://www.yelp.com/biz/perrys-delicatessen-no-3-fairfax"
+      ]
+    },
+    {
+      "slug": "marin-museum-of-bicycling",
+      "title": "Marin Museum of Bicycling",
+      "subtitle": "The Hall of Fame and its gift shop",
+      "trigger": { "center": { "lat": 37.98788, "lng": -122.58971 }, "radiusM": 60 },
+      "modes": ["walking", "cycling"],
+      "locating": { "mode": "auto", "anchor": "the bicycle museum at nineteen-sixty-six Sir Francis Drake" },
+      "narration": "The Marin Museum of Bicycling holds the Mountain Bike Hall of Fame, relocated here from Crested Butte, Colorado, because Fairfax is where the sport began, and admission is free. Inside are original klunkers and Breezers; at the front is a gift shop where the town's founding mythology is available in T-shirt form. Open Thursday through Sunday, and home of the annual spring bike swap.",
+      "sources": [
+        "https://mmbhof.org/the-museum/about/",
+        "https://en.wikipedia.org/wiki/Marin_Museum_of_Bicycling"
+      ]
+    },
+    {
+      "slug": "fog-campers",
+      "title": "FOG Campers",
+      "subtitle": "Fairfax Off Grid, one van at a time",
+      "trigger": { "center": { "lat": 37.98778, "lng": -122.59007 }, "radiusM": 50 },
+      "modes": ["walking", "cycling"],
+      "locating": { "mode": "auto", "anchor": "the camper vans parked at two-thousand Sir Francis Drake" },
+      "narration": "FOG Campers stands for Fairfax Off Grid: a camper van outfit that began in late twenty eighteen when founders Marques and Liz Bernales converted a Ford Transit Connect in their driveway. It grew into a rental fleet of Transit-based campers, built and hired out from this lot, so the row of vans you see is a garage startup that worked.",
+      "sources": [
+        "https://www.fogcampers.com/"
+      ]
+    },
+    {
+      "slug": "m-and-g-burgers",
+      "title": "M & G Burgers",
+      "subtitle": "Ida and Lena's stand, since 1962",
+      "trigger": { "center": { "lat": 37.9879, "lng": -122.59088 }, "radiusM": 50 },
+      "modes": ["walking", "cycling"],
+      "locating": { "mode": "auto", "anchor": "the burger stand at twenty-seventeen Sir Francis Drake" },
+      "narration": "M and G Burgers has flipped patties here since nineteen sixty-two, founded by two sisters, Ida and Lena, whose initials M and G named the place, and it has stayed in the family ever since. Grass-fed and organic burgers now, but the crinkle-cut fries, shakes, and malts are unchanged in spirit. Sixty-plus years of little league teams have celebrated and consoled themselves at these tables.",
+      "sources": [
+        "https://mgburgersbeverages.twupro.com/",
+        "https://www.yelp.com/biz/m-and-g-burgers-and-beverages-fairfax"
+      ]
+    },
+    {
+      "slug": "splitrock-tap-and-wheel",
+      "title": "Splitrock Tap & Wheel",
+      "subtitle": "Bike shop, taproom, same counter",
+      "trigger": { "center": { "lat": 37.98823, "lng": -122.59055 }, "radiusM": 50 },
+      "modes": ["walking", "cycling"],
+      "locating": { "mode": "auto", "anchor": "the bike shop and taproom at twenty-twenty Sir Francis Drake" },
+      "narration": "Splitrock Tap and Wheel, opened in twenty seventeen in the former Fairfax Cyclery space, answers a question only Fairfax would ask: what if the bike shop poured craft beer and served pizza? Repairs on one side, rotating taps on the other, and the town's riders circulating between them before and after every ride. Only in the birthplace of mountain biking does this business model count as conservative.",
+      "sources": [
+        "https://www.splitrocktapandwheel.com/",
+        "https://www.yelp.com/biz/split-rock-tap-and-wheel-fairfax"
+      ]
+    },
+    {
+      "slug": "fairfax-market",
+      "title": "Fairfax Market",
+      "subtitle": "The family grocery on the west end",
+      "trigger": { "center": { "lat": 37.98837, "lng": -122.5906 }, "radiusM": 60 },
+      "modes": ["walking", "cycling"],
+      "locating": { "mode": "auto", "anchor": "the grocery store at twenty-forty Sir Francis Drake" },
+      "narration": "Fairfax Market is the family-owned grocery anchoring the west end of downtown since two thousand eight, with organic produce, specialty meats, and a full deli, and a stated bias toward local farmers and food artisans. Between this store and Good Earth across town, Fairfax buys its groceries almost entirely from itself.",
+      "sources": [
+        "https://fairfaxmarket.net/"
+      ]
+    },
+    {
+      "slug": "red-boy-pizza",
+      "title": "Red Boy Pizza",
+      "subtitle": "Sourdough crust since 1969",
+      "trigger": { "center": { "lat": 37.99452, "lng": -122.59481 }, "radiusM": 80 },
+      "modes": ["walking", "cycling", "driving"],
+      "locating": { "mode": "auto", "anchor": "the pizzeria at twenty-four-oh-four Sir Francis Drake" },
+      "narration": "Red Boy Pizza, out past the west end of downtown, belongs to a small local chain that dates to nineteen sixty-nine and is famous for one thing above all: sourdough crust. It is the take-a-pizza-home end of the Fairfax pizza spectrum, with Ghiringhelli's holding down the eat-it-there end on Broadway.",
+      "sources": [
+        "https://redboypizza.com/location/fairfax",
+        "https://marinmagazine.com/food-drink/where-to-eat-fairfax/"
+      ]
+    },
+    {
+      "slug": "public-house-marin",
+      "title": "Public House Marin",
+      "subtitle": "The newest room in town",
+      "trigger": { "center": { "lat": 37.98662, "lng": -122.58578 }, "radiusM": 50 },
+      "modes": ["walking", "cycling"],
+      "locating": { "mode": "auto", "anchor": "the cafe and lounge at seven-forty-three Center Boulevard" },
+      "narration": "Public House Marin is the town's newest gathering room, opened in October twenty twenty-five by longtime Marin resident and builder David Swaim on the European public-house model: an indoor-outdoor cafe by day, a beer and wine lounge by night, with communal tables, board games, toasts, and cauliflower-crust pizzas. Every generation of Fairfax opens one more room where the whole town can sit down together; this is the current one.",
+      "sources": [
+        "https://www.pressdemocrat.com/2025/10/21/marin-resident-opens-fairfaxs-newest-eatery-hangout-spot/"
+      ]
+    },
+    {
+      "slug": "java-hut",
+      "title": "Java Hut",
+      "subtitle": "Coffee at five-thirty in the morning",
+      "trigger": { "center": { "lat": 37.98652, "lng": -122.58449 }, "radiusM": 50 },
+      "modes": ["walking", "cycling", "driving"],
+      "locating": { "mode": "auto", "anchor": "the little drive-thru coffee stand on Center Boulevard" },
+      "narration": "Java Hut is the tiny drive-through coffee stand on Center Boulevard, open at five thirty on weekday mornings for the contractors, commuters, and dawn-patrol riders who constitute Fairfax before Fairfax wakes up. Known for its cold brew, and for a dog-friendly patio where the regulars' dogs have their own social scene.",
+      "sources": [
+        "https://www.javahutdrivethru.com/",
+        "https://www.yelp.com/biz/java-hut-fairfax"
+      ]
+    },
+    {
+      "slug": "fairfax-brewing-company",
+      "title": "Fairfax Brewing Company",
+      "subtitle": "Third brewery, same address, same brewer",
+      "trigger": { "center": { "lat": 37.9859, "lng": -122.58408 }, "radiusM": 60 },
+      "modes": ["walking", "cycling"],
+      "locating": { "mode": "auto", "anchor": "the brewpub at seven-sixty-five Center Boulevard" },
+      "narration": "Seven-sixty-five Center Boulevard may be the most determined brewery address in Marin. Iron Springs Pub and Brewery poured here for seventeen years until twenty twenty-one; HenHouse Brewing took over and lasted barely six months; and now Fairfax Brewing Company, run by Alex and Lisa Stricker, brews on site with live music and a family-friendly room. The thread through it all is brewer Larry Berlin, who made beer for both of the town's earlier breweries and now makes it here, including a red ale named Repack for the downhill race that started everything.",
+      "sources": [
+        "https://www.faxbrewco.com/",
+        "https://www.sfchronicle.com/food/wine/article/henhouse-brewing-marin-fairfax-18107387.php"
+      ]
+    },
+    {
+      "slug": "good-earth-natural-foods",
+      "title": "Good Earth Natural Foods",
+      "subtitle": "From hippie storefront to organic flagship",
+      "trigger": { "center": { "lat": 37.98627, "lng": -122.58322 }, "radiusM": 80 },
+      "modes": ["walking", "cycling", "driving"],
+      "locating": { "mode": "auto", "anchor": "the big solar-roofed grocery on Center Boulevard" },
+      "narration": "Good Earth Natural Foods is the town's flagship and one of the country's pioneering organic grocers. It was founded in nineteen sixty-nine in a little storefront on Bolinas Road; Mark Squire started working there as a sixteen-year-old that first year and bought the store with Edwin Cariati in nineteen seventy-five. In twenty twelve it moved into this twenty-two-thousand-square-foot former Albertsons, a big-box store conquered by the counterculture, with one hundred percent organic produce, an enormous prepared-foods operation, some two hundred fifty employees, and a solar array supplying about a third of its power. For many households in the Ross Valley, this is simply where food comes from.",
+      "sources": [
+        "https://shop.genatural.com/about-us",
+        "https://www.northbaybusinessjournal.com/article/industry-news/good-earth-re-opens-in-larger-store/"
+      ]
+    }
+  ]
+}

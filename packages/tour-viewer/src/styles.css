@@ -1,0 +1,46 @@
+:root {
+  --bg: #0f1419;
+  --panel: #1a2128;
+  --panel-2: #232c35;
+  --border: #2d3a45;
+  --text: #e6edf3;
+  --muted: #8b98a5;
+  --accent: #3c8b9b;
+  --accent-2: #8b5e3c;
+  --route: #e0a33c;
+  --warn: #c0564b;
+  --ok: #3c8b5e;
+}
+
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; margin: 0; }
+body {
+  font: 14px/1.5 ui-sans-serif, system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+button {
+  background: var(--accent); color: white; border: 0; border-radius: 6px;
+  padding: 8px 12px; font: inherit; cursor: pointer;
+}
+button.ghost { background: transparent; border: 1px solid var(--border); color: var(--muted); }
+button:disabled { opacity: .5; cursor: not-allowed; }
+input, select {
+  background: var(--panel-2); color: var(--text);
+  border: 1px solid var(--border); border-radius: 6px; padding: 8px;
+  font: inherit;
+}
+.muted { color: var(--muted); font-size: 12px; }
+.warn { color: var(--warn); font-size: 12px; }
+a { color: #7cc5d2; }
+
+/* The screens before the app has a track list: loading, and a server that would not answer. */
+.catalog { max-width: 960px; margin: 0 auto; padding: 40px 24px; }
+.catalog h1 { margin: 12px 0 4px; font-size: 28px; }
+.catalog input { min-width: 0; }
+.load-error { padding: 16px; margin-top: 20px; border: 1px solid var(--warn); border-radius: 8px; }
+@media (max-width: 540px) {
+  .catalog { padding: 20px 16px; }
+  .tour-header { flex-wrap: wrap; }
+}

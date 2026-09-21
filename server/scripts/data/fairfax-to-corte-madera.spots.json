@@ -1,0 +1,823 @@
+{
+  "_notes": "Drive slate: 300 Bothin Rd Fairfax east on Sir Francis Drake Blvd through San Anselmo, Ross, Kentfield, and Greenbrae, then US-101 South to the Tamalpais Dr exit and The Village at Corte Madera (Apple Store). Built 2026-08-31 by five web-search subagents (one per route segment); every factual claim traced to a loaded source, coordinates OSM/Wikipedia-verified and placed on the roadway. The 101 leg is a highway-speed test: triggers 250-300 m, spots interpolated onto the southbound carriageway ~300-400 m apart. No ElevenLabs audio yet (quota exhausted 2026-08-31) - content is text-only on purpose; iOS speaks it with on-device TTS.",
+  "track": {
+    "slug": "fairfax-to-corte-madera",
+    "name": "Fairfax to Corte Madera",
+    "description": "Down the Ross Valley the long way: Bothin canyon ghosts, Star Wars drafts, schooner landings, and a concrete creek, then out onto the freeway over the marsh to the mall at the end of the road.",
+    "kind": "tour",
+    "icon": "car",
+    "color": "#4a6fa5",
+    "official": false
+  },
+  "spots": [
+    {
+      "slug": "camp-bothin-ghost-nurse",
+      "title": "The Haunted Canyon Camp",
+      "subtitle": "A tuberculosis hospital that became a Girl Scout camp — ghost nurse included",
+      "trigger": {
+        "center": {
+          "lat": 37.9942,
+          "lng": -122.6041
+        },
+        "radiusM": 140
+      },
+      "modes": [
+        "driving"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the wooded canyon at the head of Bothin Road"
+      },
+      "narration": "Up this canyon sits Camp Bothin, and generations of Girl Scouts swear it is haunted. In nineteen oh three, San Francisco businessman Henry Bothin bought a thousand-acre spread here, and by nineteen ten it held a convalescent hospital for women and children, joined by a tuberculosis sanatorium that ran into the nineteen fifties. Patients arrived at the property's own railroad stop, named simply Bothin. When Bothin died in nineteen twenty-three, he left a charitable foundation to carry on the work. Scouts began camping among the old wards in nineteen forty-eight and took over the whole property in nineteen fifty-nine. Campers bunking in the old Stone House still tell of a ghostly nurse pushing her cart down the hall — playful, they say, never hostile.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bothin,_California",
+        "https://www.hauntedplaces.org/item/bothin-youth-center/",
+        "https://camp.gsnorcal.org/rent-a-property/bothin/"
+      ]
+    },
+    {
+      "slug": "repack-hall-of-fame",
+      "title": "Repack and the Hall of Fame",
+      "subtitle": "Where smoking coaster brakes wrote cycling history",
+      "trigger": {
+        "center": {
+          "lat": 37.98745,
+          "lng": -122.58978
+        },
+        "radiusM": 90
+      },
+      "modes": [
+        "driving"
+      ],
+      "side": "left",
+      "locating": {
+        "mode": "auto",
+        "anchor": "the Marin Museum of Bicycling storefront"
+      },
+      "narration": "The Marin Museum of Bicycling holds more than one hundred fifty years of cycling history, plus the Mountain Bike Hall of Fame — and its wildest chapter happened on a dirt road just west of town. In the nineteen seventies, riders hauled old clunkers up Pine Mountain's ridge and bombed down thirteen hundred feet in two point one miles. The coaster brakes got so hot the grease inside vaporized, and after a run or two the hub had to be repacked — so they called the race Repack. The first official running, on October twenty-first, nineteen seventy-six, drew ten riders. Gary Fisher set the record of four minutes twenty-two seconds, and Joe Breeze won ten times, before the county shut racing down after nineteen eighty-four.",
+      "sources": [
+        "https://mmbhof.org/mtn-bike-hall-of-fame/repack-history/",
+        "https://mmbhof.org/"
+      ]
+    },
+    {
+      "slug": "parkade-third-rail",
+      "title": "Trains Under the Parkade",
+      "subtitle": "Downtown's parking plaza is a buried railroad",
+      "trigger": {
+        "center": {
+          "lat": 37.98734,
+          "lng": -122.58867
+        },
+        "radiusM": 80
+      },
+      "modes": [
+        "driving"
+      ],
+      "side": "right",
+      "locating": {
+        "mode": "auto",
+        "anchor": "the open Parkade plaza in the middle of downtown"
+      },
+      "narration": "That open plaza of parking in the heart of downtown is the Parkade, and it is really the ghost of a railroad. The electric third rail reached Fairfax in nineteen oh eight and stretched to Manor in nineteen thirteen, with commute trains running every half hour at rush hour. A Fairfax commuter could roll down the valley to Sausalito, step onto a ferry, and stand in San Francisco in under an hour. The old right-of-way threaded through this very block, between Center Boulevard and Sir Francis Drake. The last electric train ran at the end of February nineteen forty-one, and the corridor became the free parking lot and festival ground that Fairfax treats as its town square.",
+      "sources": [
+        "https://sananselmohistory.org/articles/trains-in-san-anselmo/",
+        "https://en.wikipedia.org/wiki/Northwestern_Pacific_Railroad_interurban_lines",
+        "http://www.pacificng.com/template.php?page=roads%2Fca%2Fnpc%2Fgotg.htm",
+        "https://marinarts.org/venue/the-parkade/"
+      ]
+    },
+    {
+      "slug": "broadway-honky-tonk-row",
+      "title": "Honky-Tonk Broadway",
+      "subtitle": "A century of bar bands on one short block",
+      "trigger": {
+        "center": {
+          "lat": 37.98722,
+          "lng": -122.58758
+        },
+        "radiusM": 80
+      },
+      "modes": [
+        "driving"
+      ],
+      "side": "right",
+      "locating": {
+        "mode": "auto",
+        "anchor": "the row of bars along the parallel block of Broadway"
+      },
+      "narration": "The short block of Broadway just beyond the plaza is Fairfax's honky-tonk row. Peri's Tavern has served this town for almost a century — a fourth-generation family bar whose forty-foot bar top dates from nineteen forty-eight. A few doors along, the club at nineteen Broadway, now called Mac's at nineteen Broadway, has hosted live music seven nights a week for decades, everything from roots and blues to funk, soul, and jazz. This little town has always punched above its weight musically: back in the mid nineteen sixties, the Grateful Dead and Jefferson Airplane even faced off in a softball game at Central Field. Roll the window down on the way past — there is usually a band tuning up somewhere.",
+      "sources": [
+        "https://marinarts.org/organization/peris-tavern/",
+        "https://marinarts.org/venue/19-broadway-bar-nightclub/",
+        "https://en.wikipedia.org/wiki/Fairfax,_California"
+      ]
+    },
+    {
+      "slug": "birds-nest-glen",
+      "title": "Bird's Nest Glen",
+      "subtitle": "A lord's estate, a fatal duel, and Marin's lost resort",
+      "trigger": {
+        "center": {
+          "lat": 37.98692,
+          "lng": -122.58526
+        },
+        "radiusM": 110
+      },
+      "modes": [
+        "driving"
+      ],
+      "side": "right",
+      "locating": {
+        "mode": "auto",
+        "anchor": "Pastori Avenue running back toward the old resort grounds"
+      },
+      "narration": "Pastori Avenue leads back to the grounds that named this whole town. Charles Snowden Fairfax, descendant of Scottish barons, was Speaker of the California Assembly in eighteen fifty-four, and his estate here, Bird's Nest Glen, came as a wedding gift from a friend. In eighteen sixty-one, two lawmakers, Charles Piercy and Daniel Showalter, met on the grounds to settle a political feud with pistols. Fairfax fed them lunch and begged them to stop; Showalter shot Piercy dead and later fled to Mexico. The estate became Pastori's Italian resort with its own train stop, then a department store's employee retreat, and in nineteen forty-four Max Friedman opened the Marin Town and Country Club to a crowd of fifteen hundred. Its pools went quiet in nineteen seventy-two.",
+      "sources": [
+        "https://www.marinhistory.org/blog/post-71",
+        "https://www.californiahistoricallandmarks.com/landmarks/chl-679",
+        "https://en.wikipedia.org/wiki/Fairfax,_California"
+      ]
+    },
+    {
+      "slug": "good-earth-no-chains",
+      "title": "Homegrown Groceries",
+      "subtitle": "Good Earth and the town that froze out the chains",
+      "trigger": {
+        "center": {
+          "lat": 37.98662,
+          "lng": -122.58348
+        },
+        "radiusM": 110
+      },
+      "modes": [
+        "driving"
+      ],
+      "side": "right",
+      "locating": {
+        "mode": "auto",
+        "anchor": "the Good Earth market at the eastern edge of town"
+      },
+      "narration": "The big market at the town's eastern gateway is Good Earth Natural Foods, an independent organic grocer born in nineteen sixty-nine in a little shop at one twenty-three Bolinas Road. It grew into the anchor store of a town that has spent decades refusing to look like anywhere else. In March of twenty twenty-six, Fairfax passed an emergency freeze on new formula businesses — chains with eight or more locations and matching signs, menus, or decor — and the council extended it into twenty twenty-seven while it writes stricter rules. One council member put it plainly: the town wants the toughest anti-chain ordinance it can get. Around here, even the supermarket is homegrown.",
+      "sources": [
+        "https://genatural.com/about/",
+        "https://www.pressdemocrat.com/2026/04/22/fairfax-extends-moratorium-on-formula-businesses/"
+      ]
+    },
+    {
+      "slug": "a-town-called-junction",
+      "title": "A Town Called Junction",
+      "subtitle": "San Anselmo's borrowed saint and its 83-to-79 birth",
+      "trigger": {
+        "center": {
+          "lat": 37.98473,
+          "lng": -122.57302
+        },
+        "radiusM": 150
+      },
+      "modes": [
+        "driving"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the valley floor entering San Anselmo"
+      },
+      "narration": "Welcome to San Anselmo, a town that spent its early years without a real name. When the North Pacific Coast Railroad pushed through this valley in eighteen seventy-five, the maps labeled the little settlement simply Junction, for the place where the tracks split. San Anselmo only came into use in the eighteen eighties, borrowed from an old Mexican land grant that called this the Canada de San Anselmo, Anselm's valley. And who was Anselmo? By one account, no European saint at all, but the baptismal name of a Native American man buried in this area. The town finally made itself official in nineteen oh seven, by a nail-biter vote of eighty-three to seventy-nine.",
+      "sources": [
+        "https://sananselmohistory.org/brief-history/",
+        "https://sananselmohistory.org/articles/flooding/",
+        "https://en.wikipedia.org/wiki/San_Anselmo,_California"
+      ]
+    },
+    {
+      "slug": "orphanage-farm-red-hill",
+      "title": "The Orphanage Farm",
+      "subtitle": "A shopping center grown on Sunny Hills pasture",
+      "trigger": {
+        "center": {
+          "lat": 37.98033,
+          "lng": -122.56565
+        },
+        "radiusM": 140
+      },
+      "modes": [
+        "driving"
+      ],
+      "side": "left",
+      "locating": {
+        "mode": "auto",
+        "anchor": "Red Hill Shopping Center"
+      },
+      "narration": "The shopping center here sits on what was once an orphanage farm. In eighteen ninety-five, after a young widow's death left three children with nowhere to go, San Francisco Presbyterians founded an orphanage, and shipping magnate Captain Robert Dollar soon bought it twenty hillside acres in San Anselmo. The home that opened in nineteen hundred housed just over one hundred boys and girls. Dollar added forty-two acres of pasture in nineteen twenty, and until nineteen sixty-three the children's working farm spread across the land where shoppers now park. By nineteen thirty everyone called the place Sunny Hills; it survives today as the youth agency Side by Side. Above it all rises Red Hill itself, ancient undersea lava that weathers rust-red.",
+      "sources": [
+        "https://www.sidebysideyouth.org/about/history/",
+        "https://sananselmohistory.org/articles/red-hill-photo-essay/"
+      ]
+    },
+    {
+      "slug": "creek-under-the-town",
+      "title": "The Creek Under the Town",
+      "subtitle": "New Year's Eve 2005, four feet of water downtown",
+      "trigger": {
+        "center": {
+          "lat": 37.97639,
+          "lng": -122.56177
+        },
+        "radiusM": 110
+      },
+      "modes": [
+        "driving"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the creek crossing at downtown's edge"
+      },
+      "narration": "Downtown San Anselmo keeps a secret underfoot: San Anselmo Creek slips beneath the town, with shops and even a gas station built out over the water. The creek has punished that arrangement about every fifteen to twenty-three years. Worst of all was New Year's Eve, two thousand five, when it rose in the pre-dawn dark and sent more than four feet of water through downtown. Windows blew out along San Anselmo Avenue, parked cars washed onto sidewalks, and the library basement lost about a thousand books. One hundred forty businesses and two hundred ninety homes were damaged, thirty million dollars in all. The creek never chose this course, either; an eighteen sixties debris jam shoved it here.",
+      "sources": [
+        "https://sananselmohistory.org/articles/flooding/",
+        "https://en.wikipedia.org/wiki/San_Anselmo,_California"
+      ]
+    },
+    {
+      "slug": "antiques-legacy-row",
+      "title": "Other People's Attics",
+      "subtitle": "Fifty years of antique hunting at the Tamalpais corner",
+      "trigger": {
+        "center": {
+          "lat": 37.97424,
+          "lng": -122.56191
+        },
+        "radiusM": 100
+      },
+      "modes": [
+        "driving"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the Antiques Legacy corner at Tamalpais Avenue"
+      },
+      "narration": "If the car ahead is loading picture frames and brass lamps, blame the corner at Tamalpais Avenue. Since nineteen seventy-three, Antiques Legacy has operated here as a collective, more than thirty-five dealers under a single roof, selling collectibles, vintage clothing, home furnishings, and decorative pieces, with fresh merchandise arriving daily. It anchors a downtown that made hunting for old things a signature sport: San Anselmo is known for the antique and boutique shops strung along the banks of its creek, pulling browsers from San Francisco, just half an hour away. Park once, and a whole afternoon can quietly disappear into other people's attics.",
+      "sources": [
+        "https://antiqueslegacy.com/",
+        "https://en.wikipedia.org/wiki/San_Anselmo,_California"
+      ]
+    },
+    {
+      "slug": "parkhouse-star-wars-tower",
+      "title": "The Tower Where Star Wars Was Written",
+      "subtitle": "George Lucas, a desk of old doors, and a stubborn script",
+      "trigger": {
+        "center": {
+          "lat": 37.97268,
+          "lng": -122.56157
+        },
+        "radiusM": 110
+      },
+      "modes": [
+        "driving"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the Victorian hillside above downtown"
+      },
+      "narration": "On a hill above this stretch stands Parkhouse, a Victorian from eighteen sixty-nine that a young George Lucas bought as American Graffiti money rolled in. He rebuilt the house's lost two-story tower from old photographs, made himself a three-sided desk out of old doors, and spent about two years up there, gazing at Mount Tamalpais and grinding out drafts of a stubborn script called The Star Wars. The finishing touches happened downtown, in offices at three twenty-one San Anselmo Avenue, before the film opened in May of nineteen seventy-seven. The town got a thank-you: Lucas donated a downtown lot in twenty thirteen, now Imagination Park, where bronzes of Yoda and Indiana Jones by sculptor Lawrence Noble preside over the fountain.",
+      "sources": [
+        "https://sfstandard.com/2023/05/04/star-wars-50th-anniversary-san-anselmo-imagination-park/",
+        "https://calnewport.com/the-forgotten-tale-of-george-lucass-writing-tower/",
+        "https://www.sananselmo.gov/1975/Imagination-Park",
+        "https://en.wikipedia.org/wiki/San_Anselmo,_California"
+      ]
+    },
+    {
+      "slug": "seminary-stone-castles",
+      "title": "Castles Cut by Hand",
+      "subtitle": "Wright and Sanders' blue-stone halls and a fallen clock tower",
+      "trigger": {
+        "center": {
+          "lat": 37.96957,
+          "lng": -122.56054
+        },
+        "radiusM": 130
+      },
+      "modes": [
+        "driving"
+      ],
+      "side": "right",
+      "locating": {
+        "mode": "auto",
+        "anchor": "the stone halls on Seminary Hill"
+      },
+      "narration": "The stone castles crowning the hill belong to the San Francisco Theological Seminary. In eighteen ninety-one the Presbyterians hired the San Francisco firm of Wright and Sanders to raise two Romanesque fortresses, Montgomery Hall and Scott Hall, from dark blue stone quarried in San Rafael, every block cut and set by hand and trimmed with lighter stone brought from San Jose. The money came from merchant Alexander Montgomery, whose gift of two hundred fifty thousand dollars funded the halls and more; he died less than a month after pledging another fifty thousand for a chapel. Scott Hall once wore a tall clock tower, but the earthquake of nineteen oh six sent it crashing through the glass-domed library below. It was rebuilt shorter, and clockless.",
+      "sources": [
+        "https://www.calexplornia.com/castles-on-the-hill-the-san-francisco-theological-seminarys-montgomery-and-scott-halls/",
+        "https://sananselmohistory.org/articles/notable-buildings/"
+      ]
+    },
+    {
+      "slug": "james-ross-gold-coin-town",
+      "title": "The Man Named Ross",
+      "subtitle": "A Scottish wine merchant's fifty-thousand-dollar bet on a valley",
+      "trigger": {
+        "center": {
+          "lat": 37.967,
+          "lng": -122.5589
+        },
+        "radiusM": 130
+      },
+      "modes": [
+        "driving"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the Ross town line"
+      },
+      "narration": "You are crossing into Ross, a town of barely twenty-three hundred people that began with one very good bet. It is named for James Ross, a Scot who reached San Francisco from Australia in eighteen forty-eight and made his fortune not in gold but in wholesale wine and spirits. In eighteen fifty-seven he paid fifty thousand dollars in gold coin for Rancho Punta de Quentin, the ranch covering this whole valley. After he died in eighteen sixty-two, his widow Annie sold pieces of the estate to provide for their daughters, and the village that grew here kept his name. When Ross incorporated in nineteen oh eight, one of the council's first acts set the tone: it became illegal to cut down a tree without the town's approval.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ross,_California",
+        "https://www.moya-rhs.org/timeline.html",
+        "https://www.townofrossca.gov/community/page/how-we-became-town"
+      ]
+    },
+    {
+      "slug": "octagon-house-moya-del-pino",
+      "title": "The Octagon and the Painter",
+      "subtitle": "An eight-sided tank house becomes a Spanish muralist's library",
+      "trigger": {
+        "center": {
+          "lat": 37.9636,
+          "lng": -122.55657
+        },
+        "radiusM": 120
+      },
+      "modes": [
+        "driving"
+      ],
+      "side": "left",
+      "locating": {
+        "mode": "auto",
+        "anchor": "the Marin Art and Garden Center grounds"
+      },
+      "narration": "Behind the trees of the Marin Art and Garden Center stands a little eight-sided building from eighteen sixty-four, the Octagon House. It began as a humble tank house on the twenty-one-acre estate that James Ross's daughter Annie and her husband George Worn called Sunnyside. A century later it was moved to a new foundation and reborn, in nineteen sixty-eight, as a library honoring Jose Moya del Pino. Moya was born in Spain in eighteen ninety, came to America touring his hand-painted copies of Velazquez masterworks, and stayed in San Francisco when the funds ran dry. He painted murals inside Coit Tower, moved to Ross in nineteen thirty-eight, and helped found this very Art and Garden Center in nineteen forty-five.",
+      "sources": [
+        "https://www.moya-rhs.org/moya-del-pino.html",
+        "https://www.moya-rhs.org/timeline.html",
+        "https://www.moya-rhs.org/our-story"
+      ]
+    },
+    {
+      "slug": "ross-common-quiet-money",
+      "title": "Ross Common",
+      "subtitle": "A village green, a bronze bear, and a cameo in The Godfather",
+      "trigger": {
+        "center": {
+          "lat": 37.96106,
+          "lng": -122.55473
+        },
+        "radiusM": 120
+      },
+      "modes": [
+        "driving"
+      ],
+      "side": "right",
+      "locating": {
+        "mode": "auto",
+        "anchor": "the Ross Common village green"
+      },
+      "narration": "This little cluster around the village green is all the downtown Ross has ever wanted. The post office arrived in eighteen eighty-seven. Town hall keeps company with a bronze bear by the sculptor Beniamino Bufano, and Ross School, just up Lagunitas Road, stood in for a New Hampshire campus in The Godfather. After incorporating in nineteen oh eight, the town paved its streets, raised streetlights, and built concrete bridges over the creek, and then, mostly, stopped changing. Today about twenty-three hundred people live behind these hedges, and the median household income tops two hundred fifty thousand dollars a year, which is the point where the census simply stops counting.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ross,_California",
+        "https://www.townofrossca.gov/community/page/how-we-became-town",
+        "https://www.moya-rhs.org/timeline.html"
+      ]
+    },
+    {
+      "slug": "drake-boulevard-name-fight",
+      "title": "Drake Stays Drake",
+      "subtitle": "The road's own name went on trial in twenty twenty-one",
+      "trigger": {
+        "center": {
+          "lat": 37.95869,
+          "lng": -122.55162
+        },
+        "radiusM": 150
+      },
+      "modes": [
+        "driving"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the boulevard's name itself"
+      },
+      "narration": "Every mile of this boulevard carries the most argued-over name in Marin County. Sir Francis Drake, the sixteenth-century privateer, began his career in the fifteen sixties aboard slave-trading voyages, and in the summer of twenty twenty the county convened a working group to ask whether his name should come off the road. The towns split. Fairfax voted to rename its stretch. Ross, which you just left, voted to keep the name, and so did Larkspur. In March twenty twenty-one, county supervisors voted four to one to keep Drake and add a ceremonial second name instead. The high school went further: Sir Francis Drake High is now Archie Williams High School, honoring its former math teacher, a Tuskegee Airmen flight instructor who won Olympic gold in nineteen thirty-six.",
+      "sources": [
+        "https://patch.com/california/sanrafael/marin-county-supes-back-co-naming-drake-boulevard",
+        "https://www.ktvu.com/news/marin-county-supervisors-to-vote-on-renaming-sir-francis-drake-boulevard",
+        "https://en.wikipedia.org/wiki/Archie_Williams_High_School"
+      ]
+    },
+    {
+      "slug": "ross-landing-kentfield-corners",
+      "title": "Schooners at Kentfield Corners",
+      "subtitle": "When this suburban intersection was Ross Valley's port",
+      "trigger": {
+        "center": {
+          "lat": 37.95525,
+          "lng": -122.54712
+        },
+        "radiusM": 120
+      },
+      "modes": [
+        "driving"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the old Ross Landing site at Kentfield Corners"
+      },
+      "narration": "It is hard to picture at a suburban crossroads, but this was once Ross Valley's port. Corte Madera Creek was navigable to about this point, and in eighteen fifty-seven James Ross set up a trading post here called Ross Landing, where schooners and small steamers came up the creek carrying goods for booming San Francisco and hauling out the valley's timber. The whole settlement was known as Ross Landing before it was Kentfield. In eighteen seventy-one Albert Emmett Kent bought the land from the Ross estate and built an estate he called Tamalpais. The railroad station took the name Kent in the eighteen nineties, and when the first post office opened in nineteen oh five, the town became Kentfield.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kentfield,_California",
+        "https://www.moya-rhs.org/timeline.html",
+        "https://en.wikipedia.org/wiki/Corte_Madera_Creek_(Marin_County)"
+      ]
+    },
+    {
+      "slug": "tamalpais-centre-may-day",
+      "title": "May Day at the Stadium",
+      "subtitle": "Balloon ascensions, brass bands, and Marin's lost pleasure ground",
+      "trigger": {
+        "center": {
+          "lat": 37.95376,
+          "lng": -122.54485
+        },
+        "radiusM": 120
+      },
+      "modes": [
+        "driving"
+      ],
+      "side": "right",
+      "locating": {
+        "mode": "auto",
+        "anchor": "the College of Marin athletic fields"
+      },
+      "narration": "Where the College of Marin's athletic buildings stand today, Marin County once threw itself a party. Adaline Kent, mother of the congressman and conservationist William Kent, donated land here for the Tamalpais Centre, a community pleasure ground with a stadium, clubhouse, swimming tank, racetrack, and theater. On May Day, nineteen oh nine, more than four thousand people arrived on extra trains for the groundbreaking: maypole dancing, baseball, military drills, a forty-piece brass band, and for a finale a balloon ascension with a parachute drop. The clubhouse cost twelve thousand five hundred dollars and was in operation by October. Decades later the Kent family gave it to the College of Marin, which tore it down to make way for a new gymnasium, though a school nearby still bears Adaline Kent's name.",
+      "sources": [
+        "https://www.marinhistory.org/blog/kentfieldmayday/",
+        "https://calisphere.org/item/ark:/13030/kt9199r2bn/",
+        "https://en.wikipedia.org/wiki/Kentfield,_California"
+      ]
+    },
+    {
+      "slug": "kentfield-rain-belt",
+      "title": "The Wettest Suburb",
+      "subtitle": "Why Kentfield out-rains nearly everywhere else in the Bay Area",
+      "trigger": {
+        "center": {
+          "lat": 37.95302,
+          "lng": -122.53873
+        },
+        "radiusM": 150
+      },
+      "modes": [
+        "driving"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the rain belt at the foot of Mount Tamalpais"
+      },
+      "narration": "If the roadside here looks impossibly green, thank one of the wettest climates of any community in the Bay Area. Kentfield normally receives about forty-eight inches of rain a year, on nearly seventy rainy days, while rain-shadowed corners of the region make do with fifteen. The reason is Mount Tamalpais, looming over this valley. Pacific storms forced up the mountain's slopes cool as they climb, and cooling air cannot hold its moisture, so it falls here as rain, a trick meteorologists call orographic lift. The record book is soggy. Nearly twenty-seven inches fell in February of nineteen eighty-six alone, and on January twenty-first, nineteen sixty-seven, this modest suburb measured more than eleven inches of rain in a single day.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kentfield,_California",
+        "https://baynature.org/article/which-spot-in-the-bay-area-gets-the-most-rainfall-and-which-the-least/"
+      ]
+    },
+    {
+      "slug": "marin-general-jerry-garcia",
+      "title": "The Hospital That Saved Jerry",
+      "subtitle": "A resort became Marin's hospital — and the place the Grateful Dead almost ended",
+      "trigger": {
+        "center": {
+          "lat": 37.95048,
+          "lng": -122.53371
+        },
+        "radiusM": 160
+      },
+      "modes": [
+        "driving"
+      ],
+      "side": "right",
+      "locating": {
+        "mode": "auto",
+        "anchor": "the MarinHealth Medical Center campus down along Bon Air Road"
+      },
+      "narration": "Down along Bon Air Road, near the creek, sits MarinHealth Medical Center, known for decades as Marin General Hospital. A summer resort, the Bon Air Hotel, once stood on that ground; hospital construction began in nineteen forty-nine, and the doors opened in nineteen fifty-two under the public Marin Healthcare District. It remains the county's district hospital and trauma center, renamed MarinHealth in twenty nineteen. And it has seen famous patients. In July of nineteen eighty-six, Jerry Garcia of the Grateful Dead arrived in a diabetic coma; at one point his heart stopped. He survived, spent months relearning guitar chord by chord, and that December opened his comeback concert with Touch of Grey.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/MarinHealth_Medical_Center",
+        "https://theshakedownarchives.com/jerry-garcias-1986-diabetic-coma-and-the-grateful-deads-structural-failure/",
+        "https://www.fortross.org/local/greenbrae"
+      ]
+    },
+    {
+      "slug": "greenbrae-planned-community",
+      "title": "A Town Drawn on a Dairy Ranch",
+      "subtitle": "From Archbishop Riordan's leased pastures to Niels Schultz's oak-lined subdivision",
+      "trigger": {
+        "center": {
+          "lat": 37.94757,
+          "lng": -122.52531
+        },
+        "radiusM": 140
+      },
+      "modes": [
+        "driving"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the Greenbrae hillside homes above Bon Air Center"
+      },
+      "narration": "The hillsides around you were dairy pasture within living memory. James Ross ran the Greenbrae Dairy here in the eighteen hundreds, and in eighteen ninety Archbishop Patrick Riordan of San Francisco acquired the land, leasing it out as a dairy ranch for the next half century. Then, in nineteen forty-six, developer Niels Schultz took over six hundred thirty-five acres of farmland and set out to build a complete planned community. His company bent streets around the ancient oaks, set houses back on landscaped lots, and ultimately put up more than one thousand homes, fifteen hundred apartments, and dozens of businesses. Bon Air Center, the shopping center by the creek, still anchors it. Greenbrae today is largely the town one builder's pencil laid over a dairy ranch.",
+      "sources": [
+        "https://www.fortross.org/local/greenbrae",
+        "https://en.wikipedia.org/wiki/Greenbrae,_California"
+      ]
+    },
+    {
+      "slug": "corte-madera-creek-flood-channel",
+      "title": "The Unfinished Channel",
+      "subtitle": "An Army Corps concrete flume, a citizen revolt, and a fifty-year argument",
+      "trigger": {
+        "center": {
+          "lat": 37.94658,
+          "lng": -122.52285
+        },
+        "radiusM": 120
+      },
+      "modes": [
+        "driving"
+      ],
+      "side": "right",
+      "locating": {
+        "mode": "auto",
+        "anchor": "the Corte Madera Creek flood channel"
+      },
+      "narration": "The tidal creek beside the boulevard is the tail end of one of Marin's longest infrastructure fights. Congress authorized an Army Corps of Engineers flood control project on Corte Madera Creek in nineteen sixty-two, and three units were finished by nineteen seventy-one, including nearly a mile upstream where the creek was straightened into a deep rectangular concrete box near Ross. The Corps planned to keep pouring concrete five more miles toward Fairfax. Residents rebelled, the fight helped launch Barbara Boxer's political career, and the final unit was shelved in nineteen seventy-two. It has been argued over ever since. Recent studies suggest the system may barely handle a five to ten year storm, and the New Year's flood of two thousand five caused over one hundred million dollars in damage.",
+      "sources": [
+        "https://archive.estuarynews.org/estuary-news/corte-madera-flood/",
+        "https://patch.com/california/larkspurcortemadera/flood-control-funding-secured-ross-valley",
+        "https://www.townofrossca.gov/emergencyservices/page/protect-your-property-flood-hazard"
+      ]
+    },
+    {
+      "slug": "creekside-marsh-tidal-life",
+      "title": "Pickleweed and Rails",
+      "subtitle": "An endangered marsh bird and a stubborn steelhead run beside the boulevard",
+      "trigger": {
+        "center": {
+          "lat": 37.94561,
+          "lng": -122.52035
+        },
+        "radiusM": 120
+      },
+      "modes": [
+        "driving"
+      ],
+      "side": "right",
+      "locating": {
+        "mode": "auto",
+        "anchor": "Creekside Marsh at Hal Brown Park"
+      },
+      "narration": "Where Corte Madera Creek meets the tide, pickleweed marsh takes over. Creekside Marsh at Hal Brown Park hugs the creek here, and it is busier than it looks. County staff and volunteers have spent more than a decade pulling invasive plants and restoring natives, and the payoff is real: the federally endangered Ridgway's rail, a famously secretive marsh bird, has been spotted in these wetlands, and the threatened salt marsh harvest mouse lives in the pickleweed. The creek itself still carries steelhead trout, one of the few streams flowing into San Francisco Bay that does, though their numbers fell hard after the concrete flood channel went in upstream. A working estuary, squeezed between a boulevard and the bay.",
+      "sources": [
+        "https://wra-ca.com/news/our-firms-culture/volunteering/nature-walk-at-marin-countys-hal-brown-park/",
+        "https://friendsofcortemaderacreek.org/the-watershed/plants-and-animals/",
+        "https://en.wikipedia.org/wiki/Corte_Madera_Creek_(Marin_County,_California)"
+      ]
+    },
+    {
+      "slug": "greenbrae-interchange-fight",
+      "title": "The Interchange That Wasn't",
+      "subtitle": "How Marin fought off a 150-million-dollar freeway rebuild and got a greenway instead",
+      "trigger": {
+        "center": {
+          "lat": 37.94437,
+          "lng": -122.51733
+        },
+        "radiusM": 160
+      },
+      "modes": [
+        "driving"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the Greenbrae interchange at Highway 101"
+      },
+      "narration": "The interchange ahead, where the boulevard meets Highway One Oh One, was nearly the site of the biggest freeway rebuild in Marin's history. In late two thousand twelve, Caltrans and the Transportation Authority of Marin released designs for a corridor overhaul projected to cost more than one hundred fifty million dollars: an elevated flyover ramp, whole interchanges eliminated, and the freeway with its new ramps spreading to eighteen lanes wide at one point. The Marin Conservation League called it the most complex freeway project ever proposed in the county, and hearings in early two thousand thirteen overflowed. The backlash won. The plan was abandoned, and some of its funding was redirected into a multi-use greenway spanning Corte Madera Creek, which began construction in twenty twenty-one and opened in stages the next year.",
+      "sources": [
+        "https://www.marinconservationleague.org/wp-content/uploads/2023/07/NL13A_JanFeb2013_forweb.pdf",
+        "https://www.tam.ca.gov/projects-programs/n-s-greenway-gap/"
+      ]
+    },
+    {
+      "slug": "redwood-highway-on-the-marsh",
+      "title": "Highway on a Dike",
+      "subtitle": "How 101 got laid straight across open tidal marsh",
+      "trigger": {
+        "center": {
+          "lat": 37.9462,
+          "lng": -122.51408
+        },
+        "radiusM": 300
+      },
+      "modes": [
+        "driving"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the freeway roadbed over the old baylands"
+      },
+      "narration": "This stretch of One-Oh-One is the Redwood Highway, a name proposed in nineteen twenty-one to celebrate the campaign to save California's big trees. For early motorists the flats here carried no road at all: the route climbed inland over the hills, and everything around you was tidal marsh. A railroad pushed its tracks through the wetland in eighteen seventy-five, and by nineteen thirty the state had finished a two-lane highway straight across the marsh, a raised roadbed with tidewater sometimes lapping at its edges. In nineteen thirty this was still dairy country; the Meadowsweet Dairy grazed cows near where the lanes run now. And in nineteen thirty-five the county began requiring approval for any sign within five hundred feet of the road, an early strike against billboards that helps keep this drive green. The freeway itself came with the boom decades after the Golden Gate Bridge opened.",
+      "sources": [
+        "https://marinhistory.org/blog/commute/",
+        "https://www.adaptingtorisingtides.org/wp-content/uploads/2015/04/Corte-Madera-Baylands-Conceptual-Sea-Level-Rise-Adaptation-Strategy-Report-low.pdf",
+        "https://en.wikipedia.org/wiki/U.S._Route_101_in_California",
+        "https://marinmagazine.com/community/history/history-of-a-highway/"
+      ]
+    },
+    {
+      "slug": "corte-madera-creek-crossing",
+      "title": "A Bridge in Salt Water",
+      "subtitle": "Schooner water, a straightened creek, and sacrificial metal",
+      "trigger": {
+        "center": {
+          "lat": 37.9436,
+          "lng": -122.51524
+        },
+        "radiusM": 280
+      },
+      "modes": [
+        "driving"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the bridge over Corte Madera Creek"
+      },
+      "narration": "The freeway rises here to cross Corte Madera Creek, the stream that drains the whole Ross Valley into San Francisco Bay. Before highways, the creek was the road: boats could navigate it all the way to Ross Landing, near today's College of Marin, winding through marshes that covered the valley floor. In the early nineteen fifties the lower creek was straightened and channelized, severed from the wetlands it had built. Now the bridge that replaced the waterway needs its own care. In twenty twenty-four Caltrans approved a rehabilitation of this span: a refreshed deck, new joint seals, and galvanic anode jackets around the columns, sleeves of sacrificial metal designed to corrode first so the salt water eats the jackets instead of the steel inside the concrete. The plan even calls for temporary cofferdams to hold back the tide while crews work, the way builders have had to do here for a century.",
+      "sources": [
+        "https://ceqanet.lci.ca.gov/2024020937/2",
+        "https://www.adaptingtorisingtides.org/wp-content/uploads/2015/04/Corte-Madera-Baylands-Conceptual-Sea-Level-Rise-Adaptation-Strategy-Report-low.pdf"
+      ]
+    },
+    {
+      "slug": "san-quentin-across-the-water",
+      "title": "The Point Across the Water",
+      "subtitle": "California's oldest prison, glimpsed over the marsh",
+      "trigger": {
+        "center": {
+          "lat": 37.9402,
+          "lng": -122.51615
+        },
+        "radiusM": 300
+      },
+      "modes": [
+        "driving"
+      ],
+      "side": "left",
+      "locating": {
+        "mode": "auto",
+        "anchor": "the cluster of tan buildings on the far point across the bay"
+      },
+      "narration": "Where the view opens across the marsh, a cluster of buildings crowds a low point jutting into the bay. That is San Quentin, California's oldest prison. The first convicts arrived by ship in July of eighteen fifty-two, and the earliest inmates built the walls themselves, working by day and sleeping aboard a prison ship at night. For generations San Quentin held the largest death row in the United States. It also produced one of the strangest hits in American music: in nineteen sixty-nine Johnny Cash recorded a live album inside, and that concert gave him his only top-ten pop single. In March of twenty twenty-three the state renamed the institution San Quentin Rehabilitation Center, rebuilding it around education and job training, and by early twenty twenty-five nearly all condemned prisoners had been transferred away. Four hundred thirty-two acres of prime Marin shoreline, held since the Gold Rush not by mansions but by a prison.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/San_Quentin_Rehabilitation_Center",
+        "https://www.cdcr.ca.gov/facility-locator/sqrc/"
+      ]
+    },
+    {
+      "slug": "wincup-steam-to-tam-ridge",
+      "title": "Steam, Foam, and a Firestorm",
+      "subtitle": "The cup factory that became Marin's most argued-over address",
+      "trigger": {
+        "center": {
+          "lat": 37.9369,
+          "lng": -122.5169
+        },
+        "radiusM": 300
+      },
+      "modes": [
+        "driving"
+      ],
+      "side": "right",
+      "locating": {
+        "mode": "auto",
+        "anchor": "the four-story apartment blocks close beside the freeway"
+      },
+      "narration": "For four decades, drivers here watched a column of steam rise from a factory beside the freeway. The WinCup plant made styrene-foam coffee cups, bowls, and food containers on four and a half acres along Tamal Vista Boulevard. In twenty eleven the company moved production to Arizona and sold the land to a San Francisco developer planning a sixty-eight million dollar complex of one hundred eighty apartments. Then the buildings rose, and Corte Madera erupted. Residents blasted the bulk and the paint job; one called it a hideous jumbled kaleidoscope of colors, and the town ordered a softer palette. Critics later showed the regional housing agency had badly overestimated how many units the small town owed. Construction went wrong too: leaks and wood rot forced crews to replace sixteen hundred windows before anyone moved in. Today it is Tam Ridge Residences, Marin's loudest argument about housing, standing in plain view.",
+      "sources": [
+        "https://patch.com/california/larkspurcortemadera/wincup-site-becoming-apartment-retail-complex",
+        "https://www.cbsnews.com/sanfrancisco/news/color-scheme-density-concerns-surround-corte-madera-development/",
+        "https://abc7news.com/post/plagued-corte-madera-apartment-complex-nearly-ready/1889284/",
+        "https://www.eliforcortemadera.com/single-post/2018/01/07/on-the-tam-ridge-residences-wincup-redevelopment"
+      ]
+    },
+    {
+      "slug": "corte-madera-marsh-reserve",
+      "title": "The Marsh That Survived",
+      "subtitle": "Six hundred twenty acres the bulldozers never finished",
+      "trigger": {
+        "center": {
+          "lat": 37.9333,
+          "lng": -122.51644
+        },
+        "radiusM": 300
+      },
+      "modes": [
+        "driving"
+      ],
+      "side": "left",
+      "locating": {
+        "mode": "auto",
+        "anchor": "the open pickleweed flats between the freeway and the bay"
+      },
+      "narration": "The green and rust-colored flats stretching toward the bay are the Corte Madera Marsh Ecological Reserve, about six hundred twenty acres of cordgrass, pickleweed, and mudflat. Part of it, Heerdt Marsh, is a rarity: one of the few tidal marshes on all of San Francisco Bay that was never diked or filled. The rest tells the opposite story. In the early nineteen fifties a section was walled off from the tides and used as a dumping ground for dredged mud while the creek was realigned. In nineteen seventy-six the levee was breached and the tide let back in, and the state declared the whole area an ecological reserve the following year. The repair work continues: in December of twenty twenty, crews cut a new channel that reconnected four more acres to the bay, rebuilding habitat for two endangered creatures of these marshes, the California Ridgway's rail and the salt marsh harvest mouse.",
+      "sources": [
+        "https://wildlife.ca.gov/Lands/Places-to-Visit/Corte-Madera-Marsh-ER",
+        "https://www.goldengate.org/district/district-projects/corte-madera-marsh-restoration/",
+        "https://www.adaptingtorisingtides.org/wp-content/uploads/2015/04/Corte-Madera-Baylands-Conceptual-Sea-Level-Rise-Adaptation-Strategy-Report-low.pdf"
+      ]
+    },
+    {
+      "slug": "ring-mountain-mariposa-lily",
+      "title": "A Flower Found Nowhere Else",
+      "subtitle": "Serpentine rock, Miwok carvings, and a lily unique to one hill",
+      "trigger": {
+        "center": {
+          "lat": 37.93,
+          "lng": -122.51584
+        },
+        "radiusM": 280
+      },
+      "modes": [
+        "driving"
+      ],
+      "side": "left",
+      "locating": {
+        "mode": "auto",
+        "anchor": "the grassy ridge rising on the Tiburon Peninsula"
+      },
+      "narration": "The bare, grassy ridge rising beyond the rooftops is Ring Mountain, six hundred three feet of some of the strangest ground in California. Its summits are serpentinite, a rock so rich in magnesium, chromium, and nickel that most plants cannot stand the soil it makes. A few specialists evolved to cope, and one of them exists nowhere else on Earth. In June of nineteen seventy-one, a hiking botanist named Robert West photographed a lily he could not identify; in nineteen seventy-three it was described as a new species, the Tiburon mariposa lily. Every wild one on the planet lives on that single hill, its yellow-green petals camouflaged against the drying summer grass. The mountain also holds boulders carved with curving petroglyphs by the Coast Miwok. Threatened by development in the nineteen sixties, the ridge was saved when the Nature Conservancy began buying land in nineteen eighty, and today it is public open space.",
+      "sources": [
+        "https://cnpsmarin.org/the-road-to-ring-mountain/",
+        "https://calscape.org/plant/684/Calochortus-tiburonensis-(Tiburon-Mariposa-Lily)",
+        "https://en.wikipedia.org/wiki/Ring_Mountain_(California)"
+      ]
+    },
+    {
+      "slug": "corte-madera-cut-wood",
+      "title": "What Cut Wood Really Means",
+      "subtitle": "A town name, a logging legend, and the real story",
+      "trigger": {
+        "center": {
+          "lat": 37.9268,
+          "lng": -122.51495
+        },
+        "radiusM": 250
+      },
+      "modes": [
+        "driving"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the exit into downtown Corte Madera"
+      },
+      "narration": "This exit leads into Corte Madera, Spanish for cut wood, and the name carries a famous story: that redwoods here were felled to build San Francisco. Local historians tell it more carefully. The name reaches back to seventeen seventy-six, when Spanish soldiers rowed across the bay from the brand-new Presidio to gather firewood along a creek they called Arroyo Corte Madera. In eighteen thirty-four an Irish settler named John Reed received the region's first Mexican land grant, Rancho Corte Madera del Presidio, nearly eight thousand acres, and ran a sawmill for the Presidio's lumber. But the heavy redwood logging happened in the deep canyons of neighboring Larkspur; the land that became this town was mostly grassy hills through the eighteen hundreds. Corte Madera incorporated as a town in nineteen sixteen. So the name is honest, and the wood really was cut, just not quite where the legend puts it.",
+      "sources": [
+        "https://www.cortemaderamemories.org/whats-in-a-name.html",
+        "https://en.wikipedia.org/wiki/Corte_Madera,_California"
+      ]
+    },
+    {
+      "slug": "village-corte-madera-arrival",
+      "title": "Arrival at The Village",
+      "subtitle": "Forty years of upscale retail, ending at the Apple Store",
+      "trigger": {
+        "center": {
+          "lat": 37.92863,
+          "lng": -122.51431
+        },
+        "radiusM": 150
+      },
+      "modes": [
+        "driving"
+      ],
+      "locating": {
+        "mode": "auto",
+        "anchor": "the open-air shopping center entrance"
+      },
+      "narration": "Welcome to The Village at Corte Madera. It opened in September of nineteen eighty-five as an open-air center anchored by Nordstrom and Macy's, each store over one hundred thousand square feet, and Macerich bought the property in nineteen ninety-seven and kept it determinedly upscale. In July of twenty twenty a three-level gallery called R H Marin opened here, nearly sixty thousand square feet of furniture showrooms crowned by a rooftop restaurant. An era turned in March of twenty twenty-five, when Macy's closed after four decades, leaving Nordstrom as the last traditional anchor. Your destination is Apple Corte Madera, at fifteen twenty Redwood Highway. This is where the tour ends.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Village_at_Corte_Madera",
+        "https://rebusinessonline.com/restoration-hardware-opens-rh-marin-the-gallery-at-the-village-in-corte-madera-california/",
+        "https://www.apple.com/retail/cortemadera/"
+      ]
+    }
+  ]
+}
