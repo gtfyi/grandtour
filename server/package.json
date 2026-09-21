@@ -18,13 +18,13 @@
   "dependencies": {
     "@grandtour/shared": "workspace:*",
     "filo": "github:mrjf/filo#4b604d134ab0d89c9c0cf1ead08b30c723cdfa1f",
-    "hono": "^4.13.5",
+    "hono": "^4.13.8",
     "postgres": "^3.4.5",
     "zod": "^3.23.8",
-    "@anthropic-ai/sdk": "^0.123.0"
+    "@anthropic-ai/sdk": "^0.127.0"
   },
   "devDependencies": {
-    "bun-types": "^1.4.0",
+    "bun-types": "^1.4.2",
     "typescript": "^7.0.2"
   }
 }
