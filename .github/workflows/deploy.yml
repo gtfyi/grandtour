@@ -1,0 +1,66 @@
+name: Deploy site
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# Finish an active deployment before starting the next one.
+concurrency:
+  group: deploy-site-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  site:
+    name: Build and deploy site
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out GrandTour
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      - name: Check out published tracks
+        uses: actions/checkout@v7
+        with:
+          repository: gtfyi/content
+          ref: main
+          path: .site-content
+          persist-credentials: false
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Typecheck site and player
+        run: bun run --filter @grandtour/site --filter @grandtour/tour-viewer --filter @grandtour/shared typecheck
+
+      - name: Test shared code and player
+        run: bun test packages/shared/tests packages/tour-viewer/tests
+
+      - name: Build production site
+        env:
+          SITE_CONTENT_DIR: ${{ github.workspace }}/.site-content
+          SITE_BUNDLE_BASE_URL: https://data.grandtour.fyi/tours
+        run: |
+          test -s "$SITE_CONTENT_DIR/grandtour.json"
+          bun run site:build
+
+      - name: Deploy to Cloudflare
+        if: github.repository == 'gtfyi/grandtour' && github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        uses: cloudflare/wrangler-action@v4
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: site
+          packageManager: bun
+          command: deploy

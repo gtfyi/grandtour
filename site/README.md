@@ -17,3 +17,16 @@ The landing site — and a GrandTour server: it serves the published
 From the repo root: `bun run dev:site` (:5181, rebuilds on edit),
 `bun run site:build`, `bun run site:deploy` (wrangler, reading the root
 `.env`). No audio lives here; bundles name their recordings by absolute URL.
+
+GitHub Actions (`.github/workflows/deploy.yml`) builds and tests the site on
+pull requests and pushes to `main`. Every merge or push to `main` in
+`gtfyi/grandtour` then deploys to `grandtour.fyi` and `www.grandtour.fyi`.
+The workflow checks out the public `gtfyi/content` repository, requires its
+index to exist, and points bundles at `https://data.grandtour.fyi/tours`.
+Track and audio publishing remains the separate `content:publish` command.
+
+Deployment uses the repository's GitHub Actions secrets
+`CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`; no `.env` file is needed
+in CI. Pull requests only build and test. To redeploy `main` manually, run
+the **Deploy site** workflow from GitHub's Actions tab. Deployments run one
+at a time so an older upload cannot finish after a newer one.

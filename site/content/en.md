@@ -30,9 +30,7 @@ Grand Tour is a free, open-source app for place-tied audio. You can use it to li
 - Hear about upcoming events or recent news at the places you pass
 - Take a real estate tour of an area, listening to previous sales and community highlights
 
-Learn about the geology of your area as you walk over it, or narrate a coffee-focused tour of your neighborhood to share friends. Let tracks play as you go about your daily life, or follow a pre-determined walking or driving route to hear a linear story laid out in space.
-
-## demo
+Learn about the geology of your area as you walk over it, or narrate a coffee-focused tour of your neighborhood to share with friends. Let tracks play as you go about your daily life, or follow a pre-determined walking or driving route to hear a linear story laid out in space.
 
 ### Try it
 
@@ -41,8 +39,6 @@ The phone on the right is the web version of the app, playing real tracks on sim
 ### Privacy
 
 The web and iOS apps can use location determine which spots to play for you. Your location never gets sent to a Grand Tour server, and you can connect to any server you like, including one you run locally.
-
-## create
 
 ### Creating tracks and spots
 
